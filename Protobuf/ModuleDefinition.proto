@@ -1,0 +1,282 @@
+syntax = "proto3";
+package modularEmulator.modules.proto;
+
+message OPCUAIdentification {
+  uint32 nodeId = 1;
+  string name = 2;
+}
+
+// basic data of every module. Modules are organized in a tree structure (childModules)
+message Module {
+  repeated Module childModules = 1;
+  state currentState = 2;
+  TimePerStateInMS timePerStateInMS = 3;
+  EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+  OPCUAIdentification id = 5;
+  string description = 6;
+  double investmentCosts = 7;
+  repeated Service implementedServices = 8;
+  repeated ServiceInterface consumedServices = 9;
+  
+  ParameterSet parameters = 10;
+}
+
+// parameter sets used by modules
+message ParameterSet {
+  OPCUAIdentification id = 1;
+  
+  oneof TypeAndParameters {
+    ScanlabScannerParams scanlabScanner = 10;
+    LaserParams laser = 11;
+    StandardCoaterParams standardCoater = 12;
+    BuildChamberParams buildChamber = 15;
+    CuboidBuildVolumeParams cuboidBuildVolume = 16;
+    ZylinderBuildVolumeParams zylinderBuildVolume = 17;
+    PreheaterParams preheater = 19;
+    NovantaScannerParams novantaScanner = 31;
+    BasicLPBFMachineParams basicLPBFMachine = 100;
+  }
+}
+
+// Services available for the implementation by the module framework.
+enum Service {
+  LASERDEFLECTOR = 0;
+  LASERSOURCE = 1;
+  COATER = 2;
+  INERT_ATMOSPHERE = 3;
+  LOADER = 4;
+  POSTPROCESSING = 5;
+  POWDER_BED_MONITORING = 6;
+  POWDER_FEED = 7;
+  POWDER_RECYCLING = 8;
+  POWDER_UNLOAD = 9;
+  PREHEATER = 10;
+  PULSED_LASER_SOURCE = 11;
+  REMOVE_SUPPORTS = 12;
+  SUBSTRATE_PLATE_MILLING = 13;
+  THERMAL_TREATMENT = 14;
+  PLATFORM_LIFT = 15;
+  SCANFIELD_ALLOCATION = 16;
+  FILTER_CLEAN = 17;
+  THERMAL_SIMULATION = 18;					  
+}
+
+message BasicLPBFMachineParams{
+  int32 numberOfLaserScannerUnits = 1;
+  repeated ScanField scanFields = 20;
+  
+  double MinLayerHeightUM = 10;
+  double MinZDistMm = 11;
+  //minimum hatch length used in the scan field allocation
+  double MinimalHatchLength = 12;
+  double ForcedMinimumExposureTimeInS = 13;
+}
+
+message ServiceInterface {
+  Service consumedService = 1;
+  OPCUAIdentification implementingModule = 2;
+}
+
+message BasicScannerParams {
+  //the setpoint speed for jump movements
+  double jumpSpeedInMmS = 1;
+  //the setpoint speed for mark movements
+  double markSpeedInMmS = 2;
+  //the setpoint focus shift of the laser beam
+  double laserFocusShiftInMm = 3;
+  //the maximum acceleration of the laser spot in scan filed coordinates
+  double maxAccelerationInMmPerSS = 4;
+  //static delay for hardware initialize etc. before mark start
+  double staticDelayInS = 5;
+  //delay applied after a jump movement
+  double jumpDelayInUs = 6;
+  //delay applied after a mark movement
+  double markDelayInUs = 7;
+  //delay relative to movement setpoint applied to laser turn off edge
+  double laserOffDelayInUs = 8;
+  //delay relative to movement setpoint applied to laser turn on edge
+  double laserOnDelayInUs = 9;
+  //delay applied at a polygon vertex. Might be scaled based on angle between vectors and delay modes
+  double polygonDelayInUs = 10;
+  //static delay applied before a vector block is executed
+  double VectorBlockDelay = 11;
+  //static delay applied when switching to a vector block with a different parameter set
+  double ParamChangeDelay = 12;
+  //jump vector length limit for "instantaneous" jump execution e.g. by DOE actuator
+  double WarpJumpLengthLimit = 13;
+  
+  JumpMode jumpMode = 14;
+  
+  enum JumpMode {
+    //change to jump speed is instantanious (no control loop)
+    STATIC = 0;
+    //change to jump speed is an accelerated movement based on maxAccelerationInMmPerSS
+    ACCELERATED = 1;
+  }
+}
+
+message CommonSkyWritingParams {
+  double NPrevInTenUsTicks = 1;
+  double NPostInTenUsTicks = 2;
+  double limitAngle = 3;
+}
+
+message CoordinateTransformParams {
+  bool DeleteZeroLengthJumps = 1;
+  //minimum jump vector length to be executed by the emulator
+  //jump vectors shorter than MinimalVectorLength get removed if DeleteZeroLengthJumps is true
+  //the number of jumps caused by vectors shorter is counted in zeroLengthJumps
+  double MinimalJumpLength = 2;
+  //minimum mark vector length to be executed by the emulator
+  //mark vectors shorter than MinimalVectorLength get removed
+  //the internal settable minimum is 10^-5 and short marks always get removed to avoid NAN mark directions
+  //the number of marks caused by vectors shorter is counted in zeroLengthMarks
+  double MinimalMarkLength = 3;
+}
+
+message NovantaScannerParams {
+  BasicScannerParams basicScannerParams = 1;
+  CommonSkyWritingParams skyWritingParams = 2;
+  CoordinateTransformParams coordTransformParams = 3;
+  SkyWritingMode skyWritingMode = 4;
+  DelayMode delayMode = 5;
+  
+  double radialErrorInUm = 6;
+  
+  double SafetyFactorFlyByLow = 7;
+  double SafetyFactorFlyByHigh = 8;
+  double SafetyFactorRadialErrorLimit = 9;
+  
+  enum SkyWritingMode {
+    NONE = 0;
+    MODE3 = 1;
+    SCAN_PACK = 2;
+  }
+  
+  enum DelayMode {
+    //polygon delay is static
+    MANUAL_DELAYS = 0;
+    //variable polygon delay depending on the angle between polygon segments
+    VARIABLE_POLY_DELAY = 1;
+  }
+}
+
+message ScanlabScannerParams {
+  BasicScannerParams basicScannerParams = 1;
+  CommonSkyWritingParams skyWritingParams = 2;
+  CoordinateTransformParams coordTransformParams = 3;
+  
+  SkyWritingMode skyWritingMode = 4;
+  double timeLagInUs = 5;
+  SkyWritingParametringMode skyWritingParametringMode = 6;
+  DelayMode delayMode = 7;
+  
+  enum SkyWritingMode {
+    NONE = 0;
+    MODE1 = 1;
+    MODE2 = 2;
+    MODE3 = 3;
+  }
+  
+  enum SkyWritingParametringMode {
+    MANUAL_NPREV_NPOST = 0;
+    AUTOMATIC_NPREV_NPOST_BASED_ON_TIMELAG = 1;
+    // automatic (shortest possible) delay calculation based on the scanners maximum acceleration and current speed
+    // used by excelliSCAN cards RTC6 ("scanAHEAD") 
+    MINIMUM_NPREV_NPOST_ACCELERATION = 2;
+  }
+  
+  enum DelayMode {
+    //polygon delay is static
+    MANUAL_DELAYS = 0;
+    //variable polygon delay depending on the angle between polygon segments
+    VARIABLE_POLY_DELAY = 1;
+    // automatic (shortest possible) skywriting calculation based on the scanners maximum acceleration and current speed
+    // used by excelliSCAN cards RTC6 ("scanAHEAD") 
+    MINIMUM_DELAY_ACCELERATION = 2;
+  }
+}
+
+//min/max coordiantes defining a rectangular scan field in the build volume
+message ScanField {
+  // The x coordiante of the lower left corner of scan field in the build volume [mm]
+  double XMin = 1;
+  // The x coordiante of the upper right corner of scan field in the build volume [mm]
+  double XMax = 2;
+  // The y coordiante of the lower left corner of scan field in the build volume [mm]
+  double YMin = 3;
+  // The y coordiante of the upper right corner of scan field in the build volume [mm]
+  double YMax = 4;
+}
+
+message LaserParams {
+  double LaserPowerInW = 2;
+}
+
+message StandardCoaterParams {
+  double coatingSpeedForwardInMmPerSec = 1;
+  double coatingSpeedBackwardInMmPerSec = 2;
+  double distanceInMm = 3;
+  double forwardDelayInSec = 4;
+  double backwardDelayInSec = 5;
+  double acceleration = 6;
+  bool isBidirectional = 7;
+}
+
+message BuildChamberParams {
+  double platformLiftRateInMmPerSec = 1;
+  double platformLiftAccelerationInMmPerSec2 = 5;
+  double platformLiftDelayInS = 6;
+  double inertAtmosphereTimeInS = 2;
+  double releaseAtmosphereTimeInS = 3;
+  double maximumO2PPM = 4;
+}
+
+message CuboidBuildVolumeParams {
+  // The x coordiante of the lower left corner of the build volume [mm]
+  double XMin = 1;
+  // The x coordiante of the upper right corner of the build volume [mm]
+  double XMax = 2;
+  // The y coordiante of the lower left corner of sthe build volume [mm]
+  double YMin = 3;
+  // The y coordiante of the upper right corner of the build volume [mm]
+  double YMax = 4;
+  // The z coordiante of the lower left corner of the build volume [mm]
+  double ZMin = 5;
+  // The z coordiante of the upper right corner of the build volume [mm]
+  double ZMax = 6;
+}
+
+message ZylinderBuildVolumeParams {
+  double diameter = 2;
+  double height = 3;
+}
+
+message PreheaterParams {
+  double preheatingTemperature = 2;
+  double maximumPreheatingTemperature = 3;
+  double heatingRateInSecPerK = 4;
+  double roomTemperature = 5;
+}
+
+enum state {
+  OFF = 0;
+  IDLE = 1;
+  ACTIVE = 2;
+  MAINTENANCE = 3;
+}
+
+message TimePerStateInMS {
+  double timeOff = 1;
+  double timeIdle = 2;
+  double timeActive = 3;
+  double timeMaintenance = 4;
+}
+
+message EnergyUsePerStateInkWh {
+  double energyOff = 1;
+  double energyIdle = 2;
+  double energyActive = 3;
+  double energyMaintenance = 4;
+}
+  
