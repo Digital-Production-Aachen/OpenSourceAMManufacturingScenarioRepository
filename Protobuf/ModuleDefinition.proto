@@ -1,5 +1,5 @@
 syntax = "proto3";
-package modularEmulator.modules.proto;
+package ManufacturingScenarioRepository;
 
 message OPCUAIdentification {
   uint32 nodeId = 1;

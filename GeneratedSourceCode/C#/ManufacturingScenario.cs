@@ -26,43 +26,44 @@ namespace ManufacturingScenarioRepository {
           string.Concat(
             "ChtNYW51ZmFjdHVyaW5nU2NlbmFyaW8ucHJvdG8SH01hbnVmYWN0dXJpbmdT",
             "Y2VuYXJpb1JlcG9zaXRvcnkaHmJ1aWxkX3Byb2Nlc3Nvcl9zdHJhdGVneS5w",
-            "cm90bxoWTW9kdWxlRGVmaW5pdGlvbi5wcm90byLcAgocTWFudWZhY3R1cmlu",
+            "cm90bxoWTW9kdWxlRGVmaW5pdGlvbi5wcm90byLeAgocTWFudWZhY3R1cmlu",
             "Z1NjZW5hcmlvRGF0YVNldBIMCgRuYW1lGAEgASgJEkkKCXNjZW5hcmlvcxgC",
             "IAMoCzI2Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuTWFudWZh",
             "Y3R1cmluZ1NjZW5hcmlvEkcKCmNvbnN0cmFpbnMYAyABKAsyMy5NYW51ZmFj",
             "dHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5Lk1vdmVtZW50Q29uc3RyYWlucxJX",
             "CiNnZW5lcmF0aW5nX2J1aWxkX3Byb2Nlc3Nvcl9zdHJhdGVneRgEIAEoCzIq",
-            "Lm9wZW5fdmVjdG9yX2Zvcm1hdC5CdWlsZFByb2Nlc3NvclN0cmF0ZWd5EkEK",
-            "EnVzZWRfbWFjaGluZV9tb2RlbBgFIAEoCzIlLm1vZHVsYXJFbXVsYXRvci5t",
-            "b2R1bGVzLnByb3RvLk1vZHVsZSKbAwoVTWFudWZhY3R1cmluZ1NjZW5hcmlv",
-            "EgwKBG5hbWUYASABKAkSRwoKY29uc3RyYWlucxgCIAEoCzIzLk1hbnVmYWN0",
-            "dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuTW92ZW1lbnRDb25zdHJhaW5zElcK",
-            "I2dlbmVyYXRpbmdfYnVpbGRfcHJvY2Vzc29yX3N0cmF0ZWd5GAMgASgLMiou",
-            "b3Blbl92ZWN0b3JfZm9ybWF0LkJ1aWxkUHJvY2Vzc29yU3RyYXRlZ3kSRwoW",
-            "c3BlY2lmaWNfbWFjaGluZV9tb2RlbBgEIAEoCzIlLm1vZHVsYXJFbXVsYXRv",
-            "ci5tb2R1bGVzLnByb3RvLk1vZHVsZUgAEl4KHG92ZXJyaWRlX2N1Ym9pZF9i",
-            "dWlsZF92b2x1bWUYBSABKAsyNi5tb2R1bGFyRW11bGF0b3IubW9kdWxlcy5w",
-            "cm90by5DdWJvaWRCdWlsZFZvbHVtZVBhcmFtc0gAEhgKEHNvZnR3YXJlX3Zl",
-            "cnNpb24YBiABKAlCDwoNbWFjaGluZV9tb2RlbCLBAQoSTW92ZW1lbnRDb25z",
-            "dHJhaW5zEh4KFm1pbmltdW1fZGlzdGFuY2VfaW5fbW0YASABKAESIwobZGlz",
-            "dGFuY2VfdG9fY29udGFpbmVyX2luX21tGAIgASgBEiwKJGFsbG93ZWRfZnVs",
-            "bF9jaXJjbGVfcm90YXRpb25fc3RlcHNfehgDIAEoBRIbChNtYXhfcm90X3pf",
-            "YW5nbGVfZGVnGAQgASgBEhsKE21pbl9yb3Rfel9hbmdsZV9kZWcYBSABKAEi",
-            "nAMKFlBhcnRNYW51ZmFjdHVyaW5nT3JkZXISDgoGcG1vX2lkGAEgASgJEg8K",
-            "B3BhcnRfaWQYAiABKAkSGgoScGFydF9udW1fdHJpYW5nbGVzGAMgASgFEh8K",
-            "F3F1YW50aXR5X3RvX21hbnVmYWN0dXJlGAQgASgFEhsKE2R1ZV90aW1lX2lu",
-            "X3NlY29uZHMYBSABKAMSLAokb3JkZXJfY3JlYXRpb25fdGltZV9kZWxheV9p",
-            "bl9zZWNvbmRzGAYgASgDEhAKCG1hdGVyaWFsGAcgASgJEmEKCnByaW9yaXRp",
-            "ZXMYCCABKAsyTS5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5LlBh",
-            "cnRNYW51ZmFjdHVyaW5nT3JkZXIuTWFudWZhY3R1cmluZ1ByaW9yaXR5GmQK",
-            "FU1hbnVmYWN0dXJpbmdQcmlvcml0eRIWCg5wcmljZV9wcmlvcml0eRgBIAEo",
-            "ARIZChFkdWVfZGF0ZV9wcmlvcml0eRgCIAEoARIYChBxdWFsaXR5X3ByaW9y",
-            "aXR5GAMgASgBYgZwcm90bzM="));
+            "Lm9wZW5fdmVjdG9yX2Zvcm1hdC5CdWlsZFByb2Nlc3NvclN0cmF0ZWd5EkMK",
+            "EnVzZWRfbWFjaGluZV9tb2RlbBgFIAEoCzInLk1hbnVmYWN0dXJpbmdTY2Vu",
+            "YXJpb1JlcG9zaXRvcnkuTW9kdWxlIt8DChVNYW51ZmFjdHVyaW5nU2NlbmFy",
+            "aW8SDAoEbmFtZRgBIAEoCRJYChdwYXJ0TWFudWZhY3R1cmluZ09yZGVycxgC",
+            "IAMoCzI3Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuUGFydE1h",
+            "bnVmYWN0dXJpbmdPcmRlchJHCgpjb25zdHJhaW5zGAMgASgLMjMuTWFudWZh",
+            "Y3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5Nb3ZlbWVudENvbnN0cmFpbnMS",
+            "VwojZ2VuZXJhdGluZ19idWlsZF9wcm9jZXNzb3Jfc3RyYXRlZ3kYBCABKAsy",
+            "Ki5vcGVuX3ZlY3Rvcl9mb3JtYXQuQnVpbGRQcm9jZXNzb3JTdHJhdGVneRJJ",
+            "ChZzcGVjaWZpY19tYWNoaW5lX21vZGVsGAUgASgLMicuTWFudWZhY3R1cmlu",
+            "Z1NjZW5hcmlvUmVwb3NpdG9yeS5Nb2R1bGVIABJgChxvdmVycmlkZV9jdWJv",
+            "aWRfYnVpbGRfdm9sdW1lGAYgASgLMjguTWFudWZhY3R1cmluZ1NjZW5hcmlv",
+            "UmVwb3NpdG9yeS5DdWJvaWRCdWlsZFZvbHVtZVBhcmFtc0gAQg8KDW1hY2hp",
+            "bmVfbW9kZWwiwQEKEk1vdmVtZW50Q29uc3RyYWlucxIeChZtaW5pbXVtX2Rp",
+            "c3RhbmNlX2luX21tGAEgASgBEiMKG2Rpc3RhbmNlX3RvX2NvbnRhaW5lcl9p",
+            "bl9tbRgCIAEoARIsCiRhbGxvd2VkX2Z1bGxfY2lyY2xlX3JvdGF0aW9uX3N0",
+            "ZXBzX3oYAyABKAUSGwoTbWF4X3JvdF96X2FuZ2xlX2RlZxgEIAEoARIbChNt",
+            "aW5fcm90X3pfYW5nbGVfZGVnGAUgASgBIpwDChZQYXJ0TWFudWZhY3R1cmlu",
+            "Z09yZGVyEg4KBnBtb19pZBgBIAEoCRIPCgdwYXJ0X2lkGAIgASgJEhoKEnBh",
+            "cnRfbnVtX3RyaWFuZ2xlcxgDIAEoBRIfChdxdWFudGl0eV90b19tYW51ZmFj",
+            "dHVyZRgEIAEoBRIbChNkdWVfdGltZV9pbl9zZWNvbmRzGAUgASgDEiwKJG9y",
+            "ZGVyX2NyZWF0aW9uX3RpbWVfZGVsYXlfaW5fc2Vjb25kcxgGIAEoAxIQCght",
+            "YXRlcmlhbBgHIAEoCRJhCgpwcmlvcml0aWVzGAggASgLMk0uTWFudWZhY3R1",
+            "cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5QYXJ0TWFudWZhY3R1cmluZ09yZGVy",
+            "Lk1hbnVmYWN0dXJpbmdQcmlvcml0eRpkChVNYW51ZmFjdHVyaW5nUHJpb3Jp",
+            "dHkSFgoOcHJpY2VfcHJpb3JpdHkYASABKAESGQoRZHVlX2RhdGVfcHJpb3Jp",
+            "dHkYAiABKAESGAoQcXVhbGl0eV9wcmlvcml0eRgDIAEoAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::OpenVectorFormat.BuildProcessorStrategyReflection.Descriptor, global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::OpenVectorFormat.BuildProcessorStrategyReflection.Descriptor, global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ManufacturingScenarioDataSet), global::ManufacturingScenarioRepository.ManufacturingScenarioDataSet.Parser, new[]{ "Name", "Scenarios", "Constrains", "GeneratingBuildProcessorStrategy", "UsedMachineModel" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ManufacturingScenario), global::ManufacturingScenarioRepository.ManufacturingScenario.Parser, new[]{ "Name", "Constrains", "GeneratingBuildProcessorStrategy", "SpecificMachineModel", "OverrideCuboidBuildVolume", "SoftwareVersion" }, new[]{ "MachineModel" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ManufacturingScenario), global::ManufacturingScenarioRepository.ManufacturingScenario.Parser, new[]{ "Name", "PartManufacturingOrders", "Constrains", "GeneratingBuildProcessorStrategy", "SpecificMachineModel", "OverrideCuboidBuildVolume" }, new[]{ "MachineModel" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.MovementConstrains), global::ManufacturingScenarioRepository.MovementConstrains.Parser, new[]{ "MinimumDistanceInMm", "DistanceToContainerInMm", "AllowedFullCircleRotationStepsZ", "MaxRotZAngleDeg", "MinRotZAngleDeg" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.PartManufacturingOrder), global::ManufacturingScenarioRepository.PartManufacturingOrder.Parser, new[]{ "PmoId", "PartId", "PartNumTriangles", "QuantityToManufacture", "DueTimeInSeconds", "OrderCreationTimeDelayInSeconds", "Material", "Priorities" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.PartManufacturingOrder.Types.ManufacturingPriority), global::ManufacturingScenarioRepository.PartManufacturingOrder.Types.ManufacturingPriority.Parser, new[]{ "PricePriority", "DueDatePriority", "QualityPriority" }, null, null, null, null)})
           }));
@@ -122,6 +123,9 @@ namespace ManufacturingScenarioRepository {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
+    /// <summary>
+    ///name of the data set
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
@@ -174,13 +178,13 @@ namespace ManufacturingScenarioRepository {
 
     /// <summary>Field number for the "used_machine_model" field.</summary>
     public const int UsedMachineModelFieldNumber = 5;
-    private global::ModularEmulator.Modules.Proto.Module usedMachineModel_;
+    private global::ManufacturingScenarioRepository.Module usedMachineModel_;
     /// <summary>
     ///global fallback machine model
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.Module UsedMachineModel {
+    public global::ManufacturingScenarioRepository.Module UsedMachineModel {
       get { return usedMachineModel_; }
       set {
         usedMachineModel_ = value;
@@ -334,7 +338,7 @@ namespace ManufacturingScenarioRepository {
       }
       if (other.usedMachineModel_ != null) {
         if (usedMachineModel_ == null) {
-          UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+          UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
         }
         UsedMachineModel.MergeFrom(other.UsedMachineModel);
       }
@@ -377,7 +381,7 @@ namespace ManufacturingScenarioRepository {
           }
           case 42: {
             if (usedMachineModel_ == null) {
-              UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+              UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
             }
             input.ReadMessage(UsedMachineModel);
             break;
@@ -421,7 +425,7 @@ namespace ManufacturingScenarioRepository {
           }
           case 42: {
             if (usedMachineModel_ == null) {
-              UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+              UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
             }
             input.ReadMessage(UsedMachineModel);
             break;
@@ -468,9 +472,9 @@ namespace ManufacturingScenarioRepository {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ManufacturingScenario(ManufacturingScenario other) : this() {
       name_ = other.name_;
+      partManufacturingOrders_ = other.partManufacturingOrders_.Clone();
       constrains_ = other.constrains_ != null ? other.constrains_.Clone() : null;
       generatingBuildProcessorStrategy_ = other.generatingBuildProcessorStrategy_ != null ? other.generatingBuildProcessorStrategy_.Clone() : null;
-      softwareVersion_ = other.softwareVersion_;
       switch (other.MachineModelCase) {
         case MachineModelOneofCase.SpecificMachineModel:
           SpecificMachineModel = other.SpecificMachineModel.Clone();
@@ -492,6 +496,9 @@ namespace ManufacturingScenarioRepository {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
+    /// <summary>
+    ///human readable name of this scenario
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
@@ -501,9 +508,26 @@ namespace ManufacturingScenarioRepository {
       }
     }
 
+    /// <summary>Field number for the "partManufacturingOrders" field.</summary>
+    public const int PartManufacturingOrdersFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::ManufacturingScenarioRepository.PartManufacturingOrder> _repeated_partManufacturingOrders_codec
+        = pb::FieldCodec.ForMessage(18, global::ManufacturingScenarioRepository.PartManufacturingOrder.Parser);
+    private readonly pbc::RepeatedField<global::ManufacturingScenarioRepository.PartManufacturingOrder> partManufacturingOrders_ = new pbc::RepeatedField<global::ManufacturingScenarioRepository.PartManufacturingOrder>();
+    /// <summary>
+    ///all part manufacturing orders that must be fulfilled to complete the scenario
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::ManufacturingScenarioRepository.PartManufacturingOrder> PartManufacturingOrders {
+      get { return partManufacturingOrders_; }
+    }
+
     /// <summary>Field number for the "constrains" field.</summary>
-    public const int ConstrainsFieldNumber = 2;
+    public const int ConstrainsFieldNumber = 3;
     private global::ManufacturingScenarioRepository.MovementConstrains constrains_;
+    /// <summary>
+    ///optinal movement constrains the geometries are subject to
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::ManufacturingScenarioRepository.MovementConstrains Constrains {
@@ -514,10 +538,10 @@ namespace ManufacturingScenarioRepository {
     }
 
     /// <summary>Field number for the "generating_build_processor_strategy" field.</summary>
-    public const int GeneratingBuildProcessorStrategyFieldNumber = 3;
+    public const int GeneratingBuildProcessorStrategyFieldNumber = 4;
     private global::OpenVectorFormat.BuildProcessorStrategy generatingBuildProcessorStrategy_;
     /// <summary>
-    ///build processor strategy used to create part configuration
+    ///optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -529,14 +553,14 @@ namespace ManufacturingScenarioRepository {
     }
 
     /// <summary>Field number for the "specific_machine_model" field.</summary>
-    public const int SpecificMachineModelFieldNumber = 4;
+    public const int SpecificMachineModelFieldNumber = 5;
     /// <summary>
-    ///machine model used to generate the results
+    ///machine model used to generate the time prediction
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.Module SpecificMachineModel {
-      get { return machineModelCase_ == MachineModelOneofCase.SpecificMachineModel ? (global::ModularEmulator.Modules.Proto.Module) machineModel_ : null; }
+    public global::ManufacturingScenarioRepository.Module SpecificMachineModel {
+      get { return machineModelCase_ == MachineModelOneofCase.SpecificMachineModel ? (global::ManufacturingScenarioRepository.Module) machineModel_ : null; }
       set {
         machineModel_ = value;
         machineModelCase_ = value == null ? MachineModelOneofCase.None : MachineModelOneofCase.SpecificMachineModel;
@@ -544,32 +568,17 @@ namespace ManufacturingScenarioRepository {
     }
 
     /// <summary>Field number for the "override_cuboid_build_volume" field.</summary>
-    public const int OverrideCuboidBuildVolumeFieldNumber = 5;
+    public const int OverrideCuboidBuildVolumeFieldNumber = 6;
     /// <summary>
     ///cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams OverrideCuboidBuildVolume {
-      get { return machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume ? (global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams) machineModel_ : null; }
+    public global::ManufacturingScenarioRepository.CuboidBuildVolumeParams OverrideCuboidBuildVolume {
+      get { return machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume ? (global::ManufacturingScenarioRepository.CuboidBuildVolumeParams) machineModel_ : null; }
       set {
         machineModel_ = value;
         machineModelCase_ = value == null ? MachineModelOneofCase.None : MachineModelOneofCase.OverrideCuboidBuildVolume;
-      }
-    }
-
-    /// <summary>Field number for the "software_version" field.</summary>
-    public const int SoftwareVersionFieldNumber = 6;
-    private string softwareVersion_ = "";
-    /// <summary>
-    ///the software and version this result was created with
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string SoftwareVersion {
-      get { return softwareVersion_; }
-      set {
-        softwareVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -577,8 +586,8 @@ namespace ManufacturingScenarioRepository {
     /// <summary>Enum of possible cases for the "machine_model" oneof.</summary>
     public enum MachineModelOneofCase {
       None = 0,
-      SpecificMachineModel = 4,
-      OverrideCuboidBuildVolume = 5,
+      SpecificMachineModel = 5,
+      OverrideCuboidBuildVolume = 6,
     }
     private MachineModelOneofCase machineModelCase_ = MachineModelOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -610,11 +619,11 @@ namespace ManufacturingScenarioRepository {
         return true;
       }
       if (Name != other.Name) return false;
+      if(!partManufacturingOrders_.Equals(other.partManufacturingOrders_)) return false;
       if (!object.Equals(Constrains, other.Constrains)) return false;
       if (!object.Equals(GeneratingBuildProcessorStrategy, other.GeneratingBuildProcessorStrategy)) return false;
       if (!object.Equals(SpecificMachineModel, other.SpecificMachineModel)) return false;
       if (!object.Equals(OverrideCuboidBuildVolume, other.OverrideCuboidBuildVolume)) return false;
-      if (SoftwareVersion != other.SoftwareVersion) return false;
       if (MachineModelCase != other.MachineModelCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -624,11 +633,11 @@ namespace ManufacturingScenarioRepository {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= partManufacturingOrders_.GetHashCode();
       if (constrains_ != null) hash ^= Constrains.GetHashCode();
       if (generatingBuildProcessorStrategy_ != null) hash ^= GeneratingBuildProcessorStrategy.GetHashCode();
       if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) hash ^= SpecificMachineModel.GetHashCode();
       if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) hash ^= OverrideCuboidBuildVolume.GetHashCode();
-      if (SoftwareVersion.Length != 0) hash ^= SoftwareVersion.GetHashCode();
       hash ^= (int) machineModelCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -652,25 +661,22 @@ namespace ManufacturingScenarioRepository {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      partManufacturingOrders_.WriteTo(output, _repeated_partManufacturingOrders_codec);
       if (constrains_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteMessage(Constrains);
       }
       if (generatingBuildProcessorStrategy_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteMessage(GeneratingBuildProcessorStrategy);
       }
       if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteMessage(SpecificMachineModel);
       }
       if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
-        output.WriteRawTag(42);
-        output.WriteMessage(OverrideCuboidBuildVolume);
-      }
-      if (SoftwareVersion.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteString(SoftwareVersion);
+        output.WriteMessage(OverrideCuboidBuildVolume);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -686,25 +692,22 @@ namespace ManufacturingScenarioRepository {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      partManufacturingOrders_.WriteTo(ref output, _repeated_partManufacturingOrders_codec);
       if (constrains_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteMessage(Constrains);
       }
       if (generatingBuildProcessorStrategy_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteMessage(GeneratingBuildProcessorStrategy);
       }
       if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteMessage(SpecificMachineModel);
       }
       if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
-        output.WriteRawTag(42);
-        output.WriteMessage(OverrideCuboidBuildVolume);
-      }
-      if (SoftwareVersion.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteString(SoftwareVersion);
+        output.WriteMessage(OverrideCuboidBuildVolume);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -719,6 +722,7 @@ namespace ManufacturingScenarioRepository {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      size += partManufacturingOrders_.CalculateSize(_repeated_partManufacturingOrders_codec);
       if (constrains_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Constrains);
       }
@@ -730,9 +734,6 @@ namespace ManufacturingScenarioRepository {
       }
       if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OverrideCuboidBuildVolume);
-      }
-      if (SoftwareVersion.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SoftwareVersion);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -749,6 +750,7 @@ namespace ManufacturingScenarioRepository {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      partManufacturingOrders_.Add(other.partManufacturingOrders_);
       if (other.constrains_ != null) {
         if (constrains_ == null) {
           Constrains = new global::ManufacturingScenarioRepository.MovementConstrains();
@@ -761,19 +763,16 @@ namespace ManufacturingScenarioRepository {
         }
         GeneratingBuildProcessorStrategy.MergeFrom(other.GeneratingBuildProcessorStrategy);
       }
-      if (other.SoftwareVersion.Length != 0) {
-        SoftwareVersion = other.SoftwareVersion;
-      }
       switch (other.MachineModelCase) {
         case MachineModelOneofCase.SpecificMachineModel:
           if (SpecificMachineModel == null) {
-            SpecificMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+            SpecificMachineModel = new global::ManufacturingScenarioRepository.Module();
           }
           SpecificMachineModel.MergeFrom(other.SpecificMachineModel);
           break;
         case MachineModelOneofCase.OverrideCuboidBuildVolume:
           if (OverrideCuboidBuildVolume == null) {
-            OverrideCuboidBuildVolume = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            OverrideCuboidBuildVolume = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
           }
           OverrideCuboidBuildVolume.MergeFrom(other.OverrideCuboidBuildVolume);
           break;
@@ -799,21 +798,25 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 18: {
+            partManufacturingOrders_.AddEntriesFrom(input, _repeated_partManufacturingOrders_codec);
+            break;
+          }
+          case 26: {
             if (constrains_ == null) {
               Constrains = new global::ManufacturingScenarioRepository.MovementConstrains();
             }
             input.ReadMessage(Constrains);
             break;
           }
-          case 26: {
+          case 34: {
             if (generatingBuildProcessorStrategy_ == null) {
               GeneratingBuildProcessorStrategy = new global::OpenVectorFormat.BuildProcessorStrategy();
             }
             input.ReadMessage(GeneratingBuildProcessorStrategy);
             break;
           }
-          case 34: {
-            global::ModularEmulator.Modules.Proto.Module subBuilder = new global::ModularEmulator.Modules.Proto.Module();
+          case 42: {
+            global::ManufacturingScenarioRepository.Module subBuilder = new global::ManufacturingScenarioRepository.Module();
             if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
               subBuilder.MergeFrom(SpecificMachineModel);
             }
@@ -821,17 +824,13 @@ namespace ManufacturingScenarioRepository {
             SpecificMachineModel = subBuilder;
             break;
           }
-          case 42: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+          case 50: {
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
               subBuilder.MergeFrom(OverrideCuboidBuildVolume);
             }
             input.ReadMessage(subBuilder);
             OverrideCuboidBuildVolume = subBuilder;
-            break;
-          }
-          case 50: {
-            SoftwareVersion = input.ReadString();
             break;
           }
         }
@@ -854,21 +853,25 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 18: {
+            partManufacturingOrders_.AddEntriesFrom(ref input, _repeated_partManufacturingOrders_codec);
+            break;
+          }
+          case 26: {
             if (constrains_ == null) {
               Constrains = new global::ManufacturingScenarioRepository.MovementConstrains();
             }
             input.ReadMessage(Constrains);
             break;
           }
-          case 26: {
+          case 34: {
             if (generatingBuildProcessorStrategy_ == null) {
               GeneratingBuildProcessorStrategy = new global::OpenVectorFormat.BuildProcessorStrategy();
             }
             input.ReadMessage(GeneratingBuildProcessorStrategy);
             break;
           }
-          case 34: {
-            global::ModularEmulator.Modules.Proto.Module subBuilder = new global::ModularEmulator.Modules.Proto.Module();
+          case 42: {
+            global::ManufacturingScenarioRepository.Module subBuilder = new global::ManufacturingScenarioRepository.Module();
             if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
               subBuilder.MergeFrom(SpecificMachineModel);
             }
@@ -876,17 +879,13 @@ namespace ManufacturingScenarioRepository {
             SpecificMachineModel = subBuilder;
             break;
           }
-          case 42: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+          case 50: {
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
               subBuilder.MergeFrom(OverrideCuboidBuildVolume);
             }
             input.ReadMessage(subBuilder);
             OverrideCuboidBuildVolume = subBuilder;
-            break;
-          }
-          case 50: {
-            SoftwareVersion = input.ReadString();
             break;
           }
         }
@@ -1382,7 +1381,6 @@ namespace ManufacturingScenarioRepository {
     private long orderCreationTimeDelayInSeconds_;
     /// <summary>
     ///time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-    ///represents the 
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1412,6 +1410,9 @@ namespace ManufacturingScenarioRepository {
     /// <summary>Field number for the "priorities" field.</summary>
     public const int PrioritiesFieldNumber = 8;
     private global::ManufacturingScenarioRepository.PartManufacturingOrder.Types.ManufacturingPriority priorities_;
+    /// <summary>
+    ///optional priorities that define the relative optimization target weightings
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::ManufacturingScenarioRepository.PartManufacturingOrder.Types.ManufacturingPriority Priorities {

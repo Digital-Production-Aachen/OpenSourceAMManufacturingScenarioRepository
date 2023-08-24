@@ -4,6 +4,7 @@ import "ModuleDefinition.proto";
 package ManufacturingScenarioRepository;
 
 message ManufacturingScenarioDataSet {
+    //name of the data set
     string name = 1;
     repeated ManufacturingScenario scenarios = 2;
 	
@@ -14,22 +15,29 @@ message ManufacturingScenarioDataSet {
     //global fallback build processor strategy
     open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
     //global fallback machine model
-    modularEmulator.modules.proto.Module used_machine_model = 5;
+    Module used_machine_model = 5;
 }
 
 message ManufacturingScenario {
+    //human readable name of this scenario
     string name = 1;
-    MovementConstrains constrains = 2;
-    //build processor strategy used to create part configuration
-    open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;
+	
+	//all part manufacturing orders that must be fulfilled to complete the scenario
+	repeated PartManufacturingOrder partManufacturingOrders = 2;
+	
+	//optinal movement constrains the geometries are subject to
+    MovementConstrains constrains = 3;
+	
+    //optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
+    open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
+	
+	//optioanl machine model that generated the results
 	oneof machine_model {
-        //machine model used to generate the results
-        modularEmulator.modules.proto.Module specific_machine_model = 4;
+        //machine model used to generate the time prediction
+        Module specific_machine_model = 5;
 	    //cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
-        modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;
+        CuboidBuildVolumeParams override_cuboid_build_volume = 6;
 	}
-    //the software and version this result was created with
-    string software_version = 6;
 }
 
 message MovementConstrains {
@@ -60,12 +68,11 @@ message PartManufacturingOrder {
 	//time span in seconds from start of the scenario until this parts of the PMO are due for delivery
 	int64 due_time_in_seconds = 5;
 	//time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-	//represents the 
 	int64 order_creation_time_delay_in_seconds = 6;
 	//matrial of the parts
 	//for most AM processes different materials require parts to be allocated into different build jobs
 	string material = 7;
-	
+	//optional priorities that define the relative optimization target weightings
 	ManufacturingPriority priorities = 8;
 	
 	//specifies relative priorities of the three dimensions

@@ -19,11 +19,19 @@ public final class ManufacturingScenarioOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *name of the data set
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The name.
      */
     java.lang.String getName();
     /**
+     * <pre>
+     *name of the data set
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The bytes for name.
      */
@@ -113,7 +121,7 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return Whether the usedMachineModel field is set.
      */
     boolean hasUsedMachineModel();
@@ -122,18 +130,18 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return The usedMachineModel.
      */
-    modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel();
+    ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel();
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder();
+    ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder();
   }
   /**
    * Protobuf type {@code ManufacturingScenarioRepository.ManufacturingScenarioDataSet}
@@ -177,6 +185,10 @@ public final class ManufacturingScenarioOuterClass {
     @SuppressWarnings("serial")
     private volatile java.lang.Object name_ = "";
     /**
+     * <pre>
+     *name of the data set
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The name.
      */
@@ -194,6 +206,10 @@ public final class ManufacturingScenarioOuterClass {
       }
     }
     /**
+     * <pre>
+     *name of the data set
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The bytes for name.
      */
@@ -330,13 +346,13 @@ public final class ManufacturingScenarioOuterClass {
     }
 
     public static final int USED_MACHINE_MODEL_FIELD_NUMBER = 5;
-    private modularEmulator.modules.proto.ModuleDefinition.Module usedMachineModel_;
+    private ManufacturingScenarioRepository.ModuleDefinition.Module usedMachineModel_;
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return Whether the usedMachineModel field is set.
      */
     @java.lang.Override
@@ -348,23 +364,23 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return The usedMachineModel.
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel() {
-      return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel() {
+      return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
     }
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
-      return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
+      return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -889,6 +905,10 @@ public final class ManufacturingScenarioOuterClass {
 
       private java.lang.Object name_ = "";
       /**
+       * <pre>
+       *name of the data set
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return The name.
        */
@@ -905,6 +925,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *name of the data set
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return The bytes for name.
        */
@@ -922,6 +946,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *name of the data set
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @param value The name to set.
        * @return This builder for chaining.
@@ -935,6 +963,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *name of the data set
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return This builder for chaining.
        */
@@ -945,6 +977,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *name of the data set
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @param value The bytes for name to set.
        * @return This builder for chaining.
@@ -1513,15 +1549,15 @@ public final class ManufacturingScenarioOuterClass {
         return generatingBuildProcessorStrategyBuilder_;
       }
 
-      private modularEmulator.modules.proto.ModuleDefinition.Module usedMachineModel_;
+      private ManufacturingScenarioRepository.ModuleDefinition.Module usedMachineModel_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> usedMachineModelBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> usedMachineModelBuilder_;
       /**
        * <pre>
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        * @return Whether the usedMachineModel field is set.
        */
       public boolean hasUsedMachineModel() {
@@ -1532,12 +1568,12 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        * @return The usedMachineModel.
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel() {
         if (usedMachineModelBuilder_ == null) {
-          return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+          return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
         } else {
           return usedMachineModelBuilder_.getMessage();
         }
@@ -1547,9 +1583,9 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public Builder setUsedMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder setUsedMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (usedMachineModelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1567,10 +1603,10 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       public Builder setUsedMachineModel(
-          modularEmulator.modules.proto.ModuleDefinition.Module.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.Module.Builder builderForValue) {
         if (usedMachineModelBuilder_ == null) {
           usedMachineModel_ = builderForValue.build();
         } else {
@@ -1585,13 +1621,13 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public Builder mergeUsedMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder mergeUsedMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (usedMachineModelBuilder_ == null) {
           if (((bitField0_ & 0x00000010) != 0) &&
             usedMachineModel_ != null &&
-            usedMachineModel_ != modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance()) {
+            usedMachineModel_ != ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance()) {
             getUsedMachineModelBuilder().mergeFrom(value);
           } else {
             usedMachineModel_ = value;
@@ -1610,7 +1646,7 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       public Builder clearUsedMachineModel() {
         bitField0_ = (bitField0_ & ~0x00000010);
@@ -1627,9 +1663,9 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module.Builder getUsedMachineModelBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module.Builder getUsedMachineModelBuilder() {
         bitField0_ |= 0x00000010;
         onChanged();
         return getUsedMachineModelFieldBuilder().getBuilder();
@@ -1639,14 +1675,14 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
         if (usedMachineModelBuilder_ != null) {
           return usedMachineModelBuilder_.getMessageOrBuilder();
         } else {
           return usedMachineModel_ == null ?
-              modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+              ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
         }
       }
       /**
@@ -1654,14 +1690,14 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> 
           getUsedMachineModelFieldBuilder() {
         if (usedMachineModelBuilder_ == null) {
           usedMachineModelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder>(
+              ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder>(
                   getUsedMachineModel(),
                   getParentForChildren(),
                   isClean());
@@ -1738,11 +1774,19 @@ public final class ManufacturingScenarioOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *human readable name of this scenario
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The name.
      */
     java.lang.String getName();
     /**
+     * <pre>
+     *human readable name of this scenario
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The bytes for name.
      */
@@ -1750,80 +1794,136 @@ public final class ManufacturingScenarioOuterClass {
         getNameBytes();
 
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> 
+        getPartManufacturingOrdersList();
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder getPartManufacturingOrders(int index);
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    int getPartManufacturingOrdersCount();
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    java.util.List<? extends ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder> 
+        getPartManufacturingOrdersOrBuilderList();
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder getPartManufacturingOrdersOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      * @return Whether the constrains field is set.
      */
     boolean hasConstrains();
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      * @return The constrains.
      */
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains getConstrains();
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      */
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrainsOrBuilder getConstrainsOrBuilder();
 
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      * @return Whether the generatingBuildProcessorStrategy field is set.
      */
     boolean hasGeneratingBuildProcessorStrategy();
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      * @return The generatingBuildProcessorStrategy.
      */
     open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy getGeneratingBuildProcessorStrategy();
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      */
     open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategyOrBuilder getGeneratingBuildProcessorStrategyOrBuilder();
 
     /**
      * <pre>
-     *machine model used to generate the results
+     *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return Whether the specificMachineModel field is set.
      */
     boolean hasSpecificMachineModel();
     /**
      * <pre>
-     *machine model used to generate the results
+     *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return The specificMachineModel.
      */
-    modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel();
+    ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel();
     /**
      * <pre>
-     *machine model used to generate the results
+     *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder();
+    ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder();
 
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return Whether the overrideCuboidBuildVolume field is set.
      */
     boolean hasOverrideCuboidBuildVolume();
@@ -1832,38 +1932,18 @@ public final class ManufacturingScenarioOuterClass {
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return The overrideCuboidBuildVolume.
      */
-    modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume();
+    ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume();
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder();
-
-    /**
-     * <pre>
-     *the software and version this result was created with
-     * </pre>
-     *
-     * <code>string software_version = 6;</code>
-     * @return The softwareVersion.
-     */
-    java.lang.String getSoftwareVersion();
-    /**
-     * <pre>
-     *the software and version this result was created with
-     * </pre>
-     *
-     * <code>string software_version = 6;</code>
-     * @return The bytes for softwareVersion.
-     */
-    com.google.protobuf.ByteString
-        getSoftwareVersionBytes();
+    ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder();
 
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario.MachineModelCase getMachineModelCase();
   }
@@ -1881,7 +1961,7 @@ public final class ManufacturingScenarioOuterClass {
     }
     private ManufacturingScenario() {
       name_ = "";
-      softwareVersion_ = "";
+      partManufacturingOrders_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -1911,8 +1991,8 @@ public final class ManufacturingScenarioOuterClass {
     public enum MachineModelCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      SPECIFIC_MACHINE_MODEL(4),
-      OVERRIDE_CUBOID_BUILD_VOLUME(5),
+      SPECIFIC_MACHINE_MODEL(5),
+      OVERRIDE_CUBOID_BUILD_VOLUME(6),
       MACHINEMODEL_NOT_SET(0);
       private final int value;
       private MachineModelCase(int value) {
@@ -1930,8 +2010,8 @@ public final class ManufacturingScenarioOuterClass {
 
       public static MachineModelCase forNumber(int value) {
         switch (value) {
-          case 4: return SPECIFIC_MACHINE_MODEL;
-          case 5: return OVERRIDE_CUBOID_BUILD_VOLUME;
+          case 5: return SPECIFIC_MACHINE_MODEL;
+          case 6: return OVERRIDE_CUBOID_BUILD_VOLUME;
           case 0: return MACHINEMODEL_NOT_SET;
           default: return null;
         }
@@ -1951,6 +2031,10 @@ public final class ManufacturingScenarioOuterClass {
     @SuppressWarnings("serial")
     private volatile java.lang.Object name_ = "";
     /**
+     * <pre>
+     *human readable name of this scenario
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The name.
      */
@@ -1968,6 +2052,10 @@ public final class ManufacturingScenarioOuterClass {
       }
     }
     /**
+     * <pre>
+     *human readable name of this scenario
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The bytes for name.
      */
@@ -1986,10 +2074,75 @@ public final class ManufacturingScenarioOuterClass {
       }
     }
 
-    public static final int CONSTRAINS_FIELD_NUMBER = 2;
+    public static final int PARTMANUFACTURINGORDERS_FIELD_NUMBER = 2;
+    @SuppressWarnings("serial")
+    private java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> partManufacturingOrders_;
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    @java.lang.Override
+    public java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> getPartManufacturingOrdersList() {
+      return partManufacturingOrders_;
+    }
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder> 
+        getPartManufacturingOrdersOrBuilderList() {
+      return partManufacturingOrders_;
+    }
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    @java.lang.Override
+    public int getPartManufacturingOrdersCount() {
+      return partManufacturingOrders_.size();
+    }
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    @java.lang.Override
+    public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder getPartManufacturingOrders(int index) {
+      return partManufacturingOrders_.get(index);
+    }
+    /**
+     * <pre>
+     *all part manufacturing orders that must be fulfilled to complete the scenario
+     * </pre>
+     *
+     * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+     */
+    @java.lang.Override
+    public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder getPartManufacturingOrdersOrBuilder(
+        int index) {
+      return partManufacturingOrders_.get(index);
+    }
+
+    public static final int CONSTRAINS_FIELD_NUMBER = 3;
     private ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains constrains_;
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      * @return Whether the constrains field is set.
      */
     @java.lang.Override
@@ -1997,7 +2150,11 @@ public final class ManufacturingScenarioOuterClass {
       return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      * @return The constrains.
      */
     @java.lang.Override
@@ -2005,21 +2162,25 @@ public final class ManufacturingScenarioOuterClass {
       return constrains_ == null ? ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.getDefaultInstance() : constrains_;
     }
     /**
-     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+     * <pre>
+     *optinal movement constrains the geometries are subject to
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
      */
     @java.lang.Override
     public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrainsOrBuilder getConstrainsOrBuilder() {
       return constrains_ == null ? ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.getDefaultInstance() : constrains_;
     }
 
-    public static final int GENERATING_BUILD_PROCESSOR_STRATEGY_FIELD_NUMBER = 3;
+    public static final int GENERATING_BUILD_PROCESSOR_STRATEGY_FIELD_NUMBER = 4;
     private open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy generatingBuildProcessorStrategy_;
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      * @return Whether the generatingBuildProcessorStrategy field is set.
      */
     @java.lang.Override
@@ -2028,10 +2189,10 @@ public final class ManufacturingScenarioOuterClass {
     }
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      * @return The generatingBuildProcessorStrategy.
      */
     @java.lang.Override
@@ -2040,147 +2201,100 @@ public final class ManufacturingScenarioOuterClass {
     }
     /**
      * <pre>
-     *build processor strategy used to create part configuration
+     *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
      * </pre>
      *
-     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+     * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
      */
     @java.lang.Override
     public open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategyOrBuilder getGeneratingBuildProcessorStrategyOrBuilder() {
       return generatingBuildProcessorStrategy_ == null ? open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.getDefaultInstance() : generatingBuildProcessorStrategy_;
     }
 
-    public static final int SPECIFIC_MACHINE_MODEL_FIELD_NUMBER = 4;
+    public static final int SPECIFIC_MACHINE_MODEL_FIELD_NUMBER = 5;
     /**
      * <pre>
-     *machine model used to generate the results
+     *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return Whether the specificMachineModel field is set.
      */
     @java.lang.Override
     public boolean hasSpecificMachineModel() {
-      return machineModelCase_ == 4;
-    }
-    /**
-     * <pre>
-     *machine model used to generate the results
-     * </pre>
-     *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
-     * @return The specificMachineModel.
-     */
-    @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel() {
-      if (machineModelCase_ == 4) {
-         return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
-      }
-      return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
-    }
-    /**
-     * <pre>
-     *machine model used to generate the results
-     * </pre>
-     *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
-     */
-    @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
-      if (machineModelCase_ == 4) {
-         return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
-      }
-      return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
-    }
-
-    public static final int OVERRIDE_CUBOID_BUILD_VOLUME_FIELD_NUMBER = 5;
-    /**
-     * <pre>
-     *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
-     * </pre>
-     *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
-     * @return Whether the overrideCuboidBuildVolume field is set.
-     */
-    @java.lang.Override
-    public boolean hasOverrideCuboidBuildVolume() {
       return machineModelCase_ == 5;
     }
     /**
      * <pre>
+     *machine model used to generate the time prediction
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
+     * @return The specificMachineModel.
+     */
+    @java.lang.Override
+    public ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel() {
+      if (machineModelCase_ == 5) {
+         return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
+      }
+      return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
+    }
+    /**
+     * <pre>
+     *machine model used to generate the time prediction
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
+     */
+    @java.lang.Override
+    public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
+      if (machineModelCase_ == 5) {
+         return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
+      }
+      return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
+    }
+
+    public static final int OVERRIDE_CUBOID_BUILD_VOLUME_FIELD_NUMBER = 6;
+    /**
+     * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * @return Whether the overrideCuboidBuildVolume field is set.
+     */
+    @java.lang.Override
+    public boolean hasOverrideCuboidBuildVolume() {
+      return machineModelCase_ == 6;
+    }
+    /**
+     * <pre>
+     *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
+     * </pre>
+     *
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return The overrideCuboidBuildVolume.
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
-      if (machineModelCase_ == 5) {
-         return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
+      if (machineModelCase_ == 6) {
+         return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+      return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
     }
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
-      if (machineModelCase_ == 5) {
-         return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
+      if (machineModelCase_ == 6) {
+         return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
-    }
-
-    public static final int SOFTWARE_VERSION_FIELD_NUMBER = 6;
-    @SuppressWarnings("serial")
-    private volatile java.lang.Object softwareVersion_ = "";
-    /**
-     * <pre>
-     *the software and version this result was created with
-     * </pre>
-     *
-     * <code>string software_version = 6;</code>
-     * @return The softwareVersion.
-     */
-    @java.lang.Override
-    public java.lang.String getSoftwareVersion() {
-      java.lang.Object ref = softwareVersion_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        softwareVersion_ = s;
-        return s;
-      }
-    }
-    /**
-     * <pre>
-     *the software and version this result was created with
-     * </pre>
-     *
-     * <code>string software_version = 6;</code>
-     * @return The bytes for softwareVersion.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getSoftwareVersionBytes() {
-      java.lang.Object ref = softwareVersion_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        softwareVersion_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+      return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -2200,20 +2314,20 @@ public final class ManufacturingScenarioOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1, name_);
       }
+      for (int i = 0; i < partManufacturingOrders_.size(); i++) {
+        output.writeMessage(2, partManufacturingOrders_.get(i));
+      }
       if (((bitField0_ & 0x00000001) != 0)) {
-        output.writeMessage(2, getConstrains());
+        output.writeMessage(3, getConstrains());
       }
       if (((bitField0_ & 0x00000002) != 0)) {
-        output.writeMessage(3, getGeneratingBuildProcessorStrategy());
-      }
-      if (machineModelCase_ == 4) {
-        output.writeMessage(4, (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_);
+        output.writeMessage(4, getGeneratingBuildProcessorStrategy());
       }
       if (machineModelCase_ == 5) {
-        output.writeMessage(5, (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
+        output.writeMessage(5, (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(softwareVersion_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, softwareVersion_);
+      if (machineModelCase_ == 6) {
+        output.writeMessage(6, (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -2227,24 +2341,25 @@ public final class ManufacturingScenarioOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, name_);
       }
+      for (int i = 0; i < partManufacturingOrders_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, partManufacturingOrders_.get(i));
+      }
       if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getConstrains());
+          .computeMessageSize(3, getConstrains());
       }
       if (((bitField0_ & 0x00000002) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getGeneratingBuildProcessorStrategy());
-      }
-      if (machineModelCase_ == 4) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_);
+          .computeMessageSize(4, getGeneratingBuildProcessorStrategy());
       }
       if (machineModelCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
+          .computeMessageSize(5, (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(softwareVersion_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, softwareVersion_);
+      if (machineModelCase_ == 6) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -2263,6 +2378,8 @@ public final class ManufacturingScenarioOuterClass {
 
       if (!getName()
           .equals(other.getName())) return false;
+      if (!getPartManufacturingOrdersList()
+          .equals(other.getPartManufacturingOrdersList())) return false;
       if (hasConstrains() != other.hasConstrains()) return false;
       if (hasConstrains()) {
         if (!getConstrains()
@@ -2273,15 +2390,13 @@ public final class ManufacturingScenarioOuterClass {
         if (!getGeneratingBuildProcessorStrategy()
             .equals(other.getGeneratingBuildProcessorStrategy())) return false;
       }
-      if (!getSoftwareVersion()
-          .equals(other.getSoftwareVersion())) return false;
       if (!getMachineModelCase().equals(other.getMachineModelCase())) return false;
       switch (machineModelCase_) {
-        case 4:
+        case 5:
           if (!getSpecificMachineModel()
               .equals(other.getSpecificMachineModel())) return false;
           break;
-        case 5:
+        case 6:
           if (!getOverrideCuboidBuildVolume()
               .equals(other.getOverrideCuboidBuildVolume())) return false;
           break;
@@ -2301,6 +2416,10 @@ public final class ManufacturingScenarioOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + NAME_FIELD_NUMBER;
       hash = (53 * hash) + getName().hashCode();
+      if (getPartManufacturingOrdersCount() > 0) {
+        hash = (37 * hash) + PARTMANUFACTURINGORDERS_FIELD_NUMBER;
+        hash = (53 * hash) + getPartManufacturingOrdersList().hashCode();
+      }
       if (hasConstrains()) {
         hash = (37 * hash) + CONSTRAINS_FIELD_NUMBER;
         hash = (53 * hash) + getConstrains().hashCode();
@@ -2309,14 +2428,12 @@ public final class ManufacturingScenarioOuterClass {
         hash = (37 * hash) + GENERATING_BUILD_PROCESSOR_STRATEGY_FIELD_NUMBER;
         hash = (53 * hash) + getGeneratingBuildProcessorStrategy().hashCode();
       }
-      hash = (37 * hash) + SOFTWARE_VERSION_FIELD_NUMBER;
-      hash = (53 * hash) + getSoftwareVersion().hashCode();
       switch (machineModelCase_) {
-        case 4:
+        case 5:
           hash = (37 * hash) + SPECIFIC_MACHINE_MODEL_FIELD_NUMBER;
           hash = (53 * hash) + getSpecificMachineModel().hashCode();
           break;
-        case 5:
+        case 6:
           hash = (37 * hash) + OVERRIDE_CUBOID_BUILD_VOLUME_FIELD_NUMBER;
           hash = (53 * hash) + getOverrideCuboidBuildVolume().hashCode();
           break;
@@ -2453,6 +2570,7 @@ public final class ManufacturingScenarioOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getPartManufacturingOrdersFieldBuilder();
           getConstrainsFieldBuilder();
           getGeneratingBuildProcessorStrategyFieldBuilder();
         }
@@ -2462,6 +2580,13 @@ public final class ManufacturingScenarioOuterClass {
         super.clear();
         bitField0_ = 0;
         name_ = "";
+        if (partManufacturingOrdersBuilder_ == null) {
+          partManufacturingOrders_ = java.util.Collections.emptyList();
+        } else {
+          partManufacturingOrders_ = null;
+          partManufacturingOrdersBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000002);
         constrains_ = null;
         if (constrainsBuilder_ != null) {
           constrainsBuilder_.dispose();
@@ -2478,7 +2603,6 @@ public final class ManufacturingScenarioOuterClass {
         if (overrideCuboidBuildVolumeBuilder_ != null) {
           overrideCuboidBuildVolumeBuilder_.clear();
         }
-        softwareVersion_ = "";
         machineModelCase_ = 0;
         machineModel_ = null;
         return this;
@@ -2507,10 +2631,23 @@ public final class ManufacturingScenarioOuterClass {
       @java.lang.Override
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario buildPartial() {
         ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario result = new ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario(this);
+        buildPartialRepeatedFields(result);
         if (bitField0_ != 0) { buildPartial0(result); }
         buildPartialOneofs(result);
         onBuilt();
         return result;
+      }
+
+      private void buildPartialRepeatedFields(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario result) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) != 0)) {
+            partManufacturingOrders_ = java.util.Collections.unmodifiableList(partManufacturingOrders_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.partManufacturingOrders_ = partManufacturingOrders_;
+        } else {
+          result.partManufacturingOrders_ = partManufacturingOrdersBuilder_.build();
+        }
       }
 
       private void buildPartial0(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario result) {
@@ -2519,20 +2656,17 @@ public final class ManufacturingScenarioOuterClass {
           result.name_ = name_;
         }
         int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000002) != 0)) {
+        if (((from_bitField0_ & 0x00000004) != 0)) {
           result.constrains_ = constrainsBuilder_ == null
               ? constrains_
               : constrainsBuilder_.build();
           to_bitField0_ |= 0x00000001;
         }
-        if (((from_bitField0_ & 0x00000004) != 0)) {
+        if (((from_bitField0_ & 0x00000008) != 0)) {
           result.generatingBuildProcessorStrategy_ = generatingBuildProcessorStrategyBuilder_ == null
               ? generatingBuildProcessorStrategy_
               : generatingBuildProcessorStrategyBuilder_.build();
           to_bitField0_ |= 0x00000002;
-        }
-        if (((from_bitField0_ & 0x00000020) != 0)) {
-          result.softwareVersion_ = softwareVersion_;
         }
         result.bitField0_ |= to_bitField0_;
       }
@@ -2540,11 +2674,11 @@ public final class ManufacturingScenarioOuterClass {
       private void buildPartialOneofs(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario result) {
         result.machineModelCase_ = machineModelCase_;
         result.machineModel_ = this.machineModel_;
-        if (machineModelCase_ == 4 &&
+        if (machineModelCase_ == 5 &&
             specificMachineModelBuilder_ != null) {
           result.machineModel_ = specificMachineModelBuilder_.build();
         }
-        if (machineModelCase_ == 5 &&
+        if (machineModelCase_ == 6 &&
             overrideCuboidBuildVolumeBuilder_ != null) {
           result.machineModel_ = overrideCuboidBuildVolumeBuilder_.build();
         }
@@ -2599,16 +2733,37 @@ public final class ManufacturingScenarioOuterClass {
           bitField0_ |= 0x00000001;
           onChanged();
         }
+        if (partManufacturingOrdersBuilder_ == null) {
+          if (!other.partManufacturingOrders_.isEmpty()) {
+            if (partManufacturingOrders_.isEmpty()) {
+              partManufacturingOrders_ = other.partManufacturingOrders_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensurePartManufacturingOrdersIsMutable();
+              partManufacturingOrders_.addAll(other.partManufacturingOrders_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.partManufacturingOrders_.isEmpty()) {
+            if (partManufacturingOrdersBuilder_.isEmpty()) {
+              partManufacturingOrdersBuilder_.dispose();
+              partManufacturingOrdersBuilder_ = null;
+              partManufacturingOrders_ = other.partManufacturingOrders_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              partManufacturingOrdersBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getPartManufacturingOrdersFieldBuilder() : null;
+            } else {
+              partManufacturingOrdersBuilder_.addAllMessages(other.partManufacturingOrders_);
+            }
+          }
+        }
         if (other.hasConstrains()) {
           mergeConstrains(other.getConstrains());
         }
         if (other.hasGeneratingBuildProcessorStrategy()) {
           mergeGeneratingBuildProcessorStrategy(other.getGeneratingBuildProcessorStrategy());
-        }
-        if (!other.getSoftwareVersion().isEmpty()) {
-          softwareVersion_ = other.softwareVersion_;
-          bitField0_ |= 0x00000020;
-          onChanged();
         }
         switch (other.getMachineModelCase()) {
           case SPECIFIC_MACHINE_MODEL: {
@@ -2655,36 +2810,44 @@ public final class ManufacturingScenarioOuterClass {
                 break;
               } // case 10
               case 18: {
-                input.readMessage(
-                    getConstrainsFieldBuilder().getBuilder(),
-                    extensionRegistry);
-                bitField0_ |= 0x00000002;
+                ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder m =
+                    input.readMessage(
+                        ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.parser(),
+                        extensionRegistry);
+                if (partManufacturingOrdersBuilder_ == null) {
+                  ensurePartManufacturingOrdersIsMutable();
+                  partManufacturingOrders_.add(m);
+                } else {
+                  partManufacturingOrdersBuilder_.addMessage(m);
+                }
                 break;
               } // case 18
               case 26: {
                 input.readMessage(
-                    getGeneratingBuildProcessorStrategyFieldBuilder().getBuilder(),
+                    getConstrainsFieldBuilder().getBuilder(),
                     extensionRegistry);
                 bitField0_ |= 0x00000004;
                 break;
               } // case 26
               case 34: {
                 input.readMessage(
-                    getSpecificMachineModelFieldBuilder().getBuilder(),
+                    getGeneratingBuildProcessorStrategyFieldBuilder().getBuilder(),
                     extensionRegistry);
-                machineModelCase_ = 4;
+                bitField0_ |= 0x00000008;
                 break;
               } // case 34
               case 42: {
                 input.readMessage(
-                    getOverrideCuboidBuildVolumeFieldBuilder().getBuilder(),
+                    getSpecificMachineModelFieldBuilder().getBuilder(),
                     extensionRegistry);
                 machineModelCase_ = 5;
                 break;
               } // case 42
               case 50: {
-                softwareVersion_ = input.readStringRequireUtf8();
-                bitField0_ |= 0x00000020;
+                input.readMessage(
+                    getOverrideCuboidBuildVolumeFieldBuilder().getBuilder(),
+                    extensionRegistry);
+                machineModelCase_ = 6;
                 break;
               } // case 50
               default: {
@@ -2721,6 +2884,10 @@ public final class ManufacturingScenarioOuterClass {
 
       private java.lang.Object name_ = "";
       /**
+       * <pre>
+       *human readable name of this scenario
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return The name.
        */
@@ -2737,6 +2904,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *human readable name of this scenario
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return The bytes for name.
        */
@@ -2754,6 +2925,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *human readable name of this scenario
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @param value The name to set.
        * @return This builder for chaining.
@@ -2767,6 +2942,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *human readable name of this scenario
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @return This builder for chaining.
        */
@@ -2777,6 +2956,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *human readable name of this scenario
+       * </pre>
+       *
        * <code>string name = 1;</code>
        * @param value The bytes for name to set.
        * @return This builder for chaining.
@@ -2791,18 +2974,338 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
 
+      private java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> partManufacturingOrders_ =
+        java.util.Collections.emptyList();
+      private void ensurePartManufacturingOrdersIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          partManufacturingOrders_ = new java.util.ArrayList<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder>(partManufacturingOrders_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder> partManufacturingOrdersBuilder_;
+
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> getPartManufacturingOrdersList() {
+        if (partManufacturingOrdersBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(partManufacturingOrders_);
+        } else {
+          return partManufacturingOrdersBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public int getPartManufacturingOrdersCount() {
+        if (partManufacturingOrdersBuilder_ == null) {
+          return partManufacturingOrders_.size();
+        } else {
+          return partManufacturingOrdersBuilder_.getCount();
+        }
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder getPartManufacturingOrders(int index) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          return partManufacturingOrders_.get(index);
+        } else {
+          return partManufacturingOrdersBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder setPartManufacturingOrders(
+          int index, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder value) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.set(index, value);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder setPartManufacturingOrders(
+          int index, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder builderForValue) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder addPartManufacturingOrders(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder value) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.add(value);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder addPartManufacturingOrders(
+          int index, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder value) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.add(index, value);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder addPartManufacturingOrders(
+          ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder builderForValue) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.add(builderForValue.build());
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder addPartManufacturingOrders(
+          int index, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder builderForValue) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder addAllPartManufacturingOrders(
+          java.lang.Iterable<? extends ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder> values) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          ensurePartManufacturingOrdersIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, partManufacturingOrders_);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder clearPartManufacturingOrders() {
+        if (partManufacturingOrdersBuilder_ == null) {
+          partManufacturingOrders_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public Builder removePartManufacturingOrders(int index) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          ensurePartManufacturingOrdersIsMutable();
+          partManufacturingOrders_.remove(index);
+          onChanged();
+        } else {
+          partManufacturingOrdersBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder getPartManufacturingOrdersBuilder(
+          int index) {
+        return getPartManufacturingOrdersFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder getPartManufacturingOrdersOrBuilder(
+          int index) {
+        if (partManufacturingOrdersBuilder_ == null) {
+          return partManufacturingOrders_.get(index);  } else {
+          return partManufacturingOrdersBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public java.util.List<? extends ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder> 
+           getPartManufacturingOrdersOrBuilderList() {
+        if (partManufacturingOrdersBuilder_ != null) {
+          return partManufacturingOrdersBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(partManufacturingOrders_);
+        }
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder addPartManufacturingOrdersBuilder() {
+        return getPartManufacturingOrdersFieldBuilder().addBuilder(
+            ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.getDefaultInstance());
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder addPartManufacturingOrdersBuilder(
+          int index) {
+        return getPartManufacturingOrdersFieldBuilder().addBuilder(
+            index, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.getDefaultInstance());
+      }
+      /**
+       * <pre>
+       *all part manufacturing orders that must be fulfilled to complete the scenario
+       * </pre>
+       *
+       * <code>repeated .ManufacturingScenarioRepository.PartManufacturingOrder partManufacturingOrders = 2;</code>
+       */
+      public java.util.List<ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder> 
+           getPartManufacturingOrdersBuilderList() {
+        return getPartManufacturingOrdersFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder> 
+          getPartManufacturingOrdersFieldBuilder() {
+        if (partManufacturingOrdersBuilder_ == null) {
+          partManufacturingOrdersBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrderOrBuilder>(
+                  partManufacturingOrders_,
+                  ((bitField0_ & 0x00000002) != 0),
+                  getParentForChildren(),
+                  isClean());
+          partManufacturingOrders_ = null;
+        }
+        return partManufacturingOrdersBuilder_;
+      }
+
       private ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains constrains_;
       private com.google.protobuf.SingleFieldBuilderV3<
           ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrainsOrBuilder> constrainsBuilder_;
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        * @return Whether the constrains field is set.
        */
       public boolean hasConstrains() {
-        return ((bitField0_ & 0x00000002) != 0);
+        return ((bitField0_ & 0x00000004) != 0);
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        * @return The constrains.
        */
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains getConstrains() {
@@ -2813,7 +3316,11 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public Builder setConstrains(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains value) {
         if (constrainsBuilder_ == null) {
@@ -2824,12 +3331,16 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           constrainsBuilder_.setMessage(value);
         }
-        bitField0_ |= 0x00000002;
+        bitField0_ |= 0x00000004;
         onChanged();
         return this;
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public Builder setConstrains(
           ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.Builder builderForValue) {
@@ -2838,16 +3349,20 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           constrainsBuilder_.setMessage(builderForValue.build());
         }
-        bitField0_ |= 0x00000002;
+        bitField0_ |= 0x00000004;
         onChanged();
         return this;
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public Builder mergeConstrains(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains value) {
         if (constrainsBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0) &&
+          if (((bitField0_ & 0x00000004) != 0) &&
             constrains_ != null &&
             constrains_ != ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.getDefaultInstance()) {
             getConstrainsBuilder().mergeFrom(value);
@@ -2858,16 +3373,20 @@ public final class ManufacturingScenarioOuterClass {
           constrainsBuilder_.mergeFrom(value);
         }
         if (constrains_ != null) {
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000004;
           onChanged();
         }
         return this;
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public Builder clearConstrains() {
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000004);
         constrains_ = null;
         if (constrainsBuilder_ != null) {
           constrainsBuilder_.dispose();
@@ -2877,15 +3396,23 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.Builder getConstrainsBuilder() {
-        bitField0_ |= 0x00000002;
+        bitField0_ |= 0x00000004;
         onChanged();
         return getConstrainsFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrainsOrBuilder getConstrainsOrBuilder() {
         if (constrainsBuilder_ != null) {
@@ -2896,7 +3423,11 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
-       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 2;</code>
+       * <pre>
+       *optinal movement constrains the geometries are subject to
+       * </pre>
+       *
+       * <code>.ManufacturingScenarioRepository.MovementConstrains constrains = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrains.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.MovementConstrainsOrBuilder> 
@@ -2917,21 +3448,21 @@ public final class ManufacturingScenarioOuterClass {
           open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy, open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.Builder, open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategyOrBuilder> generatingBuildProcessorStrategyBuilder_;
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        * @return Whether the generatingBuildProcessorStrategy field is set.
        */
       public boolean hasGeneratingBuildProcessorStrategy() {
-        return ((bitField0_ & 0x00000004) != 0);
+        return ((bitField0_ & 0x00000008) != 0);
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        * @return The generatingBuildProcessorStrategy.
        */
       public open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy getGeneratingBuildProcessorStrategy() {
@@ -2943,10 +3474,10 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public Builder setGeneratingBuildProcessorStrategy(open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy value) {
         if (generatingBuildProcessorStrategyBuilder_ == null) {
@@ -2957,16 +3488,16 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           generatingBuildProcessorStrategyBuilder_.setMessage(value);
         }
-        bitField0_ |= 0x00000004;
+        bitField0_ |= 0x00000008;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public Builder setGeneratingBuildProcessorStrategy(
           open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.Builder builderForValue) {
@@ -2975,20 +3506,20 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           generatingBuildProcessorStrategyBuilder_.setMessage(builderForValue.build());
         }
-        bitField0_ |= 0x00000004;
+        bitField0_ |= 0x00000008;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public Builder mergeGeneratingBuildProcessorStrategy(open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy value) {
         if (generatingBuildProcessorStrategyBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0) &&
+          if (((bitField0_ & 0x00000008) != 0) &&
             generatingBuildProcessorStrategy_ != null &&
             generatingBuildProcessorStrategy_ != open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.getDefaultInstance()) {
             getGeneratingBuildProcessorStrategyBuilder().mergeFrom(value);
@@ -2999,20 +3530,20 @@ public final class ManufacturingScenarioOuterClass {
           generatingBuildProcessorStrategyBuilder_.mergeFrom(value);
         }
         if (generatingBuildProcessorStrategy_ != null) {
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000008;
           onChanged();
         }
         return this;
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public Builder clearGeneratingBuildProcessorStrategy() {
-        bitField0_ = (bitField0_ & ~0x00000004);
+        bitField0_ = (bitField0_ & ~0x00000008);
         generatingBuildProcessorStrategy_ = null;
         if (generatingBuildProcessorStrategyBuilder_ != null) {
           generatingBuildProcessorStrategyBuilder_.dispose();
@@ -3023,22 +3554,22 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.Builder getGeneratingBuildProcessorStrategyBuilder() {
-        bitField0_ |= 0x00000004;
+        bitField0_ |= 0x00000008;
         onChanged();
         return getGeneratingBuildProcessorStrategyFieldBuilder().getBuilder();
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       public open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategyOrBuilder getGeneratingBuildProcessorStrategyOrBuilder() {
         if (generatingBuildProcessorStrategyBuilder_ != null) {
@@ -3050,10 +3581,10 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *build processor strategy used to create part configuration
+       *optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
        * </pre>
        *
-       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;</code>
+       * <code>.open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy, open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategy.Builder, open_vector_format.BuildProcessorStrategyOuterClass.BuildProcessorStrategyOrBuilder> 
@@ -3070,49 +3601,49 @@ public final class ManufacturingScenarioOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> specificMachineModelBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> specificMachineModelBuilder_;
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        * @return Whether the specificMachineModel field is set.
        */
       @java.lang.Override
       public boolean hasSpecificMachineModel() {
-        return machineModelCase_ == 4;
+        return machineModelCase_ == 5;
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        * @return The specificMachineModel.
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel() {
         if (specificMachineModelBuilder_ == null) {
-          if (machineModelCase_ == 4) {
-            return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+          if (machineModelCase_ == 5) {
+            return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         } else {
-          if (machineModelCase_ == 4) {
+          if (machineModelCase_ == 5) {
             return specificMachineModelBuilder_.getMessage();
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         }
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public Builder setSpecificMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder setSpecificMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (specificMachineModelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3122,70 +3653,70 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           specificMachineModelBuilder_.setMessage(value);
         }
-        machineModelCase_ = 4;
+        machineModelCase_ = 5;
         return this;
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       public Builder setSpecificMachineModel(
-          modularEmulator.modules.proto.ModuleDefinition.Module.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.Module.Builder builderForValue) {
         if (specificMachineModelBuilder_ == null) {
           machineModel_ = builderForValue.build();
           onChanged();
         } else {
           specificMachineModelBuilder_.setMessage(builderForValue.build());
         }
-        machineModelCase_ = 4;
+        machineModelCase_ = 5;
         return this;
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public Builder mergeSpecificMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder mergeSpecificMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (specificMachineModelBuilder_ == null) {
-          if (machineModelCase_ == 4 &&
-              machineModel_ != modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance()) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.Module.newBuilder((modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_)
+          if (machineModelCase_ == 5 &&
+              machineModel_ != ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance()) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.Module.newBuilder((ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_)
                 .mergeFrom(value).buildPartial();
           } else {
             machineModel_ = value;
           }
           onChanged();
         } else {
-          if (machineModelCase_ == 4) {
+          if (machineModelCase_ == 5) {
             specificMachineModelBuilder_.mergeFrom(value);
           } else {
             specificMachineModelBuilder_.setMessage(value);
           }
         }
-        machineModelCase_ = 4;
+        machineModelCase_ = 5;
         return this;
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       public Builder clearSpecificMachineModel() {
         if (specificMachineModelBuilder_ == null) {
-          if (machineModelCase_ == 4) {
+          if (machineModelCase_ == 5) {
             machineModelCase_ = 0;
             machineModel_ = null;
             onChanged();
           }
         } else {
-          if (machineModelCase_ == 4) {
+          if (machineModelCase_ == 5) {
             machineModelCase_ = 0;
             machineModel_ = null;
           }
@@ -3195,92 +3726,92 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module.Builder getSpecificMachineModelBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module.Builder getSpecificMachineModelBuilder() {
         return getSpecificMachineModelFieldBuilder().getBuilder();
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
-        if ((machineModelCase_ == 4) && (specificMachineModelBuilder_ != null)) {
+      public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
+        if ((machineModelCase_ == 5) && (specificMachineModelBuilder_ != null)) {
           return specificMachineModelBuilder_.getMessageOrBuilder();
         } else {
-          if (machineModelCase_ == 4) {
-            return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+          if (machineModelCase_ == 5) {
+            return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         }
       }
       /**
        * <pre>
-       *machine model used to generate the results
+       *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 4;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> 
           getSpecificMachineModelFieldBuilder() {
         if (specificMachineModelBuilder_ == null) {
-          if (!(machineModelCase_ == 4)) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          if (!(machineModelCase_ == 5)) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
           }
           specificMachineModelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder>(
-                  (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_,
+              ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder>(
+                  (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_,
                   getParentForChildren(),
                   isClean());
           machineModel_ = null;
         }
-        machineModelCase_ = 4;
+        machineModelCase_ = 5;
         onChanged();
         return specificMachineModelBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> overrideCuboidBuildVolumeBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> overrideCuboidBuildVolumeBuilder_;
       /**
        * <pre>
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        * @return Whether the overrideCuboidBuildVolume field is set.
        */
       @java.lang.Override
       public boolean hasOverrideCuboidBuildVolume() {
-        return machineModelCase_ == 5;
+        return machineModelCase_ == 6;
       }
       /**
        * <pre>
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        * @return The overrideCuboidBuildVolume.
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
-          if (machineModelCase_ == 5) {
-            return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+          if (machineModelCase_ == 6) {
+            return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         } else {
-          if (machineModelCase_ == 5) {
+          if (machineModelCase_ == 6) {
             return overrideCuboidBuildVolumeBuilder_.getMessage();
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         }
       }
       /**
@@ -3288,9 +3819,9 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public Builder setOverrideCuboidBuildVolume(modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams value) {
+      public Builder setOverrideCuboidBuildVolume(ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams value) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3300,7 +3831,7 @@ public final class ManufacturingScenarioOuterClass {
         } else {
           overrideCuboidBuildVolumeBuilder_.setMessage(value);
         }
-        machineModelCase_ = 5;
+        machineModelCase_ = 6;
         return this;
       }
       /**
@@ -3308,17 +3839,17 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       public Builder setOverrideCuboidBuildVolume(
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder builderForValue) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           machineModel_ = builderForValue.build();
           onChanged();
         } else {
           overrideCuboidBuildVolumeBuilder_.setMessage(builderForValue.build());
         }
-        machineModelCase_ = 5;
+        machineModelCase_ = 6;
         return this;
       }
       /**
@@ -3326,26 +3857,26 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public Builder mergeOverrideCuboidBuildVolume(modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams value) {
+      public Builder mergeOverrideCuboidBuildVolume(ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams value) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
-          if (machineModelCase_ == 5 &&
-              machineModel_ != modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance()) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.newBuilder((modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_)
+          if (machineModelCase_ == 6 &&
+              machineModel_ != ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance()) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.newBuilder((ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_)
                 .mergeFrom(value).buildPartial();
           } else {
             machineModel_ = value;
           }
           onChanged();
         } else {
-          if (machineModelCase_ == 5) {
+          if (machineModelCase_ == 6) {
             overrideCuboidBuildVolumeBuilder_.mergeFrom(value);
           } else {
             overrideCuboidBuildVolumeBuilder_.setMessage(value);
           }
         }
-        machineModelCase_ = 5;
+        machineModelCase_ = 6;
         return this;
       }
       /**
@@ -3353,17 +3884,17 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       public Builder clearOverrideCuboidBuildVolume() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
-          if (machineModelCase_ == 5) {
+          if (machineModelCase_ == 6) {
             machineModelCase_ = 0;
             machineModel_ = null;
             onChanged();
           }
         } else {
-          if (machineModelCase_ == 5) {
+          if (machineModelCase_ == 6) {
             machineModelCase_ = 0;
             machineModel_ = null;
           }
@@ -3376,9 +3907,9 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder getOverrideCuboidBuildVolumeBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder getOverrideCuboidBuildVolumeBuilder() {
         return getOverrideCuboidBuildVolumeFieldBuilder().getBuilder();
       }
       /**
@@ -3386,17 +3917,17 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
-        if ((machineModelCase_ == 5) && (overrideCuboidBuildVolumeBuilder_ != null)) {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
+        if ((machineModelCase_ == 6) && (overrideCuboidBuildVolumeBuilder_ != null)) {
           return overrideCuboidBuildVolumeBuilder_.getMessageOrBuilder();
         } else {
-          if (machineModelCase_ == 5) {
-            return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+          if (machineModelCase_ == 6) {
+            return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         }
       }
       /**
@@ -3404,117 +3935,25 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> 
           getOverrideCuboidBuildVolumeFieldBuilder() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
-          if (!(machineModelCase_ == 5)) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          if (!(machineModelCase_ == 6)) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
           }
           overrideCuboidBuildVolumeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder>(
-                  (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_,
+              ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder>(
+                  (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_,
                   getParentForChildren(),
                   isClean());
           machineModel_ = null;
         }
-        machineModelCase_ = 5;
+        machineModelCase_ = 6;
         onChanged();
         return overrideCuboidBuildVolumeBuilder_;
-      }
-
-      private java.lang.Object softwareVersion_ = "";
-      /**
-       * <pre>
-       *the software and version this result was created with
-       * </pre>
-       *
-       * <code>string software_version = 6;</code>
-       * @return The softwareVersion.
-       */
-      public java.lang.String getSoftwareVersion() {
-        java.lang.Object ref = softwareVersion_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          softwareVersion_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <pre>
-       *the software and version this result was created with
-       * </pre>
-       *
-       * <code>string software_version = 6;</code>
-       * @return The bytes for softwareVersion.
-       */
-      public com.google.protobuf.ByteString
-          getSoftwareVersionBytes() {
-        java.lang.Object ref = softwareVersion_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          softwareVersion_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <pre>
-       *the software and version this result was created with
-       * </pre>
-       *
-       * <code>string software_version = 6;</code>
-       * @param value The softwareVersion to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSoftwareVersion(
-          java.lang.String value) {
-        if (value == null) { throw new NullPointerException(); }
-        softwareVersion_ = value;
-        bitField0_ |= 0x00000020;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       *the software and version this result was created with
-       * </pre>
-       *
-       * <code>string software_version = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSoftwareVersion() {
-        softwareVersion_ = getDefaultInstance().getSoftwareVersion();
-        bitField0_ = (bitField0_ & ~0x00000020);
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       *the software and version this result was created with
-       * </pre>
-       *
-       * <code>string software_version = 6;</code>
-       * @param value The bytes for softwareVersion to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSoftwareVersionBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) { throw new NullPointerException(); }
-        checkByteStringIsUtf8(value);
-        softwareVersion_ = value;
-        bitField0_ |= 0x00000020;
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -4541,7 +4980,6 @@ public final class ManufacturingScenarioOuterClass {
     /**
      * <pre>
      *time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-     *represents the 
      * </pre>
      *
      * <code>int64 order_creation_time_delay_in_seconds = 6;</code>
@@ -4572,16 +5010,28 @@ public final class ManufacturingScenarioOuterClass {
         getMaterialBytes();
 
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      * @return Whether the priorities field is set.
      */
     boolean hasPriorities();
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      * @return The priorities.
      */
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority getPriorities();
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      */
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriorityOrBuilder getPrioritiesOrBuilder();
@@ -5409,7 +5859,6 @@ public final class ManufacturingScenarioOuterClass {
     /**
      * <pre>
      *time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-     *represents the 
      * </pre>
      *
      * <code>int64 order_creation_time_delay_in_seconds = 6;</code>
@@ -5472,6 +5921,10 @@ public final class ManufacturingScenarioOuterClass {
     public static final int PRIORITIES_FIELD_NUMBER = 8;
     private ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority priorities_;
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      * @return Whether the priorities field is set.
      */
@@ -5480,6 +5933,10 @@ public final class ManufacturingScenarioOuterClass {
       return ((bitField0_ & 0x00000001) != 0);
     }
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      * @return The priorities.
      */
@@ -5488,6 +5945,10 @@ public final class ManufacturingScenarioOuterClass {
       return priorities_ == null ? ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority.getDefaultInstance() : priorities_;
     }
     /**
+     * <pre>
+     *optional priorities that define the relative optimization target weightings
+     * </pre>
+     *
      * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
      */
     @java.lang.Override
@@ -6333,7 +6794,6 @@ public final class ManufacturingScenarioOuterClass {
       /**
        * <pre>
        *time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-       *represents the 
        * </pre>
        *
        * <code>int64 order_creation_time_delay_in_seconds = 6;</code>
@@ -6346,7 +6806,6 @@ public final class ManufacturingScenarioOuterClass {
       /**
        * <pre>
        *time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-       *represents the 
        * </pre>
        *
        * <code>int64 order_creation_time_delay_in_seconds = 6;</code>
@@ -6363,7 +6822,6 @@ public final class ManufacturingScenarioOuterClass {
       /**
        * <pre>
        *time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-       *represents the 
        * </pre>
        *
        * <code>int64 order_creation_time_delay_in_seconds = 6;</code>
@@ -6477,6 +6935,10 @@ public final class ManufacturingScenarioOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority.Builder, ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriorityOrBuilder> prioritiesBuilder_;
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        * @return Whether the priorities field is set.
        */
@@ -6484,6 +6946,10 @@ public final class ManufacturingScenarioOuterClass {
         return ((bitField0_ & 0x00000080) != 0);
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        * @return The priorities.
        */
@@ -6495,6 +6961,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public Builder setPriorities(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority value) {
@@ -6511,6 +6981,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public Builder setPriorities(
@@ -6525,6 +6999,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public Builder mergePriorities(ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority value) {
@@ -6546,6 +7024,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public Builder clearPriorities() {
@@ -6559,6 +7041,10 @@ public final class ManufacturingScenarioOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriority.Builder getPrioritiesBuilder() {
@@ -6567,6 +7053,10 @@ public final class ManufacturingScenarioOuterClass {
         return getPrioritiesFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       public ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.PartManufacturingOrder.ManufacturingPriorityOrBuilder getPrioritiesOrBuilder() {
@@ -6578,6 +7068,10 @@ public final class ManufacturingScenarioOuterClass {
         }
       }
       /**
+       * <pre>
+       *optional priorities that define the relative optimization target weightings
+       * </pre>
+       *
        * <code>.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority priorities = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -6693,7 +7187,7 @@ public final class ManufacturingScenarioOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ManufacturingScenario.proto\022\037Manufactu" +
       "ringScenarioRepository\032\036build_processor_" +
-      "strategy.proto\032\026ModuleDefinition.proto\"\334" +
+      "strategy.proto\032\026ModuleDefinition.proto\"\336" +
       "\002\n\034ManufacturingScenarioDataSet\022\014\n\004name\030" +
       "\001 \001(\t\022I\n\tscenarios\030\002 \003(\01326.Manufacturing" +
       "ScenarioRepository.ManufacturingScenario" +
@@ -6701,40 +7195,42 @@ public final class ManufacturingScenarioOuterClass {
       "arioRepository.MovementConstrains\022W\n#gen" +
       "erating_build_processor_strategy\030\004 \001(\0132*" +
       ".open_vector_format.BuildProcessorStrate" +
-      "gy\022A\n\022used_machine_model\030\005 \001(\0132%.modular" +
-      "Emulator.modules.proto.Module\"\233\003\n\025Manufa" +
-      "cturingScenario\022\014\n\004name\030\001 \001(\t\022G\n\nconstra" +
-      "ins\030\002 \001(\01323.ManufacturingScenarioReposit" +
-      "ory.MovementConstrains\022W\n#generating_bui" +
-      "ld_processor_strategy\030\003 \001(\0132*.open_vecto" +
-      "r_format.BuildProcessorStrategy\022G\n\026speci" +
-      "fic_machine_model\030\004 \001(\0132%.modularEmulato" +
-      "r.modules.proto.ModuleH\000\022^\n\034override_cub" +
-      "oid_build_volume\030\005 \001(\01326.modularEmulator" +
-      ".modules.proto.CuboidBuildVolumeParamsH\000" +
-      "\022\030\n\020software_version\030\006 \001(\tB\017\n\rmachine_mo" +
-      "del\"\301\001\n\022MovementConstrains\022\036\n\026minimum_di" +
-      "stance_in_mm\030\001 \001(\001\022#\n\033distance_to_contai" +
-      "ner_in_mm\030\002 \001(\001\022,\n$allowed_full_circle_r" +
-      "otation_steps_z\030\003 \001(\005\022\033\n\023max_rot_z_angle" +
-      "_deg\030\004 \001(\001\022\033\n\023min_rot_z_angle_deg\030\005 \001(\001\"" +
-      "\234\003\n\026PartManufacturingOrder\022\016\n\006pmo_id\030\001 \001" +
-      "(\t\022\017\n\007part_id\030\002 \001(\t\022\032\n\022part_num_triangle" +
-      "s\030\003 \001(\005\022\037\n\027quantity_to_manufacture\030\004 \001(\005" +
-      "\022\033\n\023due_time_in_seconds\030\005 \001(\003\022,\n$order_c" +
-      "reation_time_delay_in_seconds\030\006 \001(\003\022\020\n\010m" +
-      "aterial\030\007 \001(\t\022a\n\npriorities\030\010 \001(\0132M.Manu" +
-      "facturingScenarioRepository.PartManufact" +
-      "uringOrder.ManufacturingPriority\032d\n\025Manu" +
-      "facturingPriority\022\026\n\016price_priority\030\001 \001(" +
-      "\001\022\031\n\021due_date_priority\030\002 \001(\001\022\030\n\020quality_" +
-      "priority\030\003 \001(\001b\006proto3"
+      "gy\022C\n\022used_machine_model\030\005 \001(\0132\'.Manufac" +
+      "turingScenarioRepository.Module\"\337\003\n\025Manu" +
+      "facturingScenario\022\014\n\004name\030\001 \001(\t\022X\n\027partM" +
+      "anufacturingOrders\030\002 \003(\01327.Manufacturing" +
+      "ScenarioRepository.PartManufacturingOrde" +
+      "r\022G\n\nconstrains\030\003 \001(\01323.ManufacturingSce" +
+      "narioRepository.MovementConstrains\022W\n#ge" +
+      "nerating_build_processor_strategy\030\004 \001(\0132" +
+      "*.open_vector_format.BuildProcessorStrat" +
+      "egy\022I\n\026specific_machine_model\030\005 \001(\0132\'.Ma" +
+      "nufacturingScenarioRepository.ModuleH\000\022`" +
+      "\n\034override_cuboid_build_volume\030\006 \001(\01328.M" +
+      "anufacturingScenarioRepository.CuboidBui" +
+      "ldVolumeParamsH\000B\017\n\rmachine_model\"\301\001\n\022Mo" +
+      "vementConstrains\022\036\n\026minimum_distance_in_" +
+      "mm\030\001 \001(\001\022#\n\033distance_to_container_in_mm\030" +
+      "\002 \001(\001\022,\n$allowed_full_circle_rotation_st" +
+      "eps_z\030\003 \001(\005\022\033\n\023max_rot_z_angle_deg\030\004 \001(\001" +
+      "\022\033\n\023min_rot_z_angle_deg\030\005 \001(\001\"\234\003\n\026PartMa" +
+      "nufacturingOrder\022\016\n\006pmo_id\030\001 \001(\t\022\017\n\007part" +
+      "_id\030\002 \001(\t\022\032\n\022part_num_triangles\030\003 \001(\005\022\037\n" +
+      "\027quantity_to_manufacture\030\004 \001(\005\022\033\n\023due_ti" +
+      "me_in_seconds\030\005 \001(\003\022,\n$order_creation_ti" +
+      "me_delay_in_seconds\030\006 \001(\003\022\020\n\010material\030\007 " +
+      "\001(\t\022a\n\npriorities\030\010 \001(\0132M.ManufacturingS" +
+      "cenarioRepository.PartManufacturingOrder" +
+      ".ManufacturingPriority\032d\n\025ManufacturingP" +
+      "riority\022\026\n\016price_priority\030\001 \001(\001\022\031\n\021due_d" +
+      "ate_priority\030\002 \001(\001\022\030\n\020quality_priority\030\003" +
+      " \001(\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           open_vector_format.BuildProcessorStrategyOuterClass.getDescriptor(),
-          modularEmulator.modules.proto.ModuleDefinition.getDescriptor(),
+          ManufacturingScenarioRepository.ModuleDefinition.getDescriptor(),
         });
     internal_static_ManufacturingScenarioRepository_ManufacturingScenarioDataSet_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -6747,7 +7243,7 @@ public final class ManufacturingScenarioOuterClass {
     internal_static_ManufacturingScenarioRepository_ManufacturingScenario_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ManufacturingScenarioRepository_ManufacturingScenario_descriptor,
-        new java.lang.String[] { "Name", "Constrains", "GeneratingBuildProcessorStrategy", "SpecificMachineModel", "OverrideCuboidBuildVolume", "SoftwareVersion", "MachineModel", });
+        new java.lang.String[] { "Name", "PartManufacturingOrders", "Constrains", "GeneratingBuildProcessorStrategy", "SpecificMachineModel", "OverrideCuboidBuildVolume", "MachineModel", });
     internal_static_ManufacturingScenarioRepository_MovementConstrains_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_ManufacturingScenarioRepository_MovementConstrains_fieldAccessorTable = new
@@ -6767,7 +7263,7 @@ public final class ManufacturingScenarioOuterClass {
         internal_static_ManufacturingScenarioRepository_PartManufacturingOrder_ManufacturingPriority_descriptor,
         new java.lang.String[] { "PricePriority", "DueDatePriority", "QualityPriority", });
     open_vector_format.BuildProcessorStrategyOuterClass.getDescriptor();
-    modularEmulator.modules.proto.ModuleDefinition.getDescriptor();
+    ManufacturingScenarioRepository.ModuleDefinition.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
