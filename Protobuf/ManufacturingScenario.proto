@@ -43,7 +43,7 @@ message ManufacturingScenario {
 message MovementConstrains {
     //the required minimum distance between nested geometries surfaces
     double minimum_distance_in_mm = 1;
-	//the minimum distance between nested parts and the container walls [mm]
+	//the minimum distance between nested parts and the container walls and bottom [mm]
     //if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
     double distance_to_container_in_mm = 2;
 	//number of full circle rotation steps allowed
