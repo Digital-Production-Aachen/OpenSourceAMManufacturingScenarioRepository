@@ -26,41 +26,41 @@ namespace ManufacturingScenarioRepository {
           string.Concat(
             "ChtNYW51ZmFjdHVyaW5nU2NlbmFyaW8ucHJvdG8SH01hbnVmYWN0dXJpbmdT",
             "Y2VuYXJpb1JlcG9zaXRvcnkaHmJ1aWxkX3Byb2Nlc3Nvcl9zdHJhdGVneS5w",
-            "cm90bxoWTW9kdWxlRGVmaW5pdGlvbi5wcm90byLcAgocTWFudWZhY3R1cmlu",
+            "cm90bxoWTW9kdWxlRGVmaW5pdGlvbi5wcm90byLeAgocTWFudWZhY3R1cmlu",
             "Z1NjZW5hcmlvRGF0YVNldBIMCgRuYW1lGAEgASgJEkkKCXNjZW5hcmlvcxgC",
             "IAMoCzI2Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuTWFudWZh",
             "Y3R1cmluZ1NjZW5hcmlvEkcKCmNvbnN0cmFpbnMYAyABKAsyMy5NYW51ZmFj",
             "dHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5Lk1vdmVtZW50Q29uc3RyYWlucxJX",
             "CiNnZW5lcmF0aW5nX2J1aWxkX3Byb2Nlc3Nvcl9zdHJhdGVneRgEIAEoCzIq",
-            "Lm9wZW5fdmVjdG9yX2Zvcm1hdC5CdWlsZFByb2Nlc3NvclN0cmF0ZWd5EkEK",
-            "EnVzZWRfbWFjaGluZV9tb2RlbBgFIAEoCzIlLm1vZHVsYXJFbXVsYXRvci5t",
-            "b2R1bGVzLnByb3RvLk1vZHVsZSLbAwoVTWFudWZhY3R1cmluZ1NjZW5hcmlv",
-            "EgwKBG5hbWUYASABKAkSWAoXcGFydE1hbnVmYWN0dXJpbmdPcmRlcnMYAiAD",
-            "KAsyNy5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5LlBhcnRNYW51",
-            "ZmFjdHVyaW5nT3JkZXISRwoKY29uc3RyYWlucxgDIAEoCzIzLk1hbnVmYWN0",
-            "dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuTW92ZW1lbnRDb25zdHJhaW5zElcK",
-            "I2dlbmVyYXRpbmdfYnVpbGRfcHJvY2Vzc29yX3N0cmF0ZWd5GAQgASgLMiou",
-            "b3Blbl92ZWN0b3JfZm9ybWF0LkJ1aWxkUHJvY2Vzc29yU3RyYXRlZ3kSRwoW",
-            "c3BlY2lmaWNfbWFjaGluZV9tb2RlbBgFIAEoCzIlLm1vZHVsYXJFbXVsYXRv",
-            "ci5tb2R1bGVzLnByb3RvLk1vZHVsZUgAEl4KHG92ZXJyaWRlX2N1Ym9pZF9i",
-            "dWlsZF92b2x1bWUYBiABKAsyNi5tb2R1bGFyRW11bGF0b3IubW9kdWxlcy5w",
-            "cm90by5DdWJvaWRCdWlsZFZvbHVtZVBhcmFtc0gAQg8KDW1hY2hpbmVfbW9k",
-            "ZWwiwQEKEk1vdmVtZW50Q29uc3RyYWlucxIeChZtaW5pbXVtX2Rpc3RhbmNl",
-            "X2luX21tGAEgASgBEiMKG2Rpc3RhbmNlX3RvX2NvbnRhaW5lcl9pbl9tbRgC",
-            "IAEoARIsCiRhbGxvd2VkX2Z1bGxfY2lyY2xlX3JvdGF0aW9uX3N0ZXBzX3oY",
-            "AyABKAUSGwoTbWF4X3JvdF96X2FuZ2xlX2RlZxgEIAEoARIbChNtaW5fcm90",
-            "X3pfYW5nbGVfZGVnGAUgASgBIpwDChZQYXJ0TWFudWZhY3R1cmluZ09yZGVy",
-            "Eg4KBnBtb19pZBgBIAEoCRIPCgdwYXJ0X2lkGAIgASgJEhoKEnBhcnRfbnVt",
-            "X3RyaWFuZ2xlcxgDIAEoBRIfChdxdWFudGl0eV90b19tYW51ZmFjdHVyZRgE",
-            "IAEoBRIbChNkdWVfdGltZV9pbl9zZWNvbmRzGAUgASgDEiwKJG9yZGVyX2Ny",
-            "ZWF0aW9uX3RpbWVfZGVsYXlfaW5fc2Vjb25kcxgGIAEoAxIQCghtYXRlcmlh",
-            "bBgHIAEoCRJhCgpwcmlvcml0aWVzGAggASgLMk0uTWFudWZhY3R1cmluZ1Nj",
-            "ZW5hcmlvUmVwb3NpdG9yeS5QYXJ0TWFudWZhY3R1cmluZ09yZGVyLk1hbnVm",
-            "YWN0dXJpbmdQcmlvcml0eRpkChVNYW51ZmFjdHVyaW5nUHJpb3JpdHkSFgoO",
-            "cHJpY2VfcHJpb3JpdHkYASABKAESGQoRZHVlX2RhdGVfcHJpb3JpdHkYAiAB",
-            "KAESGAoQcXVhbGl0eV9wcmlvcml0eRgDIAEoAWIGcHJvdG8z"));
+            "Lm9wZW5fdmVjdG9yX2Zvcm1hdC5CdWlsZFByb2Nlc3NvclN0cmF0ZWd5EkMK",
+            "EnVzZWRfbWFjaGluZV9tb2RlbBgFIAEoCzInLk1hbnVmYWN0dXJpbmdTY2Vu",
+            "YXJpb1JlcG9zaXRvcnkuTW9kdWxlIt8DChVNYW51ZmFjdHVyaW5nU2NlbmFy",
+            "aW8SDAoEbmFtZRgBIAEoCRJYChdwYXJ0TWFudWZhY3R1cmluZ09yZGVycxgC",
+            "IAMoCzI3Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuUGFydE1h",
+            "bnVmYWN0dXJpbmdPcmRlchJHCgpjb25zdHJhaW5zGAMgASgLMjMuTWFudWZh",
+            "Y3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5Nb3ZlbWVudENvbnN0cmFpbnMS",
+            "VwojZ2VuZXJhdGluZ19idWlsZF9wcm9jZXNzb3Jfc3RyYXRlZ3kYBCABKAsy",
+            "Ki5vcGVuX3ZlY3Rvcl9mb3JtYXQuQnVpbGRQcm9jZXNzb3JTdHJhdGVneRJJ",
+            "ChZzcGVjaWZpY19tYWNoaW5lX21vZGVsGAUgASgLMicuTWFudWZhY3R1cmlu",
+            "Z1NjZW5hcmlvUmVwb3NpdG9yeS5Nb2R1bGVIABJgChxvdmVycmlkZV9jdWJv",
+            "aWRfYnVpbGRfdm9sdW1lGAYgASgLMjguTWFudWZhY3R1cmluZ1NjZW5hcmlv",
+            "UmVwb3NpdG9yeS5DdWJvaWRCdWlsZFZvbHVtZVBhcmFtc0gAQg8KDW1hY2hp",
+            "bmVfbW9kZWwiwQEKEk1vdmVtZW50Q29uc3RyYWlucxIeChZtaW5pbXVtX2Rp",
+            "c3RhbmNlX2luX21tGAEgASgBEiMKG2Rpc3RhbmNlX3RvX2NvbnRhaW5lcl9p",
+            "bl9tbRgCIAEoARIsCiRhbGxvd2VkX2Z1bGxfY2lyY2xlX3JvdGF0aW9uX3N0",
+            "ZXBzX3oYAyABKAUSGwoTbWF4X3JvdF96X2FuZ2xlX2RlZxgEIAEoARIbChNt",
+            "aW5fcm90X3pfYW5nbGVfZGVnGAUgASgBIpwDChZQYXJ0TWFudWZhY3R1cmlu",
+            "Z09yZGVyEg4KBnBtb19pZBgBIAEoCRIPCgdwYXJ0X2lkGAIgASgJEhoKEnBh",
+            "cnRfbnVtX3RyaWFuZ2xlcxgDIAEoBRIfChdxdWFudGl0eV90b19tYW51ZmFj",
+            "dHVyZRgEIAEoBRIbChNkdWVfdGltZV9pbl9zZWNvbmRzGAUgASgDEiwKJG9y",
+            "ZGVyX2NyZWF0aW9uX3RpbWVfZGVsYXlfaW5fc2Vjb25kcxgGIAEoAxIQCght",
+            "YXRlcmlhbBgHIAEoCRJhCgpwcmlvcml0aWVzGAggASgLMk0uTWFudWZhY3R1",
+            "cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5QYXJ0TWFudWZhY3R1cmluZ09yZGVy",
+            "Lk1hbnVmYWN0dXJpbmdQcmlvcml0eRpkChVNYW51ZmFjdHVyaW5nUHJpb3Jp",
+            "dHkSFgoOcHJpY2VfcHJpb3JpdHkYASABKAESGQoRZHVlX2RhdGVfcHJpb3Jp",
+            "dHkYAiABKAESGAoQcXVhbGl0eV9wcmlvcml0eRgDIAEoAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::OpenVectorFormat.BuildProcessorStrategyReflection.Descriptor, global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::OpenVectorFormat.BuildProcessorStrategyReflection.Descriptor, global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ManufacturingScenarioDataSet), global::ManufacturingScenarioRepository.ManufacturingScenarioDataSet.Parser, new[]{ "Name", "Scenarios", "Constrains", "GeneratingBuildProcessorStrategy", "UsedMachineModel" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ManufacturingScenario), global::ManufacturingScenarioRepository.ManufacturingScenario.Parser, new[]{ "Name", "PartManufacturingOrders", "Constrains", "GeneratingBuildProcessorStrategy", "SpecificMachineModel", "OverrideCuboidBuildVolume" }, new[]{ "MachineModel" }, null, null, null),
@@ -178,13 +178,13 @@ namespace ManufacturingScenarioRepository {
 
     /// <summary>Field number for the "used_machine_model" field.</summary>
     public const int UsedMachineModelFieldNumber = 5;
-    private global::ModularEmulator.Modules.Proto.Module usedMachineModel_;
+    private global::ManufacturingScenarioRepository.Module usedMachineModel_;
     /// <summary>
     ///global fallback machine model
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.Module UsedMachineModel {
+    public global::ManufacturingScenarioRepository.Module UsedMachineModel {
       get { return usedMachineModel_; }
       set {
         usedMachineModel_ = value;
@@ -338,7 +338,7 @@ namespace ManufacturingScenarioRepository {
       }
       if (other.usedMachineModel_ != null) {
         if (usedMachineModel_ == null) {
-          UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+          UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
         }
         UsedMachineModel.MergeFrom(other.UsedMachineModel);
       }
@@ -381,7 +381,7 @@ namespace ManufacturingScenarioRepository {
           }
           case 42: {
             if (usedMachineModel_ == null) {
-              UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+              UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
             }
             input.ReadMessage(UsedMachineModel);
             break;
@@ -425,7 +425,7 @@ namespace ManufacturingScenarioRepository {
           }
           case 42: {
             if (usedMachineModel_ == null) {
-              UsedMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+              UsedMachineModel = new global::ManufacturingScenarioRepository.Module();
             }
             input.ReadMessage(UsedMachineModel);
             break;
@@ -559,8 +559,8 @@ namespace ManufacturingScenarioRepository {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.Module SpecificMachineModel {
-      get { return machineModelCase_ == MachineModelOneofCase.SpecificMachineModel ? (global::ModularEmulator.Modules.Proto.Module) machineModel_ : null; }
+    public global::ManufacturingScenarioRepository.Module SpecificMachineModel {
+      get { return machineModelCase_ == MachineModelOneofCase.SpecificMachineModel ? (global::ManufacturingScenarioRepository.Module) machineModel_ : null; }
       set {
         machineModel_ = value;
         machineModelCase_ = value == null ? MachineModelOneofCase.None : MachineModelOneofCase.SpecificMachineModel;
@@ -574,8 +574,8 @@ namespace ManufacturingScenarioRepository {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams OverrideCuboidBuildVolume {
-      get { return machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume ? (global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams) machineModel_ : null; }
+    public global::ManufacturingScenarioRepository.CuboidBuildVolumeParams OverrideCuboidBuildVolume {
+      get { return machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume ? (global::ManufacturingScenarioRepository.CuboidBuildVolumeParams) machineModel_ : null; }
       set {
         machineModel_ = value;
         machineModelCase_ = value == null ? MachineModelOneofCase.None : MachineModelOneofCase.OverrideCuboidBuildVolume;
@@ -766,13 +766,13 @@ namespace ManufacturingScenarioRepository {
       switch (other.MachineModelCase) {
         case MachineModelOneofCase.SpecificMachineModel:
           if (SpecificMachineModel == null) {
-            SpecificMachineModel = new global::ModularEmulator.Modules.Proto.Module();
+            SpecificMachineModel = new global::ManufacturingScenarioRepository.Module();
           }
           SpecificMachineModel.MergeFrom(other.SpecificMachineModel);
           break;
         case MachineModelOneofCase.OverrideCuboidBuildVolume:
           if (OverrideCuboidBuildVolume == null) {
-            OverrideCuboidBuildVolume = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            OverrideCuboidBuildVolume = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
           }
           OverrideCuboidBuildVolume.MergeFrom(other.OverrideCuboidBuildVolume);
           break;
@@ -816,7 +816,7 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 42: {
-            global::ModularEmulator.Modules.Proto.Module subBuilder = new global::ModularEmulator.Modules.Proto.Module();
+            global::ManufacturingScenarioRepository.Module subBuilder = new global::ManufacturingScenarioRepository.Module();
             if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
               subBuilder.MergeFrom(SpecificMachineModel);
             }
@@ -825,7 +825,7 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 50: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
               subBuilder.MergeFrom(OverrideCuboidBuildVolume);
             }
@@ -871,7 +871,7 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 42: {
-            global::ModularEmulator.Modules.Proto.Module subBuilder = new global::ModularEmulator.Modules.Proto.Module();
+            global::ManufacturingScenarioRepository.Module subBuilder = new global::ManufacturingScenarioRepository.Module();
             if (machineModelCase_ == MachineModelOneofCase.SpecificMachineModel) {
               subBuilder.MergeFrom(SpecificMachineModel);
             }
@@ -880,7 +880,7 @@ namespace ManufacturingScenarioRepository {
             break;
           }
           case 50: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (machineModelCase_ == MachineModelOneofCase.OverrideCuboidBuildVolume) {
               subBuilder.MergeFrom(OverrideCuboidBuildVolume);
             }
@@ -962,7 +962,7 @@ namespace ManufacturingScenarioRepository {
     public const int DistanceToContainerInMmFieldNumber = 2;
     private double distanceToContainerInMm_;
     /// <summary>
-    ///the minimum distance between nested parts and the container walls [mm]
+    ///the minimum distance between nested parts and the container walls and bottom [mm]
     ///if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

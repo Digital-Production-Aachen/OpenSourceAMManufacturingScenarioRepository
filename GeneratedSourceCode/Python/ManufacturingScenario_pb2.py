@@ -15,7 +15,7 @@ import build_processor_strategy_pb2 as build__processor__strategy__pb2
 import ModuleDefinition_pb2 as ModuleDefinition__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bManufacturingScenario.proto\x12\x1fManufacturingScenarioRepository\x1a\x1e\x62uild_processor_strategy.proto\x1a\x16ModuleDefinition.proto\"\xdc\x02\n\x1cManufacturingScenarioDataSet\x12\x0c\n\x04name\x18\x01 \x01(\t\x12I\n\tscenarios\x18\x02 \x03(\x0b\x32\x36.ManufacturingScenarioRepository.ManufacturingScenario\x12G\n\nconstrains\x18\x03 \x01(\x0b\x32\x33.ManufacturingScenarioRepository.MovementConstrains\x12W\n#generating_build_processor_strategy\x18\x04 \x01(\x0b\x32*.open_vector_format.BuildProcessorStrategy\x12\x41\n\x12used_machine_model\x18\x05 \x01(\x0b\x32%.modularEmulator.modules.proto.Module\"\xdb\x03\n\x15ManufacturingScenario\x12\x0c\n\x04name\x18\x01 \x01(\t\x12X\n\x17partManufacturingOrders\x18\x02 \x03(\x0b\x32\x37.ManufacturingScenarioRepository.PartManufacturingOrder\x12G\n\nconstrains\x18\x03 \x01(\x0b\x32\x33.ManufacturingScenarioRepository.MovementConstrains\x12W\n#generating_build_processor_strategy\x18\x04 \x01(\x0b\x32*.open_vector_format.BuildProcessorStrategy\x12G\n\x16specific_machine_model\x18\x05 \x01(\x0b\x32%.modularEmulator.modules.proto.ModuleH\x00\x12^\n\x1coverride_cuboid_build_volume\x18\x06 \x01(\x0b\x32\x36.modularEmulator.modules.proto.CuboidBuildVolumeParamsH\x00\x42\x0f\n\rmachine_model\"\xc1\x01\n\x12MovementConstrains\x12\x1e\n\x16minimum_distance_in_mm\x18\x01 \x01(\x01\x12#\n\x1b\x64istance_to_container_in_mm\x18\x02 \x01(\x01\x12,\n$allowed_full_circle_rotation_steps_z\x18\x03 \x01(\x05\x12\x1b\n\x13max_rot_z_angle_deg\x18\x04 \x01(\x01\x12\x1b\n\x13min_rot_z_angle_deg\x18\x05 \x01(\x01\"\x9c\x03\n\x16PartManufacturingOrder\x12\x0e\n\x06pmo_id\x18\x01 \x01(\t\x12\x0f\n\x07part_id\x18\x02 \x01(\t\x12\x1a\n\x12part_num_triangles\x18\x03 \x01(\x05\x12\x1f\n\x17quantity_to_manufacture\x18\x04 \x01(\x05\x12\x1b\n\x13\x64ue_time_in_seconds\x18\x05 \x01(\x03\x12,\n$order_creation_time_delay_in_seconds\x18\x06 \x01(\x03\x12\x10\n\x08material\x18\x07 \x01(\t\x12\x61\n\npriorities\x18\x08 \x01(\x0b\x32M.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority\x1a\x64\n\x15ManufacturingPriority\x12\x16\n\x0eprice_priority\x18\x01 \x01(\x01\x12\x19\n\x11\x64ue_date_priority\x18\x02 \x01(\x01\x12\x18\n\x10quality_priority\x18\x03 \x01(\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bManufacturingScenario.proto\x12\x1fManufacturingScenarioRepository\x1a\x1e\x62uild_processor_strategy.proto\x1a\x16ModuleDefinition.proto\"\xde\x02\n\x1cManufacturingScenarioDataSet\x12\x0c\n\x04name\x18\x01 \x01(\t\x12I\n\tscenarios\x18\x02 \x03(\x0b\x32\x36.ManufacturingScenarioRepository.ManufacturingScenario\x12G\n\nconstrains\x18\x03 \x01(\x0b\x32\x33.ManufacturingScenarioRepository.MovementConstrains\x12W\n#generating_build_processor_strategy\x18\x04 \x01(\x0b\x32*.open_vector_format.BuildProcessorStrategy\x12\x43\n\x12used_machine_model\x18\x05 \x01(\x0b\x32\'.ManufacturingScenarioRepository.Module\"\xdf\x03\n\x15ManufacturingScenario\x12\x0c\n\x04name\x18\x01 \x01(\t\x12X\n\x17partManufacturingOrders\x18\x02 \x03(\x0b\x32\x37.ManufacturingScenarioRepository.PartManufacturingOrder\x12G\n\nconstrains\x18\x03 \x01(\x0b\x32\x33.ManufacturingScenarioRepository.MovementConstrains\x12W\n#generating_build_processor_strategy\x18\x04 \x01(\x0b\x32*.open_vector_format.BuildProcessorStrategy\x12I\n\x16specific_machine_model\x18\x05 \x01(\x0b\x32\'.ManufacturingScenarioRepository.ModuleH\x00\x12`\n\x1coverride_cuboid_build_volume\x18\x06 \x01(\x0b\x32\x38.ManufacturingScenarioRepository.CuboidBuildVolumeParamsH\x00\x42\x0f\n\rmachine_model\"\xc1\x01\n\x12MovementConstrains\x12\x1e\n\x16minimum_distance_in_mm\x18\x01 \x01(\x01\x12#\n\x1b\x64istance_to_container_in_mm\x18\x02 \x01(\x01\x12,\n$allowed_full_circle_rotation_steps_z\x18\x03 \x01(\x05\x12\x1b\n\x13max_rot_z_angle_deg\x18\x04 \x01(\x01\x12\x1b\n\x13min_rot_z_angle_deg\x18\x05 \x01(\x01\"\x9c\x03\n\x16PartManufacturingOrder\x12\x0e\n\x06pmo_id\x18\x01 \x01(\t\x12\x0f\n\x07part_id\x18\x02 \x01(\t\x12\x1a\n\x12part_num_triangles\x18\x03 \x01(\x05\x12\x1f\n\x17quantity_to_manufacture\x18\x04 \x01(\x05\x12\x1b\n\x13\x64ue_time_in_seconds\x18\x05 \x01(\x03\x12,\n$order_creation_time_delay_in_seconds\x18\x06 \x01(\x03\x12\x10\n\x08material\x18\x07 \x01(\t\x12\x61\n\npriorities\x18\x08 \x01(\x0b\x32M.ManufacturingScenarioRepository.PartManufacturingOrder.ManufacturingPriority\x1a\x64\n\x15ManufacturingPriority\x12\x16\n\x0eprice_priority\x18\x01 \x01(\x01\x12\x19\n\x11\x64ue_date_priority\x18\x02 \x01(\x01\x12\x18\n\x10quality_priority\x18\x03 \x01(\x01\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,13 +23,13 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ManufacturingScenario_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
   _globals['_MANUFACTURINGSCENARIODATASET']._serialized_start=121
-  _globals['_MANUFACTURINGSCENARIODATASET']._serialized_end=469
-  _globals['_MANUFACTURINGSCENARIO']._serialized_start=472
-  _globals['_MANUFACTURINGSCENARIO']._serialized_end=947
-  _globals['_MOVEMENTCONSTRAINS']._serialized_start=950
-  _globals['_MOVEMENTCONSTRAINS']._serialized_end=1143
-  _globals['_PARTMANUFACTURINGORDER']._serialized_start=1146
-  _globals['_PARTMANUFACTURINGORDER']._serialized_end=1558
-  _globals['_PARTMANUFACTURINGORDER_MANUFACTURINGPRIORITY']._serialized_start=1458
-  _globals['_PARTMANUFACTURINGORDER_MANUFACTURINGPRIORITY']._serialized_end=1558
+  _globals['_MANUFACTURINGSCENARIODATASET']._serialized_end=471
+  _globals['_MANUFACTURINGSCENARIO']._serialized_start=474
+  _globals['_MANUFACTURINGSCENARIO']._serialized_end=953
+  _globals['_MOVEMENTCONSTRAINS']._serialized_start=956
+  _globals['_MOVEMENTCONSTRAINS']._serialized_end=1149
+  _globals['_PARTMANUFACTURINGORDER']._serialized_start=1152
+  _globals['_PARTMANUFACTURINGORDER']._serialized_end=1564
+  _globals['_PARTMANUFACTURINGORDER_MANUFACTURINGPRIORITY']._serialized_start=1464
+  _globals['_PARTMANUFACTURINGORDER_MANUFACTURINGPRIORITY']._serialized_end=1564
 # @@protoc_insertion_point(module_scope)

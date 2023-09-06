@@ -54,9 +54,7 @@ struct TableStruct_ModuleDefinition_2eproto {
 };
 extern const ::google::protobuf::internal::DescriptorTable
     descriptor_table_ModuleDefinition_2eproto;
-namespace modularEmulator {
-namespace modules {
-namespace proto {
+namespace ManufacturingScenarioRepository {
 class BasicLPBFMachineParams;
 struct BasicLPBFMachineParamsDefaultTypeInternal;
 extern BasicLPBFMachineParamsDefaultTypeInternal _BasicLPBFMachineParams_default_instance_;
@@ -114,17 +112,13 @@ extern TimePerStateInMSDefaultTypeInternal _TimePerStateInMS_default_instance_;
 class ZylinderBuildVolumeParams;
 struct ZylinderBuildVolumeParamsDefaultTypeInternal;
 extern ZylinderBuildVolumeParamsDefaultTypeInternal _ZylinderBuildVolumeParams_default_instance_;
-}  // namespace proto
-}  // namespace modules
-}  // namespace modularEmulator
+}  // namespace ManufacturingScenarioRepository
 namespace google {
 namespace protobuf {
 }  // namespace protobuf
 }  // namespace google
 
-namespace modularEmulator {
-namespace modules {
-namespace proto {
+namespace ManufacturingScenarioRepository {
 enum BasicScannerParams_JumpMode : int {
   BasicScannerParams_JumpMode_STATIC = 0,
   BasicScannerParams_JumpMode_ACCELERATED = 1,
@@ -412,7 +406,7 @@ inline bool state_Parse(absl::string_view name, state* value) {
 // -------------------------------------------------------------------
 
 class OPCUAIdentification final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.OPCUAIdentification) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.OPCUAIdentification) */ {
  public:
   inline OPCUAIdentification() : OPCUAIdentification(nullptr) {}
   ~OPCUAIdentification() override;
@@ -523,7 +517,7 @@ class OPCUAIdentification final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.OPCUAIdentification";
+    return "ManufacturingScenarioRepository.OPCUAIdentification";
   }
   protected:
   explicit OPCUAIdentification(::google::protobuf::Arena* arena);
@@ -568,12 +562,12 @@ class OPCUAIdentification final :
   void _internal_set_nodeid(::uint32_t value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.OPCUAIdentification)
  private:
   class _Internal;
 
   friend class ::google::protobuf::internal::TcParser;
-  static const ::google::protobuf::internal::TcParseTable<1, 2, 0, 62, 2> _table_;
+  static const ::google::protobuf::internal::TcParseTable<1, 2, 0, 64, 2> _table_;
   template <typename T> friend class ::google::protobuf::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -588,7 +582,7 @@ class OPCUAIdentification final :
 };// -------------------------------------------------------------------
 
 class Module final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.Module) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.Module) */ {
  public:
   inline Module() : Module(nullptr) {}
   ~Module() override;
@@ -699,7 +693,7 @@ class Module final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.Module";
+    return "ManufacturingScenarioRepository.Module";
   }
   protected:
   explicit Module(::google::protobuf::Arena* arena);
@@ -726,25 +720,25 @@ class Module final :
     kInvestmentCostsFieldNumber = 7,
     kCurrentStateFieldNumber = 2,
   };
-  // repeated .modularEmulator.modules.proto.Module childModules = 1;
+  // repeated .ManufacturingScenarioRepository.Module childModules = 1;
   int childmodules_size() const;
   private:
   int _internal_childmodules_size() const;
 
   public:
   void clear_childmodules() ;
-  ::modularEmulator::modules::proto::Module* mutable_childmodules(int index);
-  ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::Module >*
+  ::ManufacturingScenarioRepository::Module* mutable_childmodules(int index);
+  ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::Module >*
       mutable_childmodules();
   private:
-  const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::Module>& _internal_childmodules() const;
-  ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::Module>* _internal_mutable_childmodules();
+  const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::Module>& _internal_childmodules() const;
+  ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::Module>* _internal_mutable_childmodules();
   public:
-  const ::modularEmulator::modules::proto::Module& childmodules(int index) const;
-  ::modularEmulator::modules::proto::Module* add_childmodules();
-  const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::Module >&
+  const ::ManufacturingScenarioRepository::Module& childmodules(int index) const;
+  ::ManufacturingScenarioRepository::Module* add_childmodules();
+  const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::Module >&
       childmodules() const;
-  // repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+  // repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
   int implementedservices_size() const;
   private:
   int _internal_implementedservices_size() const;
@@ -752,9 +746,9 @@ class Module final :
   public:
   void clear_implementedservices() ;
   public:
-  ::modularEmulator::modules::proto::Service implementedservices(int index) const;
-  void set_implementedservices(int index, ::modularEmulator::modules::proto::Service value);
-  void add_implementedservices(::modularEmulator::modules::proto::Service value);
+  ::ManufacturingScenarioRepository::Service implementedservices(int index) const;
+  void set_implementedservices(int index, ::ManufacturingScenarioRepository::Service value);
+  void add_implementedservices(::ManufacturingScenarioRepository::Service value);
   const ::google::protobuf::RepeatedField<int>& implementedservices() const;
   ::google::protobuf::RepeatedField<int>* mutable_implementedservices();
 
@@ -763,23 +757,23 @@ class Module final :
   ::google::protobuf::RepeatedField<int>* _internal_mutable_implementedservices();
 
   public:
-  // repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+  // repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
   int consumedservices_size() const;
   private:
   int _internal_consumedservices_size() const;
 
   public:
   void clear_consumedservices() ;
-  ::modularEmulator::modules::proto::ServiceInterface* mutable_consumedservices(int index);
-  ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ServiceInterface >*
+  ::ManufacturingScenarioRepository::ServiceInterface* mutable_consumedservices(int index);
+  ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ServiceInterface >*
       mutable_consumedservices();
   private:
-  const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ServiceInterface>& _internal_consumedservices() const;
-  ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ServiceInterface>* _internal_mutable_consumedservices();
+  const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ServiceInterface>& _internal_consumedservices() const;
+  ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ServiceInterface>* _internal_mutable_consumedservices();
   public:
-  const ::modularEmulator::modules::proto::ServiceInterface& consumedservices(int index) const;
-  ::modularEmulator::modules::proto::ServiceInterface* add_consumedservices();
-  const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ServiceInterface >&
+  const ::ManufacturingScenarioRepository::ServiceInterface& consumedservices(int index) const;
+  ::ManufacturingScenarioRepository::ServiceInterface* add_consumedservices();
+  const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ServiceInterface >&
       consumedservices() const;
   // string description = 6;
   void clear_description() ;
@@ -797,64 +791,64 @@ class Module final :
   std::string* _internal_mutable_description();
 
   public:
-  // .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+  // .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
   bool has_timeperstateinms() const;
   void clear_timeperstateinms() ;
-  const ::modularEmulator::modules::proto::TimePerStateInMS& timeperstateinms() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::TimePerStateInMS* release_timeperstateinms();
-  ::modularEmulator::modules::proto::TimePerStateInMS* mutable_timeperstateinms();
-  void set_allocated_timeperstateinms(::modularEmulator::modules::proto::TimePerStateInMS* value);
-  void unsafe_arena_set_allocated_timeperstateinms(::modularEmulator::modules::proto::TimePerStateInMS* value);
-  ::modularEmulator::modules::proto::TimePerStateInMS* unsafe_arena_release_timeperstateinms();
+  const ::ManufacturingScenarioRepository::TimePerStateInMS& timeperstateinms() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::TimePerStateInMS* release_timeperstateinms();
+  ::ManufacturingScenarioRepository::TimePerStateInMS* mutable_timeperstateinms();
+  void set_allocated_timeperstateinms(::ManufacturingScenarioRepository::TimePerStateInMS* value);
+  void unsafe_arena_set_allocated_timeperstateinms(::ManufacturingScenarioRepository::TimePerStateInMS* value);
+  ::ManufacturingScenarioRepository::TimePerStateInMS* unsafe_arena_release_timeperstateinms();
 
   private:
-  const ::modularEmulator::modules::proto::TimePerStateInMS& _internal_timeperstateinms() const;
-  ::modularEmulator::modules::proto::TimePerStateInMS* _internal_mutable_timeperstateinms();
+  const ::ManufacturingScenarioRepository::TimePerStateInMS& _internal_timeperstateinms() const;
+  ::ManufacturingScenarioRepository::TimePerStateInMS* _internal_mutable_timeperstateinms();
 
   public:
-  // .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+  // .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
   bool has_energyuseperstateinkwh() const;
   void clear_energyuseperstateinkwh() ;
-  const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& energyuseperstateinkwh() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* release_energyuseperstateinkwh();
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* mutable_energyuseperstateinkwh();
-  void set_allocated_energyuseperstateinkwh(::modularEmulator::modules::proto::EnergyUsePerStateInkWh* value);
-  void unsafe_arena_set_allocated_energyuseperstateinkwh(::modularEmulator::modules::proto::EnergyUsePerStateInkWh* value);
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* unsafe_arena_release_energyuseperstateinkwh();
+  const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& energyuseperstateinkwh() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* release_energyuseperstateinkwh();
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* mutable_energyuseperstateinkwh();
+  void set_allocated_energyuseperstateinkwh(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* value);
+  void unsafe_arena_set_allocated_energyuseperstateinkwh(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* value);
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* unsafe_arena_release_energyuseperstateinkwh();
 
   private:
-  const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& _internal_energyuseperstateinkwh() const;
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* _internal_mutable_energyuseperstateinkwh();
+  const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& _internal_energyuseperstateinkwh() const;
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* _internal_mutable_energyuseperstateinkwh();
 
   public:
-  // .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+  // .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
   bool has_id() const;
   void clear_id() ;
-  const ::modularEmulator::modules::proto::OPCUAIdentification& id() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::OPCUAIdentification* release_id();
-  ::modularEmulator::modules::proto::OPCUAIdentification* mutable_id();
-  void set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  void unsafe_arena_set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  ::modularEmulator::modules::proto::OPCUAIdentification* unsafe_arena_release_id();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& id() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::OPCUAIdentification* release_id();
+  ::ManufacturingScenarioRepository::OPCUAIdentification* mutable_id();
+  void set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  void unsafe_arena_set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  ::ManufacturingScenarioRepository::OPCUAIdentification* unsafe_arena_release_id();
 
   private:
-  const ::modularEmulator::modules::proto::OPCUAIdentification& _internal_id() const;
-  ::modularEmulator::modules::proto::OPCUAIdentification* _internal_mutable_id();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& _internal_id() const;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _internal_mutable_id();
 
   public:
-  // .modularEmulator.modules.proto.ParameterSet parameters = 10;
+  // .ManufacturingScenarioRepository.ParameterSet parameters = 10;
   bool has_parameters() const;
   void clear_parameters() ;
-  const ::modularEmulator::modules::proto::ParameterSet& parameters() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::ParameterSet* release_parameters();
-  ::modularEmulator::modules::proto::ParameterSet* mutable_parameters();
-  void set_allocated_parameters(::modularEmulator::modules::proto::ParameterSet* value);
-  void unsafe_arena_set_allocated_parameters(::modularEmulator::modules::proto::ParameterSet* value);
-  ::modularEmulator::modules::proto::ParameterSet* unsafe_arena_release_parameters();
+  const ::ManufacturingScenarioRepository::ParameterSet& parameters() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::ParameterSet* release_parameters();
+  ::ManufacturingScenarioRepository::ParameterSet* mutable_parameters();
+  void set_allocated_parameters(::ManufacturingScenarioRepository::ParameterSet* value);
+  void unsafe_arena_set_allocated_parameters(::ManufacturingScenarioRepository::ParameterSet* value);
+  ::ManufacturingScenarioRepository::ParameterSet* unsafe_arena_release_parameters();
 
   private:
-  const ::modularEmulator::modules::proto::ParameterSet& _internal_parameters() const;
-  ::modularEmulator::modules::proto::ParameterSet* _internal_mutable_parameters();
+  const ::ManufacturingScenarioRepository::ParameterSet& _internal_parameters() const;
+  ::ManufacturingScenarioRepository::ParameterSet* _internal_mutable_parameters();
 
   public:
   // double investmentCosts = 7;
@@ -867,37 +861,37 @@ class Module final :
   void _internal_set_investmentcosts(double value);
 
   public:
-  // .modularEmulator.modules.proto.state currentState = 2;
+  // .ManufacturingScenarioRepository.state currentState = 2;
   void clear_currentstate() ;
-  ::modularEmulator::modules::proto::state currentstate() const;
-  void set_currentstate(::modularEmulator::modules::proto::state value);
+  ::ManufacturingScenarioRepository::state currentstate() const;
+  void set_currentstate(::ManufacturingScenarioRepository::state value);
 
   private:
-  ::modularEmulator::modules::proto::state _internal_currentstate() const;
-  void _internal_set_currentstate(::modularEmulator::modules::proto::state value);
+  ::ManufacturingScenarioRepository::state _internal_currentstate() const;
+  void _internal_set_currentstate(::ManufacturingScenarioRepository::state value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.Module)
  private:
   class _Internal;
 
   friend class ::google::protobuf::internal::TcParser;
-  static const ::google::protobuf::internal::TcParseTable<4, 10, 6, 64, 2> _table_;
+  static const ::google::protobuf::internal::TcParseTable<4, 10, 6, 66, 2> _table_;
   template <typename T> friend class ::google::protobuf::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
   struct Impl_ {
     ::google::protobuf::internal::HasBits<1> _has_bits_;
     mutable ::google::protobuf::internal::CachedSize _cached_size_;
-    ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::Module > childmodules_;
+    ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::Module > childmodules_;
     ::google::protobuf::RepeatedField<int> implementedservices_;
     mutable ::google::protobuf::internal::CachedSize _implementedservices_cached_byte_size_;
-    ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ServiceInterface > consumedservices_;
+    ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ServiceInterface > consumedservices_;
     ::google::protobuf::internal::ArenaStringPtr description_;
-    ::modularEmulator::modules::proto::TimePerStateInMS* timeperstateinms_;
-    ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* energyuseperstateinkwh_;
-    ::modularEmulator::modules::proto::OPCUAIdentification* id_;
-    ::modularEmulator::modules::proto::ParameterSet* parameters_;
+    ::ManufacturingScenarioRepository::TimePerStateInMS* timeperstateinms_;
+    ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* energyuseperstateinkwh_;
+    ::ManufacturingScenarioRepository::OPCUAIdentification* id_;
+    ::ManufacturingScenarioRepository::ParameterSet* parameters_;
     double investmentcosts_;
     int currentstate_;
     PROTOBUF_TSAN_DECLARE_MEMBER;
@@ -907,7 +901,7 @@ class Module final :
 };// -------------------------------------------------------------------
 
 class ParameterSet final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.ParameterSet) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.ParameterSet) */ {
  public:
   inline ParameterSet() : ParameterSet(nullptr) {}
   ~ParameterSet() override;
@@ -1031,7 +1025,7 @@ class ParameterSet final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.ParameterSet";
+    return "ManufacturingScenarioRepository.ParameterSet";
   }
   protected:
   explicit ParameterSet(::google::protobuf::Arena* arena);
@@ -1058,195 +1052,195 @@ class ParameterSet final :
     kNovantaScannerFieldNumber = 31,
     kBasicLPBFMachineFieldNumber = 100,
   };
-  // .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+  // .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
   bool has_id() const;
   void clear_id() ;
-  const ::modularEmulator::modules::proto::OPCUAIdentification& id() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::OPCUAIdentification* release_id();
-  ::modularEmulator::modules::proto::OPCUAIdentification* mutable_id();
-  void set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  void unsafe_arena_set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  ::modularEmulator::modules::proto::OPCUAIdentification* unsafe_arena_release_id();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& id() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::OPCUAIdentification* release_id();
+  ::ManufacturingScenarioRepository::OPCUAIdentification* mutable_id();
+  void set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  void unsafe_arena_set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  ::ManufacturingScenarioRepository::OPCUAIdentification* unsafe_arena_release_id();
 
   private:
-  const ::modularEmulator::modules::proto::OPCUAIdentification& _internal_id() const;
-  ::modularEmulator::modules::proto::OPCUAIdentification* _internal_mutable_id();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& _internal_id() const;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _internal_mutable_id();
 
   public:
-  // .modularEmulator.modules.proto.ScanlabScannerParams scanlabScanner = 10;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams scanlabScanner = 10;
   bool has_scanlabscanner() const;
   private:
   bool _internal_has_scanlabscanner() const;
 
   public:
   void clear_scanlabscanner() ;
-  const ::modularEmulator::modules::proto::ScanlabScannerParams& scanlabscanner() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::ScanlabScannerParams* release_scanlabscanner();
-  ::modularEmulator::modules::proto::ScanlabScannerParams* mutable_scanlabscanner();
-  void set_allocated_scanlabscanner(::modularEmulator::modules::proto::ScanlabScannerParams* value);
-  void unsafe_arena_set_allocated_scanlabscanner(::modularEmulator::modules::proto::ScanlabScannerParams* value);
-  ::modularEmulator::modules::proto::ScanlabScannerParams* unsafe_arena_release_scanlabscanner();
+  const ::ManufacturingScenarioRepository::ScanlabScannerParams& scanlabscanner() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::ScanlabScannerParams* release_scanlabscanner();
+  ::ManufacturingScenarioRepository::ScanlabScannerParams* mutable_scanlabscanner();
+  void set_allocated_scanlabscanner(::ManufacturingScenarioRepository::ScanlabScannerParams* value);
+  void unsafe_arena_set_allocated_scanlabscanner(::ManufacturingScenarioRepository::ScanlabScannerParams* value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams* unsafe_arena_release_scanlabscanner();
 
   private:
-  const ::modularEmulator::modules::proto::ScanlabScannerParams& _internal_scanlabscanner() const;
-  ::modularEmulator::modules::proto::ScanlabScannerParams* _internal_mutable_scanlabscanner();
+  const ::ManufacturingScenarioRepository::ScanlabScannerParams& _internal_scanlabscanner() const;
+  ::ManufacturingScenarioRepository::ScanlabScannerParams* _internal_mutable_scanlabscanner();
 
   public:
-  // .modularEmulator.modules.proto.LaserParams laser = 11;
+  // .ManufacturingScenarioRepository.LaserParams laser = 11;
   bool has_laser() const;
   private:
   bool _internal_has_laser() const;
 
   public:
   void clear_laser() ;
-  const ::modularEmulator::modules::proto::LaserParams& laser() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::LaserParams* release_laser();
-  ::modularEmulator::modules::proto::LaserParams* mutable_laser();
-  void set_allocated_laser(::modularEmulator::modules::proto::LaserParams* value);
-  void unsafe_arena_set_allocated_laser(::modularEmulator::modules::proto::LaserParams* value);
-  ::modularEmulator::modules::proto::LaserParams* unsafe_arena_release_laser();
+  const ::ManufacturingScenarioRepository::LaserParams& laser() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::LaserParams* release_laser();
+  ::ManufacturingScenarioRepository::LaserParams* mutable_laser();
+  void set_allocated_laser(::ManufacturingScenarioRepository::LaserParams* value);
+  void unsafe_arena_set_allocated_laser(::ManufacturingScenarioRepository::LaserParams* value);
+  ::ManufacturingScenarioRepository::LaserParams* unsafe_arena_release_laser();
 
   private:
-  const ::modularEmulator::modules::proto::LaserParams& _internal_laser() const;
-  ::modularEmulator::modules::proto::LaserParams* _internal_mutable_laser();
+  const ::ManufacturingScenarioRepository::LaserParams& _internal_laser() const;
+  ::ManufacturingScenarioRepository::LaserParams* _internal_mutable_laser();
 
   public:
-  // .modularEmulator.modules.proto.StandardCoaterParams standardCoater = 12;
+  // .ManufacturingScenarioRepository.StandardCoaterParams standardCoater = 12;
   bool has_standardcoater() const;
   private:
   bool _internal_has_standardcoater() const;
 
   public:
   void clear_standardcoater() ;
-  const ::modularEmulator::modules::proto::StandardCoaterParams& standardcoater() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::StandardCoaterParams* release_standardcoater();
-  ::modularEmulator::modules::proto::StandardCoaterParams* mutable_standardcoater();
-  void set_allocated_standardcoater(::modularEmulator::modules::proto::StandardCoaterParams* value);
-  void unsafe_arena_set_allocated_standardcoater(::modularEmulator::modules::proto::StandardCoaterParams* value);
-  ::modularEmulator::modules::proto::StandardCoaterParams* unsafe_arena_release_standardcoater();
+  const ::ManufacturingScenarioRepository::StandardCoaterParams& standardcoater() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::StandardCoaterParams* release_standardcoater();
+  ::ManufacturingScenarioRepository::StandardCoaterParams* mutable_standardcoater();
+  void set_allocated_standardcoater(::ManufacturingScenarioRepository::StandardCoaterParams* value);
+  void unsafe_arena_set_allocated_standardcoater(::ManufacturingScenarioRepository::StandardCoaterParams* value);
+  ::ManufacturingScenarioRepository::StandardCoaterParams* unsafe_arena_release_standardcoater();
 
   private:
-  const ::modularEmulator::modules::proto::StandardCoaterParams& _internal_standardcoater() const;
-  ::modularEmulator::modules::proto::StandardCoaterParams* _internal_mutable_standardcoater();
+  const ::ManufacturingScenarioRepository::StandardCoaterParams& _internal_standardcoater() const;
+  ::ManufacturingScenarioRepository::StandardCoaterParams* _internal_mutable_standardcoater();
 
   public:
-  // .modularEmulator.modules.proto.BuildChamberParams buildChamber = 15;
+  // .ManufacturingScenarioRepository.BuildChamberParams buildChamber = 15;
   bool has_buildchamber() const;
   private:
   bool _internal_has_buildchamber() const;
 
   public:
   void clear_buildchamber() ;
-  const ::modularEmulator::modules::proto::BuildChamberParams& buildchamber() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::BuildChamberParams* release_buildchamber();
-  ::modularEmulator::modules::proto::BuildChamberParams* mutable_buildchamber();
-  void set_allocated_buildchamber(::modularEmulator::modules::proto::BuildChamberParams* value);
-  void unsafe_arena_set_allocated_buildchamber(::modularEmulator::modules::proto::BuildChamberParams* value);
-  ::modularEmulator::modules::proto::BuildChamberParams* unsafe_arena_release_buildchamber();
+  const ::ManufacturingScenarioRepository::BuildChamberParams& buildchamber() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::BuildChamberParams* release_buildchamber();
+  ::ManufacturingScenarioRepository::BuildChamberParams* mutable_buildchamber();
+  void set_allocated_buildchamber(::ManufacturingScenarioRepository::BuildChamberParams* value);
+  void unsafe_arena_set_allocated_buildchamber(::ManufacturingScenarioRepository::BuildChamberParams* value);
+  ::ManufacturingScenarioRepository::BuildChamberParams* unsafe_arena_release_buildchamber();
 
   private:
-  const ::modularEmulator::modules::proto::BuildChamberParams& _internal_buildchamber() const;
-  ::modularEmulator::modules::proto::BuildChamberParams* _internal_mutable_buildchamber();
+  const ::ManufacturingScenarioRepository::BuildChamberParams& _internal_buildchamber() const;
+  ::ManufacturingScenarioRepository::BuildChamberParams* _internal_mutable_buildchamber();
 
   public:
-  // .modularEmulator.modules.proto.CuboidBuildVolumeParams cuboidBuildVolume = 16;
+  // .ManufacturingScenarioRepository.CuboidBuildVolumeParams cuboidBuildVolume = 16;
   bool has_cuboidbuildvolume() const;
   private:
   bool _internal_has_cuboidbuildvolume() const;
 
   public:
   void clear_cuboidbuildvolume() ;
-  const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& cuboidbuildvolume() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CuboidBuildVolumeParams* release_cuboidbuildvolume();
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* mutable_cuboidbuildvolume();
-  void set_allocated_cuboidbuildvolume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* value);
-  void unsafe_arena_set_allocated_cuboidbuildvolume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* value);
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* unsafe_arena_release_cuboidbuildvolume();
+  const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& cuboidbuildvolume() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* release_cuboidbuildvolume();
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* mutable_cuboidbuildvolume();
+  void set_allocated_cuboidbuildvolume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* value);
+  void unsafe_arena_set_allocated_cuboidbuildvolume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* value);
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* unsafe_arena_release_cuboidbuildvolume();
 
   private:
-  const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& _internal_cuboidbuildvolume() const;
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* _internal_mutable_cuboidbuildvolume();
+  const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& _internal_cuboidbuildvolume() const;
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* _internal_mutable_cuboidbuildvolume();
 
   public:
-  // .modularEmulator.modules.proto.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
+  // .ManufacturingScenarioRepository.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
   bool has_zylinderbuildvolume() const;
   private:
   bool _internal_has_zylinderbuildvolume() const;
 
   public:
   void clear_zylinderbuildvolume() ;
-  const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& zylinderbuildvolume() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* release_zylinderbuildvolume();
-  ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* mutable_zylinderbuildvolume();
-  void set_allocated_zylinderbuildvolume(::modularEmulator::modules::proto::ZylinderBuildVolumeParams* value);
-  void unsafe_arena_set_allocated_zylinderbuildvolume(::modularEmulator::modules::proto::ZylinderBuildVolumeParams* value);
-  ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* unsafe_arena_release_zylinderbuildvolume();
+  const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& zylinderbuildvolume() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* release_zylinderbuildvolume();
+  ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* mutable_zylinderbuildvolume();
+  void set_allocated_zylinderbuildvolume(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* value);
+  void unsafe_arena_set_allocated_zylinderbuildvolume(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* value);
+  ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* unsafe_arena_release_zylinderbuildvolume();
 
   private:
-  const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& _internal_zylinderbuildvolume() const;
-  ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* _internal_mutable_zylinderbuildvolume();
+  const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& _internal_zylinderbuildvolume() const;
+  ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* _internal_mutable_zylinderbuildvolume();
 
   public:
-  // .modularEmulator.modules.proto.PreheaterParams preheater = 19;
+  // .ManufacturingScenarioRepository.PreheaterParams preheater = 19;
   bool has_preheater() const;
   private:
   bool _internal_has_preheater() const;
 
   public:
   void clear_preheater() ;
-  const ::modularEmulator::modules::proto::PreheaterParams& preheater() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::PreheaterParams* release_preheater();
-  ::modularEmulator::modules::proto::PreheaterParams* mutable_preheater();
-  void set_allocated_preheater(::modularEmulator::modules::proto::PreheaterParams* value);
-  void unsafe_arena_set_allocated_preheater(::modularEmulator::modules::proto::PreheaterParams* value);
-  ::modularEmulator::modules::proto::PreheaterParams* unsafe_arena_release_preheater();
+  const ::ManufacturingScenarioRepository::PreheaterParams& preheater() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::PreheaterParams* release_preheater();
+  ::ManufacturingScenarioRepository::PreheaterParams* mutable_preheater();
+  void set_allocated_preheater(::ManufacturingScenarioRepository::PreheaterParams* value);
+  void unsafe_arena_set_allocated_preheater(::ManufacturingScenarioRepository::PreheaterParams* value);
+  ::ManufacturingScenarioRepository::PreheaterParams* unsafe_arena_release_preheater();
 
   private:
-  const ::modularEmulator::modules::proto::PreheaterParams& _internal_preheater() const;
-  ::modularEmulator::modules::proto::PreheaterParams* _internal_mutable_preheater();
+  const ::ManufacturingScenarioRepository::PreheaterParams& _internal_preheater() const;
+  ::ManufacturingScenarioRepository::PreheaterParams* _internal_mutable_preheater();
 
   public:
-  // .modularEmulator.modules.proto.NovantaScannerParams novantaScanner = 31;
+  // .ManufacturingScenarioRepository.NovantaScannerParams novantaScanner = 31;
   bool has_novantascanner() const;
   private:
   bool _internal_has_novantascanner() const;
 
   public:
   void clear_novantascanner() ;
-  const ::modularEmulator::modules::proto::NovantaScannerParams& novantascanner() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::NovantaScannerParams* release_novantascanner();
-  ::modularEmulator::modules::proto::NovantaScannerParams* mutable_novantascanner();
-  void set_allocated_novantascanner(::modularEmulator::modules::proto::NovantaScannerParams* value);
-  void unsafe_arena_set_allocated_novantascanner(::modularEmulator::modules::proto::NovantaScannerParams* value);
-  ::modularEmulator::modules::proto::NovantaScannerParams* unsafe_arena_release_novantascanner();
+  const ::ManufacturingScenarioRepository::NovantaScannerParams& novantascanner() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::NovantaScannerParams* release_novantascanner();
+  ::ManufacturingScenarioRepository::NovantaScannerParams* mutable_novantascanner();
+  void set_allocated_novantascanner(::ManufacturingScenarioRepository::NovantaScannerParams* value);
+  void unsafe_arena_set_allocated_novantascanner(::ManufacturingScenarioRepository::NovantaScannerParams* value);
+  ::ManufacturingScenarioRepository::NovantaScannerParams* unsafe_arena_release_novantascanner();
 
   private:
-  const ::modularEmulator::modules::proto::NovantaScannerParams& _internal_novantascanner() const;
-  ::modularEmulator::modules::proto::NovantaScannerParams* _internal_mutable_novantascanner();
+  const ::ManufacturingScenarioRepository::NovantaScannerParams& _internal_novantascanner() const;
+  ::ManufacturingScenarioRepository::NovantaScannerParams* _internal_mutable_novantascanner();
 
   public:
-  // .modularEmulator.modules.proto.BasicLPBFMachineParams basicLPBFMachine = 100;
+  // .ManufacturingScenarioRepository.BasicLPBFMachineParams basicLPBFMachine = 100;
   bool has_basiclpbfmachine() const;
   private:
   bool _internal_has_basiclpbfmachine() const;
 
   public:
   void clear_basiclpbfmachine() ;
-  const ::modularEmulator::modules::proto::BasicLPBFMachineParams& basiclpbfmachine() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::BasicLPBFMachineParams* release_basiclpbfmachine();
-  ::modularEmulator::modules::proto::BasicLPBFMachineParams* mutable_basiclpbfmachine();
-  void set_allocated_basiclpbfmachine(::modularEmulator::modules::proto::BasicLPBFMachineParams* value);
-  void unsafe_arena_set_allocated_basiclpbfmachine(::modularEmulator::modules::proto::BasicLPBFMachineParams* value);
-  ::modularEmulator::modules::proto::BasicLPBFMachineParams* unsafe_arena_release_basiclpbfmachine();
+  const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& basiclpbfmachine() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::BasicLPBFMachineParams* release_basiclpbfmachine();
+  ::ManufacturingScenarioRepository::BasicLPBFMachineParams* mutable_basiclpbfmachine();
+  void set_allocated_basiclpbfmachine(::ManufacturingScenarioRepository::BasicLPBFMachineParams* value);
+  void unsafe_arena_set_allocated_basiclpbfmachine(::ManufacturingScenarioRepository::BasicLPBFMachineParams* value);
+  ::ManufacturingScenarioRepository::BasicLPBFMachineParams* unsafe_arena_release_basiclpbfmachine();
 
   private:
-  const ::modularEmulator::modules::proto::BasicLPBFMachineParams& _internal_basiclpbfmachine() const;
-  ::modularEmulator::modules::proto::BasicLPBFMachineParams* _internal_mutable_basiclpbfmachine();
+  const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& _internal_basiclpbfmachine() const;
+  ::ManufacturingScenarioRepository::BasicLPBFMachineParams* _internal_mutable_basiclpbfmachine();
 
   public:
   void clear_TypeAndParameters();
   TypeAndParametersCase TypeAndParameters_case() const;
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ParameterSet)
  private:
   class _Internal;
   void set_has_scanlabscanner();
@@ -1270,19 +1264,19 @@ class ParameterSet final :
   struct Impl_ {
     ::google::protobuf::internal::HasBits<1> _has_bits_;
     mutable ::google::protobuf::internal::CachedSize _cached_size_;
-    ::modularEmulator::modules::proto::OPCUAIdentification* id_;
+    ::ManufacturingScenarioRepository::OPCUAIdentification* id_;
     union TypeAndParametersUnion {
       constexpr TypeAndParametersUnion() : _constinit_{} {}
         ::google::protobuf::internal::ConstantInitialized _constinit_;
-      ::modularEmulator::modules::proto::ScanlabScannerParams* scanlabscanner_;
-      ::modularEmulator::modules::proto::LaserParams* laser_;
-      ::modularEmulator::modules::proto::StandardCoaterParams* standardcoater_;
-      ::modularEmulator::modules::proto::BuildChamberParams* buildchamber_;
-      ::modularEmulator::modules::proto::CuboidBuildVolumeParams* cuboidbuildvolume_;
-      ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* zylinderbuildvolume_;
-      ::modularEmulator::modules::proto::PreheaterParams* preheater_;
-      ::modularEmulator::modules::proto::NovantaScannerParams* novantascanner_;
-      ::modularEmulator::modules::proto::BasicLPBFMachineParams* basiclpbfmachine_;
+      ::ManufacturingScenarioRepository::ScanlabScannerParams* scanlabscanner_;
+      ::ManufacturingScenarioRepository::LaserParams* laser_;
+      ::ManufacturingScenarioRepository::StandardCoaterParams* standardcoater_;
+      ::ManufacturingScenarioRepository::BuildChamberParams* buildchamber_;
+      ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* cuboidbuildvolume_;
+      ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* zylinderbuildvolume_;
+      ::ManufacturingScenarioRepository::PreheaterParams* preheater_;
+      ::ManufacturingScenarioRepository::NovantaScannerParams* novantascanner_;
+      ::ManufacturingScenarioRepository::BasicLPBFMachineParams* basiclpbfmachine_;
     } TypeAndParameters_;
     ::uint32_t _oneof_case_[1];
 
@@ -1293,7 +1287,7 @@ class ParameterSet final :
 };// -------------------------------------------------------------------
 
 class BasicLPBFMachineParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.BasicLPBFMachineParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.BasicLPBFMachineParams) */ {
  public:
   inline BasicLPBFMachineParams() : BasicLPBFMachineParams(nullptr) {}
   ~BasicLPBFMachineParams() override;
@@ -1404,7 +1398,7 @@ class BasicLPBFMachineParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.BasicLPBFMachineParams";
+    return "ManufacturingScenarioRepository.BasicLPBFMachineParams";
   }
   protected:
   explicit BasicLPBFMachineParams(::google::protobuf::Arena* arena);
@@ -1427,23 +1421,23 @@ class BasicLPBFMachineParams final :
     kForcedMinimumExposureTimeInSFieldNumber = 13,
     kNumberOfLaserScannerUnitsFieldNumber = 1,
   };
-  // repeated .modularEmulator.modules.proto.ScanField scanFields = 20;
+  // repeated .ManufacturingScenarioRepository.ScanField scanFields = 20;
   int scanfields_size() const;
   private:
   int _internal_scanfields_size() const;
 
   public:
   void clear_scanfields() ;
-  ::modularEmulator::modules::proto::ScanField* mutable_scanfields(int index);
-  ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ScanField >*
+  ::ManufacturingScenarioRepository::ScanField* mutable_scanfields(int index);
+  ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ScanField >*
       mutable_scanfields();
   private:
-  const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ScanField>& _internal_scanfields() const;
-  ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ScanField>* _internal_mutable_scanfields();
+  const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ScanField>& _internal_scanfields() const;
+  ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ScanField>* _internal_mutable_scanfields();
   public:
-  const ::modularEmulator::modules::proto::ScanField& scanfields(int index) const;
-  ::modularEmulator::modules::proto::ScanField* add_scanfields();
-  const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ScanField >&
+  const ::ManufacturingScenarioRepository::ScanField& scanfields(int index) const;
+  ::ManufacturingScenarioRepository::ScanField* add_scanfields();
+  const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ScanField >&
       scanfields() const;
   // double MinLayerHeightUM = 10;
   void clear_minlayerheightum() ;
@@ -1495,7 +1489,7 @@ class BasicLPBFMachineParams final :
   void _internal_set_numberoflaserscannerunits(::int32_t value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.BasicLPBFMachineParams)
  private:
   class _Internal;
 
@@ -1505,7 +1499,7 @@ class BasicLPBFMachineParams final :
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
   struct Impl_ {
-    ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ScanField > scanfields_;
+    ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ScanField > scanfields_;
     double minlayerheightum_;
     double minzdistmm_;
     double minimalhatchlength_;
@@ -1519,7 +1513,7 @@ class BasicLPBFMachineParams final :
 };// -------------------------------------------------------------------
 
 class ServiceInterface final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.ServiceInterface) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.ServiceInterface) */ {
  public:
   inline ServiceInterface() : ServiceInterface(nullptr) {}
   ~ServiceInterface() override;
@@ -1630,7 +1624,7 @@ class ServiceInterface final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.ServiceInterface";
+    return "ManufacturingScenarioRepository.ServiceInterface";
   }
   protected:
   explicit ServiceInterface(::google::protobuf::Arena* arena);
@@ -1649,32 +1643,32 @@ class ServiceInterface final :
     kImplementingModuleFieldNumber = 2,
     kConsumedServiceFieldNumber = 1,
   };
-  // .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+  // .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
   bool has_implementingmodule() const;
   void clear_implementingmodule() ;
-  const ::modularEmulator::modules::proto::OPCUAIdentification& implementingmodule() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::OPCUAIdentification* release_implementingmodule();
-  ::modularEmulator::modules::proto::OPCUAIdentification* mutable_implementingmodule();
-  void set_allocated_implementingmodule(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  void unsafe_arena_set_allocated_implementingmodule(::modularEmulator::modules::proto::OPCUAIdentification* value);
-  ::modularEmulator::modules::proto::OPCUAIdentification* unsafe_arena_release_implementingmodule();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& implementingmodule() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::OPCUAIdentification* release_implementingmodule();
+  ::ManufacturingScenarioRepository::OPCUAIdentification* mutable_implementingmodule();
+  void set_allocated_implementingmodule(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  void unsafe_arena_set_allocated_implementingmodule(::ManufacturingScenarioRepository::OPCUAIdentification* value);
+  ::ManufacturingScenarioRepository::OPCUAIdentification* unsafe_arena_release_implementingmodule();
 
   private:
-  const ::modularEmulator::modules::proto::OPCUAIdentification& _internal_implementingmodule() const;
-  ::modularEmulator::modules::proto::OPCUAIdentification* _internal_mutable_implementingmodule();
+  const ::ManufacturingScenarioRepository::OPCUAIdentification& _internal_implementingmodule() const;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _internal_mutable_implementingmodule();
 
   public:
-  // .modularEmulator.modules.proto.Service consumedService = 1;
+  // .ManufacturingScenarioRepository.Service consumedService = 1;
   void clear_consumedservice() ;
-  ::modularEmulator::modules::proto::Service consumedservice() const;
-  void set_consumedservice(::modularEmulator::modules::proto::Service value);
+  ::ManufacturingScenarioRepository::Service consumedservice() const;
+  void set_consumedservice(::ManufacturingScenarioRepository::Service value);
 
   private:
-  ::modularEmulator::modules::proto::Service _internal_consumedservice() const;
-  void _internal_set_consumedservice(::modularEmulator::modules::proto::Service value);
+  ::ManufacturingScenarioRepository::Service _internal_consumedservice() const;
+  void _internal_set_consumedservice(::ManufacturingScenarioRepository::Service value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ServiceInterface)
  private:
   class _Internal;
 
@@ -1686,7 +1680,7 @@ class ServiceInterface final :
   struct Impl_ {
     ::google::protobuf::internal::HasBits<1> _has_bits_;
     mutable ::google::protobuf::internal::CachedSize _cached_size_;
-    ::modularEmulator::modules::proto::OPCUAIdentification* implementingmodule_;
+    ::ManufacturingScenarioRepository::OPCUAIdentification* implementingmodule_;
     int consumedservice_;
     PROTOBUF_TSAN_DECLARE_MEMBER;
   };
@@ -1695,7 +1689,7 @@ class ServiceInterface final :
 };// -------------------------------------------------------------------
 
 class BasicScannerParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.BasicScannerParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.BasicScannerParams) */ {
  public:
   inline BasicScannerParams() : BasicScannerParams(nullptr) {}
   ~BasicScannerParams() override;
@@ -1806,7 +1800,7 @@ class BasicScannerParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.BasicScannerParams";
+    return "ManufacturingScenarioRepository.BasicScannerParams";
   }
   protected:
   explicit BasicScannerParams(::google::protobuf::Arena* arena);
@@ -1987,17 +1981,17 @@ class BasicScannerParams final :
   void _internal_set_warpjumplengthlimit(double value);
 
   public:
-  // .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+  // .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
   void clear_jumpmode() ;
-  ::modularEmulator::modules::proto::BasicScannerParams_JumpMode jumpmode() const;
-  void set_jumpmode(::modularEmulator::modules::proto::BasicScannerParams_JumpMode value);
+  ::ManufacturingScenarioRepository::BasicScannerParams_JumpMode jumpmode() const;
+  void set_jumpmode(::ManufacturingScenarioRepository::BasicScannerParams_JumpMode value);
 
   private:
-  ::modularEmulator::modules::proto::BasicScannerParams_JumpMode _internal_jumpmode() const;
-  void _internal_set_jumpmode(::modularEmulator::modules::proto::BasicScannerParams_JumpMode value);
+  ::ManufacturingScenarioRepository::BasicScannerParams_JumpMode _internal_jumpmode() const;
+  void _internal_set_jumpmode(::ManufacturingScenarioRepository::BasicScannerParams_JumpMode value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.BasicScannerParams)
  private:
   class _Internal;
 
@@ -2029,7 +2023,7 @@ class BasicScannerParams final :
 };// -------------------------------------------------------------------
 
 class CommonSkyWritingParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.CommonSkyWritingParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.CommonSkyWritingParams) */ {
  public:
   inline CommonSkyWritingParams() : CommonSkyWritingParams(nullptr) {}
   ~CommonSkyWritingParams() override;
@@ -2140,7 +2134,7 @@ class CommonSkyWritingParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.CommonSkyWritingParams";
+    return "ManufacturingScenarioRepository.CommonSkyWritingParams";
   }
   protected:
   explicit CommonSkyWritingParams(::google::protobuf::Arena* arena);
@@ -2190,7 +2184,7 @@ class CommonSkyWritingParams final :
   void _internal_set_limitangle(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.CommonSkyWritingParams)
  private:
   class _Internal;
 
@@ -2211,7 +2205,7 @@ class CommonSkyWritingParams final :
 };// -------------------------------------------------------------------
 
 class CoordinateTransformParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.CoordinateTransformParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.CoordinateTransformParams) */ {
  public:
   inline CoordinateTransformParams() : CoordinateTransformParams(nullptr) {}
   ~CoordinateTransformParams() override;
@@ -2322,7 +2316,7 @@ class CoordinateTransformParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.CoordinateTransformParams";
+    return "ManufacturingScenarioRepository.CoordinateTransformParams";
   }
   protected:
   explicit CoordinateTransformParams(::google::protobuf::Arena* arena);
@@ -2372,7 +2366,7 @@ class CoordinateTransformParams final :
   void _internal_set_deletezerolengthjumps(bool value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.CoordinateTransformParams)
  private:
   class _Internal;
 
@@ -2393,7 +2387,7 @@ class CoordinateTransformParams final :
 };// -------------------------------------------------------------------
 
 class NovantaScannerParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.NovantaScannerParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.NovantaScannerParams) */ {
  public:
   inline NovantaScannerParams() : NovantaScannerParams(nullptr) {}
   ~NovantaScannerParams() override;
@@ -2504,7 +2498,7 @@ class NovantaScannerParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.NovantaScannerParams";
+    return "ManufacturingScenarioRepository.NovantaScannerParams";
   }
   protected:
   explicit NovantaScannerParams(::google::protobuf::Arena* arena);
@@ -2571,69 +2565,69 @@ class NovantaScannerParams final :
     kSafetyFactorFlyByHighFieldNumber = 8,
     kSafetyFactorRadialErrorLimitFieldNumber = 9,
   };
-  // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+  // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
   bool has_basicscannerparams() const;
   void clear_basicscannerparams() ;
-  const ::modularEmulator::modules::proto::BasicScannerParams& basicscannerparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::BasicScannerParams* release_basicscannerparams();
-  ::modularEmulator::modules::proto::BasicScannerParams* mutable_basicscannerparams();
-  void set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value);
-  void unsafe_arena_set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value);
-  ::modularEmulator::modules::proto::BasicScannerParams* unsafe_arena_release_basicscannerparams();
+  const ::ManufacturingScenarioRepository::BasicScannerParams& basicscannerparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::BasicScannerParams* release_basicscannerparams();
+  ::ManufacturingScenarioRepository::BasicScannerParams* mutable_basicscannerparams();
+  void set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value);
+  void unsafe_arena_set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value);
+  ::ManufacturingScenarioRepository::BasicScannerParams* unsafe_arena_release_basicscannerparams();
 
   private:
-  const ::modularEmulator::modules::proto::BasicScannerParams& _internal_basicscannerparams() const;
-  ::modularEmulator::modules::proto::BasicScannerParams* _internal_mutable_basicscannerparams();
+  const ::ManufacturingScenarioRepository::BasicScannerParams& _internal_basicscannerparams() const;
+  ::ManufacturingScenarioRepository::BasicScannerParams* _internal_mutable_basicscannerparams();
 
   public:
-  // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+  // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
   bool has_skywritingparams() const;
   void clear_skywritingparams() ;
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams& skywritingparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CommonSkyWritingParams* release_skywritingparams();
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* mutable_skywritingparams();
-  void set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value);
-  void unsafe_arena_set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value);
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* unsafe_arena_release_skywritingparams();
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams& skywritingparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CommonSkyWritingParams* release_skywritingparams();
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* mutable_skywritingparams();
+  void set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value);
+  void unsafe_arena_set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value);
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* unsafe_arena_release_skywritingparams();
 
   private:
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams& _internal_skywritingparams() const;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* _internal_mutable_skywritingparams();
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams& _internal_skywritingparams() const;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* _internal_mutable_skywritingparams();
 
   public:
-  // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+  // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
   bool has_coordtransformparams() const;
   void clear_coordtransformparams() ;
-  const ::modularEmulator::modules::proto::CoordinateTransformParams& coordtransformparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CoordinateTransformParams* release_coordtransformparams();
-  ::modularEmulator::modules::proto::CoordinateTransformParams* mutable_coordtransformparams();
-  void set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value);
-  void unsafe_arena_set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value);
-  ::modularEmulator::modules::proto::CoordinateTransformParams* unsafe_arena_release_coordtransformparams();
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams& coordtransformparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CoordinateTransformParams* release_coordtransformparams();
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* mutable_coordtransformparams();
+  void set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value);
+  void unsafe_arena_set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value);
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* unsafe_arena_release_coordtransformparams();
 
   private:
-  const ::modularEmulator::modules::proto::CoordinateTransformParams& _internal_coordtransformparams() const;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* _internal_mutable_coordtransformparams();
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams& _internal_coordtransformparams() const;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* _internal_mutable_coordtransformparams();
 
   public:
-  // .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
   void clear_skywritingmode() ;
-  ::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode skywritingmode() const;
-  void set_skywritingmode(::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode value);
+  ::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode skywritingmode() const;
+  void set_skywritingmode(::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode value);
 
   private:
-  ::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode _internal_skywritingmode() const;
-  void _internal_set_skywritingmode(::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode value);
+  ::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode _internal_skywritingmode() const;
+  void _internal_set_skywritingmode(::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode value);
 
   public:
-  // .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
   void clear_delaymode() ;
-  ::modularEmulator::modules::proto::NovantaScannerParams_DelayMode delaymode() const;
-  void set_delaymode(::modularEmulator::modules::proto::NovantaScannerParams_DelayMode value);
+  ::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode delaymode() const;
+  void set_delaymode(::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode value);
 
   private:
-  ::modularEmulator::modules::proto::NovantaScannerParams_DelayMode _internal_delaymode() const;
-  void _internal_set_delaymode(::modularEmulator::modules::proto::NovantaScannerParams_DelayMode value);
+  ::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode _internal_delaymode() const;
+  void _internal_set_delaymode(::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode value);
 
   public:
   // double radialErrorInUm = 6;
@@ -2676,7 +2670,7 @@ class NovantaScannerParams final :
   void _internal_set_safetyfactorradialerrorlimit(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.NovantaScannerParams)
  private:
   class _Internal;
 
@@ -2688,9 +2682,9 @@ class NovantaScannerParams final :
   struct Impl_ {
     ::google::protobuf::internal::HasBits<1> _has_bits_;
     mutable ::google::protobuf::internal::CachedSize _cached_size_;
-    ::modularEmulator::modules::proto::BasicScannerParams* basicscannerparams_;
-    ::modularEmulator::modules::proto::CommonSkyWritingParams* skywritingparams_;
-    ::modularEmulator::modules::proto::CoordinateTransformParams* coordtransformparams_;
+    ::ManufacturingScenarioRepository::BasicScannerParams* basicscannerparams_;
+    ::ManufacturingScenarioRepository::CommonSkyWritingParams* skywritingparams_;
+    ::ManufacturingScenarioRepository::CoordinateTransformParams* coordtransformparams_;
     int skywritingmode_;
     int delaymode_;
     double radialerrorinum_;
@@ -2704,7 +2698,7 @@ class NovantaScannerParams final :
 };// -------------------------------------------------------------------
 
 class ScanlabScannerParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.ScanlabScannerParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.ScanlabScannerParams) */ {
  public:
   inline ScanlabScannerParams() : ScanlabScannerParams(nullptr) {}
   ~ScanlabScannerParams() override;
@@ -2815,7 +2809,7 @@ class ScanlabScannerParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.ScanlabScannerParams";
+    return "ManufacturingScenarioRepository.ScanlabScannerParams";
   }
   protected:
   explicit ScanlabScannerParams(::google::protobuf::Arena* arena);
@@ -2903,49 +2897,49 @@ class ScanlabScannerParams final :
     kSkyWritingParametringModeFieldNumber = 6,
     kDelayModeFieldNumber = 7,
   };
-  // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+  // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
   bool has_basicscannerparams() const;
   void clear_basicscannerparams() ;
-  const ::modularEmulator::modules::proto::BasicScannerParams& basicscannerparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::BasicScannerParams* release_basicscannerparams();
-  ::modularEmulator::modules::proto::BasicScannerParams* mutable_basicscannerparams();
-  void set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value);
-  void unsafe_arena_set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value);
-  ::modularEmulator::modules::proto::BasicScannerParams* unsafe_arena_release_basicscannerparams();
+  const ::ManufacturingScenarioRepository::BasicScannerParams& basicscannerparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::BasicScannerParams* release_basicscannerparams();
+  ::ManufacturingScenarioRepository::BasicScannerParams* mutable_basicscannerparams();
+  void set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value);
+  void unsafe_arena_set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value);
+  ::ManufacturingScenarioRepository::BasicScannerParams* unsafe_arena_release_basicscannerparams();
 
   private:
-  const ::modularEmulator::modules::proto::BasicScannerParams& _internal_basicscannerparams() const;
-  ::modularEmulator::modules::proto::BasicScannerParams* _internal_mutable_basicscannerparams();
+  const ::ManufacturingScenarioRepository::BasicScannerParams& _internal_basicscannerparams() const;
+  ::ManufacturingScenarioRepository::BasicScannerParams* _internal_mutable_basicscannerparams();
 
   public:
-  // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+  // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
   bool has_skywritingparams() const;
   void clear_skywritingparams() ;
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams& skywritingparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CommonSkyWritingParams* release_skywritingparams();
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* mutable_skywritingparams();
-  void set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value);
-  void unsafe_arena_set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value);
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* unsafe_arena_release_skywritingparams();
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams& skywritingparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CommonSkyWritingParams* release_skywritingparams();
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* mutable_skywritingparams();
+  void set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value);
+  void unsafe_arena_set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value);
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* unsafe_arena_release_skywritingparams();
 
   private:
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams& _internal_skywritingparams() const;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* _internal_mutable_skywritingparams();
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams& _internal_skywritingparams() const;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* _internal_mutable_skywritingparams();
 
   public:
-  // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+  // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
   bool has_coordtransformparams() const;
   void clear_coordtransformparams() ;
-  const ::modularEmulator::modules::proto::CoordinateTransformParams& coordtransformparams() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CoordinateTransformParams* release_coordtransformparams();
-  ::modularEmulator::modules::proto::CoordinateTransformParams* mutable_coordtransformparams();
-  void set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value);
-  void unsafe_arena_set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value);
-  ::modularEmulator::modules::proto::CoordinateTransformParams* unsafe_arena_release_coordtransformparams();
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams& coordtransformparams() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CoordinateTransformParams* release_coordtransformparams();
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* mutable_coordtransformparams();
+  void set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value);
+  void unsafe_arena_set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value);
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* unsafe_arena_release_coordtransformparams();
 
   private:
-  const ::modularEmulator::modules::proto::CoordinateTransformParams& _internal_coordtransformparams() const;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* _internal_mutable_coordtransformparams();
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams& _internal_coordtransformparams() const;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* _internal_mutable_coordtransformparams();
 
   public:
   // double timeLagInUs = 5;
@@ -2958,37 +2952,37 @@ class ScanlabScannerParams final :
   void _internal_set_timelaginus(double value);
 
   public:
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
   void clear_skywritingmode() ;
-  ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode skywritingmode() const;
-  void set_skywritingmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode skywritingmode() const;
+  void set_skywritingmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode value);
 
   private:
-  ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode _internal_skywritingmode() const;
-  void _internal_set_skywritingmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode _internal_skywritingmode() const;
+  void _internal_set_skywritingmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode value);
 
   public:
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
   void clear_skywritingparametringmode() ;
-  ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode skywritingparametringmode() const;
-  void set_skywritingparametringmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode skywritingparametringmode() const;
+  void set_skywritingparametringmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode value);
 
   private:
-  ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode _internal_skywritingparametringmode() const;
-  void _internal_set_skywritingparametringmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode _internal_skywritingparametringmode() const;
+  void _internal_set_skywritingparametringmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode value);
 
   public:
-  // .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
   void clear_delaymode() ;
-  ::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode delaymode() const;
-  void set_delaymode(::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode delaymode() const;
+  void set_delaymode(::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode value);
 
   private:
-  ::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode _internal_delaymode() const;
-  void _internal_set_delaymode(::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode value);
+  ::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode _internal_delaymode() const;
+  void _internal_set_delaymode(::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ScanlabScannerParams)
  private:
   class _Internal;
 
@@ -3000,9 +2994,9 @@ class ScanlabScannerParams final :
   struct Impl_ {
     ::google::protobuf::internal::HasBits<1> _has_bits_;
     mutable ::google::protobuf::internal::CachedSize _cached_size_;
-    ::modularEmulator::modules::proto::BasicScannerParams* basicscannerparams_;
-    ::modularEmulator::modules::proto::CommonSkyWritingParams* skywritingparams_;
-    ::modularEmulator::modules::proto::CoordinateTransformParams* coordtransformparams_;
+    ::ManufacturingScenarioRepository::BasicScannerParams* basicscannerparams_;
+    ::ManufacturingScenarioRepository::CommonSkyWritingParams* skywritingparams_;
+    ::ManufacturingScenarioRepository::CoordinateTransformParams* coordtransformparams_;
     double timelaginus_;
     int skywritingmode_;
     int skywritingparametringmode_;
@@ -3014,7 +3008,7 @@ class ScanlabScannerParams final :
 };// -------------------------------------------------------------------
 
 class ScanField final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.ScanField) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.ScanField) */ {
  public:
   inline ScanField() : ScanField(nullptr) {}
   ~ScanField() override;
@@ -3125,7 +3119,7 @@ class ScanField final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.ScanField";
+    return "ManufacturingScenarioRepository.ScanField";
   }
   protected:
   explicit ScanField(::google::protobuf::Arena* arena);
@@ -3186,7 +3180,7 @@ class ScanField final :
   void _internal_set_ymax(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ScanField)
  private:
   class _Internal;
 
@@ -3208,7 +3202,7 @@ class ScanField final :
 };// -------------------------------------------------------------------
 
 class LaserParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.LaserParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.LaserParams) */ {
  public:
   inline LaserParams() : LaserParams(nullptr) {}
   ~LaserParams() override;
@@ -3319,7 +3313,7 @@ class LaserParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.LaserParams";
+    return "ManufacturingScenarioRepository.LaserParams";
   }
   protected:
   explicit LaserParams(::google::protobuf::Arena* arena);
@@ -3347,7 +3341,7 @@ class LaserParams final :
   void _internal_set_laserpowerinw(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.LaserParams)
  private:
   class _Internal;
 
@@ -3366,7 +3360,7 @@ class LaserParams final :
 };// -------------------------------------------------------------------
 
 class StandardCoaterParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.StandardCoaterParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.StandardCoaterParams) */ {
  public:
   inline StandardCoaterParams() : StandardCoaterParams(nullptr) {}
   ~StandardCoaterParams() override;
@@ -3477,7 +3471,7 @@ class StandardCoaterParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.StandardCoaterParams";
+    return "ManufacturingScenarioRepository.StandardCoaterParams";
   }
   protected:
   explicit StandardCoaterParams(::google::protobuf::Arena* arena);
@@ -3571,7 +3565,7 @@ class StandardCoaterParams final :
   void _internal_set_isbidirectional(bool value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.StandardCoaterParams)
  private:
   class _Internal;
 
@@ -3596,7 +3590,7 @@ class StandardCoaterParams final :
 };// -------------------------------------------------------------------
 
 class BuildChamberParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.BuildChamberParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.BuildChamberParams) */ {
  public:
   inline BuildChamberParams() : BuildChamberParams(nullptr) {}
   ~BuildChamberParams() override;
@@ -3707,7 +3701,7 @@ class BuildChamberParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.BuildChamberParams";
+    return "ManufacturingScenarioRepository.BuildChamberParams";
   }
   protected:
   explicit BuildChamberParams(::google::protobuf::Arena* arena);
@@ -3790,7 +3784,7 @@ class BuildChamberParams final :
   void _internal_set_platformliftdelayins(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.BuildChamberParams)
  private:
   class _Internal;
 
@@ -3814,7 +3808,7 @@ class BuildChamberParams final :
 };// -------------------------------------------------------------------
 
 class CuboidBuildVolumeParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.CuboidBuildVolumeParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.CuboidBuildVolumeParams) */ {
  public:
   inline CuboidBuildVolumeParams() : CuboidBuildVolumeParams(nullptr) {}
   ~CuboidBuildVolumeParams() override;
@@ -3925,7 +3919,7 @@ class CuboidBuildVolumeParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.CuboidBuildVolumeParams";
+    return "ManufacturingScenarioRepository.CuboidBuildVolumeParams";
   }
   protected:
   explicit CuboidBuildVolumeParams(::google::protobuf::Arena* arena);
@@ -4008,7 +4002,7 @@ class CuboidBuildVolumeParams final :
   void _internal_set_zmax(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
  private:
   class _Internal;
 
@@ -4032,7 +4026,7 @@ class CuboidBuildVolumeParams final :
 };// -------------------------------------------------------------------
 
 class ZylinderBuildVolumeParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.ZylinderBuildVolumeParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.ZylinderBuildVolumeParams) */ {
  public:
   inline ZylinderBuildVolumeParams() : ZylinderBuildVolumeParams(nullptr) {}
   ~ZylinderBuildVolumeParams() override;
@@ -4143,7 +4137,7 @@ class ZylinderBuildVolumeParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.ZylinderBuildVolumeParams";
+    return "ManufacturingScenarioRepository.ZylinderBuildVolumeParams";
   }
   protected:
   explicit ZylinderBuildVolumeParams(::google::protobuf::Arena* arena);
@@ -4182,7 +4176,7 @@ class ZylinderBuildVolumeParams final :
   void _internal_set_height(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
  private:
   class _Internal;
 
@@ -4202,7 +4196,7 @@ class ZylinderBuildVolumeParams final :
 };// -------------------------------------------------------------------
 
 class PreheaterParams final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.PreheaterParams) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.PreheaterParams) */ {
  public:
   inline PreheaterParams() : PreheaterParams(nullptr) {}
   ~PreheaterParams() override;
@@ -4313,7 +4307,7 @@ class PreheaterParams final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.PreheaterParams";
+    return "ManufacturingScenarioRepository.PreheaterParams";
   }
   protected:
   explicit PreheaterParams(::google::protobuf::Arena* arena);
@@ -4374,7 +4368,7 @@ class PreheaterParams final :
   void _internal_set_roomtemperature(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.PreheaterParams)
  private:
   class _Internal;
 
@@ -4396,7 +4390,7 @@ class PreheaterParams final :
 };// -------------------------------------------------------------------
 
 class TimePerStateInMS final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.TimePerStateInMS) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.TimePerStateInMS) */ {
  public:
   inline TimePerStateInMS() : TimePerStateInMS(nullptr) {}
   ~TimePerStateInMS() override;
@@ -4507,7 +4501,7 @@ class TimePerStateInMS final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.TimePerStateInMS";
+    return "ManufacturingScenarioRepository.TimePerStateInMS";
   }
   protected:
   explicit TimePerStateInMS(::google::protobuf::Arena* arena);
@@ -4568,7 +4562,7 @@ class TimePerStateInMS final :
   void _internal_set_timemaintenance(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.TimePerStateInMS)
  private:
   class _Internal;
 
@@ -4590,7 +4584,7 @@ class TimePerStateInMS final :
 };// -------------------------------------------------------------------
 
 class EnergyUsePerStateInkWh final :
-    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:modularEmulator.modules.proto.EnergyUsePerStateInkWh) */ {
+    public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:ManufacturingScenarioRepository.EnergyUsePerStateInkWh) */ {
  public:
   inline EnergyUsePerStateInkWh() : EnergyUsePerStateInkWh(nullptr) {}
   ~EnergyUsePerStateInkWh() override;
@@ -4701,7 +4695,7 @@ class EnergyUsePerStateInkWh final :
   private:
   friend class ::google::protobuf::internal::AnyMetadata;
   static ::absl::string_view FullMessageName() {
-    return "modularEmulator.modules.proto.EnergyUsePerStateInkWh";
+    return "ManufacturingScenarioRepository.EnergyUsePerStateInkWh";
   }
   protected:
   explicit EnergyUsePerStateInkWh(::google::protobuf::Arena* arena);
@@ -4762,7 +4756,7 @@ class EnergyUsePerStateInkWh final :
   void _internal_set_energymaintenance(double value);
 
   public:
-  // @@protoc_insertion_point(class_scope:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
  private:
   class _Internal;
 
@@ -4804,12 +4798,12 @@ inline void OPCUAIdentification::clear_nodeid() {
   _impl_.nodeid_ = 0u;
 }
 inline ::uint32_t OPCUAIdentification::nodeid() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.OPCUAIdentification.nodeId)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.OPCUAIdentification.nodeId)
   return _internal_nodeid();
 }
 inline void OPCUAIdentification::set_nodeid(::uint32_t value) {
   _internal_set_nodeid(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.OPCUAIdentification.nodeId)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.OPCUAIdentification.nodeId)
 }
 inline ::uint32_t OPCUAIdentification::_internal_nodeid() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -4826,7 +4820,7 @@ inline void OPCUAIdentification::clear_name() {
   _impl_.name_.ClearToEmpty();
 }
 inline const std::string& OPCUAIdentification::name() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.OPCUAIdentification.name)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.OPCUAIdentification.name)
   return _internal_name();
 }
 template <typename Arg_, typename... Args_>
@@ -4835,11 +4829,11 @@ inline PROTOBUF_ALWAYS_INLINE void OPCUAIdentification::set_name(Arg_&& arg,
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.name_.Set(static_cast<Arg_&&>(arg), args..., GetArenaForAllocation());
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.OPCUAIdentification.name)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.OPCUAIdentification.name)
 }
 inline std::string* OPCUAIdentification::mutable_name() {
   std::string* _s = _internal_mutable_name();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.OPCUAIdentification.name)
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.OPCUAIdentification.name)
   return _s;
 }
 inline const std::string& OPCUAIdentification::_internal_name() const {
@@ -4858,7 +4852,7 @@ inline std::string* OPCUAIdentification::_internal_mutable_name() {
 }
 inline std::string* OPCUAIdentification::release_name() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.OPCUAIdentification.name)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.OPCUAIdentification.name)
   return _impl_.name_.Release();
 }
 inline void OPCUAIdentification::set_allocated_name(std::string* value) {
@@ -4869,14 +4863,14 @@ inline void OPCUAIdentification::set_allocated_name(std::string* value) {
           _impl_.name_.Set("", GetArenaForAllocation());
         }
   #endif  // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.OPCUAIdentification.name)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.OPCUAIdentification.name)
 }
 
 // -------------------------------------------------------------------
 
 // Module
 
-// repeated .modularEmulator.modules.proto.Module childModules = 1;
+// repeated .ManufacturingScenarioRepository.Module childModules = 1;
 inline int Module::_internal_childmodules_size() const {
   return _internal_childmodules().size();
 }
@@ -4886,65 +4880,65 @@ inline int Module::childmodules_size() const {
 inline void Module::clear_childmodules() {
   _internal_mutable_childmodules()->Clear();
 }
-inline ::modularEmulator::modules::proto::Module* Module::mutable_childmodules(int index) {
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.childModules)
+inline ::ManufacturingScenarioRepository::Module* Module::mutable_childmodules(int index) {
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.childModules)
   return _internal_mutable_childmodules()->Mutable(index);
 }
-inline ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::Module >*
+inline ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::Module >*
 Module::mutable_childmodules() {
-  // @@protoc_insertion_point(field_mutable_list:modularEmulator.modules.proto.Module.childModules)
+  // @@protoc_insertion_point(field_mutable_list:ManufacturingScenarioRepository.Module.childModules)
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   return _internal_mutable_childmodules();
 }
-inline const ::modularEmulator::modules::proto::Module& Module::childmodules(int index) const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.childModules)
+inline const ::ManufacturingScenarioRepository::Module& Module::childmodules(int index) const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.childModules)
     return _internal_childmodules().Get(index);
 }
-inline ::modularEmulator::modules::proto::Module* Module::add_childmodules() {
+inline ::ManufacturingScenarioRepository::Module* Module::add_childmodules() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  ::modularEmulator::modules::proto::Module* _add = _internal_mutable_childmodules()->Add();
-  // @@protoc_insertion_point(field_add:modularEmulator.modules.proto.Module.childModules)
+  ::ManufacturingScenarioRepository::Module* _add = _internal_mutable_childmodules()->Add();
+  // @@protoc_insertion_point(field_add:ManufacturingScenarioRepository.Module.childModules)
   return _add;
 }
-inline const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::Module >&
+inline const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::Module >&
 Module::childmodules() const {
-  // @@protoc_insertion_point(field_list:modularEmulator.modules.proto.Module.childModules)
+  // @@protoc_insertion_point(field_list:ManufacturingScenarioRepository.Module.childModules)
   return _internal_childmodules();
 }
-inline const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::Module>&
+inline const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::Module>&
 Module::_internal_childmodules() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return _impl_.childmodules_;
 }
-inline ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::Module>*
+inline ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::Module>*
 Module::_internal_mutable_childmodules() {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return &_impl_.childmodules_;
 }
 
-// .modularEmulator.modules.proto.state currentState = 2;
+// .ManufacturingScenarioRepository.state currentState = 2;
 inline void Module::clear_currentstate() {
   _impl_.currentstate_ = 0;
 }
-inline ::modularEmulator::modules::proto::state Module::currentstate() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.currentState)
+inline ::ManufacturingScenarioRepository::state Module::currentstate() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.currentState)
   return _internal_currentstate();
 }
-inline void Module::set_currentstate(::modularEmulator::modules::proto::state value) {
+inline void Module::set_currentstate(::ManufacturingScenarioRepository::state value) {
   _internal_set_currentstate(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.Module.currentState)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.Module.currentState)
 }
-inline ::modularEmulator::modules::proto::state Module::_internal_currentstate() const {
+inline ::ManufacturingScenarioRepository::state Module::_internal_currentstate() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::state>(_impl_.currentstate_);
+  return static_cast<::ManufacturingScenarioRepository::state>(_impl_.currentstate_);
 }
-inline void Module::_internal_set_currentstate(::modularEmulator::modules::proto::state value) {
+inline void Module::_internal_set_currentstate(::ManufacturingScenarioRepository::state value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.currentstate_ = value;
 }
 
-// .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+// .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
 inline bool Module::has_timeperstateinms() const {
   bool value = (_impl_._has_bits_[0] & 0x00000001u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.timeperstateinms_ != nullptr);
@@ -4954,33 +4948,33 @@ inline void Module::clear_timeperstateinms() {
   if (_impl_.timeperstateinms_ != nullptr) _impl_.timeperstateinms_->Clear();
   _impl_._has_bits_[0] &= ~0x00000001u;
 }
-inline const ::modularEmulator::modules::proto::TimePerStateInMS& Module::_internal_timeperstateinms() const {
+inline const ::ManufacturingScenarioRepository::TimePerStateInMS& Module::_internal_timeperstateinms() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::TimePerStateInMS* p = _impl_.timeperstateinms_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::TimePerStateInMS&>(::modularEmulator::modules::proto::_TimePerStateInMS_default_instance_);
+  const ::ManufacturingScenarioRepository::TimePerStateInMS* p = _impl_.timeperstateinms_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::TimePerStateInMS&>(::ManufacturingScenarioRepository::_TimePerStateInMS_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::TimePerStateInMS& Module::timeperstateinms() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.timePerStateInMS)
+inline const ::ManufacturingScenarioRepository::TimePerStateInMS& Module::timeperstateinms() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.timePerStateInMS)
   return _internal_timeperstateinms();
 }
-inline void Module::unsafe_arena_set_allocated_timeperstateinms(::modularEmulator::modules::proto::TimePerStateInMS* value) {
+inline void Module::unsafe_arena_set_allocated_timeperstateinms(::ManufacturingScenarioRepository::TimePerStateInMS* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.timeperstateinms_);
   }
-  _impl_.timeperstateinms_ = reinterpret_cast<::modularEmulator::modules::proto::TimePerStateInMS*>(value);
+  _impl_.timeperstateinms_ = reinterpret_cast<::ManufacturingScenarioRepository::TimePerStateInMS*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000001u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.Module.timePerStateInMS)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.Module.timePerStateInMS)
 }
-inline ::modularEmulator::modules::proto::TimePerStateInMS* Module::release_timeperstateinms() {
+inline ::ManufacturingScenarioRepository::TimePerStateInMS* Module::release_timeperstateinms() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::TimePerStateInMS* released = _impl_.timeperstateinms_;
+  ::ManufacturingScenarioRepository::TimePerStateInMS* released = _impl_.timeperstateinms_;
   _impl_.timeperstateinms_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -4995,39 +4989,39 @@ inline ::modularEmulator::modules::proto::TimePerStateInMS* Module::release_time
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::TimePerStateInMS* Module::unsafe_arena_release_timeperstateinms() {
+inline ::ManufacturingScenarioRepository::TimePerStateInMS* Module::unsafe_arena_release_timeperstateinms() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.Module.timePerStateInMS)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.Module.timePerStateInMS)
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::TimePerStateInMS* temp = _impl_.timeperstateinms_;
+  ::ManufacturingScenarioRepository::TimePerStateInMS* temp = _impl_.timeperstateinms_;
   _impl_.timeperstateinms_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::TimePerStateInMS* Module::_internal_mutable_timeperstateinms() {
+inline ::ManufacturingScenarioRepository::TimePerStateInMS* Module::_internal_mutable_timeperstateinms() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000001u;
   if (_impl_.timeperstateinms_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::TimePerStateInMS>(GetArenaForAllocation());
-    _impl_.timeperstateinms_ = reinterpret_cast<::modularEmulator::modules::proto::TimePerStateInMS*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::TimePerStateInMS>(GetArenaForAllocation());
+    _impl_.timeperstateinms_ = reinterpret_cast<::ManufacturingScenarioRepository::TimePerStateInMS*>(p);
   }
   return _impl_.timeperstateinms_;
 }
-inline ::modularEmulator::modules::proto::TimePerStateInMS* Module::mutable_timeperstateinms() {
-  ::modularEmulator::modules::proto::TimePerStateInMS* _msg = _internal_mutable_timeperstateinms();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.timePerStateInMS)
+inline ::ManufacturingScenarioRepository::TimePerStateInMS* Module::mutable_timeperstateinms() {
+  ::ManufacturingScenarioRepository::TimePerStateInMS* _msg = _internal_mutable_timeperstateinms();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.timePerStateInMS)
   return _msg;
 }
-inline void Module::set_allocated_timeperstateinms(::modularEmulator::modules::proto::TimePerStateInMS* value) {
+inline void Module::set_allocated_timeperstateinms(::ManufacturingScenarioRepository::TimePerStateInMS* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::TimePerStateInMS*>(_impl_.timeperstateinms_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::TimePerStateInMS*>(_impl_.timeperstateinms_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::TimePerStateInMS*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::TimePerStateInMS*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -5036,11 +5030,11 @@ inline void Module::set_allocated_timeperstateinms(::modularEmulator::modules::p
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
 
-  _impl_.timeperstateinms_ = reinterpret_cast<::modularEmulator::modules::proto::TimePerStateInMS*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.Module.timePerStateInMS)
+  _impl_.timeperstateinms_ = reinterpret_cast<::ManufacturingScenarioRepository::TimePerStateInMS*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.Module.timePerStateInMS)
 }
 
-// .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+// .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
 inline bool Module::has_energyuseperstateinkwh() const {
   bool value = (_impl_._has_bits_[0] & 0x00000002u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.energyuseperstateinkwh_ != nullptr);
@@ -5050,33 +5044,33 @@ inline void Module::clear_energyuseperstateinkwh() {
   if (_impl_.energyuseperstateinkwh_ != nullptr) _impl_.energyuseperstateinkwh_->Clear();
   _impl_._has_bits_[0] &= ~0x00000002u;
 }
-inline const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& Module::_internal_energyuseperstateinkwh() const {
+inline const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& Module::_internal_energyuseperstateinkwh() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* p = _impl_.energyuseperstateinkwh_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh&>(::modularEmulator::modules::proto::_EnergyUsePerStateInkWh_default_instance_);
+  const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* p = _impl_.energyuseperstateinkwh_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh&>(::ManufacturingScenarioRepository::_EnergyUsePerStateInkWh_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& Module::energyuseperstateinkwh() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.energyUsePerStateInkWh)
+inline const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& Module::energyuseperstateinkwh() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.energyUsePerStateInkWh)
   return _internal_energyuseperstateinkwh();
 }
-inline void Module::unsafe_arena_set_allocated_energyuseperstateinkwh(::modularEmulator::modules::proto::EnergyUsePerStateInkWh* value) {
+inline void Module::unsafe_arena_set_allocated_energyuseperstateinkwh(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.energyuseperstateinkwh_);
   }
-  _impl_.energyuseperstateinkwh_ = reinterpret_cast<::modularEmulator::modules::proto::EnergyUsePerStateInkWh*>(value);
+  _impl_.energyuseperstateinkwh_ = reinterpret_cast<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000002u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.Module.energyUsePerStateInkWh)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.Module.energyUsePerStateInkWh)
 }
-inline ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* Module::release_energyuseperstateinkwh() {
+inline ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* Module::release_energyuseperstateinkwh() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* released = _impl_.energyuseperstateinkwh_;
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* released = _impl_.energyuseperstateinkwh_;
   _impl_.energyuseperstateinkwh_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -5091,39 +5085,39 @@ inline ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* Module::releas
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* Module::unsafe_arena_release_energyuseperstateinkwh() {
+inline ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* Module::unsafe_arena_release_energyuseperstateinkwh() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.Module.energyUsePerStateInkWh)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.Module.energyUsePerStateInkWh)
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* temp = _impl_.energyuseperstateinkwh_;
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* temp = _impl_.energyuseperstateinkwh_;
   _impl_.energyuseperstateinkwh_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* Module::_internal_mutable_energyuseperstateinkwh() {
+inline ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* Module::_internal_mutable_energyuseperstateinkwh() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000002u;
   if (_impl_.energyuseperstateinkwh_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::EnergyUsePerStateInkWh>(GetArenaForAllocation());
-    _impl_.energyuseperstateinkwh_ = reinterpret_cast<::modularEmulator::modules::proto::EnergyUsePerStateInkWh*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh>(GetArenaForAllocation());
+    _impl_.energyuseperstateinkwh_ = reinterpret_cast<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh*>(p);
   }
   return _impl_.energyuseperstateinkwh_;
 }
-inline ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* Module::mutable_energyuseperstateinkwh() {
-  ::modularEmulator::modules::proto::EnergyUsePerStateInkWh* _msg = _internal_mutable_energyuseperstateinkwh();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.energyUsePerStateInkWh)
+inline ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* Module::mutable_energyuseperstateinkwh() {
+  ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* _msg = _internal_mutable_energyuseperstateinkwh();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.energyUsePerStateInkWh)
   return _msg;
 }
-inline void Module::set_allocated_energyuseperstateinkwh(::modularEmulator::modules::proto::EnergyUsePerStateInkWh* value) {
+inline void Module::set_allocated_energyuseperstateinkwh(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::EnergyUsePerStateInkWh*>(_impl_.energyuseperstateinkwh_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh*>(_impl_.energyuseperstateinkwh_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::EnergyUsePerStateInkWh*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -5132,11 +5126,11 @@ inline void Module::set_allocated_energyuseperstateinkwh(::modularEmulator::modu
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
 
-  _impl_.energyuseperstateinkwh_ = reinterpret_cast<::modularEmulator::modules::proto::EnergyUsePerStateInkWh*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.Module.energyUsePerStateInkWh)
+  _impl_.energyuseperstateinkwh_ = reinterpret_cast<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.Module.energyUsePerStateInkWh)
 }
 
-// .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+// .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
 inline bool Module::has_id() const {
   bool value = (_impl_._has_bits_[0] & 0x00000004u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.id_ != nullptr);
@@ -5146,33 +5140,33 @@ inline void Module::clear_id() {
   if (_impl_.id_ != nullptr) _impl_.id_->Clear();
   _impl_._has_bits_[0] &= ~0x00000004u;
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& Module::_internal_id() const {
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& Module::_internal_id() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::OPCUAIdentification* p = _impl_.id_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::OPCUAIdentification&>(::modularEmulator::modules::proto::_OPCUAIdentification_default_instance_);
+  const ::ManufacturingScenarioRepository::OPCUAIdentification* p = _impl_.id_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::OPCUAIdentification&>(::ManufacturingScenarioRepository::_OPCUAIdentification_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& Module::id() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.id)
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& Module::id() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.id)
   return _internal_id();
 }
-inline void Module::unsafe_arena_set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void Module::unsafe_arena_set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.id_);
   }
-  _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
+  _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000004u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.Module.id)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.Module.id)
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* Module::release_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* Module::release_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* released = _impl_.id_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* released = _impl_.id_;
   _impl_.id_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -5187,39 +5181,39 @@ inline ::modularEmulator::modules::proto::OPCUAIdentification* Module::release_i
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* Module::unsafe_arena_release_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* Module::unsafe_arena_release_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.Module.id)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.Module.id)
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* temp = _impl_.id_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* temp = _impl_.id_;
   _impl_.id_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* Module::_internal_mutable_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* Module::_internal_mutable_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000004u;
   if (_impl_.id_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::OPCUAIdentification>(GetArenaForAllocation());
-    _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::OPCUAIdentification>(GetArenaForAllocation());
+    _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(p);
   }
   return _impl_.id_;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* Module::mutable_id() {
-  ::modularEmulator::modules::proto::OPCUAIdentification* _msg = _internal_mutable_id();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.id)
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* Module::mutable_id() {
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _msg = _internal_mutable_id();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.id)
   return _msg;
 }
-inline void Module::set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void Module::set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(_impl_.id_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(_impl_.id_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -5228,8 +5222,8 @@ inline void Module::set_allocated_id(::modularEmulator::modules::proto::OPCUAIde
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
 
-  _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.Module.id)
+  _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.Module.id)
 }
 
 // string description = 6;
@@ -5237,7 +5231,7 @@ inline void Module::clear_description() {
   _impl_.description_.ClearToEmpty();
 }
 inline const std::string& Module::description() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.description)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.description)
   return _internal_description();
 }
 template <typename Arg_, typename... Args_>
@@ -5246,11 +5240,11 @@ inline PROTOBUF_ALWAYS_INLINE void Module::set_description(Arg_&& arg,
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.description_.Set(static_cast<Arg_&&>(arg), args..., GetArenaForAllocation());
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.Module.description)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.Module.description)
 }
 inline std::string* Module::mutable_description() {
   std::string* _s = _internal_mutable_description();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.description)
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.description)
   return _s;
 }
 inline const std::string& Module::_internal_description() const {
@@ -5269,7 +5263,7 @@ inline std::string* Module::_internal_mutable_description() {
 }
 inline std::string* Module::release_description() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.Module.description)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.Module.description)
   return _impl_.description_.Release();
 }
 inline void Module::set_allocated_description(std::string* value) {
@@ -5280,7 +5274,7 @@ inline void Module::set_allocated_description(std::string* value) {
           _impl_.description_.Set("", GetArenaForAllocation());
         }
   #endif  // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.Module.description)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.Module.description)
 }
 
 // double investmentCosts = 7;
@@ -5288,12 +5282,12 @@ inline void Module::clear_investmentcosts() {
   _impl_.investmentcosts_ = 0;
 }
 inline double Module::investmentcosts() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.investmentCosts)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.investmentCosts)
   return _internal_investmentcosts();
 }
 inline void Module::set_investmentcosts(double value) {
   _internal_set_investmentcosts(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.Module.investmentCosts)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.Module.investmentCosts)
 }
 inline double Module::_internal_investmentcosts() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -5305,7 +5299,7 @@ inline void Module::_internal_set_investmentcosts(double value) {
   _impl_.investmentcosts_ = value;
 }
 
-// repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+// repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
 inline int Module::_internal_implementedservices_size() const {
   return _internal_implementedservices().size();
 }
@@ -5315,25 +5309,25 @@ inline int Module::implementedservices_size() const {
 inline void Module::clear_implementedservices() {
   _internal_mutable_implementedservices()->Clear();
 }
-inline ::modularEmulator::modules::proto::Service Module::implementedservices(int index) const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.implementedServices)
-  return static_cast<::modularEmulator::modules::proto::Service>(_internal_implementedservices().Get(index));
+inline ::ManufacturingScenarioRepository::Service Module::implementedservices(int index) const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.implementedServices)
+  return static_cast<::ManufacturingScenarioRepository::Service>(_internal_implementedservices().Get(index));
 }
-inline void Module::set_implementedservices(int index, ::modularEmulator::modules::proto::Service value) {
+inline void Module::set_implementedservices(int index, ::ManufacturingScenarioRepository::Service value) {
   _internal_mutable_implementedservices()->Set(index, value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.Module.implementedServices)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.Module.implementedServices)
 }
-inline void Module::add_implementedservices(::modularEmulator::modules::proto::Service value) {
+inline void Module::add_implementedservices(::ManufacturingScenarioRepository::Service value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _internal_mutable_implementedservices()->Add(value);
-  // @@protoc_insertion_point(field_add:modularEmulator.modules.proto.Module.implementedServices)
+  // @@protoc_insertion_point(field_add:ManufacturingScenarioRepository.Module.implementedServices)
 }
 inline const ::google::protobuf::RepeatedField<int>& Module::implementedservices() const {
-  // @@protoc_insertion_point(field_list:modularEmulator.modules.proto.Module.implementedServices)
+  // @@protoc_insertion_point(field_list:ManufacturingScenarioRepository.Module.implementedServices)
   return _internal_implementedservices();
 }
 inline ::google::protobuf::RepeatedField<int>* Module::mutable_implementedservices() {
-  // @@protoc_insertion_point(field_mutable_list:modularEmulator.modules.proto.Module.implementedServices)
+  // @@protoc_insertion_point(field_mutable_list:ManufacturingScenarioRepository.Module.implementedServices)
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   return _internal_mutable_implementedservices();
 }
@@ -5346,7 +5340,7 @@ inline ::google::protobuf::RepeatedField<int>* Module::_internal_mutable_impleme
   return &_impl_.implementedservices_;
 }
 
-// repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+// repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
 inline int Module::_internal_consumedservices_size() const {
   return _internal_consumedservices().size();
 }
@@ -5356,43 +5350,43 @@ inline int Module::consumedservices_size() const {
 inline void Module::clear_consumedservices() {
   _internal_mutable_consumedservices()->Clear();
 }
-inline ::modularEmulator::modules::proto::ServiceInterface* Module::mutable_consumedservices(int index) {
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.consumedServices)
+inline ::ManufacturingScenarioRepository::ServiceInterface* Module::mutable_consumedservices(int index) {
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.consumedServices)
   return _internal_mutable_consumedservices()->Mutable(index);
 }
-inline ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ServiceInterface >*
+inline ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ServiceInterface >*
 Module::mutable_consumedservices() {
-  // @@protoc_insertion_point(field_mutable_list:modularEmulator.modules.proto.Module.consumedServices)
+  // @@protoc_insertion_point(field_mutable_list:ManufacturingScenarioRepository.Module.consumedServices)
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   return _internal_mutable_consumedservices();
 }
-inline const ::modularEmulator::modules::proto::ServiceInterface& Module::consumedservices(int index) const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.consumedServices)
+inline const ::ManufacturingScenarioRepository::ServiceInterface& Module::consumedservices(int index) const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.consumedServices)
     return _internal_consumedservices().Get(index);
 }
-inline ::modularEmulator::modules::proto::ServiceInterface* Module::add_consumedservices() {
+inline ::ManufacturingScenarioRepository::ServiceInterface* Module::add_consumedservices() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  ::modularEmulator::modules::proto::ServiceInterface* _add = _internal_mutable_consumedservices()->Add();
-  // @@protoc_insertion_point(field_add:modularEmulator.modules.proto.Module.consumedServices)
+  ::ManufacturingScenarioRepository::ServiceInterface* _add = _internal_mutable_consumedservices()->Add();
+  // @@protoc_insertion_point(field_add:ManufacturingScenarioRepository.Module.consumedServices)
   return _add;
 }
-inline const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ServiceInterface >&
+inline const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ServiceInterface >&
 Module::consumedservices() const {
-  // @@protoc_insertion_point(field_list:modularEmulator.modules.proto.Module.consumedServices)
+  // @@protoc_insertion_point(field_list:ManufacturingScenarioRepository.Module.consumedServices)
   return _internal_consumedservices();
 }
-inline const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ServiceInterface>&
+inline const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ServiceInterface>&
 Module::_internal_consumedservices() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return _impl_.consumedservices_;
 }
-inline ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ServiceInterface>*
+inline ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ServiceInterface>*
 Module::_internal_mutable_consumedservices() {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return &_impl_.consumedservices_;
 }
 
-// .modularEmulator.modules.proto.ParameterSet parameters = 10;
+// .ManufacturingScenarioRepository.ParameterSet parameters = 10;
 inline bool Module::has_parameters() const {
   bool value = (_impl_._has_bits_[0] & 0x00000008u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.parameters_ != nullptr);
@@ -5402,33 +5396,33 @@ inline void Module::clear_parameters() {
   if (_impl_.parameters_ != nullptr) _impl_.parameters_->Clear();
   _impl_._has_bits_[0] &= ~0x00000008u;
 }
-inline const ::modularEmulator::modules::proto::ParameterSet& Module::_internal_parameters() const {
+inline const ::ManufacturingScenarioRepository::ParameterSet& Module::_internal_parameters() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::ParameterSet* p = _impl_.parameters_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::ParameterSet&>(::modularEmulator::modules::proto::_ParameterSet_default_instance_);
+  const ::ManufacturingScenarioRepository::ParameterSet* p = _impl_.parameters_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::ParameterSet&>(::ManufacturingScenarioRepository::_ParameterSet_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::ParameterSet& Module::parameters() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.Module.parameters)
+inline const ::ManufacturingScenarioRepository::ParameterSet& Module::parameters() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.Module.parameters)
   return _internal_parameters();
 }
-inline void Module::unsafe_arena_set_allocated_parameters(::modularEmulator::modules::proto::ParameterSet* value) {
+inline void Module::unsafe_arena_set_allocated_parameters(::ManufacturingScenarioRepository::ParameterSet* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.parameters_);
   }
-  _impl_.parameters_ = reinterpret_cast<::modularEmulator::modules::proto::ParameterSet*>(value);
+  _impl_.parameters_ = reinterpret_cast<::ManufacturingScenarioRepository::ParameterSet*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000008u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000008u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.Module.parameters)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.Module.parameters)
 }
-inline ::modularEmulator::modules::proto::ParameterSet* Module::release_parameters() {
+inline ::ManufacturingScenarioRepository::ParameterSet* Module::release_parameters() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000008u;
-  ::modularEmulator::modules::proto::ParameterSet* released = _impl_.parameters_;
+  ::ManufacturingScenarioRepository::ParameterSet* released = _impl_.parameters_;
   _impl_.parameters_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -5443,39 +5437,39 @@ inline ::modularEmulator::modules::proto::ParameterSet* Module::release_paramete
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::ParameterSet* Module::unsafe_arena_release_parameters() {
+inline ::ManufacturingScenarioRepository::ParameterSet* Module::unsafe_arena_release_parameters() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.Module.parameters)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.Module.parameters)
 
   _impl_._has_bits_[0] &= ~0x00000008u;
-  ::modularEmulator::modules::proto::ParameterSet* temp = _impl_.parameters_;
+  ::ManufacturingScenarioRepository::ParameterSet* temp = _impl_.parameters_;
   _impl_.parameters_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::ParameterSet* Module::_internal_mutable_parameters() {
+inline ::ManufacturingScenarioRepository::ParameterSet* Module::_internal_mutable_parameters() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000008u;
   if (_impl_.parameters_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::ParameterSet>(GetArenaForAllocation());
-    _impl_.parameters_ = reinterpret_cast<::modularEmulator::modules::proto::ParameterSet*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::ParameterSet>(GetArenaForAllocation());
+    _impl_.parameters_ = reinterpret_cast<::ManufacturingScenarioRepository::ParameterSet*>(p);
   }
   return _impl_.parameters_;
 }
-inline ::modularEmulator::modules::proto::ParameterSet* Module::mutable_parameters() {
-  ::modularEmulator::modules::proto::ParameterSet* _msg = _internal_mutable_parameters();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.Module.parameters)
+inline ::ManufacturingScenarioRepository::ParameterSet* Module::mutable_parameters() {
+  ::ManufacturingScenarioRepository::ParameterSet* _msg = _internal_mutable_parameters();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.Module.parameters)
   return _msg;
 }
-inline void Module::set_allocated_parameters(::modularEmulator::modules::proto::ParameterSet* value) {
+inline void Module::set_allocated_parameters(::ManufacturingScenarioRepository::ParameterSet* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::ParameterSet*>(_impl_.parameters_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::ParameterSet*>(_impl_.parameters_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::ParameterSet*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::ParameterSet*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -5484,15 +5478,15 @@ inline void Module::set_allocated_parameters(::modularEmulator::modules::proto::
     _impl_._has_bits_[0] &= ~0x00000008u;
   }
 
-  _impl_.parameters_ = reinterpret_cast<::modularEmulator::modules::proto::ParameterSet*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.Module.parameters)
+  _impl_.parameters_ = reinterpret_cast<::ManufacturingScenarioRepository::ParameterSet*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.Module.parameters)
 }
 
 // -------------------------------------------------------------------
 
 // ParameterSet
 
-// .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+// .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
 inline bool ParameterSet::has_id() const {
   bool value = (_impl_._has_bits_[0] & 0x00000001u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.id_ != nullptr);
@@ -5502,33 +5496,33 @@ inline void ParameterSet::clear_id() {
   if (_impl_.id_ != nullptr) _impl_.id_->Clear();
   _impl_._has_bits_[0] &= ~0x00000001u;
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& ParameterSet::_internal_id() const {
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& ParameterSet::_internal_id() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::OPCUAIdentification* p = _impl_.id_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::OPCUAIdentification&>(::modularEmulator::modules::proto::_OPCUAIdentification_default_instance_);
+  const ::ManufacturingScenarioRepository::OPCUAIdentification* p = _impl_.id_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::OPCUAIdentification&>(::ManufacturingScenarioRepository::_OPCUAIdentification_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& ParameterSet::id() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.id)
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& ParameterSet::id() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.id)
   return _internal_id();
 }
-inline void ParameterSet::unsafe_arena_set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void ParameterSet::unsafe_arena_set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.id_);
   }
-  _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
+  _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000001u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.id)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.id)
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ParameterSet::release_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ParameterSet::release_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* released = _impl_.id_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* released = _impl_.id_;
   _impl_.id_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -5543,39 +5537,39 @@ inline ::modularEmulator::modules::proto::OPCUAIdentification* ParameterSet::rel
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ParameterSet::unsafe_arena_release_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ParameterSet::unsafe_arena_release_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.id)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.id)
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* temp = _impl_.id_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* temp = _impl_.id_;
   _impl_.id_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ParameterSet::_internal_mutable_id() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ParameterSet::_internal_mutable_id() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000001u;
   if (_impl_.id_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::OPCUAIdentification>(GetArenaForAllocation());
-    _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::OPCUAIdentification>(GetArenaForAllocation());
+    _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(p);
   }
   return _impl_.id_;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ParameterSet::mutable_id() {
-  ::modularEmulator::modules::proto::OPCUAIdentification* _msg = _internal_mutable_id();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.id)
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ParameterSet::mutable_id() {
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _msg = _internal_mutable_id();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.id)
   return _msg;
 }
-inline void ParameterSet::set_allocated_id(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void ParameterSet::set_allocated_id(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(_impl_.id_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(_impl_.id_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -5584,11 +5578,11 @@ inline void ParameterSet::set_allocated_id(::modularEmulator::modules::proto::OP
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
 
-  _impl_.id_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.id)
+  _impl_.id_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.id)
 }
 
-// .modularEmulator.modules.proto.ScanlabScannerParams scanlabScanner = 10;
+// .ManufacturingScenarioRepository.ScanlabScannerParams scanlabScanner = 10;
 inline bool ParameterSet::has_scanlabscanner() const {
   return TypeAndParameters_case() == kScanlabScanner;
 }
@@ -5606,11 +5600,11 @@ inline void ParameterSet::clear_scanlabscanner() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams* ParameterSet::release_scanlabscanner() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams* ParameterSet::release_scanlabscanner() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
   if (TypeAndParameters_case() == kScanlabScanner) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::ScanlabScannerParams* temp = _impl_.TypeAndParameters_.scanlabscanner_;
+    ::ManufacturingScenarioRepository::ScanlabScannerParams* temp = _impl_.TypeAndParameters_.scanlabscanner_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5620,49 +5614,49 @@ inline ::modularEmulator::modules::proto::ScanlabScannerParams* ParameterSet::re
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::ScanlabScannerParams& ParameterSet::_internal_scanlabscanner() const {
+inline const ::ManufacturingScenarioRepository::ScanlabScannerParams& ParameterSet::_internal_scanlabscanner() const {
   return TypeAndParameters_case() == kScanlabScanner
       ? *_impl_.TypeAndParameters_.scanlabscanner_
-      : reinterpret_cast<::modularEmulator::modules::proto::ScanlabScannerParams&>(::modularEmulator::modules::proto::_ScanlabScannerParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::ScanlabScannerParams&>(::ManufacturingScenarioRepository::_ScanlabScannerParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::ScanlabScannerParams& ParameterSet::scanlabscanner() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+inline const ::ManufacturingScenarioRepository::ScanlabScannerParams& ParameterSet::scanlabscanner() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
   return _internal_scanlabscanner();
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams* ParameterSet::unsafe_arena_release_scanlabscanner() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams* ParameterSet::unsafe_arena_release_scanlabscanner() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
   if (TypeAndParameters_case() == kScanlabScanner) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::ScanlabScannerParams* temp = _impl_.TypeAndParameters_.scanlabscanner_;
+    ::ManufacturingScenarioRepository::ScanlabScannerParams* temp = _impl_.TypeAndParameters_.scanlabscanner_;
     _impl_.TypeAndParameters_.scanlabscanner_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_scanlabscanner(::modularEmulator::modules::proto::ScanlabScannerParams* scanlabscanner) {
+inline void ParameterSet::unsafe_arena_set_allocated_scanlabscanner(::ManufacturingScenarioRepository::ScanlabScannerParams* scanlabscanner) {
   clear_TypeAndParameters();
   if (scanlabscanner) {
     set_has_scanlabscanner();
     _impl_.TypeAndParameters_.scanlabscanner_ = scanlabscanner;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams* ParameterSet::_internal_mutable_scanlabscanner() {
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams* ParameterSet::_internal_mutable_scanlabscanner() {
   if (TypeAndParameters_case() != kScanlabScanner) {
     clear_TypeAndParameters();
     set_has_scanlabscanner();
-    _impl_.TypeAndParameters_.scanlabscanner_ = CreateMaybeMessage< ::modularEmulator::modules::proto::ScanlabScannerParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.scanlabscanner_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::ScanlabScannerParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.scanlabscanner_;
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams* ParameterSet::mutable_scanlabscanner() {
-  ::modularEmulator::modules::proto::ScanlabScannerParams* _msg = _internal_mutable_scanlabscanner();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams* ParameterSet::mutable_scanlabscanner() {
+  ::ManufacturingScenarioRepository::ScanlabScannerParams* _msg = _internal_mutable_scanlabscanner();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.LaserParams laser = 11;
+// .ManufacturingScenarioRepository.LaserParams laser = 11;
 inline bool ParameterSet::has_laser() const {
   return TypeAndParameters_case() == kLaser;
 }
@@ -5680,11 +5674,11 @@ inline void ParameterSet::clear_laser() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::LaserParams* ParameterSet::release_laser() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.laser)
+inline ::ManufacturingScenarioRepository::LaserParams* ParameterSet::release_laser() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.laser)
   if (TypeAndParameters_case() == kLaser) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::LaserParams* temp = _impl_.TypeAndParameters_.laser_;
+    ::ManufacturingScenarioRepository::LaserParams* temp = _impl_.TypeAndParameters_.laser_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5694,49 +5688,49 @@ inline ::modularEmulator::modules::proto::LaserParams* ParameterSet::release_las
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::LaserParams& ParameterSet::_internal_laser() const {
+inline const ::ManufacturingScenarioRepository::LaserParams& ParameterSet::_internal_laser() const {
   return TypeAndParameters_case() == kLaser
       ? *_impl_.TypeAndParameters_.laser_
-      : reinterpret_cast<::modularEmulator::modules::proto::LaserParams&>(::modularEmulator::modules::proto::_LaserParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::LaserParams&>(::ManufacturingScenarioRepository::_LaserParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::LaserParams& ParameterSet::laser() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.laser)
+inline const ::ManufacturingScenarioRepository::LaserParams& ParameterSet::laser() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.laser)
   return _internal_laser();
 }
-inline ::modularEmulator::modules::proto::LaserParams* ParameterSet::unsafe_arena_release_laser() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.laser)
+inline ::ManufacturingScenarioRepository::LaserParams* ParameterSet::unsafe_arena_release_laser() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.laser)
   if (TypeAndParameters_case() == kLaser) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::LaserParams* temp = _impl_.TypeAndParameters_.laser_;
+    ::ManufacturingScenarioRepository::LaserParams* temp = _impl_.TypeAndParameters_.laser_;
     _impl_.TypeAndParameters_.laser_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_laser(::modularEmulator::modules::proto::LaserParams* laser) {
+inline void ParameterSet::unsafe_arena_set_allocated_laser(::ManufacturingScenarioRepository::LaserParams* laser) {
   clear_TypeAndParameters();
   if (laser) {
     set_has_laser();
     _impl_.TypeAndParameters_.laser_ = laser;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.laser)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.laser)
 }
-inline ::modularEmulator::modules::proto::LaserParams* ParameterSet::_internal_mutable_laser() {
+inline ::ManufacturingScenarioRepository::LaserParams* ParameterSet::_internal_mutable_laser() {
   if (TypeAndParameters_case() != kLaser) {
     clear_TypeAndParameters();
     set_has_laser();
-    _impl_.TypeAndParameters_.laser_ = CreateMaybeMessage< ::modularEmulator::modules::proto::LaserParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.laser_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::LaserParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.laser_;
 }
-inline ::modularEmulator::modules::proto::LaserParams* ParameterSet::mutable_laser() {
-  ::modularEmulator::modules::proto::LaserParams* _msg = _internal_mutable_laser();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.laser)
+inline ::ManufacturingScenarioRepository::LaserParams* ParameterSet::mutable_laser() {
+  ::ManufacturingScenarioRepository::LaserParams* _msg = _internal_mutable_laser();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.laser)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.StandardCoaterParams standardCoater = 12;
+// .ManufacturingScenarioRepository.StandardCoaterParams standardCoater = 12;
 inline bool ParameterSet::has_standardcoater() const {
   return TypeAndParameters_case() == kStandardCoater;
 }
@@ -5754,11 +5748,11 @@ inline void ParameterSet::clear_standardcoater() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::StandardCoaterParams* ParameterSet::release_standardcoater() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.standardCoater)
+inline ::ManufacturingScenarioRepository::StandardCoaterParams* ParameterSet::release_standardcoater() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.standardCoater)
   if (TypeAndParameters_case() == kStandardCoater) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::StandardCoaterParams* temp = _impl_.TypeAndParameters_.standardcoater_;
+    ::ManufacturingScenarioRepository::StandardCoaterParams* temp = _impl_.TypeAndParameters_.standardcoater_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5768,49 +5762,49 @@ inline ::modularEmulator::modules::proto::StandardCoaterParams* ParameterSet::re
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::StandardCoaterParams& ParameterSet::_internal_standardcoater() const {
+inline const ::ManufacturingScenarioRepository::StandardCoaterParams& ParameterSet::_internal_standardcoater() const {
   return TypeAndParameters_case() == kStandardCoater
       ? *_impl_.TypeAndParameters_.standardcoater_
-      : reinterpret_cast<::modularEmulator::modules::proto::StandardCoaterParams&>(::modularEmulator::modules::proto::_StandardCoaterParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::StandardCoaterParams&>(::ManufacturingScenarioRepository::_StandardCoaterParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::StandardCoaterParams& ParameterSet::standardcoater() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.standardCoater)
+inline const ::ManufacturingScenarioRepository::StandardCoaterParams& ParameterSet::standardcoater() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.standardCoater)
   return _internal_standardcoater();
 }
-inline ::modularEmulator::modules::proto::StandardCoaterParams* ParameterSet::unsafe_arena_release_standardcoater() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.standardCoater)
+inline ::ManufacturingScenarioRepository::StandardCoaterParams* ParameterSet::unsafe_arena_release_standardcoater() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.standardCoater)
   if (TypeAndParameters_case() == kStandardCoater) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::StandardCoaterParams* temp = _impl_.TypeAndParameters_.standardcoater_;
+    ::ManufacturingScenarioRepository::StandardCoaterParams* temp = _impl_.TypeAndParameters_.standardcoater_;
     _impl_.TypeAndParameters_.standardcoater_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_standardcoater(::modularEmulator::modules::proto::StandardCoaterParams* standardcoater) {
+inline void ParameterSet::unsafe_arena_set_allocated_standardcoater(::ManufacturingScenarioRepository::StandardCoaterParams* standardcoater) {
   clear_TypeAndParameters();
   if (standardcoater) {
     set_has_standardcoater();
     _impl_.TypeAndParameters_.standardcoater_ = standardcoater;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.standardCoater)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.standardCoater)
 }
-inline ::modularEmulator::modules::proto::StandardCoaterParams* ParameterSet::_internal_mutable_standardcoater() {
+inline ::ManufacturingScenarioRepository::StandardCoaterParams* ParameterSet::_internal_mutable_standardcoater() {
   if (TypeAndParameters_case() != kStandardCoater) {
     clear_TypeAndParameters();
     set_has_standardcoater();
-    _impl_.TypeAndParameters_.standardcoater_ = CreateMaybeMessage< ::modularEmulator::modules::proto::StandardCoaterParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.standardcoater_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::StandardCoaterParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.standardcoater_;
 }
-inline ::modularEmulator::modules::proto::StandardCoaterParams* ParameterSet::mutable_standardcoater() {
-  ::modularEmulator::modules::proto::StandardCoaterParams* _msg = _internal_mutable_standardcoater();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.standardCoater)
+inline ::ManufacturingScenarioRepository::StandardCoaterParams* ParameterSet::mutable_standardcoater() {
+  ::ManufacturingScenarioRepository::StandardCoaterParams* _msg = _internal_mutable_standardcoater();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.standardCoater)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.BuildChamberParams buildChamber = 15;
+// .ManufacturingScenarioRepository.BuildChamberParams buildChamber = 15;
 inline bool ParameterSet::has_buildchamber() const {
   return TypeAndParameters_case() == kBuildChamber;
 }
@@ -5828,11 +5822,11 @@ inline void ParameterSet::clear_buildchamber() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::BuildChamberParams* ParameterSet::release_buildchamber() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.buildChamber)
+inline ::ManufacturingScenarioRepository::BuildChamberParams* ParameterSet::release_buildchamber() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.buildChamber)
   if (TypeAndParameters_case() == kBuildChamber) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::BuildChamberParams* temp = _impl_.TypeAndParameters_.buildchamber_;
+    ::ManufacturingScenarioRepository::BuildChamberParams* temp = _impl_.TypeAndParameters_.buildchamber_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5842,49 +5836,49 @@ inline ::modularEmulator::modules::proto::BuildChamberParams* ParameterSet::rele
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::BuildChamberParams& ParameterSet::_internal_buildchamber() const {
+inline const ::ManufacturingScenarioRepository::BuildChamberParams& ParameterSet::_internal_buildchamber() const {
   return TypeAndParameters_case() == kBuildChamber
       ? *_impl_.TypeAndParameters_.buildchamber_
-      : reinterpret_cast<::modularEmulator::modules::proto::BuildChamberParams&>(::modularEmulator::modules::proto::_BuildChamberParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::BuildChamberParams&>(::ManufacturingScenarioRepository::_BuildChamberParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::BuildChamberParams& ParameterSet::buildchamber() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.buildChamber)
+inline const ::ManufacturingScenarioRepository::BuildChamberParams& ParameterSet::buildchamber() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.buildChamber)
   return _internal_buildchamber();
 }
-inline ::modularEmulator::modules::proto::BuildChamberParams* ParameterSet::unsafe_arena_release_buildchamber() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.buildChamber)
+inline ::ManufacturingScenarioRepository::BuildChamberParams* ParameterSet::unsafe_arena_release_buildchamber() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.buildChamber)
   if (TypeAndParameters_case() == kBuildChamber) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::BuildChamberParams* temp = _impl_.TypeAndParameters_.buildchamber_;
+    ::ManufacturingScenarioRepository::BuildChamberParams* temp = _impl_.TypeAndParameters_.buildchamber_;
     _impl_.TypeAndParameters_.buildchamber_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_buildchamber(::modularEmulator::modules::proto::BuildChamberParams* buildchamber) {
+inline void ParameterSet::unsafe_arena_set_allocated_buildchamber(::ManufacturingScenarioRepository::BuildChamberParams* buildchamber) {
   clear_TypeAndParameters();
   if (buildchamber) {
     set_has_buildchamber();
     _impl_.TypeAndParameters_.buildchamber_ = buildchamber;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.buildChamber)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.buildChamber)
 }
-inline ::modularEmulator::modules::proto::BuildChamberParams* ParameterSet::_internal_mutable_buildchamber() {
+inline ::ManufacturingScenarioRepository::BuildChamberParams* ParameterSet::_internal_mutable_buildchamber() {
   if (TypeAndParameters_case() != kBuildChamber) {
     clear_TypeAndParameters();
     set_has_buildchamber();
-    _impl_.TypeAndParameters_.buildchamber_ = CreateMaybeMessage< ::modularEmulator::modules::proto::BuildChamberParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.buildchamber_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::BuildChamberParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.buildchamber_;
 }
-inline ::modularEmulator::modules::proto::BuildChamberParams* ParameterSet::mutable_buildchamber() {
-  ::modularEmulator::modules::proto::BuildChamberParams* _msg = _internal_mutable_buildchamber();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.buildChamber)
+inline ::ManufacturingScenarioRepository::BuildChamberParams* ParameterSet::mutable_buildchamber() {
+  ::ManufacturingScenarioRepository::BuildChamberParams* _msg = _internal_mutable_buildchamber();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.buildChamber)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.CuboidBuildVolumeParams cuboidBuildVolume = 16;
+// .ManufacturingScenarioRepository.CuboidBuildVolumeParams cuboidBuildVolume = 16;
 inline bool ParameterSet::has_cuboidbuildvolume() const {
   return TypeAndParameters_case() == kCuboidBuildVolume;
 }
@@ -5902,11 +5896,11 @@ inline void ParameterSet::clear_cuboidbuildvolume() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ParameterSet::release_cuboidbuildvolume() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ParameterSet::release_cuboidbuildvolume() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
   if (TypeAndParameters_case() == kCuboidBuildVolume) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::CuboidBuildVolumeParams* temp = _impl_.TypeAndParameters_.cuboidbuildvolume_;
+    ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* temp = _impl_.TypeAndParameters_.cuboidbuildvolume_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5916,49 +5910,49 @@ inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ParameterSet:
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ParameterSet::_internal_cuboidbuildvolume() const {
+inline const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ParameterSet::_internal_cuboidbuildvolume() const {
   return TypeAndParameters_case() == kCuboidBuildVolume
       ? *_impl_.TypeAndParameters_.cuboidbuildvolume_
-      : reinterpret_cast<::modularEmulator::modules::proto::CuboidBuildVolumeParams&>(::modularEmulator::modules::proto::_CuboidBuildVolumeParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::CuboidBuildVolumeParams&>(::ManufacturingScenarioRepository::_CuboidBuildVolumeParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ParameterSet::cuboidbuildvolume() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+inline const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ParameterSet::cuboidbuildvolume() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
   return _internal_cuboidbuildvolume();
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ParameterSet::unsafe_arena_release_cuboidbuildvolume() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ParameterSet::unsafe_arena_release_cuboidbuildvolume() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
   if (TypeAndParameters_case() == kCuboidBuildVolume) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::CuboidBuildVolumeParams* temp = _impl_.TypeAndParameters_.cuboidbuildvolume_;
+    ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* temp = _impl_.TypeAndParameters_.cuboidbuildvolume_;
     _impl_.TypeAndParameters_.cuboidbuildvolume_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_cuboidbuildvolume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* cuboidbuildvolume) {
+inline void ParameterSet::unsafe_arena_set_allocated_cuboidbuildvolume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* cuboidbuildvolume) {
   clear_TypeAndParameters();
   if (cuboidbuildvolume) {
     set_has_cuboidbuildvolume();
     _impl_.TypeAndParameters_.cuboidbuildvolume_ = cuboidbuildvolume;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ParameterSet::_internal_mutable_cuboidbuildvolume() {
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ParameterSet::_internal_mutable_cuboidbuildvolume() {
   if (TypeAndParameters_case() != kCuboidBuildVolume) {
     clear_TypeAndParameters();
     set_has_cuboidbuildvolume();
-    _impl_.TypeAndParameters_.cuboidbuildvolume_ = CreateMaybeMessage< ::modularEmulator::modules::proto::CuboidBuildVolumeParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.cuboidbuildvolume_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::CuboidBuildVolumeParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.cuboidbuildvolume_;
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ParameterSet::mutable_cuboidbuildvolume() {
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* _msg = _internal_mutable_cuboidbuildvolume();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ParameterSet::mutable_cuboidbuildvolume() {
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* _msg = _internal_mutable_cuboidbuildvolume();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
+// .ManufacturingScenarioRepository.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
 inline bool ParameterSet::has_zylinderbuildvolume() const {
   return TypeAndParameters_case() == kZylinderBuildVolume;
 }
@@ -5976,11 +5970,11 @@ inline void ParameterSet::clear_zylinderbuildvolume() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* ParameterSet::release_zylinderbuildvolume() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+inline ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* ParameterSet::release_zylinderbuildvolume() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
   if (TypeAndParameters_case() == kZylinderBuildVolume) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* temp = _impl_.TypeAndParameters_.zylinderbuildvolume_;
+    ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* temp = _impl_.TypeAndParameters_.zylinderbuildvolume_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -5990,49 +5984,49 @@ inline ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* ParameterSe
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& ParameterSet::_internal_zylinderbuildvolume() const {
+inline const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& ParameterSet::_internal_zylinderbuildvolume() const {
   return TypeAndParameters_case() == kZylinderBuildVolume
       ? *_impl_.TypeAndParameters_.zylinderbuildvolume_
-      : reinterpret_cast<::modularEmulator::modules::proto::ZylinderBuildVolumeParams&>(::modularEmulator::modules::proto::_ZylinderBuildVolumeParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::ZylinderBuildVolumeParams&>(::ManufacturingScenarioRepository::_ZylinderBuildVolumeParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& ParameterSet::zylinderbuildvolume() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+inline const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& ParameterSet::zylinderbuildvolume() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
   return _internal_zylinderbuildvolume();
 }
-inline ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* ParameterSet::unsafe_arena_release_zylinderbuildvolume() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+inline ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* ParameterSet::unsafe_arena_release_zylinderbuildvolume() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
   if (TypeAndParameters_case() == kZylinderBuildVolume) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* temp = _impl_.TypeAndParameters_.zylinderbuildvolume_;
+    ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* temp = _impl_.TypeAndParameters_.zylinderbuildvolume_;
     _impl_.TypeAndParameters_.zylinderbuildvolume_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_zylinderbuildvolume(::modularEmulator::modules::proto::ZylinderBuildVolumeParams* zylinderbuildvolume) {
+inline void ParameterSet::unsafe_arena_set_allocated_zylinderbuildvolume(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* zylinderbuildvolume) {
   clear_TypeAndParameters();
   if (zylinderbuildvolume) {
     set_has_zylinderbuildvolume();
     _impl_.TypeAndParameters_.zylinderbuildvolume_ = zylinderbuildvolume;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
 }
-inline ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* ParameterSet::_internal_mutable_zylinderbuildvolume() {
+inline ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* ParameterSet::_internal_mutable_zylinderbuildvolume() {
   if (TypeAndParameters_case() != kZylinderBuildVolume) {
     clear_TypeAndParameters();
     set_has_zylinderbuildvolume();
-    _impl_.TypeAndParameters_.zylinderbuildvolume_ = CreateMaybeMessage< ::modularEmulator::modules::proto::ZylinderBuildVolumeParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.zylinderbuildvolume_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.zylinderbuildvolume_;
 }
-inline ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* ParameterSet::mutable_zylinderbuildvolume() {
-  ::modularEmulator::modules::proto::ZylinderBuildVolumeParams* _msg = _internal_mutable_zylinderbuildvolume();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+inline ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* ParameterSet::mutable_zylinderbuildvolume() {
+  ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* _msg = _internal_mutable_zylinderbuildvolume();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.PreheaterParams preheater = 19;
+// .ManufacturingScenarioRepository.PreheaterParams preheater = 19;
 inline bool ParameterSet::has_preheater() const {
   return TypeAndParameters_case() == kPreheater;
 }
@@ -6050,11 +6044,11 @@ inline void ParameterSet::clear_preheater() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::PreheaterParams* ParameterSet::release_preheater() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.preheater)
+inline ::ManufacturingScenarioRepository::PreheaterParams* ParameterSet::release_preheater() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.preheater)
   if (TypeAndParameters_case() == kPreheater) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::PreheaterParams* temp = _impl_.TypeAndParameters_.preheater_;
+    ::ManufacturingScenarioRepository::PreheaterParams* temp = _impl_.TypeAndParameters_.preheater_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -6064,49 +6058,49 @@ inline ::modularEmulator::modules::proto::PreheaterParams* ParameterSet::release
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::PreheaterParams& ParameterSet::_internal_preheater() const {
+inline const ::ManufacturingScenarioRepository::PreheaterParams& ParameterSet::_internal_preheater() const {
   return TypeAndParameters_case() == kPreheater
       ? *_impl_.TypeAndParameters_.preheater_
-      : reinterpret_cast<::modularEmulator::modules::proto::PreheaterParams&>(::modularEmulator::modules::proto::_PreheaterParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::PreheaterParams&>(::ManufacturingScenarioRepository::_PreheaterParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::PreheaterParams& ParameterSet::preheater() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.preheater)
+inline const ::ManufacturingScenarioRepository::PreheaterParams& ParameterSet::preheater() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.preheater)
   return _internal_preheater();
 }
-inline ::modularEmulator::modules::proto::PreheaterParams* ParameterSet::unsafe_arena_release_preheater() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.preheater)
+inline ::ManufacturingScenarioRepository::PreheaterParams* ParameterSet::unsafe_arena_release_preheater() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.preheater)
   if (TypeAndParameters_case() == kPreheater) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::PreheaterParams* temp = _impl_.TypeAndParameters_.preheater_;
+    ::ManufacturingScenarioRepository::PreheaterParams* temp = _impl_.TypeAndParameters_.preheater_;
     _impl_.TypeAndParameters_.preheater_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_preheater(::modularEmulator::modules::proto::PreheaterParams* preheater) {
+inline void ParameterSet::unsafe_arena_set_allocated_preheater(::ManufacturingScenarioRepository::PreheaterParams* preheater) {
   clear_TypeAndParameters();
   if (preheater) {
     set_has_preheater();
     _impl_.TypeAndParameters_.preheater_ = preheater;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.preheater)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.preheater)
 }
-inline ::modularEmulator::modules::proto::PreheaterParams* ParameterSet::_internal_mutable_preheater() {
+inline ::ManufacturingScenarioRepository::PreheaterParams* ParameterSet::_internal_mutable_preheater() {
   if (TypeAndParameters_case() != kPreheater) {
     clear_TypeAndParameters();
     set_has_preheater();
-    _impl_.TypeAndParameters_.preheater_ = CreateMaybeMessage< ::modularEmulator::modules::proto::PreheaterParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.preheater_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::PreheaterParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.preheater_;
 }
-inline ::modularEmulator::modules::proto::PreheaterParams* ParameterSet::mutable_preheater() {
-  ::modularEmulator::modules::proto::PreheaterParams* _msg = _internal_mutable_preheater();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.preheater)
+inline ::ManufacturingScenarioRepository::PreheaterParams* ParameterSet::mutable_preheater() {
+  ::ManufacturingScenarioRepository::PreheaterParams* _msg = _internal_mutable_preheater();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.preheater)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.NovantaScannerParams novantaScanner = 31;
+// .ManufacturingScenarioRepository.NovantaScannerParams novantaScanner = 31;
 inline bool ParameterSet::has_novantascanner() const {
   return TypeAndParameters_case() == kNovantaScanner;
 }
@@ -6124,11 +6118,11 @@ inline void ParameterSet::clear_novantascanner() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams* ParameterSet::release_novantascanner() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+inline ::ManufacturingScenarioRepository::NovantaScannerParams* ParameterSet::release_novantascanner() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
   if (TypeAndParameters_case() == kNovantaScanner) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::NovantaScannerParams* temp = _impl_.TypeAndParameters_.novantascanner_;
+    ::ManufacturingScenarioRepository::NovantaScannerParams* temp = _impl_.TypeAndParameters_.novantascanner_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -6138,49 +6132,49 @@ inline ::modularEmulator::modules::proto::NovantaScannerParams* ParameterSet::re
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::NovantaScannerParams& ParameterSet::_internal_novantascanner() const {
+inline const ::ManufacturingScenarioRepository::NovantaScannerParams& ParameterSet::_internal_novantascanner() const {
   return TypeAndParameters_case() == kNovantaScanner
       ? *_impl_.TypeAndParameters_.novantascanner_
-      : reinterpret_cast<::modularEmulator::modules::proto::NovantaScannerParams&>(::modularEmulator::modules::proto::_NovantaScannerParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::NovantaScannerParams&>(::ManufacturingScenarioRepository::_NovantaScannerParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::NovantaScannerParams& ParameterSet::novantascanner() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+inline const ::ManufacturingScenarioRepository::NovantaScannerParams& ParameterSet::novantascanner() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
   return _internal_novantascanner();
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams* ParameterSet::unsafe_arena_release_novantascanner() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+inline ::ManufacturingScenarioRepository::NovantaScannerParams* ParameterSet::unsafe_arena_release_novantascanner() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
   if (TypeAndParameters_case() == kNovantaScanner) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::NovantaScannerParams* temp = _impl_.TypeAndParameters_.novantascanner_;
+    ::ManufacturingScenarioRepository::NovantaScannerParams* temp = _impl_.TypeAndParameters_.novantascanner_;
     _impl_.TypeAndParameters_.novantascanner_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_novantascanner(::modularEmulator::modules::proto::NovantaScannerParams* novantascanner) {
+inline void ParameterSet::unsafe_arena_set_allocated_novantascanner(::ManufacturingScenarioRepository::NovantaScannerParams* novantascanner) {
   clear_TypeAndParameters();
   if (novantascanner) {
     set_has_novantascanner();
     _impl_.TypeAndParameters_.novantascanner_ = novantascanner;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams* ParameterSet::_internal_mutable_novantascanner() {
+inline ::ManufacturingScenarioRepository::NovantaScannerParams* ParameterSet::_internal_mutable_novantascanner() {
   if (TypeAndParameters_case() != kNovantaScanner) {
     clear_TypeAndParameters();
     set_has_novantascanner();
-    _impl_.TypeAndParameters_.novantascanner_ = CreateMaybeMessage< ::modularEmulator::modules::proto::NovantaScannerParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.novantascanner_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::NovantaScannerParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.novantascanner_;
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams* ParameterSet::mutable_novantascanner() {
-  ::modularEmulator::modules::proto::NovantaScannerParams* _msg = _internal_mutable_novantascanner();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+inline ::ManufacturingScenarioRepository::NovantaScannerParams* ParameterSet::mutable_novantascanner() {
+  ::ManufacturingScenarioRepository::NovantaScannerParams* _msg = _internal_mutable_novantascanner();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.BasicLPBFMachineParams basicLPBFMachine = 100;
+// .ManufacturingScenarioRepository.BasicLPBFMachineParams basicLPBFMachine = 100;
 inline bool ParameterSet::has_basiclpbfmachine() const {
   return TypeAndParameters_case() == kBasicLPBFMachine;
 }
@@ -6198,11 +6192,11 @@ inline void ParameterSet::clear_basiclpbfmachine() {
     clear_has_TypeAndParameters();
   }
 }
-inline ::modularEmulator::modules::proto::BasicLPBFMachineParams* ParameterSet::release_basiclpbfmachine() {
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+inline ::ManufacturingScenarioRepository::BasicLPBFMachineParams* ParameterSet::release_basiclpbfmachine() {
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
   if (TypeAndParameters_case() == kBasicLPBFMachine) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::BasicLPBFMachineParams* temp = _impl_.TypeAndParameters_.basiclpbfmachine_;
+    ::ManufacturingScenarioRepository::BasicLPBFMachineParams* temp = _impl_.TypeAndParameters_.basiclpbfmachine_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -6212,45 +6206,45 @@ inline ::modularEmulator::modules::proto::BasicLPBFMachineParams* ParameterSet::
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::BasicLPBFMachineParams& ParameterSet::_internal_basiclpbfmachine() const {
+inline const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& ParameterSet::_internal_basiclpbfmachine() const {
   return TypeAndParameters_case() == kBasicLPBFMachine
       ? *_impl_.TypeAndParameters_.basiclpbfmachine_
-      : reinterpret_cast<::modularEmulator::modules::proto::BasicLPBFMachineParams&>(::modularEmulator::modules::proto::_BasicLPBFMachineParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::BasicLPBFMachineParams&>(::ManufacturingScenarioRepository::_BasicLPBFMachineParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::BasicLPBFMachineParams& ParameterSet::basiclpbfmachine() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+inline const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& ParameterSet::basiclpbfmachine() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
   return _internal_basiclpbfmachine();
 }
-inline ::modularEmulator::modules::proto::BasicLPBFMachineParams* ParameterSet::unsafe_arena_release_basiclpbfmachine() {
-  // @@protoc_insertion_point(field_unsafe_arena_release:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+inline ::ManufacturingScenarioRepository::BasicLPBFMachineParams* ParameterSet::unsafe_arena_release_basiclpbfmachine() {
+  // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
   if (TypeAndParameters_case() == kBasicLPBFMachine) {
     clear_has_TypeAndParameters();
-    ::modularEmulator::modules::proto::BasicLPBFMachineParams* temp = _impl_.TypeAndParameters_.basiclpbfmachine_;
+    ::ManufacturingScenarioRepository::BasicLPBFMachineParams* temp = _impl_.TypeAndParameters_.basiclpbfmachine_;
     _impl_.TypeAndParameters_.basiclpbfmachine_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ParameterSet::unsafe_arena_set_allocated_basiclpbfmachine(::modularEmulator::modules::proto::BasicLPBFMachineParams* basiclpbfmachine) {
+inline void ParameterSet::unsafe_arena_set_allocated_basiclpbfmachine(::ManufacturingScenarioRepository::BasicLPBFMachineParams* basiclpbfmachine) {
   clear_TypeAndParameters();
   if (basiclpbfmachine) {
     set_has_basiclpbfmachine();
     _impl_.TypeAndParameters_.basiclpbfmachine_ = basiclpbfmachine;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
 }
-inline ::modularEmulator::modules::proto::BasicLPBFMachineParams* ParameterSet::_internal_mutable_basiclpbfmachine() {
+inline ::ManufacturingScenarioRepository::BasicLPBFMachineParams* ParameterSet::_internal_mutable_basiclpbfmachine() {
   if (TypeAndParameters_case() != kBasicLPBFMachine) {
     clear_TypeAndParameters();
     set_has_basiclpbfmachine();
-    _impl_.TypeAndParameters_.basiclpbfmachine_ = CreateMaybeMessage< ::modularEmulator::modules::proto::BasicLPBFMachineParams >(GetArenaForAllocation());
+    _impl_.TypeAndParameters_.basiclpbfmachine_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::BasicLPBFMachineParams >(GetArenaForAllocation());
   }
   return _impl_.TypeAndParameters_.basiclpbfmachine_;
 }
-inline ::modularEmulator::modules::proto::BasicLPBFMachineParams* ParameterSet::mutable_basiclpbfmachine() {
-  ::modularEmulator::modules::proto::BasicLPBFMachineParams* _msg = _internal_mutable_basiclpbfmachine();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+inline ::ManufacturingScenarioRepository::BasicLPBFMachineParams* ParameterSet::mutable_basiclpbfmachine() {
+  ::ManufacturingScenarioRepository::BasicLPBFMachineParams* _msg = _internal_mutable_basiclpbfmachine();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
   return _msg;
 }
 
@@ -6272,12 +6266,12 @@ inline void BasicLPBFMachineParams::clear_numberoflaserscannerunits() {
   _impl_.numberoflaserscannerunits_ = 0;
 }
 inline ::int32_t BasicLPBFMachineParams::numberoflaserscannerunits() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.numberOfLaserScannerUnits)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.numberOfLaserScannerUnits)
   return _internal_numberoflaserscannerunits();
 }
 inline void BasicLPBFMachineParams::set_numberoflaserscannerunits(::int32_t value) {
   _internal_set_numberoflaserscannerunits(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicLPBFMachineParams.numberOfLaserScannerUnits)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicLPBFMachineParams.numberOfLaserScannerUnits)
 }
 inline ::int32_t BasicLPBFMachineParams::_internal_numberoflaserscannerunits() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6289,7 +6283,7 @@ inline void BasicLPBFMachineParams::_internal_set_numberoflaserscannerunits(::in
   _impl_.numberoflaserscannerunits_ = value;
 }
 
-// repeated .modularEmulator.modules.proto.ScanField scanFields = 20;
+// repeated .ManufacturingScenarioRepository.ScanField scanFields = 20;
 inline int BasicLPBFMachineParams::_internal_scanfields_size() const {
   return _internal_scanfields().size();
 }
@@ -6299,37 +6293,37 @@ inline int BasicLPBFMachineParams::scanfields_size() const {
 inline void BasicLPBFMachineParams::clear_scanfields() {
   _internal_mutable_scanfields()->Clear();
 }
-inline ::modularEmulator::modules::proto::ScanField* BasicLPBFMachineParams::mutable_scanfields(int index) {
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.BasicLPBFMachineParams.scanFields)
+inline ::ManufacturingScenarioRepository::ScanField* BasicLPBFMachineParams::mutable_scanfields(int index) {
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.BasicLPBFMachineParams.scanFields)
   return _internal_mutable_scanfields()->Mutable(index);
 }
-inline ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ScanField >*
+inline ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ScanField >*
 BasicLPBFMachineParams::mutable_scanfields() {
-  // @@protoc_insertion_point(field_mutable_list:modularEmulator.modules.proto.BasicLPBFMachineParams.scanFields)
+  // @@protoc_insertion_point(field_mutable_list:ManufacturingScenarioRepository.BasicLPBFMachineParams.scanFields)
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   return _internal_mutable_scanfields();
 }
-inline const ::modularEmulator::modules::proto::ScanField& BasicLPBFMachineParams::scanfields(int index) const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.scanFields)
+inline const ::ManufacturingScenarioRepository::ScanField& BasicLPBFMachineParams::scanfields(int index) const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.scanFields)
     return _internal_scanfields().Get(index);
 }
-inline ::modularEmulator::modules::proto::ScanField* BasicLPBFMachineParams::add_scanfields() {
+inline ::ManufacturingScenarioRepository::ScanField* BasicLPBFMachineParams::add_scanfields() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  ::modularEmulator::modules::proto::ScanField* _add = _internal_mutable_scanfields()->Add();
-  // @@protoc_insertion_point(field_add:modularEmulator.modules.proto.BasicLPBFMachineParams.scanFields)
+  ::ManufacturingScenarioRepository::ScanField* _add = _internal_mutable_scanfields()->Add();
+  // @@protoc_insertion_point(field_add:ManufacturingScenarioRepository.BasicLPBFMachineParams.scanFields)
   return _add;
 }
-inline const ::google::protobuf::RepeatedPtrField< ::modularEmulator::modules::proto::ScanField >&
+inline const ::google::protobuf::RepeatedPtrField< ::ManufacturingScenarioRepository::ScanField >&
 BasicLPBFMachineParams::scanfields() const {
-  // @@protoc_insertion_point(field_list:modularEmulator.modules.proto.BasicLPBFMachineParams.scanFields)
+  // @@protoc_insertion_point(field_list:ManufacturingScenarioRepository.BasicLPBFMachineParams.scanFields)
   return _internal_scanfields();
 }
-inline const ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ScanField>&
+inline const ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ScanField>&
 BasicLPBFMachineParams::_internal_scanfields() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return _impl_.scanfields_;
 }
-inline ::google::protobuf::RepeatedPtrField<::modularEmulator::modules::proto::ScanField>*
+inline ::google::protobuf::RepeatedPtrField<::ManufacturingScenarioRepository::ScanField>*
 BasicLPBFMachineParams::_internal_mutable_scanfields() {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
   return &_impl_.scanfields_;
@@ -6340,12 +6334,12 @@ inline void BasicLPBFMachineParams::clear_minlayerheightum() {
   _impl_.minlayerheightum_ = 0;
 }
 inline double BasicLPBFMachineParams::minlayerheightum() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.MinLayerHeightUM)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinLayerHeightUM)
   return _internal_minlayerheightum();
 }
 inline void BasicLPBFMachineParams::set_minlayerheightum(double value) {
   _internal_set_minlayerheightum(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicLPBFMachineParams.MinLayerHeightUM)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinLayerHeightUM)
 }
 inline double BasicLPBFMachineParams::_internal_minlayerheightum() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6362,12 +6356,12 @@ inline void BasicLPBFMachineParams::clear_minzdistmm() {
   _impl_.minzdistmm_ = 0;
 }
 inline double BasicLPBFMachineParams::minzdistmm() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.MinZDistMm)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinZDistMm)
   return _internal_minzdistmm();
 }
 inline void BasicLPBFMachineParams::set_minzdistmm(double value) {
   _internal_set_minzdistmm(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicLPBFMachineParams.MinZDistMm)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinZDistMm)
 }
 inline double BasicLPBFMachineParams::_internal_minzdistmm() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6384,12 +6378,12 @@ inline void BasicLPBFMachineParams::clear_minimalhatchlength() {
   _impl_.minimalhatchlength_ = 0;
 }
 inline double BasicLPBFMachineParams::minimalhatchlength() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.MinimalHatchLength)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinimalHatchLength)
   return _internal_minimalhatchlength();
 }
 inline void BasicLPBFMachineParams::set_minimalhatchlength(double value) {
   _internal_set_minimalhatchlength(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicLPBFMachineParams.MinimalHatchLength)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicLPBFMachineParams.MinimalHatchLength)
 }
 inline double BasicLPBFMachineParams::_internal_minimalhatchlength() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6406,12 +6400,12 @@ inline void BasicLPBFMachineParams::clear_forcedminimumexposuretimeins() {
   _impl_.forcedminimumexposuretimeins_ = 0;
 }
 inline double BasicLPBFMachineParams::forcedminimumexposuretimeins() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicLPBFMachineParams.ForcedMinimumExposureTimeInS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicLPBFMachineParams.ForcedMinimumExposureTimeInS)
   return _internal_forcedminimumexposuretimeins();
 }
 inline void BasicLPBFMachineParams::set_forcedminimumexposuretimeins(double value) {
   _internal_set_forcedminimumexposuretimeins(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicLPBFMachineParams.ForcedMinimumExposureTimeInS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicLPBFMachineParams.ForcedMinimumExposureTimeInS)
 }
 inline double BasicLPBFMachineParams::_internal_forcedminimumexposuretimeins() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6427,29 +6421,29 @@ inline void BasicLPBFMachineParams::_internal_set_forcedminimumexposuretimeins(d
 
 // ServiceInterface
 
-// .modularEmulator.modules.proto.Service consumedService = 1;
+// .ManufacturingScenarioRepository.Service consumedService = 1;
 inline void ServiceInterface::clear_consumedservice() {
   _impl_.consumedservice_ = 0;
 }
-inline ::modularEmulator::modules::proto::Service ServiceInterface::consumedservice() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ServiceInterface.consumedService)
+inline ::ManufacturingScenarioRepository::Service ServiceInterface::consumedservice() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ServiceInterface.consumedService)
   return _internal_consumedservice();
 }
-inline void ServiceInterface::set_consumedservice(::modularEmulator::modules::proto::Service value) {
+inline void ServiceInterface::set_consumedservice(::ManufacturingScenarioRepository::Service value) {
   _internal_set_consumedservice(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ServiceInterface.consumedService)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ServiceInterface.consumedService)
 }
-inline ::modularEmulator::modules::proto::Service ServiceInterface::_internal_consumedservice() const {
+inline ::ManufacturingScenarioRepository::Service ServiceInterface::_internal_consumedservice() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::Service>(_impl_.consumedservice_);
+  return static_cast<::ManufacturingScenarioRepository::Service>(_impl_.consumedservice_);
 }
-inline void ServiceInterface::_internal_set_consumedservice(::modularEmulator::modules::proto::Service value) {
+inline void ServiceInterface::_internal_set_consumedservice(::ManufacturingScenarioRepository::Service value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.consumedservice_ = value;
 }
 
-// .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+// .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
 inline bool ServiceInterface::has_implementingmodule() const {
   bool value = (_impl_._has_bits_[0] & 0x00000001u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.implementingmodule_ != nullptr);
@@ -6459,33 +6453,33 @@ inline void ServiceInterface::clear_implementingmodule() {
   if (_impl_.implementingmodule_ != nullptr) _impl_.implementingmodule_->Clear();
   _impl_._has_bits_[0] &= ~0x00000001u;
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& ServiceInterface::_internal_implementingmodule() const {
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& ServiceInterface::_internal_implementingmodule() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::OPCUAIdentification* p = _impl_.implementingmodule_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::OPCUAIdentification&>(::modularEmulator::modules::proto::_OPCUAIdentification_default_instance_);
+  const ::ManufacturingScenarioRepository::OPCUAIdentification* p = _impl_.implementingmodule_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::OPCUAIdentification&>(::ManufacturingScenarioRepository::_OPCUAIdentification_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::OPCUAIdentification& ServiceInterface::implementingmodule() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ServiceInterface.implementingModule)
+inline const ::ManufacturingScenarioRepository::OPCUAIdentification& ServiceInterface::implementingmodule() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ServiceInterface.implementingModule)
   return _internal_implementingmodule();
 }
-inline void ServiceInterface::unsafe_arena_set_allocated_implementingmodule(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void ServiceInterface::unsafe_arena_set_allocated_implementingmodule(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.implementingmodule_);
   }
-  _impl_.implementingmodule_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
+  _impl_.implementingmodule_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000001u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ServiceInterface.implementingModule)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ServiceInterface.implementingModule)
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ServiceInterface::release_implementingmodule() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ServiceInterface::release_implementingmodule() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* released = _impl_.implementingmodule_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* released = _impl_.implementingmodule_;
   _impl_.implementingmodule_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -6500,39 +6494,39 @@ inline ::modularEmulator::modules::proto::OPCUAIdentification* ServiceInterface:
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ServiceInterface::unsafe_arena_release_implementingmodule() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ServiceInterface::unsafe_arena_release_implementingmodule() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ServiceInterface.implementingModule)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ServiceInterface.implementingModule)
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::OPCUAIdentification* temp = _impl_.implementingmodule_;
+  ::ManufacturingScenarioRepository::OPCUAIdentification* temp = _impl_.implementingmodule_;
   _impl_.implementingmodule_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ServiceInterface::_internal_mutable_implementingmodule() {
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ServiceInterface::_internal_mutable_implementingmodule() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000001u;
   if (_impl_.implementingmodule_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::OPCUAIdentification>(GetArenaForAllocation());
-    _impl_.implementingmodule_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::OPCUAIdentification>(GetArenaForAllocation());
+    _impl_.implementingmodule_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(p);
   }
   return _impl_.implementingmodule_;
 }
-inline ::modularEmulator::modules::proto::OPCUAIdentification* ServiceInterface::mutable_implementingmodule() {
-  ::modularEmulator::modules::proto::OPCUAIdentification* _msg = _internal_mutable_implementingmodule();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ServiceInterface.implementingModule)
+inline ::ManufacturingScenarioRepository::OPCUAIdentification* ServiceInterface::mutable_implementingmodule() {
+  ::ManufacturingScenarioRepository::OPCUAIdentification* _msg = _internal_mutable_implementingmodule();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ServiceInterface.implementingModule)
   return _msg;
 }
-inline void ServiceInterface::set_allocated_implementingmodule(::modularEmulator::modules::proto::OPCUAIdentification* value) {
+inline void ServiceInterface::set_allocated_implementingmodule(::ManufacturingScenarioRepository::OPCUAIdentification* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(_impl_.implementingmodule_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(_impl_.implementingmodule_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -6541,8 +6535,8 @@ inline void ServiceInterface::set_allocated_implementingmodule(::modularEmulator
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
 
-  _impl_.implementingmodule_ = reinterpret_cast<::modularEmulator::modules::proto::OPCUAIdentification*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ServiceInterface.implementingModule)
+  _impl_.implementingmodule_ = reinterpret_cast<::ManufacturingScenarioRepository::OPCUAIdentification*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ServiceInterface.implementingModule)
 }
 
 // -------------------------------------------------------------------
@@ -6554,12 +6548,12 @@ inline void BasicScannerParams::clear_jumpspeedinmms() {
   _impl_.jumpspeedinmms_ = 0;
 }
 inline double BasicScannerParams::jumpspeedinmms() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.jumpSpeedInMmS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.jumpSpeedInMmS)
   return _internal_jumpspeedinmms();
 }
 inline void BasicScannerParams::set_jumpspeedinmms(double value) {
   _internal_set_jumpspeedinmms(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.jumpSpeedInMmS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.jumpSpeedInMmS)
 }
 inline double BasicScannerParams::_internal_jumpspeedinmms() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6576,12 +6570,12 @@ inline void BasicScannerParams::clear_markspeedinmms() {
   _impl_.markspeedinmms_ = 0;
 }
 inline double BasicScannerParams::markspeedinmms() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.markSpeedInMmS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.markSpeedInMmS)
   return _internal_markspeedinmms();
 }
 inline void BasicScannerParams::set_markspeedinmms(double value) {
   _internal_set_markspeedinmms(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.markSpeedInMmS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.markSpeedInMmS)
 }
 inline double BasicScannerParams::_internal_markspeedinmms() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6598,12 +6592,12 @@ inline void BasicScannerParams::clear_laserfocusshiftinmm() {
   _impl_.laserfocusshiftinmm_ = 0;
 }
 inline double BasicScannerParams::laserfocusshiftinmm() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.laserFocusShiftInMm)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.laserFocusShiftInMm)
   return _internal_laserfocusshiftinmm();
 }
 inline void BasicScannerParams::set_laserfocusshiftinmm(double value) {
   _internal_set_laserfocusshiftinmm(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.laserFocusShiftInMm)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.laserFocusShiftInMm)
 }
 inline double BasicScannerParams::_internal_laserfocusshiftinmm() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6620,12 +6614,12 @@ inline void BasicScannerParams::clear_maxaccelerationinmmperss() {
   _impl_.maxaccelerationinmmperss_ = 0;
 }
 inline double BasicScannerParams::maxaccelerationinmmperss() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.maxAccelerationInMmPerSS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.maxAccelerationInMmPerSS)
   return _internal_maxaccelerationinmmperss();
 }
 inline void BasicScannerParams::set_maxaccelerationinmmperss(double value) {
   _internal_set_maxaccelerationinmmperss(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.maxAccelerationInMmPerSS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.maxAccelerationInMmPerSS)
 }
 inline double BasicScannerParams::_internal_maxaccelerationinmmperss() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6642,12 +6636,12 @@ inline void BasicScannerParams::clear_staticdelayins() {
   _impl_.staticdelayins_ = 0;
 }
 inline double BasicScannerParams::staticdelayins() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.staticDelayInS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.staticDelayInS)
   return _internal_staticdelayins();
 }
 inline void BasicScannerParams::set_staticdelayins(double value) {
   _internal_set_staticdelayins(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.staticDelayInS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.staticDelayInS)
 }
 inline double BasicScannerParams::_internal_staticdelayins() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6664,12 +6658,12 @@ inline void BasicScannerParams::clear_jumpdelayinus() {
   _impl_.jumpdelayinus_ = 0;
 }
 inline double BasicScannerParams::jumpdelayinus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.jumpDelayInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.jumpDelayInUs)
   return _internal_jumpdelayinus();
 }
 inline void BasicScannerParams::set_jumpdelayinus(double value) {
   _internal_set_jumpdelayinus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.jumpDelayInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.jumpDelayInUs)
 }
 inline double BasicScannerParams::_internal_jumpdelayinus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6686,12 +6680,12 @@ inline void BasicScannerParams::clear_markdelayinus() {
   _impl_.markdelayinus_ = 0;
 }
 inline double BasicScannerParams::markdelayinus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.markDelayInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.markDelayInUs)
   return _internal_markdelayinus();
 }
 inline void BasicScannerParams::set_markdelayinus(double value) {
   _internal_set_markdelayinus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.markDelayInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.markDelayInUs)
 }
 inline double BasicScannerParams::_internal_markdelayinus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6708,12 +6702,12 @@ inline void BasicScannerParams::clear_laseroffdelayinus() {
   _impl_.laseroffdelayinus_ = 0;
 }
 inline double BasicScannerParams::laseroffdelayinus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.laserOffDelayInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.laserOffDelayInUs)
   return _internal_laseroffdelayinus();
 }
 inline void BasicScannerParams::set_laseroffdelayinus(double value) {
   _internal_set_laseroffdelayinus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.laserOffDelayInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.laserOffDelayInUs)
 }
 inline double BasicScannerParams::_internal_laseroffdelayinus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6730,12 +6724,12 @@ inline void BasicScannerParams::clear_laserondelayinus() {
   _impl_.laserondelayinus_ = 0;
 }
 inline double BasicScannerParams::laserondelayinus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.laserOnDelayInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.laserOnDelayInUs)
   return _internal_laserondelayinus();
 }
 inline void BasicScannerParams::set_laserondelayinus(double value) {
   _internal_set_laserondelayinus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.laserOnDelayInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.laserOnDelayInUs)
 }
 inline double BasicScannerParams::_internal_laserondelayinus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6752,12 +6746,12 @@ inline void BasicScannerParams::clear_polygondelayinus() {
   _impl_.polygondelayinus_ = 0;
 }
 inline double BasicScannerParams::polygondelayinus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.polygonDelayInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.polygonDelayInUs)
   return _internal_polygondelayinus();
 }
 inline void BasicScannerParams::set_polygondelayinus(double value) {
   _internal_set_polygondelayinus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.polygonDelayInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.polygonDelayInUs)
 }
 inline double BasicScannerParams::_internal_polygondelayinus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6774,12 +6768,12 @@ inline void BasicScannerParams::clear_vectorblockdelay() {
   _impl_.vectorblockdelay_ = 0;
 }
 inline double BasicScannerParams::vectorblockdelay() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.VectorBlockDelay)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.VectorBlockDelay)
   return _internal_vectorblockdelay();
 }
 inline void BasicScannerParams::set_vectorblockdelay(double value) {
   _internal_set_vectorblockdelay(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.VectorBlockDelay)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.VectorBlockDelay)
 }
 inline double BasicScannerParams::_internal_vectorblockdelay() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6796,12 +6790,12 @@ inline void BasicScannerParams::clear_paramchangedelay() {
   _impl_.paramchangedelay_ = 0;
 }
 inline double BasicScannerParams::paramchangedelay() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.ParamChangeDelay)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.ParamChangeDelay)
   return _internal_paramchangedelay();
 }
 inline void BasicScannerParams::set_paramchangedelay(double value) {
   _internal_set_paramchangedelay(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.ParamChangeDelay)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.ParamChangeDelay)
 }
 inline double BasicScannerParams::_internal_paramchangedelay() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6818,12 +6812,12 @@ inline void BasicScannerParams::clear_warpjumplengthlimit() {
   _impl_.warpjumplengthlimit_ = 0;
 }
 inline double BasicScannerParams::warpjumplengthlimit() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.WarpJumpLengthLimit)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.WarpJumpLengthLimit)
   return _internal_warpjumplengthlimit();
 }
 inline void BasicScannerParams::set_warpjumplengthlimit(double value) {
   _internal_set_warpjumplengthlimit(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.WarpJumpLengthLimit)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.WarpJumpLengthLimit)
 }
 inline double BasicScannerParams::_internal_warpjumplengthlimit() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6835,23 +6829,23 @@ inline void BasicScannerParams::_internal_set_warpjumplengthlimit(double value) 
   _impl_.warpjumplengthlimit_ = value;
 }
 
-// .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+// .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
 inline void BasicScannerParams::clear_jumpmode() {
   _impl_.jumpmode_ = 0;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams_JumpMode BasicScannerParams::jumpmode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BasicScannerParams.jumpMode)
+inline ::ManufacturingScenarioRepository::BasicScannerParams_JumpMode BasicScannerParams::jumpmode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BasicScannerParams.jumpMode)
   return _internal_jumpmode();
 }
-inline void BasicScannerParams::set_jumpmode(::modularEmulator::modules::proto::BasicScannerParams_JumpMode value) {
+inline void BasicScannerParams::set_jumpmode(::ManufacturingScenarioRepository::BasicScannerParams_JumpMode value) {
   _internal_set_jumpmode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BasicScannerParams.jumpMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BasicScannerParams.jumpMode)
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams_JumpMode BasicScannerParams::_internal_jumpmode() const {
+inline ::ManufacturingScenarioRepository::BasicScannerParams_JumpMode BasicScannerParams::_internal_jumpmode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::BasicScannerParams_JumpMode>(_impl_.jumpmode_);
+  return static_cast<::ManufacturingScenarioRepository::BasicScannerParams_JumpMode>(_impl_.jumpmode_);
 }
-inline void BasicScannerParams::_internal_set_jumpmode(::modularEmulator::modules::proto::BasicScannerParams_JumpMode value) {
+inline void BasicScannerParams::_internal_set_jumpmode(::ManufacturingScenarioRepository::BasicScannerParams_JumpMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.jumpmode_ = value;
@@ -6866,12 +6860,12 @@ inline void CommonSkyWritingParams::clear_nprevintenusticks() {
   _impl_.nprevintenusticks_ = 0;
 }
 inline double CommonSkyWritingParams::nprevintenusticks() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CommonSkyWritingParams.NPrevInTenUsTicks)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CommonSkyWritingParams.NPrevInTenUsTicks)
   return _internal_nprevintenusticks();
 }
 inline void CommonSkyWritingParams::set_nprevintenusticks(double value) {
   _internal_set_nprevintenusticks(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CommonSkyWritingParams.NPrevInTenUsTicks)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CommonSkyWritingParams.NPrevInTenUsTicks)
 }
 inline double CommonSkyWritingParams::_internal_nprevintenusticks() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6888,12 +6882,12 @@ inline void CommonSkyWritingParams::clear_npostintenusticks() {
   _impl_.npostintenusticks_ = 0;
 }
 inline double CommonSkyWritingParams::npostintenusticks() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CommonSkyWritingParams.NPostInTenUsTicks)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CommonSkyWritingParams.NPostInTenUsTicks)
   return _internal_npostintenusticks();
 }
 inline void CommonSkyWritingParams::set_npostintenusticks(double value) {
   _internal_set_npostintenusticks(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CommonSkyWritingParams.NPostInTenUsTicks)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CommonSkyWritingParams.NPostInTenUsTicks)
 }
 inline double CommonSkyWritingParams::_internal_npostintenusticks() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6910,12 +6904,12 @@ inline void CommonSkyWritingParams::clear_limitangle() {
   _impl_.limitangle_ = 0;
 }
 inline double CommonSkyWritingParams::limitangle() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CommonSkyWritingParams.limitAngle)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CommonSkyWritingParams.limitAngle)
   return _internal_limitangle();
 }
 inline void CommonSkyWritingParams::set_limitangle(double value) {
   _internal_set_limitangle(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CommonSkyWritingParams.limitAngle)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CommonSkyWritingParams.limitAngle)
 }
 inline double CommonSkyWritingParams::_internal_limitangle() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6936,12 +6930,12 @@ inline void CoordinateTransformParams::clear_deletezerolengthjumps() {
   _impl_.deletezerolengthjumps_ = false;
 }
 inline bool CoordinateTransformParams::deletezerolengthjumps() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CoordinateTransformParams.DeleteZeroLengthJumps)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CoordinateTransformParams.DeleteZeroLengthJumps)
   return _internal_deletezerolengthjumps();
 }
 inline void CoordinateTransformParams::set_deletezerolengthjumps(bool value) {
   _internal_set_deletezerolengthjumps(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CoordinateTransformParams.DeleteZeroLengthJumps)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CoordinateTransformParams.DeleteZeroLengthJumps)
 }
 inline bool CoordinateTransformParams::_internal_deletezerolengthjumps() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6958,12 +6952,12 @@ inline void CoordinateTransformParams::clear_minimaljumplength() {
   _impl_.minimaljumplength_ = 0;
 }
 inline double CoordinateTransformParams::minimaljumplength() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CoordinateTransformParams.MinimalJumpLength)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CoordinateTransformParams.MinimalJumpLength)
   return _internal_minimaljumplength();
 }
 inline void CoordinateTransformParams::set_minimaljumplength(double value) {
   _internal_set_minimaljumplength(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CoordinateTransformParams.MinimalJumpLength)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CoordinateTransformParams.MinimalJumpLength)
 }
 inline double CoordinateTransformParams::_internal_minimaljumplength() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -6980,12 +6974,12 @@ inline void CoordinateTransformParams::clear_minimalmarklength() {
   _impl_.minimalmarklength_ = 0;
 }
 inline double CoordinateTransformParams::minimalmarklength() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CoordinateTransformParams.MinimalMarkLength)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CoordinateTransformParams.MinimalMarkLength)
   return _internal_minimalmarklength();
 }
 inline void CoordinateTransformParams::set_minimalmarklength(double value) {
   _internal_set_minimalmarklength(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CoordinateTransformParams.MinimalMarkLength)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CoordinateTransformParams.MinimalMarkLength)
 }
 inline double CoordinateTransformParams::_internal_minimalmarklength() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7001,7 +6995,7 @@ inline void CoordinateTransformParams::_internal_set_minimalmarklength(double va
 
 // NovantaScannerParams
 
-// .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+// .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
 inline bool NovantaScannerParams::has_basicscannerparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000001u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.basicscannerparams_ != nullptr);
@@ -7011,33 +7005,33 @@ inline void NovantaScannerParams::clear_basicscannerparams() {
   if (_impl_.basicscannerparams_ != nullptr) _impl_.basicscannerparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000001u;
 }
-inline const ::modularEmulator::modules::proto::BasicScannerParams& NovantaScannerParams::_internal_basicscannerparams() const {
+inline const ::ManufacturingScenarioRepository::BasicScannerParams& NovantaScannerParams::_internal_basicscannerparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::BasicScannerParams* p = _impl_.basicscannerparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::BasicScannerParams&>(::modularEmulator::modules::proto::_BasicScannerParams_default_instance_);
+  const ::ManufacturingScenarioRepository::BasicScannerParams* p = _impl_.basicscannerparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::BasicScannerParams&>(::ManufacturingScenarioRepository::_BasicScannerParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::BasicScannerParams& NovantaScannerParams::basicscannerparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.basicScannerParams)
+inline const ::ManufacturingScenarioRepository::BasicScannerParams& NovantaScannerParams::basicscannerparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.basicScannerParams)
   return _internal_basicscannerparams();
 }
-inline void NovantaScannerParams::unsafe_arena_set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value) {
+inline void NovantaScannerParams::unsafe_arena_set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.basicscannerparams_);
   }
-  _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value);
+  _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000001u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.basicScannerParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.basicScannerParams)
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* NovantaScannerParams::release_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* NovantaScannerParams::release_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::BasicScannerParams* released = _impl_.basicscannerparams_;
+  ::ManufacturingScenarioRepository::BasicScannerParams* released = _impl_.basicscannerparams_;
   _impl_.basicscannerparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7052,39 +7046,39 @@ inline ::modularEmulator::modules::proto::BasicScannerParams* NovantaScannerPara
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* NovantaScannerParams::unsafe_arena_release_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* NovantaScannerParams::unsafe_arena_release_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.NovantaScannerParams.basicScannerParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.NovantaScannerParams.basicScannerParams)
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::BasicScannerParams* temp = _impl_.basicscannerparams_;
+  ::ManufacturingScenarioRepository::BasicScannerParams* temp = _impl_.basicscannerparams_;
   _impl_.basicscannerparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* NovantaScannerParams::_internal_mutable_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* NovantaScannerParams::_internal_mutable_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000001u;
   if (_impl_.basicscannerparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::BasicScannerParams>(GetArenaForAllocation());
-    _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::BasicScannerParams>(GetArenaForAllocation());
+    _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(p);
   }
   return _impl_.basicscannerparams_;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* NovantaScannerParams::mutable_basicscannerparams() {
-  ::modularEmulator::modules::proto::BasicScannerParams* _msg = _internal_mutable_basicscannerparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.NovantaScannerParams.basicScannerParams)
+inline ::ManufacturingScenarioRepository::BasicScannerParams* NovantaScannerParams::mutable_basicscannerparams() {
+  ::ManufacturingScenarioRepository::BasicScannerParams* _msg = _internal_mutable_basicscannerparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.NovantaScannerParams.basicScannerParams)
   return _msg;
 }
-inline void NovantaScannerParams::set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value) {
+inline void NovantaScannerParams::set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(_impl_.basicscannerparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(_impl_.basicscannerparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7093,11 +7087,11 @@ inline void NovantaScannerParams::set_allocated_basicscannerparams(::modularEmul
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
 
-  _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.basicScannerParams)
+  _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.basicScannerParams)
 }
 
-// .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+// .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
 inline bool NovantaScannerParams::has_skywritingparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000002u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.skywritingparams_ != nullptr);
@@ -7107,33 +7101,33 @@ inline void NovantaScannerParams::clear_skywritingparams() {
   if (_impl_.skywritingparams_ != nullptr) _impl_.skywritingparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000002u;
 }
-inline const ::modularEmulator::modules::proto::CommonSkyWritingParams& NovantaScannerParams::_internal_skywritingparams() const {
+inline const ::ManufacturingScenarioRepository::CommonSkyWritingParams& NovantaScannerParams::_internal_skywritingparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams* p = _impl_.skywritingparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::CommonSkyWritingParams&>(::modularEmulator::modules::proto::_CommonSkyWritingParams_default_instance_);
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams* p = _impl_.skywritingparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::CommonSkyWritingParams&>(::ManufacturingScenarioRepository::_CommonSkyWritingParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CommonSkyWritingParams& NovantaScannerParams::skywritingparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.skyWritingParams)
+inline const ::ManufacturingScenarioRepository::CommonSkyWritingParams& NovantaScannerParams::skywritingparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingParams)
   return _internal_skywritingparams();
 }
-inline void NovantaScannerParams::unsafe_arena_set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value) {
+inline void NovantaScannerParams::unsafe_arena_set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.skywritingparams_);
   }
-  _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value);
+  _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000002u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.skyWritingParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingParams)
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* NovantaScannerParams::release_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* NovantaScannerParams::release_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* released = _impl_.skywritingparams_;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* released = _impl_.skywritingparams_;
   _impl_.skywritingparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7148,39 +7142,39 @@ inline ::modularEmulator::modules::proto::CommonSkyWritingParams* NovantaScanner
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* NovantaScannerParams::unsafe_arena_release_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* NovantaScannerParams::unsafe_arena_release_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.NovantaScannerParams.skyWritingParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingParams)
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* temp = _impl_.skywritingparams_;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* temp = _impl_.skywritingparams_;
   _impl_.skywritingparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* NovantaScannerParams::_internal_mutable_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* NovantaScannerParams::_internal_mutable_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000002u;
   if (_impl_.skywritingparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::CommonSkyWritingParams>(GetArenaForAllocation());
-    _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::CommonSkyWritingParams>(GetArenaForAllocation());
+    _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(p);
   }
   return _impl_.skywritingparams_;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* NovantaScannerParams::mutable_skywritingparams() {
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* _msg = _internal_mutable_skywritingparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.NovantaScannerParams.skyWritingParams)
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* NovantaScannerParams::mutable_skywritingparams() {
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* _msg = _internal_mutable_skywritingparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingParams)
   return _msg;
 }
-inline void NovantaScannerParams::set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value) {
+inline void NovantaScannerParams::set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(_impl_.skywritingparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(_impl_.skywritingparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7189,11 +7183,11 @@ inline void NovantaScannerParams::set_allocated_skywritingparams(::modularEmulat
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
 
-  _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.skyWritingParams)
+  _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingParams)
 }
 
-// .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+// .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
 inline bool NovantaScannerParams::has_coordtransformparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000004u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.coordtransformparams_ != nullptr);
@@ -7203,33 +7197,33 @@ inline void NovantaScannerParams::clear_coordtransformparams() {
   if (_impl_.coordtransformparams_ != nullptr) _impl_.coordtransformparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000004u;
 }
-inline const ::modularEmulator::modules::proto::CoordinateTransformParams& NovantaScannerParams::_internal_coordtransformparams() const {
+inline const ::ManufacturingScenarioRepository::CoordinateTransformParams& NovantaScannerParams::_internal_coordtransformparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::CoordinateTransformParams* p = _impl_.coordtransformparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::CoordinateTransformParams&>(::modularEmulator::modules::proto::_CoordinateTransformParams_default_instance_);
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams* p = _impl_.coordtransformparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::CoordinateTransformParams&>(::ManufacturingScenarioRepository::_CoordinateTransformParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CoordinateTransformParams& NovantaScannerParams::coordtransformparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.coordTransformParams)
+inline const ::ManufacturingScenarioRepository::CoordinateTransformParams& NovantaScannerParams::coordtransformparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.coordTransformParams)
   return _internal_coordtransformparams();
 }
-inline void NovantaScannerParams::unsafe_arena_set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value) {
+inline void NovantaScannerParams::unsafe_arena_set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.coordtransformparams_);
   }
-  _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value);
+  _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000004u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.coordTransformParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.coordTransformParams)
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* NovantaScannerParams::release_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* NovantaScannerParams::release_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* released = _impl_.coordtransformparams_;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* released = _impl_.coordtransformparams_;
   _impl_.coordtransformparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7244,39 +7238,39 @@ inline ::modularEmulator::modules::proto::CoordinateTransformParams* NovantaScan
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* NovantaScannerParams::unsafe_arena_release_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* NovantaScannerParams::unsafe_arena_release_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.NovantaScannerParams.coordTransformParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.NovantaScannerParams.coordTransformParams)
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* temp = _impl_.coordtransformparams_;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* temp = _impl_.coordtransformparams_;
   _impl_.coordtransformparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* NovantaScannerParams::_internal_mutable_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* NovantaScannerParams::_internal_mutable_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000004u;
   if (_impl_.coordtransformparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::CoordinateTransformParams>(GetArenaForAllocation());
-    _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::CoordinateTransformParams>(GetArenaForAllocation());
+    _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(p);
   }
   return _impl_.coordtransformparams_;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* NovantaScannerParams::mutable_coordtransformparams() {
-  ::modularEmulator::modules::proto::CoordinateTransformParams* _msg = _internal_mutable_coordtransformparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.NovantaScannerParams.coordTransformParams)
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* NovantaScannerParams::mutable_coordtransformparams() {
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* _msg = _internal_mutable_coordtransformparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.NovantaScannerParams.coordTransformParams)
   return _msg;
 }
-inline void NovantaScannerParams::set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value) {
+inline void NovantaScannerParams::set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(_impl_.coordtransformparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(_impl_.coordtransformparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7285,49 +7279,49 @@ inline void NovantaScannerParams::set_allocated_coordtransformparams(::modularEm
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
 
-  _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.NovantaScannerParams.coordTransformParams)
+  _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.NovantaScannerParams.coordTransformParams)
 }
 
-// .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+// .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
 inline void NovantaScannerParams::clear_skywritingmode() {
   _impl_.skywritingmode_ = 0;
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode NovantaScannerParams::skywritingmode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.skyWritingMode)
+inline ::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode NovantaScannerParams::skywritingmode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingMode)
   return _internal_skywritingmode();
 }
-inline void NovantaScannerParams::set_skywritingmode(::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode value) {
+inline void NovantaScannerParams::set_skywritingmode(::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode value) {
   _internal_set_skywritingmode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.skyWritingMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.skyWritingMode)
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode NovantaScannerParams::_internal_skywritingmode() const {
+inline ::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode NovantaScannerParams::_internal_skywritingmode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode>(_impl_.skywritingmode_);
+  return static_cast<::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode>(_impl_.skywritingmode_);
 }
-inline void NovantaScannerParams::_internal_set_skywritingmode(::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode value) {
+inline void NovantaScannerParams::_internal_set_skywritingmode(::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.skywritingmode_ = value;
 }
 
-// .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+// .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
 inline void NovantaScannerParams::clear_delaymode() {
   _impl_.delaymode_ = 0;
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams_DelayMode NovantaScannerParams::delaymode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.delayMode)
+inline ::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode NovantaScannerParams::delaymode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.delayMode)
   return _internal_delaymode();
 }
-inline void NovantaScannerParams::set_delaymode(::modularEmulator::modules::proto::NovantaScannerParams_DelayMode value) {
+inline void NovantaScannerParams::set_delaymode(::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode value) {
   _internal_set_delaymode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.delayMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.delayMode)
 }
-inline ::modularEmulator::modules::proto::NovantaScannerParams_DelayMode NovantaScannerParams::_internal_delaymode() const {
+inline ::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode NovantaScannerParams::_internal_delaymode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::NovantaScannerParams_DelayMode>(_impl_.delaymode_);
+  return static_cast<::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode>(_impl_.delaymode_);
 }
-inline void NovantaScannerParams::_internal_set_delaymode(::modularEmulator::modules::proto::NovantaScannerParams_DelayMode value) {
+inline void NovantaScannerParams::_internal_set_delaymode(::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.delaymode_ = value;
@@ -7338,12 +7332,12 @@ inline void NovantaScannerParams::clear_radialerrorinum() {
   _impl_.radialerrorinum_ = 0;
 }
 inline double NovantaScannerParams::radialerrorinum() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.radialErrorInUm)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.radialErrorInUm)
   return _internal_radialerrorinum();
 }
 inline void NovantaScannerParams::set_radialerrorinum(double value) {
   _internal_set_radialerrorinum(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.radialErrorInUm)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.radialErrorInUm)
 }
 inline double NovantaScannerParams::_internal_radialerrorinum() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7360,12 +7354,12 @@ inline void NovantaScannerParams::clear_safetyfactorflybylow() {
   _impl_.safetyfactorflybylow_ = 0;
 }
 inline double NovantaScannerParams::safetyfactorflybylow() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorFlyByLow)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorFlyByLow)
   return _internal_safetyfactorflybylow();
 }
 inline void NovantaScannerParams::set_safetyfactorflybylow(double value) {
   _internal_set_safetyfactorflybylow(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorFlyByLow)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorFlyByLow)
 }
 inline double NovantaScannerParams::_internal_safetyfactorflybylow() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7382,12 +7376,12 @@ inline void NovantaScannerParams::clear_safetyfactorflybyhigh() {
   _impl_.safetyfactorflybyhigh_ = 0;
 }
 inline double NovantaScannerParams::safetyfactorflybyhigh() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorFlyByHigh)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorFlyByHigh)
   return _internal_safetyfactorflybyhigh();
 }
 inline void NovantaScannerParams::set_safetyfactorflybyhigh(double value) {
   _internal_set_safetyfactorflybyhigh(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorFlyByHigh)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorFlyByHigh)
 }
 inline double NovantaScannerParams::_internal_safetyfactorflybyhigh() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7404,12 +7398,12 @@ inline void NovantaScannerParams::clear_safetyfactorradialerrorlimit() {
   _impl_.safetyfactorradialerrorlimit_ = 0;
 }
 inline double NovantaScannerParams::safetyfactorradialerrorlimit() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorRadialErrorLimit)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorRadialErrorLimit)
   return _internal_safetyfactorradialerrorlimit();
 }
 inline void NovantaScannerParams::set_safetyfactorradialerrorlimit(double value) {
   _internal_set_safetyfactorradialerrorlimit(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.NovantaScannerParams.SafetyFactorRadialErrorLimit)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.NovantaScannerParams.SafetyFactorRadialErrorLimit)
 }
 inline double NovantaScannerParams::_internal_safetyfactorradialerrorlimit() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7425,7 +7419,7 @@ inline void NovantaScannerParams::_internal_set_safetyfactorradialerrorlimit(dou
 
 // ScanlabScannerParams
 
-// .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+// .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
 inline bool ScanlabScannerParams::has_basicscannerparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000001u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.basicscannerparams_ != nullptr);
@@ -7435,33 +7429,33 @@ inline void ScanlabScannerParams::clear_basicscannerparams() {
   if (_impl_.basicscannerparams_ != nullptr) _impl_.basicscannerparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000001u;
 }
-inline const ::modularEmulator::modules::proto::BasicScannerParams& ScanlabScannerParams::_internal_basicscannerparams() const {
+inline const ::ManufacturingScenarioRepository::BasicScannerParams& ScanlabScannerParams::_internal_basicscannerparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::BasicScannerParams* p = _impl_.basicscannerparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::BasicScannerParams&>(::modularEmulator::modules::proto::_BasicScannerParams_default_instance_);
+  const ::ManufacturingScenarioRepository::BasicScannerParams* p = _impl_.basicscannerparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::BasicScannerParams&>(::ManufacturingScenarioRepository::_BasicScannerParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::BasicScannerParams& ScanlabScannerParams::basicscannerparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.basicScannerParams)
+inline const ::ManufacturingScenarioRepository::BasicScannerParams& ScanlabScannerParams::basicscannerparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.basicScannerParams)
   return _internal_basicscannerparams();
 }
-inline void ScanlabScannerParams::unsafe_arena_set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value) {
+inline void ScanlabScannerParams::unsafe_arena_set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.basicscannerparams_);
   }
-  _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value);
+  _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000001u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.basicScannerParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.basicScannerParams)
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* ScanlabScannerParams::release_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* ScanlabScannerParams::release_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::BasicScannerParams* released = _impl_.basicscannerparams_;
+  ::ManufacturingScenarioRepository::BasicScannerParams* released = _impl_.basicscannerparams_;
   _impl_.basicscannerparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7476,39 +7470,39 @@ inline ::modularEmulator::modules::proto::BasicScannerParams* ScanlabScannerPara
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* ScanlabScannerParams::unsafe_arena_release_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* ScanlabScannerParams::unsafe_arena_release_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ScanlabScannerParams.basicScannerParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ScanlabScannerParams.basicScannerParams)
 
   _impl_._has_bits_[0] &= ~0x00000001u;
-  ::modularEmulator::modules::proto::BasicScannerParams* temp = _impl_.basicscannerparams_;
+  ::ManufacturingScenarioRepository::BasicScannerParams* temp = _impl_.basicscannerparams_;
   _impl_.basicscannerparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* ScanlabScannerParams::_internal_mutable_basicscannerparams() {
+inline ::ManufacturingScenarioRepository::BasicScannerParams* ScanlabScannerParams::_internal_mutable_basicscannerparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000001u;
   if (_impl_.basicscannerparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::BasicScannerParams>(GetArenaForAllocation());
-    _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::BasicScannerParams>(GetArenaForAllocation());
+    _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(p);
   }
   return _impl_.basicscannerparams_;
 }
-inline ::modularEmulator::modules::proto::BasicScannerParams* ScanlabScannerParams::mutable_basicscannerparams() {
-  ::modularEmulator::modules::proto::BasicScannerParams* _msg = _internal_mutable_basicscannerparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ScanlabScannerParams.basicScannerParams)
+inline ::ManufacturingScenarioRepository::BasicScannerParams* ScanlabScannerParams::mutable_basicscannerparams() {
+  ::ManufacturingScenarioRepository::BasicScannerParams* _msg = _internal_mutable_basicscannerparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ScanlabScannerParams.basicScannerParams)
   return _msg;
 }
-inline void ScanlabScannerParams::set_allocated_basicscannerparams(::modularEmulator::modules::proto::BasicScannerParams* value) {
+inline void ScanlabScannerParams::set_allocated_basicscannerparams(::ManufacturingScenarioRepository::BasicScannerParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(_impl_.basicscannerparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(_impl_.basicscannerparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7517,11 +7511,11 @@ inline void ScanlabScannerParams::set_allocated_basicscannerparams(::modularEmul
     _impl_._has_bits_[0] &= ~0x00000001u;
   }
 
-  _impl_.basicscannerparams_ = reinterpret_cast<::modularEmulator::modules::proto::BasicScannerParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.basicScannerParams)
+  _impl_.basicscannerparams_ = reinterpret_cast<::ManufacturingScenarioRepository::BasicScannerParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.basicScannerParams)
 }
 
-// .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+// .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
 inline bool ScanlabScannerParams::has_skywritingparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000002u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.skywritingparams_ != nullptr);
@@ -7531,33 +7525,33 @@ inline void ScanlabScannerParams::clear_skywritingparams() {
   if (_impl_.skywritingparams_ != nullptr) _impl_.skywritingparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000002u;
 }
-inline const ::modularEmulator::modules::proto::CommonSkyWritingParams& ScanlabScannerParams::_internal_skywritingparams() const {
+inline const ::ManufacturingScenarioRepository::CommonSkyWritingParams& ScanlabScannerParams::_internal_skywritingparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::CommonSkyWritingParams* p = _impl_.skywritingparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::CommonSkyWritingParams&>(::modularEmulator::modules::proto::_CommonSkyWritingParams_default_instance_);
+  const ::ManufacturingScenarioRepository::CommonSkyWritingParams* p = _impl_.skywritingparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::CommonSkyWritingParams&>(::ManufacturingScenarioRepository::_CommonSkyWritingParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CommonSkyWritingParams& ScanlabScannerParams::skywritingparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParams)
+inline const ::ManufacturingScenarioRepository::CommonSkyWritingParams& ScanlabScannerParams::skywritingparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParams)
   return _internal_skywritingparams();
 }
-inline void ScanlabScannerParams::unsafe_arena_set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value) {
+inline void ScanlabScannerParams::unsafe_arena_set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.skywritingparams_);
   }
-  _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value);
+  _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000002u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParams)
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* ScanlabScannerParams::release_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* ScanlabScannerParams::release_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* released = _impl_.skywritingparams_;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* released = _impl_.skywritingparams_;
   _impl_.skywritingparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7572,39 +7566,39 @@ inline ::modularEmulator::modules::proto::CommonSkyWritingParams* ScanlabScanner
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* ScanlabScannerParams::unsafe_arena_release_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* ScanlabScannerParams::unsafe_arena_release_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParams)
 
   _impl_._has_bits_[0] &= ~0x00000002u;
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* temp = _impl_.skywritingparams_;
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* temp = _impl_.skywritingparams_;
   _impl_.skywritingparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* ScanlabScannerParams::_internal_mutable_skywritingparams() {
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* ScanlabScannerParams::_internal_mutable_skywritingparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000002u;
   if (_impl_.skywritingparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::CommonSkyWritingParams>(GetArenaForAllocation());
-    _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::CommonSkyWritingParams>(GetArenaForAllocation());
+    _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(p);
   }
   return _impl_.skywritingparams_;
 }
-inline ::modularEmulator::modules::proto::CommonSkyWritingParams* ScanlabScannerParams::mutable_skywritingparams() {
-  ::modularEmulator::modules::proto::CommonSkyWritingParams* _msg = _internal_mutable_skywritingparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParams)
+inline ::ManufacturingScenarioRepository::CommonSkyWritingParams* ScanlabScannerParams::mutable_skywritingparams() {
+  ::ManufacturingScenarioRepository::CommonSkyWritingParams* _msg = _internal_mutable_skywritingparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParams)
   return _msg;
 }
-inline void ScanlabScannerParams::set_allocated_skywritingparams(::modularEmulator::modules::proto::CommonSkyWritingParams* value) {
+inline void ScanlabScannerParams::set_allocated_skywritingparams(::ManufacturingScenarioRepository::CommonSkyWritingParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(_impl_.skywritingparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(_impl_.skywritingparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7613,11 +7607,11 @@ inline void ScanlabScannerParams::set_allocated_skywritingparams(::modularEmulat
     _impl_._has_bits_[0] &= ~0x00000002u;
   }
 
-  _impl_.skywritingparams_ = reinterpret_cast<::modularEmulator::modules::proto::CommonSkyWritingParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParams)
+  _impl_.skywritingparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CommonSkyWritingParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParams)
 }
 
-// .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+// .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
 inline bool ScanlabScannerParams::has_coordtransformparams() const {
   bool value = (_impl_._has_bits_[0] & 0x00000004u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.coordtransformparams_ != nullptr);
@@ -7627,33 +7621,33 @@ inline void ScanlabScannerParams::clear_coordtransformparams() {
   if (_impl_.coordtransformparams_ != nullptr) _impl_.coordtransformparams_->Clear();
   _impl_._has_bits_[0] &= ~0x00000004u;
 }
-inline const ::modularEmulator::modules::proto::CoordinateTransformParams& ScanlabScannerParams::_internal_coordtransformparams() const {
+inline const ::ManufacturingScenarioRepository::CoordinateTransformParams& ScanlabScannerParams::_internal_coordtransformparams() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::CoordinateTransformParams* p = _impl_.coordtransformparams_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::CoordinateTransformParams&>(::modularEmulator::modules::proto::_CoordinateTransformParams_default_instance_);
+  const ::ManufacturingScenarioRepository::CoordinateTransformParams* p = _impl_.coordtransformparams_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::CoordinateTransformParams&>(::ManufacturingScenarioRepository::_CoordinateTransformParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CoordinateTransformParams& ScanlabScannerParams::coordtransformparams() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.coordTransformParams)
+inline const ::ManufacturingScenarioRepository::CoordinateTransformParams& ScanlabScannerParams::coordtransformparams() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.coordTransformParams)
   return _internal_coordtransformparams();
 }
-inline void ScanlabScannerParams::unsafe_arena_set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value) {
+inline void ScanlabScannerParams::unsafe_arena_set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.coordtransformparams_);
   }
-  _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value);
+  _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000004u;
   } else {
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
-  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.coordTransformParams)
+  // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.coordTransformParams)
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* ScanlabScannerParams::release_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* ScanlabScannerParams::release_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* released = _impl_.coordtransformparams_;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* released = _impl_.coordtransformparams_;
   _impl_.coordtransformparams_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -7668,39 +7662,39 @@ inline ::modularEmulator::modules::proto::CoordinateTransformParams* ScanlabScan
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* ScanlabScannerParams::unsafe_arena_release_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* ScanlabScannerParams::unsafe_arena_release_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
-  // @@protoc_insertion_point(field_release:modularEmulator.modules.proto.ScanlabScannerParams.coordTransformParams)
+  // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ScanlabScannerParams.coordTransformParams)
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::CoordinateTransformParams* temp = _impl_.coordtransformparams_;
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* temp = _impl_.coordtransformparams_;
   _impl_.coordtransformparams_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* ScanlabScannerParams::_internal_mutable_coordtransformparams() {
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* ScanlabScannerParams::_internal_mutable_coordtransformparams() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000004u;
   if (_impl_.coordtransformparams_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::CoordinateTransformParams>(GetArenaForAllocation());
-    _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::CoordinateTransformParams>(GetArenaForAllocation());
+    _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(p);
   }
   return _impl_.coordtransformparams_;
 }
-inline ::modularEmulator::modules::proto::CoordinateTransformParams* ScanlabScannerParams::mutable_coordtransformparams() {
-  ::modularEmulator::modules::proto::CoordinateTransformParams* _msg = _internal_mutable_coordtransformparams();
-  // @@protoc_insertion_point(field_mutable:modularEmulator.modules.proto.ScanlabScannerParams.coordTransformParams)
+inline ::ManufacturingScenarioRepository::CoordinateTransformParams* ScanlabScannerParams::mutable_coordtransformparams() {
+  ::ManufacturingScenarioRepository::CoordinateTransformParams* _msg = _internal_mutable_coordtransformparams();
+  // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ScanlabScannerParams.coordTransformParams)
   return _msg;
 }
-inline void ScanlabScannerParams::set_allocated_coordtransformparams(::modularEmulator::modules::proto::CoordinateTransformParams* value) {
+inline void ScanlabScannerParams::set_allocated_coordtransformparams(::ManufacturingScenarioRepository::CoordinateTransformParams* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
-    delete reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(_impl_.coordtransformparams_);
+    delete reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(_impl_.coordtransformparams_);
   }
 
   if (value != nullptr) {
     ::google::protobuf::Arena* submessage_arena =
-        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value));
+        ::google::protobuf::Arena::InternalGetOwningArena(reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value));
     if (message_arena != submessage_arena) {
       value = ::google::protobuf::internal::GetOwnedMessage(message_arena, value, submessage_arena);
     }
@@ -7709,27 +7703,27 @@ inline void ScanlabScannerParams::set_allocated_coordtransformparams(::modularEm
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
 
-  _impl_.coordtransformparams_ = reinterpret_cast<::modularEmulator::modules::proto::CoordinateTransformParams*>(value);
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ScanlabScannerParams.coordTransformParams)
+  _impl_.coordtransformparams_ = reinterpret_cast<::ManufacturingScenarioRepository::CoordinateTransformParams*>(value);
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ScanlabScannerParams.coordTransformParams)
 }
 
-// .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+// .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
 inline void ScanlabScannerParams::clear_skywritingmode() {
   _impl_.skywritingmode_ = 0;
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode ScanlabScannerParams::skywritingmode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingMode)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode ScanlabScannerParams::skywritingmode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingMode)
   return _internal_skywritingmode();
 }
-inline void ScanlabScannerParams::set_skywritingmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode value) {
+inline void ScanlabScannerParams::set_skywritingmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode value) {
   _internal_set_skywritingmode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingMode)
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode ScanlabScannerParams::_internal_skywritingmode() const {
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode ScanlabScannerParams::_internal_skywritingmode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode>(_impl_.skywritingmode_);
+  return static_cast<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode>(_impl_.skywritingmode_);
 }
-inline void ScanlabScannerParams::_internal_set_skywritingmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode value) {
+inline void ScanlabScannerParams::_internal_set_skywritingmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.skywritingmode_ = value;
@@ -7740,12 +7734,12 @@ inline void ScanlabScannerParams::clear_timelaginus() {
   _impl_.timelaginus_ = 0;
 }
 inline double ScanlabScannerParams::timelaginus() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.timeLagInUs)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.timeLagInUs)
   return _internal_timelaginus();
 }
 inline void ScanlabScannerParams::set_timelaginus(double value) {
   _internal_set_timelaginus(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanlabScannerParams.timeLagInUs)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanlabScannerParams.timeLagInUs)
 }
 inline double ScanlabScannerParams::_internal_timelaginus() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7757,45 +7751,45 @@ inline void ScanlabScannerParams::_internal_set_timelaginus(double value) {
   _impl_.timelaginus_ = value;
 }
 
-// .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+// .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
 inline void ScanlabScannerParams::clear_skywritingparametringmode() {
   _impl_.skywritingparametringmode_ = 0;
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode ScanlabScannerParams::skywritingparametringmode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParametringMode)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode ScanlabScannerParams::skywritingparametringmode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParametringMode)
   return _internal_skywritingparametringmode();
 }
-inline void ScanlabScannerParams::set_skywritingparametringmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode value) {
+inline void ScanlabScannerParams::set_skywritingparametringmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode value) {
   _internal_set_skywritingparametringmode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanlabScannerParams.skyWritingParametringMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanlabScannerParams.skyWritingParametringMode)
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode ScanlabScannerParams::_internal_skywritingparametringmode() const {
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode ScanlabScannerParams::_internal_skywritingparametringmode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode>(_impl_.skywritingparametringmode_);
+  return static_cast<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode>(_impl_.skywritingparametringmode_);
 }
-inline void ScanlabScannerParams::_internal_set_skywritingparametringmode(::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode value) {
+inline void ScanlabScannerParams::_internal_set_skywritingparametringmode(::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.skywritingparametringmode_ = value;
 }
 
-// .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+// .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
 inline void ScanlabScannerParams::clear_delaymode() {
   _impl_.delaymode_ = 0;
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode ScanlabScannerParams::delaymode() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanlabScannerParams.delayMode)
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode ScanlabScannerParams::delaymode() const {
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanlabScannerParams.delayMode)
   return _internal_delaymode();
 }
-inline void ScanlabScannerParams::set_delaymode(::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode value) {
+inline void ScanlabScannerParams::set_delaymode(::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode value) {
   _internal_set_delaymode(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanlabScannerParams.delayMode)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanlabScannerParams.delayMode)
 }
-inline ::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode ScanlabScannerParams::_internal_delaymode() const {
+inline ::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode ScanlabScannerParams::_internal_delaymode() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  return static_cast<::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode>(_impl_.delaymode_);
+  return static_cast<::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode>(_impl_.delaymode_);
 }
-inline void ScanlabScannerParams::_internal_set_delaymode(::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode value) {
+inline void ScanlabScannerParams::_internal_set_delaymode(::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   ;
   _impl_.delaymode_ = value;
@@ -7810,12 +7804,12 @@ inline void ScanField::clear_xmin() {
   _impl_.xmin_ = 0;
 }
 inline double ScanField::xmin() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanField.XMin)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanField.XMin)
   return _internal_xmin();
 }
 inline void ScanField::set_xmin(double value) {
   _internal_set_xmin(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanField.XMin)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanField.XMin)
 }
 inline double ScanField::_internal_xmin() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7832,12 +7826,12 @@ inline void ScanField::clear_xmax() {
   _impl_.xmax_ = 0;
 }
 inline double ScanField::xmax() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanField.XMax)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanField.XMax)
   return _internal_xmax();
 }
 inline void ScanField::set_xmax(double value) {
   _internal_set_xmax(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanField.XMax)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanField.XMax)
 }
 inline double ScanField::_internal_xmax() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7854,12 +7848,12 @@ inline void ScanField::clear_ymin() {
   _impl_.ymin_ = 0;
 }
 inline double ScanField::ymin() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanField.YMin)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanField.YMin)
   return _internal_ymin();
 }
 inline void ScanField::set_ymin(double value) {
   _internal_set_ymin(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanField.YMin)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanField.YMin)
 }
 inline double ScanField::_internal_ymin() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7876,12 +7870,12 @@ inline void ScanField::clear_ymax() {
   _impl_.ymax_ = 0;
 }
 inline double ScanField::ymax() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ScanField.YMax)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ScanField.YMax)
   return _internal_ymax();
 }
 inline void ScanField::set_ymax(double value) {
   _internal_set_ymax(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ScanField.YMax)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ScanField.YMax)
 }
 inline double ScanField::_internal_ymax() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7902,12 +7896,12 @@ inline void LaserParams::clear_laserpowerinw() {
   _impl_.laserpowerinw_ = 0;
 }
 inline double LaserParams::laserpowerinw() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.LaserParams.LaserPowerInW)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.LaserParams.LaserPowerInW)
   return _internal_laserpowerinw();
 }
 inline void LaserParams::set_laserpowerinw(double value) {
   _internal_set_laserpowerinw(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.LaserParams.LaserPowerInW)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.LaserParams.LaserPowerInW)
 }
 inline double LaserParams::_internal_laserpowerinw() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7928,12 +7922,12 @@ inline void StandardCoaterParams::clear_coatingspeedforwardinmmpersec() {
   _impl_.coatingspeedforwardinmmpersec_ = 0;
 }
 inline double StandardCoaterParams::coatingspeedforwardinmmpersec() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.coatingSpeedForwardInMmPerSec)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.coatingSpeedForwardInMmPerSec)
   return _internal_coatingspeedforwardinmmpersec();
 }
 inline void StandardCoaterParams::set_coatingspeedforwardinmmpersec(double value) {
   _internal_set_coatingspeedforwardinmmpersec(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.coatingSpeedForwardInMmPerSec)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.coatingSpeedForwardInMmPerSec)
 }
 inline double StandardCoaterParams::_internal_coatingspeedforwardinmmpersec() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7950,12 +7944,12 @@ inline void StandardCoaterParams::clear_coatingspeedbackwardinmmpersec() {
   _impl_.coatingspeedbackwardinmmpersec_ = 0;
 }
 inline double StandardCoaterParams::coatingspeedbackwardinmmpersec() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.coatingSpeedBackwardInMmPerSec)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.coatingSpeedBackwardInMmPerSec)
   return _internal_coatingspeedbackwardinmmpersec();
 }
 inline void StandardCoaterParams::set_coatingspeedbackwardinmmpersec(double value) {
   _internal_set_coatingspeedbackwardinmmpersec(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.coatingSpeedBackwardInMmPerSec)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.coatingSpeedBackwardInMmPerSec)
 }
 inline double StandardCoaterParams::_internal_coatingspeedbackwardinmmpersec() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7972,12 +7966,12 @@ inline void StandardCoaterParams::clear_distanceinmm() {
   _impl_.distanceinmm_ = 0;
 }
 inline double StandardCoaterParams::distanceinmm() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.distanceInMm)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.distanceInMm)
   return _internal_distanceinmm();
 }
 inline void StandardCoaterParams::set_distanceinmm(double value) {
   _internal_set_distanceinmm(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.distanceInMm)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.distanceInMm)
 }
 inline double StandardCoaterParams::_internal_distanceinmm() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -7994,12 +7988,12 @@ inline void StandardCoaterParams::clear_forwarddelayinsec() {
   _impl_.forwarddelayinsec_ = 0;
 }
 inline double StandardCoaterParams::forwarddelayinsec() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.forwardDelayInSec)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.forwardDelayInSec)
   return _internal_forwarddelayinsec();
 }
 inline void StandardCoaterParams::set_forwarddelayinsec(double value) {
   _internal_set_forwarddelayinsec(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.forwardDelayInSec)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.forwardDelayInSec)
 }
 inline double StandardCoaterParams::_internal_forwarddelayinsec() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8016,12 +8010,12 @@ inline void StandardCoaterParams::clear_backwarddelayinsec() {
   _impl_.backwarddelayinsec_ = 0;
 }
 inline double StandardCoaterParams::backwarddelayinsec() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.backwardDelayInSec)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.backwardDelayInSec)
   return _internal_backwarddelayinsec();
 }
 inline void StandardCoaterParams::set_backwarddelayinsec(double value) {
   _internal_set_backwarddelayinsec(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.backwardDelayInSec)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.backwardDelayInSec)
 }
 inline double StandardCoaterParams::_internal_backwarddelayinsec() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8038,12 +8032,12 @@ inline void StandardCoaterParams::clear_acceleration() {
   _impl_.acceleration_ = 0;
 }
 inline double StandardCoaterParams::acceleration() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.acceleration)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.acceleration)
   return _internal_acceleration();
 }
 inline void StandardCoaterParams::set_acceleration(double value) {
   _internal_set_acceleration(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.acceleration)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.acceleration)
 }
 inline double StandardCoaterParams::_internal_acceleration() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8060,12 +8054,12 @@ inline void StandardCoaterParams::clear_isbidirectional() {
   _impl_.isbidirectional_ = false;
 }
 inline bool StandardCoaterParams::isbidirectional() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.StandardCoaterParams.isBidirectional)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.StandardCoaterParams.isBidirectional)
   return _internal_isbidirectional();
 }
 inline void StandardCoaterParams::set_isbidirectional(bool value) {
   _internal_set_isbidirectional(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.StandardCoaterParams.isBidirectional)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.StandardCoaterParams.isBidirectional)
 }
 inline bool StandardCoaterParams::_internal_isbidirectional() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8086,12 +8080,12 @@ inline void BuildChamberParams::clear_platformliftrateinmmpersec() {
   _impl_.platformliftrateinmmpersec_ = 0;
 }
 inline double BuildChamberParams::platformliftrateinmmpersec() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.platformLiftRateInMmPerSec)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.platformLiftRateInMmPerSec)
   return _internal_platformliftrateinmmpersec();
 }
 inline void BuildChamberParams::set_platformliftrateinmmpersec(double value) {
   _internal_set_platformliftrateinmmpersec(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.platformLiftRateInMmPerSec)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.platformLiftRateInMmPerSec)
 }
 inline double BuildChamberParams::_internal_platformliftrateinmmpersec() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8108,12 +8102,12 @@ inline void BuildChamberParams::clear_platformliftaccelerationinmmpersec2() {
   _impl_.platformliftaccelerationinmmpersec2_ = 0;
 }
 inline double BuildChamberParams::platformliftaccelerationinmmpersec2() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.platformLiftAccelerationInMmPerSec2)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.platformLiftAccelerationInMmPerSec2)
   return _internal_platformliftaccelerationinmmpersec2();
 }
 inline void BuildChamberParams::set_platformliftaccelerationinmmpersec2(double value) {
   _internal_set_platformliftaccelerationinmmpersec2(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.platformLiftAccelerationInMmPerSec2)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.platformLiftAccelerationInMmPerSec2)
 }
 inline double BuildChamberParams::_internal_platformliftaccelerationinmmpersec2() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8130,12 +8124,12 @@ inline void BuildChamberParams::clear_platformliftdelayins() {
   _impl_.platformliftdelayins_ = 0;
 }
 inline double BuildChamberParams::platformliftdelayins() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.platformLiftDelayInS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.platformLiftDelayInS)
   return _internal_platformliftdelayins();
 }
 inline void BuildChamberParams::set_platformliftdelayins(double value) {
   _internal_set_platformliftdelayins(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.platformLiftDelayInS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.platformLiftDelayInS)
 }
 inline double BuildChamberParams::_internal_platformliftdelayins() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8152,12 +8146,12 @@ inline void BuildChamberParams::clear_inertatmospheretimeins() {
   _impl_.inertatmospheretimeins_ = 0;
 }
 inline double BuildChamberParams::inertatmospheretimeins() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.inertAtmosphereTimeInS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.inertAtmosphereTimeInS)
   return _internal_inertatmospheretimeins();
 }
 inline void BuildChamberParams::set_inertatmospheretimeins(double value) {
   _internal_set_inertatmospheretimeins(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.inertAtmosphereTimeInS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.inertAtmosphereTimeInS)
 }
 inline double BuildChamberParams::_internal_inertatmospheretimeins() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8174,12 +8168,12 @@ inline void BuildChamberParams::clear_releaseatmospheretimeins() {
   _impl_.releaseatmospheretimeins_ = 0;
 }
 inline double BuildChamberParams::releaseatmospheretimeins() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.releaseAtmosphereTimeInS)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.releaseAtmosphereTimeInS)
   return _internal_releaseatmospheretimeins();
 }
 inline void BuildChamberParams::set_releaseatmospheretimeins(double value) {
   _internal_set_releaseatmospheretimeins(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.releaseAtmosphereTimeInS)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.releaseAtmosphereTimeInS)
 }
 inline double BuildChamberParams::_internal_releaseatmospheretimeins() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8196,12 +8190,12 @@ inline void BuildChamberParams::clear_maximumo2ppm() {
   _impl_.maximumo2ppm_ = 0;
 }
 inline double BuildChamberParams::maximumo2ppm() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.BuildChamberParams.maximumO2PPM)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.BuildChamberParams.maximumO2PPM)
   return _internal_maximumo2ppm();
 }
 inline void BuildChamberParams::set_maximumo2ppm(double value) {
   _internal_set_maximumo2ppm(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.BuildChamberParams.maximumO2PPM)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.BuildChamberParams.maximumO2PPM)
 }
 inline double BuildChamberParams::_internal_maximumo2ppm() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8222,12 +8216,12 @@ inline void CuboidBuildVolumeParams::clear_xmin() {
   _impl_.xmin_ = 0;
 }
 inline double CuboidBuildVolumeParams::xmin() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.XMin)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.XMin)
   return _internal_xmin();
 }
 inline void CuboidBuildVolumeParams::set_xmin(double value) {
   _internal_set_xmin(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.XMin)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.XMin)
 }
 inline double CuboidBuildVolumeParams::_internal_xmin() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8244,12 +8238,12 @@ inline void CuboidBuildVolumeParams::clear_xmax() {
   _impl_.xmax_ = 0;
 }
 inline double CuboidBuildVolumeParams::xmax() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.XMax)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.XMax)
   return _internal_xmax();
 }
 inline void CuboidBuildVolumeParams::set_xmax(double value) {
   _internal_set_xmax(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.XMax)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.XMax)
 }
 inline double CuboidBuildVolumeParams::_internal_xmax() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8266,12 +8260,12 @@ inline void CuboidBuildVolumeParams::clear_ymin() {
   _impl_.ymin_ = 0;
 }
 inline double CuboidBuildVolumeParams::ymin() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.YMin)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.YMin)
   return _internal_ymin();
 }
 inline void CuboidBuildVolumeParams::set_ymin(double value) {
   _internal_set_ymin(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.YMin)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.YMin)
 }
 inline double CuboidBuildVolumeParams::_internal_ymin() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8288,12 +8282,12 @@ inline void CuboidBuildVolumeParams::clear_ymax() {
   _impl_.ymax_ = 0;
 }
 inline double CuboidBuildVolumeParams::ymax() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.YMax)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.YMax)
   return _internal_ymax();
 }
 inline void CuboidBuildVolumeParams::set_ymax(double value) {
   _internal_set_ymax(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.YMax)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.YMax)
 }
 inline double CuboidBuildVolumeParams::_internal_ymax() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8310,12 +8304,12 @@ inline void CuboidBuildVolumeParams::clear_zmin() {
   _impl_.zmin_ = 0;
 }
 inline double CuboidBuildVolumeParams::zmin() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.ZMin)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.ZMin)
   return _internal_zmin();
 }
 inline void CuboidBuildVolumeParams::set_zmin(double value) {
   _internal_set_zmin(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.ZMin)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.ZMin)
 }
 inline double CuboidBuildVolumeParams::_internal_zmin() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8332,12 +8326,12 @@ inline void CuboidBuildVolumeParams::clear_zmax() {
   _impl_.zmax_ = 0;
 }
 inline double CuboidBuildVolumeParams::zmax() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.CuboidBuildVolumeParams.ZMax)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.CuboidBuildVolumeParams.ZMax)
   return _internal_zmax();
 }
 inline void CuboidBuildVolumeParams::set_zmax(double value) {
   _internal_set_zmax(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.CuboidBuildVolumeParams.ZMax)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.CuboidBuildVolumeParams.ZMax)
 }
 inline double CuboidBuildVolumeParams::_internal_zmax() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8358,12 +8352,12 @@ inline void ZylinderBuildVolumeParams::clear_diameter() {
   _impl_.diameter_ = 0;
 }
 inline double ZylinderBuildVolumeParams::diameter() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ZylinderBuildVolumeParams.diameter)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ZylinderBuildVolumeParams.diameter)
   return _internal_diameter();
 }
 inline void ZylinderBuildVolumeParams::set_diameter(double value) {
   _internal_set_diameter(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ZylinderBuildVolumeParams.diameter)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ZylinderBuildVolumeParams.diameter)
 }
 inline double ZylinderBuildVolumeParams::_internal_diameter() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8380,12 +8374,12 @@ inline void ZylinderBuildVolumeParams::clear_height() {
   _impl_.height_ = 0;
 }
 inline double ZylinderBuildVolumeParams::height() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.ZylinderBuildVolumeParams.height)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ZylinderBuildVolumeParams.height)
   return _internal_height();
 }
 inline void ZylinderBuildVolumeParams::set_height(double value) {
   _internal_set_height(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.ZylinderBuildVolumeParams.height)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.ZylinderBuildVolumeParams.height)
 }
 inline double ZylinderBuildVolumeParams::_internal_height() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8406,12 +8400,12 @@ inline void PreheaterParams::clear_preheatingtemperature() {
   _impl_.preheatingtemperature_ = 0;
 }
 inline double PreheaterParams::preheatingtemperature() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.PreheaterParams.preheatingTemperature)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.PreheaterParams.preheatingTemperature)
   return _internal_preheatingtemperature();
 }
 inline void PreheaterParams::set_preheatingtemperature(double value) {
   _internal_set_preheatingtemperature(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.PreheaterParams.preheatingTemperature)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.PreheaterParams.preheatingTemperature)
 }
 inline double PreheaterParams::_internal_preheatingtemperature() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8428,12 +8422,12 @@ inline void PreheaterParams::clear_maximumpreheatingtemperature() {
   _impl_.maximumpreheatingtemperature_ = 0;
 }
 inline double PreheaterParams::maximumpreheatingtemperature() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.PreheaterParams.maximumPreheatingTemperature)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.PreheaterParams.maximumPreheatingTemperature)
   return _internal_maximumpreheatingtemperature();
 }
 inline void PreheaterParams::set_maximumpreheatingtemperature(double value) {
   _internal_set_maximumpreheatingtemperature(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.PreheaterParams.maximumPreheatingTemperature)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.PreheaterParams.maximumPreheatingTemperature)
 }
 inline double PreheaterParams::_internal_maximumpreheatingtemperature() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8450,12 +8444,12 @@ inline void PreheaterParams::clear_heatingrateinsecperk() {
   _impl_.heatingrateinsecperk_ = 0;
 }
 inline double PreheaterParams::heatingrateinsecperk() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.PreheaterParams.heatingRateInSecPerK)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.PreheaterParams.heatingRateInSecPerK)
   return _internal_heatingrateinsecperk();
 }
 inline void PreheaterParams::set_heatingrateinsecperk(double value) {
   _internal_set_heatingrateinsecperk(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.PreheaterParams.heatingRateInSecPerK)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.PreheaterParams.heatingRateInSecPerK)
 }
 inline double PreheaterParams::_internal_heatingrateinsecperk() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8472,12 +8466,12 @@ inline void PreheaterParams::clear_roomtemperature() {
   _impl_.roomtemperature_ = 0;
 }
 inline double PreheaterParams::roomtemperature() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.PreheaterParams.roomTemperature)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.PreheaterParams.roomTemperature)
   return _internal_roomtemperature();
 }
 inline void PreheaterParams::set_roomtemperature(double value) {
   _internal_set_roomtemperature(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.PreheaterParams.roomTemperature)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.PreheaterParams.roomTemperature)
 }
 inline double PreheaterParams::_internal_roomtemperature() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8498,12 +8492,12 @@ inline void TimePerStateInMS::clear_timeoff() {
   _impl_.timeoff_ = 0;
 }
 inline double TimePerStateInMS::timeoff() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.TimePerStateInMS.timeOff)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.TimePerStateInMS.timeOff)
   return _internal_timeoff();
 }
 inline void TimePerStateInMS::set_timeoff(double value) {
   _internal_set_timeoff(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.TimePerStateInMS.timeOff)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.TimePerStateInMS.timeOff)
 }
 inline double TimePerStateInMS::_internal_timeoff() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8520,12 +8514,12 @@ inline void TimePerStateInMS::clear_timeidle() {
   _impl_.timeidle_ = 0;
 }
 inline double TimePerStateInMS::timeidle() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.TimePerStateInMS.timeIdle)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.TimePerStateInMS.timeIdle)
   return _internal_timeidle();
 }
 inline void TimePerStateInMS::set_timeidle(double value) {
   _internal_set_timeidle(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.TimePerStateInMS.timeIdle)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.TimePerStateInMS.timeIdle)
 }
 inline double TimePerStateInMS::_internal_timeidle() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8542,12 +8536,12 @@ inline void TimePerStateInMS::clear_timeactive() {
   _impl_.timeactive_ = 0;
 }
 inline double TimePerStateInMS::timeactive() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.TimePerStateInMS.timeActive)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.TimePerStateInMS.timeActive)
   return _internal_timeactive();
 }
 inline void TimePerStateInMS::set_timeactive(double value) {
   _internal_set_timeactive(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.TimePerStateInMS.timeActive)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.TimePerStateInMS.timeActive)
 }
 inline double TimePerStateInMS::_internal_timeactive() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8564,12 +8558,12 @@ inline void TimePerStateInMS::clear_timemaintenance() {
   _impl_.timemaintenance_ = 0;
 }
 inline double TimePerStateInMS::timemaintenance() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.TimePerStateInMS.timeMaintenance)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.TimePerStateInMS.timeMaintenance)
   return _internal_timemaintenance();
 }
 inline void TimePerStateInMS::set_timemaintenance(double value) {
   _internal_set_timemaintenance(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.TimePerStateInMS.timeMaintenance)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.TimePerStateInMS.timeMaintenance)
 }
 inline double TimePerStateInMS::_internal_timemaintenance() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8590,12 +8584,12 @@ inline void EnergyUsePerStateInkWh::clear_energyoff() {
   _impl_.energyoff_ = 0;
 }
 inline double EnergyUsePerStateInkWh::energyoff() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyOff)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyOff)
   return _internal_energyoff();
 }
 inline void EnergyUsePerStateInkWh::set_energyoff(double value) {
   _internal_set_energyoff(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyOff)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyOff)
 }
 inline double EnergyUsePerStateInkWh::_internal_energyoff() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8612,12 +8606,12 @@ inline void EnergyUsePerStateInkWh::clear_energyidle() {
   _impl_.energyidle_ = 0;
 }
 inline double EnergyUsePerStateInkWh::energyidle() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyIdle)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyIdle)
   return _internal_energyidle();
 }
 inline void EnergyUsePerStateInkWh::set_energyidle(double value) {
   _internal_set_energyidle(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyIdle)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyIdle)
 }
 inline double EnergyUsePerStateInkWh::_internal_energyidle() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8634,12 +8628,12 @@ inline void EnergyUsePerStateInkWh::clear_energyactive() {
   _impl_.energyactive_ = 0;
 }
 inline double EnergyUsePerStateInkWh::energyactive() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyActive)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyActive)
   return _internal_energyactive();
 }
 inline void EnergyUsePerStateInkWh::set_energyactive(double value) {
   _internal_set_energyactive(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyActive)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyActive)
 }
 inline double EnergyUsePerStateInkWh::_internal_energyactive() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8656,12 +8650,12 @@ inline void EnergyUsePerStateInkWh::clear_energymaintenance() {
   _impl_.energymaintenance_ = 0;
 }
 inline double EnergyUsePerStateInkWh::energymaintenance() const {
-  // @@protoc_insertion_point(field_get:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyMaintenance)
+  // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyMaintenance)
   return _internal_energymaintenance();
 }
 inline void EnergyUsePerStateInkWh::set_energymaintenance(double value) {
   _internal_set_energymaintenance(value);
-  // @@protoc_insertion_point(field_set:modularEmulator.modules.proto.EnergyUsePerStateInkWh.energyMaintenance)
+  // @@protoc_insertion_point(field_set:ManufacturingScenarioRepository.EnergyUsePerStateInkWh.energyMaintenance)
 }
 inline double EnergyUsePerStateInkWh::_internal_energymaintenance() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
@@ -8678,61 +8672,59 @@ inline void EnergyUsePerStateInkWh::_internal_set_energymaintenance(double value
 #endif  // __GNUC__
 
 // @@protoc_insertion_point(namespace_scope)
-}  // namespace proto
-}  // namespace modules
-}  // namespace modularEmulator
+}  // namespace ManufacturingScenarioRepository
 
 
 namespace google {
 namespace protobuf {
 
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::BasicScannerParams_JumpMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::BasicScannerParams_JumpMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::BasicScannerParams_JumpMode>() {
-  return ::modularEmulator::modules::proto::BasicScannerParams_JumpMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::BasicScannerParams_JumpMode>() {
+  return ::ManufacturingScenarioRepository::BasicScannerParams_JumpMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode>() {
-  return ::modularEmulator::modules::proto::NovantaScannerParams_SkyWritingMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode>() {
+  return ::ManufacturingScenarioRepository::NovantaScannerParams_SkyWritingMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::NovantaScannerParams_DelayMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::NovantaScannerParams_DelayMode>() {
-  return ::modularEmulator::modules::proto::NovantaScannerParams_DelayMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode>() {
+  return ::ManufacturingScenarioRepository::NovantaScannerParams_DelayMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode>() {
-  return ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode>() {
+  return ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode>() {
-  return ::modularEmulator::modules::proto::ScanlabScannerParams_SkyWritingParametringMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode>() {
+  return ::ManufacturingScenarioRepository::ScanlabScannerParams_SkyWritingParametringMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode>() {
-  return ::modularEmulator::modules::proto::ScanlabScannerParams_DelayMode_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode>() {
+  return ::ManufacturingScenarioRepository::ScanlabScannerParams_DelayMode_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::Service> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::Service> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::Service>() {
-  return ::modularEmulator::modules::proto::Service_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::Service>() {
+  return ::ManufacturingScenarioRepository::Service_descriptor();
 }
 template <>
-struct is_proto_enum<::modularEmulator::modules::proto::state> : std::true_type {};
+struct is_proto_enum<::ManufacturingScenarioRepository::state> : std::true_type {};
 template <>
-inline const EnumDescriptor* GetEnumDescriptor<::modularEmulator::modules::proto::state>() {
-  return ::modularEmulator::modules::proto::state_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor<::ManufacturingScenarioRepository::state>() {
+  return ::ManufacturingScenarioRepository::state_descriptor();
 }
 
 }  // namespace protobuf

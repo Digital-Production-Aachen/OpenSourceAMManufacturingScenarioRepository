@@ -121,7 +121,7 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return Whether the usedMachineModel field is set.
      */
     boolean hasUsedMachineModel();
@@ -130,18 +130,18 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return The usedMachineModel.
      */
-    modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel();
+    ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel();
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder();
+    ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder();
   }
   /**
    * Protobuf type {@code ManufacturingScenarioRepository.ManufacturingScenarioDataSet}
@@ -346,13 +346,13 @@ public final class ManufacturingScenarioOuterClass {
     }
 
     public static final int USED_MACHINE_MODEL_FIELD_NUMBER = 5;
-    private modularEmulator.modules.proto.ModuleDefinition.Module usedMachineModel_;
+    private ManufacturingScenarioRepository.ModuleDefinition.Module usedMachineModel_;
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return Whether the usedMachineModel field is set.
      */
     @java.lang.Override
@@ -364,23 +364,23 @@ public final class ManufacturingScenarioOuterClass {
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      * @return The usedMachineModel.
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel() {
-      return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel() {
+      return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
     }
     /**
      * <pre>
      *global fallback machine model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
-      return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+    public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
+      return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1549,15 +1549,15 @@ public final class ManufacturingScenarioOuterClass {
         return generatingBuildProcessorStrategyBuilder_;
       }
 
-      private modularEmulator.modules.proto.ModuleDefinition.Module usedMachineModel_;
+      private ManufacturingScenarioRepository.ModuleDefinition.Module usedMachineModel_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> usedMachineModelBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> usedMachineModelBuilder_;
       /**
        * <pre>
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        * @return Whether the usedMachineModel field is set.
        */
       public boolean hasUsedMachineModel() {
@@ -1568,12 +1568,12 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        * @return The usedMachineModel.
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module getUsedMachineModel() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module getUsedMachineModel() {
         if (usedMachineModelBuilder_ == null) {
-          return usedMachineModel_ == null ? modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+          return usedMachineModel_ == null ? ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
         } else {
           return usedMachineModelBuilder_.getMessage();
         }
@@ -1583,9 +1583,9 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public Builder setUsedMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder setUsedMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (usedMachineModelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1603,10 +1603,10 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       public Builder setUsedMachineModel(
-          modularEmulator.modules.proto.ModuleDefinition.Module.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.Module.Builder builderForValue) {
         if (usedMachineModelBuilder_ == null) {
           usedMachineModel_ = builderForValue.build();
         } else {
@@ -1621,13 +1621,13 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public Builder mergeUsedMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder mergeUsedMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (usedMachineModelBuilder_ == null) {
           if (((bitField0_ & 0x00000010) != 0) &&
             usedMachineModel_ != null &&
-            usedMachineModel_ != modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance()) {
+            usedMachineModel_ != ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance()) {
             getUsedMachineModelBuilder().mergeFrom(value);
           } else {
             usedMachineModel_ = value;
@@ -1646,7 +1646,7 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       public Builder clearUsedMachineModel() {
         bitField0_ = (bitField0_ & ~0x00000010);
@@ -1663,9 +1663,9 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module.Builder getUsedMachineModelBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module.Builder getUsedMachineModelBuilder() {
         bitField0_ |= 0x00000010;
         onChanged();
         return getUsedMachineModelFieldBuilder().getBuilder();
@@ -1675,14 +1675,14 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getUsedMachineModelOrBuilder() {
         if (usedMachineModelBuilder_ != null) {
           return usedMachineModelBuilder_.getMessageOrBuilder();
         } else {
           return usedMachineModel_ == null ?
-              modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
+              ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance() : usedMachineModel_;
         }
       }
       /**
@@ -1690,14 +1690,14 @@ public final class ManufacturingScenarioOuterClass {
        *global fallback machine model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module used_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module used_machine_model = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> 
           getUsedMachineModelFieldBuilder() {
         if (usedMachineModelBuilder_ == null) {
           usedMachineModelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder>(
+              ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder>(
                   getUsedMachineModel(),
                   getParentForChildren(),
                   isClean());
@@ -1896,7 +1896,7 @@ public final class ManufacturingScenarioOuterClass {
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return Whether the specificMachineModel field is set.
      */
     boolean hasSpecificMachineModel();
@@ -1905,25 +1905,25 @@ public final class ManufacturingScenarioOuterClass {
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return The specificMachineModel.
      */
-    modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel();
+    ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel();
     /**
      * <pre>
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder();
+    ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder();
 
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return Whether the overrideCuboidBuildVolume field is set.
      */
     boolean hasOverrideCuboidBuildVolume();
@@ -1932,18 +1932,18 @@ public final class ManufacturingScenarioOuterClass {
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return The overrideCuboidBuildVolume.
      */
-    modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume();
+    ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume();
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      */
-    modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder();
+    ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder();
 
     ManufacturingScenarioRepository.ManufacturingScenarioOuterClass.ManufacturingScenario.MachineModelCase getMachineModelCase();
   }
@@ -2217,7 +2217,7 @@ public final class ManufacturingScenarioOuterClass {
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return Whether the specificMachineModel field is set.
      */
     @java.lang.Override
@@ -2229,29 +2229,29 @@ public final class ManufacturingScenarioOuterClass {
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      * @return The specificMachineModel.
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel() {
+    public ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel() {
       if (machineModelCase_ == 5) {
-         return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+         return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+      return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
     }
     /**
      * <pre>
      *machine model used to generate the time prediction
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+     * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
+    public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
       if (machineModelCase_ == 5) {
-         return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+         return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+      return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
     }
 
     public static final int OVERRIDE_CUBOID_BUILD_VOLUME_FIELD_NUMBER = 6;
@@ -2260,7 +2260,7 @@ public final class ManufacturingScenarioOuterClass {
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return Whether the overrideCuboidBuildVolume field is set.
      */
     @java.lang.Override
@@ -2272,29 +2272,29 @@ public final class ManufacturingScenarioOuterClass {
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      * @return The overrideCuboidBuildVolume.
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
+    public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
       if (machineModelCase_ == 6) {
-         return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+         return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+      return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
     }
     /**
      * <pre>
      *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
      * </pre>
      *
-     * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+     * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
      */
     @java.lang.Override
-    public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
+    public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
       if (machineModelCase_ == 6) {
-         return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+         return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
       }
-      return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+      return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -2324,10 +2324,10 @@ public final class ManufacturingScenarioOuterClass {
         output.writeMessage(4, getGeneratingBuildProcessorStrategy());
       }
       if (machineModelCase_ == 5) {
-        output.writeMessage(5, (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_);
+        output.writeMessage(5, (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_);
       }
       if (machineModelCase_ == 6) {
-        output.writeMessage(6, (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
+        output.writeMessage(6, (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -2355,11 +2355,11 @@ public final class ManufacturingScenarioOuterClass {
       }
       if (machineModelCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_);
+          .computeMessageSize(5, (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_);
       }
       if (machineModelCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
+          .computeMessageSize(6, (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -3601,13 +3601,13 @@ public final class ManufacturingScenarioOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> specificMachineModelBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> specificMachineModelBuilder_;
       /**
        * <pre>
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        * @return Whether the specificMachineModel field is set.
        */
       @java.lang.Override
@@ -3619,21 +3619,21 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        * @return The specificMachineModel.
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.Module getSpecificMachineModel() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module getSpecificMachineModel() {
         if (specificMachineModelBuilder_ == null) {
           if (machineModelCase_ == 5) {
-            return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+            return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         } else {
           if (machineModelCase_ == 5) {
             return specificMachineModelBuilder_.getMessage();
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         }
       }
       /**
@@ -3641,9 +3641,9 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public Builder setSpecificMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder setSpecificMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (specificMachineModelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3661,10 +3661,10 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       public Builder setSpecificMachineModel(
-          modularEmulator.modules.proto.ModuleDefinition.Module.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.Module.Builder builderForValue) {
         if (specificMachineModelBuilder_ == null) {
           machineModel_ = builderForValue.build();
           onChanged();
@@ -3679,13 +3679,13 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public Builder mergeSpecificMachineModel(modularEmulator.modules.proto.ModuleDefinition.Module value) {
+      public Builder mergeSpecificMachineModel(ManufacturingScenarioRepository.ModuleDefinition.Module value) {
         if (specificMachineModelBuilder_ == null) {
           if (machineModelCase_ == 5 &&
-              machineModel_ != modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance()) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.Module.newBuilder((modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_)
+              machineModel_ != ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance()) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.Module.newBuilder((ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_)
                 .mergeFrom(value).buildPartial();
           } else {
             machineModel_ = value;
@@ -3706,7 +3706,7 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       public Builder clearSpecificMachineModel() {
         if (specificMachineModelBuilder_ == null) {
@@ -3729,9 +3729,9 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.Module.Builder getSpecificMachineModelBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.Module.Builder getSpecificMachineModelBuilder() {
         return getSpecificMachineModelFieldBuilder().getBuilder();
       }
       /**
@@ -3739,17 +3739,17 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder getSpecificMachineModelOrBuilder() {
         if ((machineModelCase_ == 5) && (specificMachineModelBuilder_ != null)) {
           return specificMachineModelBuilder_.getMessageOrBuilder();
         } else {
           if (machineModelCase_ == 5) {
-            return (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_;
+            return (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
         }
       }
       /**
@@ -3757,18 +3757,18 @@ public final class ManufacturingScenarioOuterClass {
        *machine model used to generate the time prediction
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.Module specific_machine_model = 5;</code>
+       * <code>.ManufacturingScenarioRepository.Module specific_machine_model = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder> 
           getSpecificMachineModelFieldBuilder() {
         if (specificMachineModelBuilder_ == null) {
           if (!(machineModelCase_ == 5)) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.Module.getDefaultInstance();
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.Module.getDefaultInstance();
           }
           specificMachineModelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.Module, modularEmulator.modules.proto.ModuleDefinition.Module.Builder, modularEmulator.modules.proto.ModuleDefinition.ModuleOrBuilder>(
-                  (modularEmulator.modules.proto.ModuleDefinition.Module) machineModel_,
+              ManufacturingScenarioRepository.ModuleDefinition.Module, ManufacturingScenarioRepository.ModuleDefinition.Module.Builder, ManufacturingScenarioRepository.ModuleDefinition.ModuleOrBuilder>(
+                  (ManufacturingScenarioRepository.ModuleDefinition.Module) machineModel_,
                   getParentForChildren(),
                   isClean());
           machineModel_ = null;
@@ -3779,13 +3779,13 @@ public final class ManufacturingScenarioOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> overrideCuboidBuildVolumeBuilder_;
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> overrideCuboidBuildVolumeBuilder_;
       /**
        * <pre>
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        * @return Whether the overrideCuboidBuildVolume field is set.
        */
       @java.lang.Override
@@ -3797,21 +3797,21 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        * @return The overrideCuboidBuildVolume.
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams getOverrideCuboidBuildVolume() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           if (machineModelCase_ == 6) {
-            return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+            return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         } else {
           if (machineModelCase_ == 6) {
             return overrideCuboidBuildVolumeBuilder_.getMessage();
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         }
       }
       /**
@@ -3819,9 +3819,9 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public Builder setOverrideCuboidBuildVolume(modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams value) {
+      public Builder setOverrideCuboidBuildVolume(ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams value) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3839,10 +3839,10 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       public Builder setOverrideCuboidBuildVolume(
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder builderForValue) {
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder builderForValue) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           machineModel_ = builderForValue.build();
           onChanged();
@@ -3857,13 +3857,13 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public Builder mergeOverrideCuboidBuildVolume(modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams value) {
+      public Builder mergeOverrideCuboidBuildVolume(ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams value) {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           if (machineModelCase_ == 6 &&
-              machineModel_ != modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance()) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.newBuilder((modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_)
+              machineModel_ != ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance()) {
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.newBuilder((ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_)
                 .mergeFrom(value).buildPartial();
           } else {
             machineModel_ = value;
@@ -3884,7 +3884,7 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       public Builder clearOverrideCuboidBuildVolume() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
@@ -3907,9 +3907,9 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder getOverrideCuboidBuildVolumeBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder getOverrideCuboidBuildVolumeBuilder() {
         return getOverrideCuboidBuildVolumeFieldBuilder().getBuilder();
       }
       /**
@@ -3917,17 +3917,17 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       @java.lang.Override
-      public modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
+      public ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder getOverrideCuboidBuildVolumeOrBuilder() {
         if ((machineModelCase_ == 6) && (overrideCuboidBuildVolumeBuilder_ != null)) {
           return overrideCuboidBuildVolumeBuilder_.getMessageOrBuilder();
         } else {
           if (machineModelCase_ == 6) {
-            return (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
+            return (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_;
           }
-          return modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+          return ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
         }
       }
       /**
@@ -3935,18 +3935,18 @@ public final class ManufacturingScenarioOuterClass {
        *cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
        * </pre>
        *
-       * <code>.modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
+       * <code>.ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> 
+          ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder> 
           getOverrideCuboidBuildVolumeFieldBuilder() {
         if (overrideCuboidBuildVolumeBuilder_ == null) {
           if (!(machineModelCase_ == 6)) {
-            machineModel_ = modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
+            machineModel_ = ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.getDefaultInstance();
           }
           overrideCuboidBuildVolumeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams.Builder, modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder>(
-                  (modularEmulator.modules.proto.ModuleDefinition.CuboidBuildVolumeParams) machineModel_,
+              ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams.Builder, ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParamsOrBuilder>(
+                  (ManufacturingScenarioRepository.ModuleDefinition.CuboidBuildVolumeParams) machineModel_,
                   getParentForChildren(),
                   isClean());
           machineModel_ = null;
@@ -4035,7 +4035,7 @@ public final class ManufacturingScenarioOuterClass {
 
     /**
      * <pre>
-     *the minimum distance between nested parts and the container walls [mm]
+     *the minimum distance between nested parts and the container walls and bottom [mm]
      *if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
      * </pre>
      *
@@ -4129,7 +4129,7 @@ public final class ManufacturingScenarioOuterClass {
     private double distanceToContainerInMm_ = 0D;
     /**
      * <pre>
-     *the minimum distance between nested parts and the container walls [mm]
+     *the minimum distance between nested parts and the container walls and bottom [mm]
      *if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
      * </pre>
      *
@@ -4659,7 +4659,7 @@ public final class ManufacturingScenarioOuterClass {
       private double distanceToContainerInMm_ ;
       /**
        * <pre>
-       *the minimum distance between nested parts and the container walls [mm]
+       *the minimum distance between nested parts and the container walls and bottom [mm]
        *if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
        * </pre>
        *
@@ -4672,7 +4672,7 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *the minimum distance between nested parts and the container walls [mm]
+       *the minimum distance between nested parts and the container walls and bottom [mm]
        *if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
        * </pre>
        *
@@ -4689,7 +4689,7 @@ public final class ManufacturingScenarioOuterClass {
       }
       /**
        * <pre>
-       *the minimum distance between nested parts and the container walls [mm]
+       *the minimum distance between nested parts and the container walls and bottom [mm]
        *if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
        * </pre>
        *
@@ -7187,7 +7187,7 @@ public final class ManufacturingScenarioOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ManufacturingScenario.proto\022\037Manufactu" +
       "ringScenarioRepository\032\036build_processor_" +
-      "strategy.proto\032\026ModuleDefinition.proto\"\334" +
+      "strategy.proto\032\026ModuleDefinition.proto\"\336" +
       "\002\n\034ManufacturingScenarioDataSet\022\014\n\004name\030" +
       "\001 \001(\t\022I\n\tscenarios\030\002 \003(\01326.Manufacturing" +
       "ScenarioRepository.ManufacturingScenario" +
@@ -7195,42 +7195,42 @@ public final class ManufacturingScenarioOuterClass {
       "arioRepository.MovementConstrains\022W\n#gen" +
       "erating_build_processor_strategy\030\004 \001(\0132*" +
       ".open_vector_format.BuildProcessorStrate" +
-      "gy\022A\n\022used_machine_model\030\005 \001(\0132%.modular" +
-      "Emulator.modules.proto.Module\"\333\003\n\025Manufa" +
-      "cturingScenario\022\014\n\004name\030\001 \001(\t\022X\n\027partMan" +
-      "ufacturingOrders\030\002 \003(\01327.ManufacturingSc" +
-      "enarioRepository.PartManufacturingOrder\022" +
-      "G\n\nconstrains\030\003 \001(\01323.ManufacturingScena" +
-      "rioRepository.MovementConstrains\022W\n#gene" +
-      "rating_build_processor_strategy\030\004 \001(\0132*." +
-      "open_vector_format.BuildProcessorStrateg" +
-      "y\022G\n\026specific_machine_model\030\005 \001(\0132%.modu" +
-      "larEmulator.modules.proto.ModuleH\000\022^\n\034ov" +
-      "erride_cuboid_build_volume\030\006 \001(\01326.modul" +
-      "arEmulator.modules.proto.CuboidBuildVolu" +
-      "meParamsH\000B\017\n\rmachine_model\"\301\001\n\022Movement" +
-      "Constrains\022\036\n\026minimum_distance_in_mm\030\001 \001" +
-      "(\001\022#\n\033distance_to_container_in_mm\030\002 \001(\001\022" +
-      ",\n$allowed_full_circle_rotation_steps_z\030" +
-      "\003 \001(\005\022\033\n\023max_rot_z_angle_deg\030\004 \001(\001\022\033\n\023mi" +
-      "n_rot_z_angle_deg\030\005 \001(\001\"\234\003\n\026PartManufact" +
-      "uringOrder\022\016\n\006pmo_id\030\001 \001(\t\022\017\n\007part_id\030\002 " +
-      "\001(\t\022\032\n\022part_num_triangles\030\003 \001(\005\022\037\n\027quant" +
-      "ity_to_manufacture\030\004 \001(\005\022\033\n\023due_time_in_" +
-      "seconds\030\005 \001(\003\022,\n$order_creation_time_del" +
-      "ay_in_seconds\030\006 \001(\003\022\020\n\010material\030\007 \001(\t\022a\n" +
-      "\npriorities\030\010 \001(\0132M.ManufacturingScenari" +
-      "oRepository.PartManufacturingOrder.Manuf" +
-      "acturingPriority\032d\n\025ManufacturingPriorit" +
-      "y\022\026\n\016price_priority\030\001 \001(\001\022\031\n\021due_date_pr" +
-      "iority\030\002 \001(\001\022\030\n\020quality_priority\030\003 \001(\001b\006" +
-      "proto3"
+      "gy\022C\n\022used_machine_model\030\005 \001(\0132\'.Manufac" +
+      "turingScenarioRepository.Module\"\337\003\n\025Manu" +
+      "facturingScenario\022\014\n\004name\030\001 \001(\t\022X\n\027partM" +
+      "anufacturingOrders\030\002 \003(\01327.Manufacturing" +
+      "ScenarioRepository.PartManufacturingOrde" +
+      "r\022G\n\nconstrains\030\003 \001(\01323.ManufacturingSce" +
+      "narioRepository.MovementConstrains\022W\n#ge" +
+      "nerating_build_processor_strategy\030\004 \001(\0132" +
+      "*.open_vector_format.BuildProcessorStrat" +
+      "egy\022I\n\026specific_machine_model\030\005 \001(\0132\'.Ma" +
+      "nufacturingScenarioRepository.ModuleH\000\022`" +
+      "\n\034override_cuboid_build_volume\030\006 \001(\01328.M" +
+      "anufacturingScenarioRepository.CuboidBui" +
+      "ldVolumeParamsH\000B\017\n\rmachine_model\"\301\001\n\022Mo" +
+      "vementConstrains\022\036\n\026minimum_distance_in_" +
+      "mm\030\001 \001(\001\022#\n\033distance_to_container_in_mm\030" +
+      "\002 \001(\001\022,\n$allowed_full_circle_rotation_st" +
+      "eps_z\030\003 \001(\005\022\033\n\023max_rot_z_angle_deg\030\004 \001(\001" +
+      "\022\033\n\023min_rot_z_angle_deg\030\005 \001(\001\"\234\003\n\026PartMa" +
+      "nufacturingOrder\022\016\n\006pmo_id\030\001 \001(\t\022\017\n\007part" +
+      "_id\030\002 \001(\t\022\032\n\022part_num_triangles\030\003 \001(\005\022\037\n" +
+      "\027quantity_to_manufacture\030\004 \001(\005\022\033\n\023due_ti" +
+      "me_in_seconds\030\005 \001(\003\022,\n$order_creation_ti" +
+      "me_delay_in_seconds\030\006 \001(\003\022\020\n\010material\030\007 " +
+      "\001(\t\022a\n\npriorities\030\010 \001(\0132M.ManufacturingS" +
+      "cenarioRepository.PartManufacturingOrder" +
+      ".ManufacturingPriority\032d\n\025ManufacturingP" +
+      "riority\022\026\n\016price_priority\030\001 \001(\001\022\031\n\021due_d" +
+      "ate_priority\030\002 \001(\001\022\030\n\020quality_priority\030\003" +
+      " \001(\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           open_vector_format.BuildProcessorStrategyOuterClass.getDescriptor(),
-          modularEmulator.modules.proto.ModuleDefinition.getDescriptor(),
+          ManufacturingScenarioRepository.ModuleDefinition.getDescriptor(),
         });
     internal_static_ManufacturingScenarioRepository_ManufacturingScenarioDataSet_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -7263,7 +7263,7 @@ public final class ManufacturingScenarioOuterClass {
         internal_static_ManufacturingScenarioRepository_PartManufacturingOrder_ManufacturingPriority_descriptor,
         new java.lang.String[] { "PricePriority", "DueDatePriority", "QualityPriority", });
     open_vector_format.BuildProcessorStrategyOuterClass.getDescriptor();
-    modularEmulator.modules.proto.ModuleDefinition.getDescriptor();
+    ManufacturingScenarioRepository.ModuleDefinition.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

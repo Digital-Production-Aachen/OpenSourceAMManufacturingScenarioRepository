@@ -282,19 +282,19 @@ class ManufacturingScenarioDataSet final :
   ::open_vector_format::BuildProcessorStrategy* _internal_mutable_generating_build_processor_strategy();
 
   public:
-  // .modularEmulator.modules.proto.Module used_machine_model = 5;
+  // .ManufacturingScenarioRepository.Module used_machine_model = 5;
   bool has_used_machine_model() const;
   void clear_used_machine_model() ;
-  const ::modularEmulator::modules::proto::Module& used_machine_model() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::Module* release_used_machine_model();
-  ::modularEmulator::modules::proto::Module* mutable_used_machine_model();
-  void set_allocated_used_machine_model(::modularEmulator::modules::proto::Module* value);
-  void unsafe_arena_set_allocated_used_machine_model(::modularEmulator::modules::proto::Module* value);
-  ::modularEmulator::modules::proto::Module* unsafe_arena_release_used_machine_model();
+  const ::ManufacturingScenarioRepository::Module& used_machine_model() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::Module* release_used_machine_model();
+  ::ManufacturingScenarioRepository::Module* mutable_used_machine_model();
+  void set_allocated_used_machine_model(::ManufacturingScenarioRepository::Module* value);
+  void unsafe_arena_set_allocated_used_machine_model(::ManufacturingScenarioRepository::Module* value);
+  ::ManufacturingScenarioRepository::Module* unsafe_arena_release_used_machine_model();
 
   private:
-  const ::modularEmulator::modules::proto::Module& _internal_used_machine_model() const;
-  ::modularEmulator::modules::proto::Module* _internal_mutable_used_machine_model();
+  const ::ManufacturingScenarioRepository::Module& _internal_used_machine_model() const;
+  ::ManufacturingScenarioRepository::Module* _internal_mutable_used_machine_model();
 
   public:
   // @@protoc_insertion_point(class_scope:ManufacturingScenarioRepository.ManufacturingScenarioDataSet)
@@ -313,7 +313,7 @@ class ManufacturingScenarioDataSet final :
     ::google::protobuf::internal::ArenaStringPtr name_;
     ::ManufacturingScenarioRepository::MovementConstrains* constrains_;
     ::open_vector_format::BuildProcessorStrategy* generating_build_processor_strategy_;
-    ::modularEmulator::modules::proto::Module* used_machine_model_;
+    ::ManufacturingScenarioRepository::Module* used_machine_model_;
     PROTOBUF_TSAN_DECLARE_MEMBER;
   };
   union { Impl_ _impl_; };
@@ -525,42 +525,42 @@ class ManufacturingScenario final :
   ::open_vector_format::BuildProcessorStrategy* _internal_mutable_generating_build_processor_strategy();
 
   public:
-  // .modularEmulator.modules.proto.Module specific_machine_model = 5;
+  // .ManufacturingScenarioRepository.Module specific_machine_model = 5;
   bool has_specific_machine_model() const;
   private:
   bool _internal_has_specific_machine_model() const;
 
   public:
   void clear_specific_machine_model() ;
-  const ::modularEmulator::modules::proto::Module& specific_machine_model() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::Module* release_specific_machine_model();
-  ::modularEmulator::modules::proto::Module* mutable_specific_machine_model();
-  void set_allocated_specific_machine_model(::modularEmulator::modules::proto::Module* value);
-  void unsafe_arena_set_allocated_specific_machine_model(::modularEmulator::modules::proto::Module* value);
-  ::modularEmulator::modules::proto::Module* unsafe_arena_release_specific_machine_model();
+  const ::ManufacturingScenarioRepository::Module& specific_machine_model() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::Module* release_specific_machine_model();
+  ::ManufacturingScenarioRepository::Module* mutable_specific_machine_model();
+  void set_allocated_specific_machine_model(::ManufacturingScenarioRepository::Module* value);
+  void unsafe_arena_set_allocated_specific_machine_model(::ManufacturingScenarioRepository::Module* value);
+  ::ManufacturingScenarioRepository::Module* unsafe_arena_release_specific_machine_model();
 
   private:
-  const ::modularEmulator::modules::proto::Module& _internal_specific_machine_model() const;
-  ::modularEmulator::modules::proto::Module* _internal_mutable_specific_machine_model();
+  const ::ManufacturingScenarioRepository::Module& _internal_specific_machine_model() const;
+  ::ManufacturingScenarioRepository::Module* _internal_mutable_specific_machine_model();
 
   public:
-  // .modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+  // .ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
   bool has_override_cuboid_build_volume() const;
   private:
   bool _internal_has_override_cuboid_build_volume() const;
 
   public:
   void clear_override_cuboid_build_volume() ;
-  const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& override_cuboid_build_volume() const;
-  PROTOBUF_NODISCARD ::modularEmulator::modules::proto::CuboidBuildVolumeParams* release_override_cuboid_build_volume();
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* mutable_override_cuboid_build_volume();
-  void set_allocated_override_cuboid_build_volume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* value);
-  void unsafe_arena_set_allocated_override_cuboid_build_volume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* value);
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* unsafe_arena_release_override_cuboid_build_volume();
+  const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& override_cuboid_build_volume() const;
+  PROTOBUF_NODISCARD ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* release_override_cuboid_build_volume();
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* mutable_override_cuboid_build_volume();
+  void set_allocated_override_cuboid_build_volume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* value);
+  void unsafe_arena_set_allocated_override_cuboid_build_volume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* value);
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* unsafe_arena_release_override_cuboid_build_volume();
 
   private:
-  const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& _internal_override_cuboid_build_volume() const;
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* _internal_mutable_override_cuboid_build_volume();
+  const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& _internal_override_cuboid_build_volume() const;
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* _internal_mutable_override_cuboid_build_volume();
 
   public:
   void clear_machine_model();
@@ -589,8 +589,8 @@ class ManufacturingScenario final :
     union MachineModelUnion {
       constexpr MachineModelUnion() : _constinit_{} {}
         ::google::protobuf::internal::ConstantInitialized _constinit_;
-      ::modularEmulator::modules::proto::Module* specific_machine_model_;
-      ::modularEmulator::modules::proto::CuboidBuildVolumeParams* override_cuboid_build_volume_;
+      ::ManufacturingScenarioRepository::Module* specific_machine_model_;
+      ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* override_cuboid_build_volume_;
     } machine_model_;
     ::uint32_t _oneof_case_[1];
 
@@ -1557,27 +1557,27 @@ inline void ManufacturingScenarioDataSet::set_allocated_generating_build_process
   // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.generating_build_processor_strategy)
 }
 
-// .modularEmulator.modules.proto.Module used_machine_model = 5;
+// .ManufacturingScenarioRepository.Module used_machine_model = 5;
 inline bool ManufacturingScenarioDataSet::has_used_machine_model() const {
   bool value = (_impl_._has_bits_[0] & 0x00000004u) != 0;
   PROTOBUF_ASSUME(!value || _impl_.used_machine_model_ != nullptr);
   return value;
 }
-inline const ::modularEmulator::modules::proto::Module& ManufacturingScenarioDataSet::_internal_used_machine_model() const {
+inline const ::ManufacturingScenarioRepository::Module& ManufacturingScenarioDataSet::_internal_used_machine_model() const {
   PROTOBUF_TSAN_READ(&_impl_._tsan_detect_race);
-  const ::modularEmulator::modules::proto::Module* p = _impl_.used_machine_model_;
-  return p != nullptr ? *p : reinterpret_cast<const ::modularEmulator::modules::proto::Module&>(::modularEmulator::modules::proto::_Module_default_instance_);
+  const ::ManufacturingScenarioRepository::Module* p = _impl_.used_machine_model_;
+  return p != nullptr ? *p : reinterpret_cast<const ::ManufacturingScenarioRepository::Module&>(::ManufacturingScenarioRepository::_Module_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::Module& ManufacturingScenarioDataSet::used_machine_model() const {
+inline const ::ManufacturingScenarioRepository::Module& ManufacturingScenarioDataSet::used_machine_model() const {
   // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.used_machine_model)
   return _internal_used_machine_model();
 }
-inline void ManufacturingScenarioDataSet::unsafe_arena_set_allocated_used_machine_model(::modularEmulator::modules::proto::Module* value) {
+inline void ManufacturingScenarioDataSet::unsafe_arena_set_allocated_used_machine_model(::ManufacturingScenarioRepository::Module* value) {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (GetArenaForAllocation() == nullptr) {
     delete reinterpret_cast<::google::protobuf::MessageLite*>(_impl_.used_machine_model_);
   }
-  _impl_.used_machine_model_ = reinterpret_cast<::modularEmulator::modules::proto::Module*>(value);
+  _impl_.used_machine_model_ = reinterpret_cast<::ManufacturingScenarioRepository::Module*>(value);
   if (value != nullptr) {
     _impl_._has_bits_[0] |= 0x00000004u;
   } else {
@@ -1585,11 +1585,11 @@ inline void ManufacturingScenarioDataSet::unsafe_arena_set_allocated_used_machin
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.used_machine_model)
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenarioDataSet::release_used_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenarioDataSet::release_used_machine_model() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::Module* released = _impl_.used_machine_model_;
+  ::ManufacturingScenarioRepository::Module* released = _impl_.used_machine_model_;
   _impl_.used_machine_model_ = nullptr;
 #ifdef PROTOBUF_FORCE_COPY_IN_RELEASE
   auto* old = reinterpret_cast<::google::protobuf::MessageLite*>(released);
@@ -1604,30 +1604,30 @@ inline ::modularEmulator::modules::proto::Module* ManufacturingScenarioDataSet::
 #endif  // !PROTOBUF_FORCE_COPY_IN_RELEASE
   return released;
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenarioDataSet::unsafe_arena_release_used_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenarioDataSet::unsafe_arena_release_used_machine_model() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.used_machine_model)
 
   _impl_._has_bits_[0] &= ~0x00000004u;
-  ::modularEmulator::modules::proto::Module* temp = _impl_.used_machine_model_;
+  ::ManufacturingScenarioRepository::Module* temp = _impl_.used_machine_model_;
   _impl_.used_machine_model_ = nullptr;
   return temp;
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenarioDataSet::_internal_mutable_used_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenarioDataSet::_internal_mutable_used_machine_model() {
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   _impl_._has_bits_[0] |= 0x00000004u;
   if (_impl_.used_machine_model_ == nullptr) {
-    auto* p = CreateMaybeMessage<::modularEmulator::modules::proto::Module>(GetArenaForAllocation());
-    _impl_.used_machine_model_ = reinterpret_cast<::modularEmulator::modules::proto::Module*>(p);
+    auto* p = CreateMaybeMessage<::ManufacturingScenarioRepository::Module>(GetArenaForAllocation());
+    _impl_.used_machine_model_ = reinterpret_cast<::ManufacturingScenarioRepository::Module*>(p);
   }
   return _impl_.used_machine_model_;
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenarioDataSet::mutable_used_machine_model() {
-  ::modularEmulator::modules::proto::Module* _msg = _internal_mutable_used_machine_model();
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenarioDataSet::mutable_used_machine_model() {
+  ::ManufacturingScenarioRepository::Module* _msg = _internal_mutable_used_machine_model();
   // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.used_machine_model)
   return _msg;
 }
-inline void ManufacturingScenarioDataSet::set_allocated_used_machine_model(::modularEmulator::modules::proto::Module* value) {
+inline void ManufacturingScenarioDataSet::set_allocated_used_machine_model(::ManufacturingScenarioRepository::Module* value) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   PROTOBUF_TSAN_WRITE(&_impl_._tsan_detect_race);
   if (message_arena == nullptr) {
@@ -1645,7 +1645,7 @@ inline void ManufacturingScenarioDataSet::set_allocated_used_machine_model(::mod
     _impl_._has_bits_[0] &= ~0x00000004u;
   }
 
-  _impl_.used_machine_model_ = reinterpret_cast<::modularEmulator::modules::proto::Module*>(value);
+  _impl_.used_machine_model_ = reinterpret_cast<::ManufacturingScenarioRepository::Module*>(value);
   // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ManufacturingScenarioDataSet.used_machine_model)
 }
 
@@ -1938,7 +1938,7 @@ inline void ManufacturingScenario::set_allocated_generating_build_processor_stra
   // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ManufacturingScenario.generating_build_processor_strategy)
 }
 
-// .modularEmulator.modules.proto.Module specific_machine_model = 5;
+// .ManufacturingScenarioRepository.Module specific_machine_model = 5;
 inline bool ManufacturingScenario::has_specific_machine_model() const {
   return machine_model_case() == kSpecificMachineModel;
 }
@@ -1948,11 +1948,11 @@ inline bool ManufacturingScenario::_internal_has_specific_machine_model() const 
 inline void ManufacturingScenario::set_has_specific_machine_model() {
   _impl_._oneof_case_[0] = kSpecificMachineModel;
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenario::release_specific_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenario::release_specific_machine_model() {
   // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ManufacturingScenario.specific_machine_model)
   if (machine_model_case() == kSpecificMachineModel) {
     clear_has_machine_model();
-    ::modularEmulator::modules::proto::Module* temp = _impl_.machine_model_.specific_machine_model_;
+    ::ManufacturingScenarioRepository::Module* temp = _impl_.machine_model_.specific_machine_model_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -1962,27 +1962,27 @@ inline ::modularEmulator::modules::proto::Module* ManufacturingScenario::release
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::Module& ManufacturingScenario::_internal_specific_machine_model() const {
+inline const ::ManufacturingScenarioRepository::Module& ManufacturingScenario::_internal_specific_machine_model() const {
   return machine_model_case() == kSpecificMachineModel
       ? *_impl_.machine_model_.specific_machine_model_
-      : reinterpret_cast<::modularEmulator::modules::proto::Module&>(::modularEmulator::modules::proto::_Module_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::Module&>(::ManufacturingScenarioRepository::_Module_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::Module& ManufacturingScenario::specific_machine_model() const {
+inline const ::ManufacturingScenarioRepository::Module& ManufacturingScenario::specific_machine_model() const {
   // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ManufacturingScenario.specific_machine_model)
   return _internal_specific_machine_model();
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenario::unsafe_arena_release_specific_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenario::unsafe_arena_release_specific_machine_model() {
   // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ManufacturingScenario.specific_machine_model)
   if (machine_model_case() == kSpecificMachineModel) {
     clear_has_machine_model();
-    ::modularEmulator::modules::proto::Module* temp = _impl_.machine_model_.specific_machine_model_;
+    ::ManufacturingScenarioRepository::Module* temp = _impl_.machine_model_.specific_machine_model_;
     _impl_.machine_model_.specific_machine_model_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ManufacturingScenario::unsafe_arena_set_allocated_specific_machine_model(::modularEmulator::modules::proto::Module* specific_machine_model) {
+inline void ManufacturingScenario::unsafe_arena_set_allocated_specific_machine_model(::ManufacturingScenarioRepository::Module* specific_machine_model) {
   clear_machine_model();
   if (specific_machine_model) {
     set_has_specific_machine_model();
@@ -1990,21 +1990,21 @@ inline void ManufacturingScenario::unsafe_arena_set_allocated_specific_machine_m
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ManufacturingScenario.specific_machine_model)
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenario::_internal_mutable_specific_machine_model() {
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenario::_internal_mutable_specific_machine_model() {
   if (machine_model_case() != kSpecificMachineModel) {
     clear_machine_model();
     set_has_specific_machine_model();
-    _impl_.machine_model_.specific_machine_model_ = CreateMaybeMessage< ::modularEmulator::modules::proto::Module >(GetArenaForAllocation());
+    _impl_.machine_model_.specific_machine_model_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::Module >(GetArenaForAllocation());
   }
   return _impl_.machine_model_.specific_machine_model_;
 }
-inline ::modularEmulator::modules::proto::Module* ManufacturingScenario::mutable_specific_machine_model() {
-  ::modularEmulator::modules::proto::Module* _msg = _internal_mutable_specific_machine_model();
+inline ::ManufacturingScenarioRepository::Module* ManufacturingScenario::mutable_specific_machine_model() {
+  ::ManufacturingScenarioRepository::Module* _msg = _internal_mutable_specific_machine_model();
   // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ManufacturingScenario.specific_machine_model)
   return _msg;
 }
 
-// .modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+// .ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
 inline bool ManufacturingScenario::has_override_cuboid_build_volume() const {
   return machine_model_case() == kOverrideCuboidBuildVolume;
 }
@@ -2014,11 +2014,11 @@ inline bool ManufacturingScenario::_internal_has_override_cuboid_build_volume() 
 inline void ManufacturingScenario::set_has_override_cuboid_build_volume() {
   _impl_._oneof_case_[0] = kOverrideCuboidBuildVolume;
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ManufacturingScenario::release_override_cuboid_build_volume() {
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ManufacturingScenario::release_override_cuboid_build_volume() {
   // @@protoc_insertion_point(field_release:ManufacturingScenarioRepository.ManufacturingScenario.override_cuboid_build_volume)
   if (machine_model_case() == kOverrideCuboidBuildVolume) {
     clear_has_machine_model();
-    ::modularEmulator::modules::proto::CuboidBuildVolumeParams* temp = _impl_.machine_model_.override_cuboid_build_volume_;
+    ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* temp = _impl_.machine_model_.override_cuboid_build_volume_;
     if (GetArenaForAllocation() != nullptr) {
       temp = ::google::protobuf::internal::DuplicateIfNonNull(temp);
     }
@@ -2028,27 +2028,27 @@ inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* Manufacturing
     return nullptr;
   }
 }
-inline const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ManufacturingScenario::_internal_override_cuboid_build_volume() const {
+inline const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ManufacturingScenario::_internal_override_cuboid_build_volume() const {
   return machine_model_case() == kOverrideCuboidBuildVolume
       ? *_impl_.machine_model_.override_cuboid_build_volume_
-      : reinterpret_cast<::modularEmulator::modules::proto::CuboidBuildVolumeParams&>(::modularEmulator::modules::proto::_CuboidBuildVolumeParams_default_instance_);
+      : reinterpret_cast<::ManufacturingScenarioRepository::CuboidBuildVolumeParams&>(::ManufacturingScenarioRepository::_CuboidBuildVolumeParams_default_instance_);
 }
-inline const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ManufacturingScenario::override_cuboid_build_volume() const {
+inline const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ManufacturingScenario::override_cuboid_build_volume() const {
   // @@protoc_insertion_point(field_get:ManufacturingScenarioRepository.ManufacturingScenario.override_cuboid_build_volume)
   return _internal_override_cuboid_build_volume();
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ManufacturingScenario::unsafe_arena_release_override_cuboid_build_volume() {
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ManufacturingScenario::unsafe_arena_release_override_cuboid_build_volume() {
   // @@protoc_insertion_point(field_unsafe_arena_release:ManufacturingScenarioRepository.ManufacturingScenario.override_cuboid_build_volume)
   if (machine_model_case() == kOverrideCuboidBuildVolume) {
     clear_has_machine_model();
-    ::modularEmulator::modules::proto::CuboidBuildVolumeParams* temp = _impl_.machine_model_.override_cuboid_build_volume_;
+    ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* temp = _impl_.machine_model_.override_cuboid_build_volume_;
     _impl_.machine_model_.override_cuboid_build_volume_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline void ManufacturingScenario::unsafe_arena_set_allocated_override_cuboid_build_volume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* override_cuboid_build_volume) {
+inline void ManufacturingScenario::unsafe_arena_set_allocated_override_cuboid_build_volume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* override_cuboid_build_volume) {
   clear_machine_model();
   if (override_cuboid_build_volume) {
     set_has_override_cuboid_build_volume();
@@ -2056,16 +2056,16 @@ inline void ManufacturingScenario::unsafe_arena_set_allocated_override_cuboid_bu
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:ManufacturingScenarioRepository.ManufacturingScenario.override_cuboid_build_volume)
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ManufacturingScenario::_internal_mutable_override_cuboid_build_volume() {
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ManufacturingScenario::_internal_mutable_override_cuboid_build_volume() {
   if (machine_model_case() != kOverrideCuboidBuildVolume) {
     clear_machine_model();
     set_has_override_cuboid_build_volume();
-    _impl_.machine_model_.override_cuboid_build_volume_ = CreateMaybeMessage< ::modularEmulator::modules::proto::CuboidBuildVolumeParams >(GetArenaForAllocation());
+    _impl_.machine_model_.override_cuboid_build_volume_ = CreateMaybeMessage< ::ManufacturingScenarioRepository::CuboidBuildVolumeParams >(GetArenaForAllocation());
   }
   return _impl_.machine_model_.override_cuboid_build_volume_;
 }
-inline ::modularEmulator::modules::proto::CuboidBuildVolumeParams* ManufacturingScenario::mutable_override_cuboid_build_volume() {
-  ::modularEmulator::modules::proto::CuboidBuildVolumeParams* _msg = _internal_mutable_override_cuboid_build_volume();
+inline ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* ManufacturingScenario::mutable_override_cuboid_build_volume() {
+  ::ManufacturingScenarioRepository::CuboidBuildVolumeParams* _msg = _internal_mutable_override_cuboid_build_volume();
   // @@protoc_insertion_point(field_mutable:ManufacturingScenarioRepository.ManufacturingScenario.override_cuboid_build_volume)
   return _msg;
 }

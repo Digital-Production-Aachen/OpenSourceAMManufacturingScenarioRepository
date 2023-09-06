@@ -15,7 +15,7 @@ message ManufacturingScenarioDataSet {
     //global fallback build processor strategy
     open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
     //global fallback machine model
-    modularEmulator.modules.proto.Module used_machine_model = 5;
+    Module used_machine_model = 5;
 }
 
 message ManufacturingScenario {
@@ -34,16 +34,16 @@ message ManufacturingScenario {
     //optioanl machine model that generated the results
     oneof machine_model {
         //machine model used to generate the time prediction
-        modularEmulator.modules.proto.Module specific_machine_model = 5;
+        Module specific_machine_model = 5;
         //cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
-        modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+        CuboidBuildVolumeParams override_cuboid_build_volume = 6;
     }
 }
 
 message MovementConstrains {
     //the required minimum distance between nested geometries surfaces
     double minimum_distance_in_mm = 1;
-    //the minimum distance between nested parts and the container walls [mm]
+    //the minimum distance between nested parts and the container walls and bottom [mm]
     //if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
     double distance_to_container_in_mm = 2;
     //number of full circle rotation steps allowed

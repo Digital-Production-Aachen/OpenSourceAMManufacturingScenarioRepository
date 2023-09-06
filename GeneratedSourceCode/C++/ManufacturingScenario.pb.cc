@@ -257,7 +257,7 @@ static const ::_pb::Message* const file_default_instances[] = {
 const char descriptor_table_protodef_ManufacturingScenario_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
     "\n\033ManufacturingScenario.proto\022\037Manufactu"
     "ringScenarioRepository\032\036build_processor_"
-    "strategy.proto\032\026ModuleDefinition.proto\"\334"
+    "strategy.proto\032\026ModuleDefinition.proto\"\336"
     "\002\n\034ManufacturingScenarioDataSet\022\014\n\004name\030"
     "\001 \001(\t\022I\n\tscenarios\030\002 \003(\01326.Manufacturing"
     "ScenarioRepository.ManufacturingScenario"
@@ -265,36 +265,36 @@ const char descriptor_table_protodef_ManufacturingScenario_2eproto[] PROTOBUF_SE
     "arioRepository.MovementConstrains\022W\n#gen"
     "erating_build_processor_strategy\030\004 \001(\0132*"
     ".open_vector_format.BuildProcessorStrate"
-    "gy\022A\n\022used_machine_model\030\005 \001(\0132%.modular"
-    "Emulator.modules.proto.Module\"\333\003\n\025Manufa"
-    "cturingScenario\022\014\n\004name\030\001 \001(\t\022X\n\027partMan"
-    "ufacturingOrders\030\002 \003(\01327.ManufacturingSc"
-    "enarioRepository.PartManufacturingOrder\022"
-    "G\n\nconstrains\030\003 \001(\01323.ManufacturingScena"
-    "rioRepository.MovementConstrains\022W\n#gene"
-    "rating_build_processor_strategy\030\004 \001(\0132*."
-    "open_vector_format.BuildProcessorStrateg"
-    "y\022G\n\026specific_machine_model\030\005 \001(\0132%.modu"
-    "larEmulator.modules.proto.ModuleH\000\022^\n\034ov"
-    "erride_cuboid_build_volume\030\006 \001(\01326.modul"
-    "arEmulator.modules.proto.CuboidBuildVolu"
-    "meParamsH\000B\017\n\rmachine_model\"\301\001\n\022Movement"
-    "Constrains\022\036\n\026minimum_distance_in_mm\030\001 \001"
-    "(\001\022#\n\033distance_to_container_in_mm\030\002 \001(\001\022"
-    ",\n$allowed_full_circle_rotation_steps_z\030"
-    "\003 \001(\005\022\033\n\023max_rot_z_angle_deg\030\004 \001(\001\022\033\n\023mi"
-    "n_rot_z_angle_deg\030\005 \001(\001\"\234\003\n\026PartManufact"
-    "uringOrder\022\016\n\006pmo_id\030\001 \001(\t\022\017\n\007part_id\030\002 "
-    "\001(\t\022\032\n\022part_num_triangles\030\003 \001(\005\022\037\n\027quant"
-    "ity_to_manufacture\030\004 \001(\005\022\033\n\023due_time_in_"
-    "seconds\030\005 \001(\003\022,\n$order_creation_time_del"
-    "ay_in_seconds\030\006 \001(\003\022\020\n\010material\030\007 \001(\t\022a\n"
-    "\npriorities\030\010 \001(\0132M.ManufacturingScenari"
-    "oRepository.PartManufacturingOrder.Manuf"
-    "acturingPriority\032d\n\025ManufacturingPriorit"
-    "y\022\026\n\016price_priority\030\001 \001(\001\022\031\n\021due_date_pr"
-    "iority\030\002 \001(\001\022\030\n\020quality_priority\030\003 \001(\001b\006"
-    "proto3"
+    "gy\022C\n\022used_machine_model\030\005 \001(\0132\'.Manufac"
+    "turingScenarioRepository.Module\"\337\003\n\025Manu"
+    "facturingScenario\022\014\n\004name\030\001 \001(\t\022X\n\027partM"
+    "anufacturingOrders\030\002 \003(\01327.Manufacturing"
+    "ScenarioRepository.PartManufacturingOrde"
+    "r\022G\n\nconstrains\030\003 \001(\01323.ManufacturingSce"
+    "narioRepository.MovementConstrains\022W\n#ge"
+    "nerating_build_processor_strategy\030\004 \001(\0132"
+    "*.open_vector_format.BuildProcessorStrat"
+    "egy\022I\n\026specific_machine_model\030\005 \001(\0132\'.Ma"
+    "nufacturingScenarioRepository.ModuleH\000\022`"
+    "\n\034override_cuboid_build_volume\030\006 \001(\01328.M"
+    "anufacturingScenarioRepository.CuboidBui"
+    "ldVolumeParamsH\000B\017\n\rmachine_model\"\301\001\n\022Mo"
+    "vementConstrains\022\036\n\026minimum_distance_in_"
+    "mm\030\001 \001(\001\022#\n\033distance_to_container_in_mm\030"
+    "\002 \001(\001\022,\n$allowed_full_circle_rotation_st"
+    "eps_z\030\003 \001(\005\022\033\n\023max_rot_z_angle_deg\030\004 \001(\001"
+    "\022\033\n\023min_rot_z_angle_deg\030\005 \001(\001\"\234\003\n\026PartMa"
+    "nufacturingOrder\022\016\n\006pmo_id\030\001 \001(\t\022\017\n\007part"
+    "_id\030\002 \001(\t\022\032\n\022part_num_triangles\030\003 \001(\005\022\037\n"
+    "\027quantity_to_manufacture\030\004 \001(\005\022\033\n\023due_ti"
+    "me_in_seconds\030\005 \001(\003\022,\n$order_creation_ti"
+    "me_delay_in_seconds\030\006 \001(\003\022\020\n\010material\030\007 "
+    "\001(\t\022a\n\npriorities\030\010 \001(\0132M.ManufacturingS"
+    "cenarioRepository.PartManufacturingOrder"
+    ".ManufacturingPriority\032d\n\025ManufacturingP"
+    "riority\022\026\n\016price_priority\030\001 \001(\001\022\031\n\021due_d"
+    "ate_priority\030\002 \001(\001\022\030\n\020quality_priority\030\003"
+    " \001(\001b\006proto3"
 };
 static const ::_pbi::DescriptorTable* const descriptor_table_ManufacturingScenario_2eproto_deps[2] =
     {
@@ -305,7 +305,7 @@ static ::absl::once_flag descriptor_table_ManufacturingScenario_2eproto_once;
 const ::_pbi::DescriptorTable descriptor_table_ManufacturingScenario_2eproto = {
     false,
     false,
-    1566,
+    1572,
     descriptor_table_protodef_ManufacturingScenario_2eproto,
     "ManufacturingScenario.proto",
     &descriptor_table_ManufacturingScenario_2eproto_once,
@@ -353,7 +353,7 @@ class ManufacturingScenarioDataSet::_Internal {
   static void set_has_generating_build_processor_strategy(HasBits* has_bits) {
     (*has_bits)[0] |= 2u;
   }
-  static const ::modularEmulator::modules::proto::Module& used_machine_model(const ManufacturingScenarioDataSet* msg);
+  static const ::ManufacturingScenarioRepository::Module& used_machine_model(const ManufacturingScenarioDataSet* msg);
   static void set_has_used_machine_model(HasBits* has_bits) {
     (*has_bits)[0] |= 4u;
   }
@@ -365,7 +365,7 @@ const ::ManufacturingScenarioRepository::MovementConstrains& ManufacturingScenar
 const ::open_vector_format::BuildProcessorStrategy& ManufacturingScenarioDataSet::_Internal::generating_build_processor_strategy(const ManufacturingScenarioDataSet* msg) {
   return *msg->_impl_.generating_build_processor_strategy_;
 }
-const ::modularEmulator::modules::proto::Module& ManufacturingScenarioDataSet::_Internal::used_machine_model(const ManufacturingScenarioDataSet* msg) {
+const ::ManufacturingScenarioRepository::Module& ManufacturingScenarioDataSet::_Internal::used_machine_model(const ManufacturingScenarioDataSet* msg) {
   return *msg->_impl_.used_machine_model_;
 }
 void ManufacturingScenarioDataSet::clear_generating_build_processor_strategy() {
@@ -409,7 +409,7 @@ ManufacturingScenarioDataSet::ManufacturingScenarioDataSet(const ManufacturingSc
     _this->_impl_.generating_build_processor_strategy_ = new ::open_vector_format::BuildProcessorStrategy(*from._impl_.generating_build_processor_strategy_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000004u) != 0) {
-    _this->_impl_.used_machine_model_ = new ::modularEmulator::modules::proto::Module(*from._impl_.used_machine_model_);
+    _this->_impl_.used_machine_model_ = new ::ManufacturingScenarioRepository::Module(*from._impl_.used_machine_model_);
   }
 
   // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ManufacturingScenarioDataSet)
@@ -509,7 +509,7 @@ const ::_pbi::TcParseTable<3, 5, 4, 73, 2> ManufacturingScenarioDataSet::_table_
     // .open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
     {::_pbi::TcParser::FastMtS1,
      {34, 1, 2, PROTOBUF_FIELD_OFFSET(ManufacturingScenarioDataSet, _impl_.generating_build_processor_strategy_)}},
-    // .modularEmulator.modules.proto.Module used_machine_model = 5;
+    // .ManufacturingScenarioRepository.Module used_machine_model = 5;
     {::_pbi::TcParser::FastMtS1,
      {42, 2, 3, PROTOBUF_FIELD_OFFSET(ManufacturingScenarioDataSet, _impl_.used_machine_model_)}},
     {::_pbi::TcParser::MiniParse, {}},
@@ -529,14 +529,14 @@ const ::_pbi::TcParseTable<3, 5, 4, 73, 2> ManufacturingScenarioDataSet::_table_
     // .open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
     {PROTOBUF_FIELD_OFFSET(ManufacturingScenarioDataSet, _impl_.generating_build_processor_strategy_), _Internal::kHasBitsOffset + 1, 2,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.Module used_machine_model = 5;
+    // .ManufacturingScenarioRepository.Module used_machine_model = 5;
     {PROTOBUF_FIELD_OFFSET(ManufacturingScenarioDataSet, _impl_.used_machine_model_), _Internal::kHasBitsOffset + 2, 3,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
     {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ManufacturingScenario>()},
     {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::MovementConstrains>()},
     {::_pbi::TcParser::GetTable<::open_vector_format::BuildProcessorStrategy>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::Module>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::Module>()},
   }}, {{
     "\74\4\0\0\0\0\0\0"
     "ManufacturingScenarioRepository.ManufacturingScenarioDataSet"
@@ -582,7 +582,7 @@ const ::_pbi::TcParseTable<3, 5, 4, 73, 2> ManufacturingScenarioDataSet::_table_
         _Internal::generating_build_processor_strategy(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.Module used_machine_model = 5;
+  // .ManufacturingScenarioRepository.Module used_machine_model = 5;
   if (cached_has_bits & 0x00000004u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(5, _Internal::used_machine_model(this),
@@ -634,7 +634,7 @@ const ::_pbi::TcParseTable<3, 5, 4, 73, 2> ManufacturingScenarioDataSet::_table_
           *_impl_.generating_build_processor_strategy_);
     }
 
-    // .modularEmulator.modules.proto.Module used_machine_model = 5;
+    // .ManufacturingScenarioRepository.Module used_machine_model = 5;
     if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -675,7 +675,7 @@ void ManufacturingScenarioDataSet::MergeImpl(::google::protobuf::Message& to_msg
           from._internal_generating_build_processor_strategy());
     }
     if (cached_has_bits & 0x00000004u) {
-      _this->_internal_mutable_used_machine_model()->::modularEmulator::modules::proto::Module::MergeFrom(
+      _this->_internal_mutable_used_machine_model()->::ManufacturingScenarioRepository::Module::MergeFrom(
           from._internal_used_machine_model());
     }
   }
@@ -732,8 +732,8 @@ class ManufacturingScenario::_Internal {
   static void set_has_generating_build_processor_strategy(HasBits* has_bits) {
     (*has_bits)[0] |= 2u;
   }
-  static const ::modularEmulator::modules::proto::Module& specific_machine_model(const ManufacturingScenario* msg);
-  static const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& override_cuboid_build_volume(const ManufacturingScenario* msg);
+  static const ::ManufacturingScenarioRepository::Module& specific_machine_model(const ManufacturingScenario* msg);
+  static const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& override_cuboid_build_volume(const ManufacturingScenario* msg);
 };
 
 const ::ManufacturingScenarioRepository::MovementConstrains& ManufacturingScenario::_Internal::constrains(const ManufacturingScenario* msg) {
@@ -742,17 +742,17 @@ const ::ManufacturingScenarioRepository::MovementConstrains& ManufacturingScenar
 const ::open_vector_format::BuildProcessorStrategy& ManufacturingScenario::_Internal::generating_build_processor_strategy(const ManufacturingScenario* msg) {
   return *msg->_impl_.generating_build_processor_strategy_;
 }
-const ::modularEmulator::modules::proto::Module& ManufacturingScenario::_Internal::specific_machine_model(const ManufacturingScenario* msg) {
+const ::ManufacturingScenarioRepository::Module& ManufacturingScenario::_Internal::specific_machine_model(const ManufacturingScenario* msg) {
   return *msg->_impl_.machine_model_.specific_machine_model_;
 }
-const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ManufacturingScenario::_Internal::override_cuboid_build_volume(const ManufacturingScenario* msg) {
+const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ManufacturingScenario::_Internal::override_cuboid_build_volume(const ManufacturingScenario* msg) {
   return *msg->_impl_.machine_model_.override_cuboid_build_volume_;
 }
 void ManufacturingScenario::clear_generating_build_processor_strategy() {
   if (_impl_.generating_build_processor_strategy_ != nullptr) _impl_.generating_build_processor_strategy_->Clear();
   _impl_._has_bits_[0] &= ~0x00000002u;
 }
-void ManufacturingScenario::set_allocated_specific_machine_model(::modularEmulator::modules::proto::Module* specific_machine_model) {
+void ManufacturingScenario::set_allocated_specific_machine_model(::ManufacturingScenarioRepository::Module* specific_machine_model) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_machine_model();
   if (specific_machine_model) {
@@ -776,7 +776,7 @@ void ManufacturingScenario::clear_specific_machine_model() {
     clear_has_machine_model();
   }
 }
-void ManufacturingScenario::set_allocated_override_cuboid_build_volume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* override_cuboid_build_volume) {
+void ManufacturingScenario::set_allocated_override_cuboid_build_volume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* override_cuboid_build_volume) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_machine_model();
   if (override_cuboid_build_volume) {
@@ -836,12 +836,12 @@ ManufacturingScenario::ManufacturingScenario(const ManufacturingScenario& from) 
   clear_has_machine_model();
   switch (from.machine_model_case()) {
     case kSpecificMachineModel: {
-      _this->_internal_mutable_specific_machine_model()->::modularEmulator::modules::proto::Module::MergeFrom(
+      _this->_internal_mutable_specific_machine_model()->::ManufacturingScenarioRepository::Module::MergeFrom(
           from._internal_specific_machine_model());
       break;
     }
     case kOverrideCuboidBuildVolume: {
-      _this->_internal_mutable_override_cuboid_build_volume()->::modularEmulator::modules::proto::CuboidBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_override_cuboid_build_volume()->::ManufacturingScenarioRepository::CuboidBuildVolumeParams::MergeFrom(
           from._internal_override_cuboid_build_volume());
       break;
     }
@@ -985,18 +985,18 @@ const ::_pbi::TcParseTable<2, 6, 5, 66, 2> ManufacturingScenario::_table_ = {
     // .open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
     {PROTOBUF_FIELD_OFFSET(ManufacturingScenario, _impl_.generating_build_processor_strategy_), _Internal::kHasBitsOffset + 1, 2,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.Module specific_machine_model = 5;
+    // .ManufacturingScenarioRepository.Module specific_machine_model = 5;
     {PROTOBUF_FIELD_OFFSET(ManufacturingScenario, _impl_.machine_model_.specific_machine_model_), _Internal::kOneofCaseOffset + 0, 3,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+    // .ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
     {PROTOBUF_FIELD_OFFSET(ManufacturingScenario, _impl_.machine_model_.override_cuboid_build_volume_), _Internal::kOneofCaseOffset + 0, 4,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
     {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::PartManufacturingOrder>()},
     {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::MovementConstrains>()},
     {::_pbi::TcParser::GetTable<::open_vector_format::BuildProcessorStrategy>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::Module>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CuboidBuildVolumeParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::Module>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CuboidBuildVolumeParams>()},
   }}, {{
     "\65\4\0\0\0\0\0\0"
     "ManufacturingScenarioRepository.ManufacturingScenario"
@@ -1105,14 +1105,14 @@ const ::_pbi::TcParseTable<2, 6, 5, 66, 2> ManufacturingScenario::_table_ = {
 
   }
   switch (machine_model_case()) {
-    // .modularEmulator.modules.proto.Module specific_machine_model = 5;
+    // .ManufacturingScenarioRepository.Module specific_machine_model = 5;
     case kSpecificMachineModel: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.machine_model_.specific_machine_model_);
       break;
     }
-    // .modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+    // .ManufacturingScenarioRepository.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
     case kOverrideCuboidBuildVolume: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -1158,12 +1158,12 @@ void ManufacturingScenario::MergeImpl(::google::protobuf::Message& to_msg, const
   }
   switch (from.machine_model_case()) {
     case kSpecificMachineModel: {
-      _this->_internal_mutable_specific_machine_model()->::modularEmulator::modules::proto::Module::MergeFrom(
+      _this->_internal_mutable_specific_machine_model()->::ManufacturingScenarioRepository::Module::MergeFrom(
           from._internal_specific_machine_model());
       break;
     }
     case kOverrideCuboidBuildVolume: {
-      _this->_internal_mutable_override_cuboid_build_volume()->::modularEmulator::modules::proto::CuboidBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_override_cuboid_build_volume()->::ManufacturingScenarioRepository::CuboidBuildVolumeParams::MergeFrom(
           from._internal_override_cuboid_build_volume());
       break;
     }

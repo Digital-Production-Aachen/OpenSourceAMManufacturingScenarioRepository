@@ -20,9 +20,7 @@ PROTOBUF_PRAGMA_INIT_SEG
 namespace _pb = ::google::protobuf;
 namespace _pbi = ::google::protobuf::internal;
 namespace _fl = ::google::protobuf::internal::field_layout;
-namespace modularEmulator {
-namespace modules {
-namespace proto {
+namespace ManufacturingScenarioRepository {
         template <typename>
 PROTOBUF_CONSTEXPR OPCUAIdentification::OPCUAIdentification(::_pbi::ConstantInitialized)
     : _impl_{
@@ -417,9 +415,7 @@ struct EnergyUsePerStateInkWhDefaultTypeInternal {
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
     PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnergyUsePerStateInkWhDefaultTypeInternal _EnergyUsePerStateInkWh_default_instance_;
-}  // namespace proto
-}  // namespace modules
-}  // namespace modularEmulator
+}  // namespace ManufacturingScenarioRepository
 static ::_pb::Metadata file_level_metadata_ModuleDefinition_2eproto[19];
 static const ::_pb::EnumDescriptor* file_level_enum_descriptors_ModuleDefinition_2eproto[8];
 static constexpr const ::_pb::ServiceDescriptor**
@@ -427,33 +423,33 @@ static constexpr const ::_pb::ServiceDescriptor**
 const ::uint32_t TableStruct_ModuleDefinition_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(
     protodesc_cold) = {
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::OPCUAIdentification, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::OPCUAIdentification, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::OPCUAIdentification, _impl_.nodeid_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::OPCUAIdentification, _impl_.name_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_._has_bits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::OPCUAIdentification, _impl_.nodeid_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::OPCUAIdentification, _impl_.name_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_._has_bits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.childmodules_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.currentstate_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.timeperstateinms_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.energyuseperstateinkwh_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.id_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.description_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.investmentcosts_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.implementedservices_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.consumedservices_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::Module, _impl_.parameters_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.childmodules_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.currentstate_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.timeperstateinms_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.energyuseperstateinkwh_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.id_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.description_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.investmentcosts_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.implementedservices_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.consumedservices_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::Module, _impl_.parameters_),
     ~0u,
     ~0u,
     0,
@@ -464,15 +460,15 @@ const ::uint32_t TableStruct_ModuleDefinition_2eproto::offsets[] PROTOBUF_SECTIO
     ~0u,
     ~0u,
     3,
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _impl_._has_bits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _impl_._has_bits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _internal_metadata_),
     ~0u,  // no _extensions_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _impl_._oneof_case_[0]),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _impl_._oneof_case_[0]),
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _impl_.id_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _impl_.id_),
     ::_pbi::kInvalidFieldOffsetTag,
     ::_pbi::kInvalidFieldOffsetTag,
     ::_pbi::kInvalidFieldOffsetTag,
@@ -482,7 +478,7 @@ const ::uint32_t TableStruct_ModuleDefinition_2eproto::offsets[] PROTOBUF_SECTIO
     ::_pbi::kInvalidFieldOffsetTag,
     ::_pbi::kInvalidFieldOffsetTag,
     ::_pbi::kInvalidFieldOffsetTag,
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _impl_.TypeAndParameters_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _impl_.TypeAndParameters_),
     0,
     ~0u,
     ~0u,
@@ -494,116 +490,92 @@ const ::uint32_t TableStruct_ModuleDefinition_2eproto::offsets[] PROTOBUF_SECTIO
     ~0u,
     ~0u,
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.numberoflaserscannerunits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.scanfields_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.minlayerheightum_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.minzdistmm_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.minimalhatchlength_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicLPBFMachineParams, _impl_.forcedminimumexposuretimeins_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ServiceInterface, _impl_._has_bits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ServiceInterface, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.numberoflaserscannerunits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.scanfields_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.minlayerheightum_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.minzdistmm_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.minimalhatchlength_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicLPBFMachineParams, _impl_.forcedminimumexposuretimeins_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ServiceInterface, _impl_._has_bits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ServiceInterface, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ServiceInterface, _impl_.consumedservice_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ServiceInterface, _impl_.implementingmodule_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ServiceInterface, _impl_.consumedservice_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ServiceInterface, _impl_.implementingmodule_),
     ~0u,
     0,
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.jumpspeedinmms_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.markspeedinmms_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.laserfocusshiftinmm_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.maxaccelerationinmmperss_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.staticdelayins_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.jumpdelayinus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.markdelayinus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.laseroffdelayinus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.laserondelayinus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.polygondelayinus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.vectorblockdelay_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.paramchangedelay_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.warpjumplengthlimit_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BasicScannerParams, _impl_.jumpmode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.jumpspeedinmms_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.markspeedinmms_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.laserfocusshiftinmm_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.maxaccelerationinmmperss_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.staticdelayins_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.jumpdelayinus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.markdelayinus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.laseroffdelayinus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.laserondelayinus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.polygondelayinus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.vectorblockdelay_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.paramchangedelay_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.warpjumplengthlimit_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BasicScannerParams, _impl_.jumpmode_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CommonSkyWritingParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CommonSkyWritingParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CommonSkyWritingParams, _impl_.nprevintenusticks_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CommonSkyWritingParams, _impl_.npostintenusticks_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CommonSkyWritingParams, _impl_.limitangle_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CommonSkyWritingParams, _impl_.nprevintenusticks_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CommonSkyWritingParams, _impl_.npostintenusticks_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CommonSkyWritingParams, _impl_.limitangle_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CoordinateTransformParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CoordinateTransformParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CoordinateTransformParams, _impl_.deletezerolengthjumps_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CoordinateTransformParams, _impl_.minimaljumplength_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CoordinateTransformParams, _impl_.minimalmarklength_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_._has_bits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CoordinateTransformParams, _impl_.deletezerolengthjumps_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CoordinateTransformParams, _impl_.minimaljumplength_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CoordinateTransformParams, _impl_.minimalmarklength_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_._has_bits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.basicscannerparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.skywritingparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.coordtransformparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.skywritingmode_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.delaymode_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.radialerrorinum_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.safetyfactorflybylow_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.safetyfactorflybyhigh_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::NovantaScannerParams, _impl_.safetyfactorradialerrorlimit_),
-    0,
-    1,
-    2,
-    ~0u,
-    ~0u,
-    ~0u,
-    ~0u,
-    ~0u,
-    ~0u,
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_._has_bits_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _internal_metadata_),
-    ~0u,  // no _extensions_
-    ~0u,  // no _oneof_case_
-    ~0u,  // no _weak_field_map_
-    ~0u,  // no _inlined_string_donated_
-    ~0u,  // no _split_
-    ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.basicscannerparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.skywritingparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.coordtransformparams_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.skywritingmode_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.timelaginus_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.skywritingparametringmode_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanlabScannerParams, _impl_.delaymode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.basicscannerparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.skywritingparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.coordtransformparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.skywritingmode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.delaymode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.radialerrorinum_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.safetyfactorflybylow_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.safetyfactorflybyhigh_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::NovantaScannerParams, _impl_.safetyfactorradialerrorlimit_),
     0,
     1,
     2,
@@ -611,313 +583,338 @@ const ::uint32_t TableStruct_ModuleDefinition_2eproto::offsets[] PROTOBUF_SECTIO
     ~0u,
     ~0u,
     ~0u,
-    ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanField, _internal_metadata_),
+    ~0u,
+    ~0u,
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_._has_bits_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanField, _impl_.xmin_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanField, _impl_.xmax_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanField, _impl_.ymin_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ScanField, _impl_.ymax_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.basicscannerparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.skywritingparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.coordtransformparams_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.skywritingmode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.timelaginus_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.skywritingparametringmode_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanlabScannerParams, _impl_.delaymode_),
+    0,
+    1,
+    2,
+    ~0u,
+    ~0u,
+    ~0u,
+    ~0u,
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::LaserParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanField, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::LaserParams, _impl_.laserpowerinw_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanField, _impl_.xmin_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanField, _impl_.xmax_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanField, _impl_.ymin_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ScanField, _impl_.ymax_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::LaserParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.coatingspeedforwardinmmpersec_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.coatingspeedbackwardinmmpersec_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.distanceinmm_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.forwarddelayinsec_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.backwarddelayinsec_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.acceleration_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::StandardCoaterParams, _impl_.isbidirectional_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::LaserParams, _impl_.laserpowerinw_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.platformliftrateinmmpersec_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.platformliftaccelerationinmmpersec2_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.platformliftdelayins_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.inertatmospheretimeins_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.releaseatmospheretimeins_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::BuildChamberParams, _impl_.maximumo2ppm_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.coatingspeedforwardinmmpersec_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.coatingspeedbackwardinmmpersec_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.distanceinmm_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.forwarddelayinsec_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.backwarddelayinsec_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.acceleration_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::StandardCoaterParams, _impl_.isbidirectional_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.xmin_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.xmax_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.ymin_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.ymax_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.zmin_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::CuboidBuildVolumeParams, _impl_.zmax_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.platformliftrateinmmpersec_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.platformliftaccelerationinmmpersec2_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.platformliftdelayins_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.inertatmospheretimeins_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.releaseatmospheretimeins_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::BuildChamberParams, _impl_.maximumo2ppm_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ZylinderBuildVolumeParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ZylinderBuildVolumeParams, _impl_.diameter_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ZylinderBuildVolumeParams, _impl_.height_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.xmin_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.xmax_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.ymin_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.ymax_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.zmin_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::CuboidBuildVolumeParams, _impl_.zmax_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::PreheaterParams, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::PreheaterParams, _impl_.preheatingtemperature_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::PreheaterParams, _impl_.maximumpreheatingtemperature_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::PreheaterParams, _impl_.heatingrateinsecperk_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::PreheaterParams, _impl_.roomtemperature_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams, _impl_.diameter_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams, _impl_.height_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::TimePerStateInMS, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::PreheaterParams, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::TimePerStateInMS, _impl_.timeoff_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::TimePerStateInMS, _impl_.timeidle_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::TimePerStateInMS, _impl_.timeactive_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::TimePerStateInMS, _impl_.timemaintenance_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::PreheaterParams, _impl_.preheatingtemperature_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::PreheaterParams, _impl_.maximumpreheatingtemperature_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::PreheaterParams, _impl_.heatingrateinsecperk_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::PreheaterParams, _impl_.roomtemperature_),
     ~0u,  // no _has_bits_
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::EnergyUsePerStateInkWh, _internal_metadata_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::TimePerStateInMS, _internal_metadata_),
     ~0u,  // no _extensions_
     ~0u,  // no _oneof_case_
     ~0u,  // no _weak_field_map_
     ~0u,  // no _inlined_string_donated_
     ~0u,  // no _split_
     ~0u,  // no sizeof(Split)
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::EnergyUsePerStateInkWh, _impl_.energyoff_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::EnergyUsePerStateInkWh, _impl_.energyidle_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::EnergyUsePerStateInkWh, _impl_.energyactive_),
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::EnergyUsePerStateInkWh, _impl_.energymaintenance_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::TimePerStateInMS, _impl_.timeoff_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::TimePerStateInMS, _impl_.timeidle_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::TimePerStateInMS, _impl_.timeactive_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::TimePerStateInMS, _impl_.timemaintenance_),
+    ~0u,  // no _has_bits_
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh, _internal_metadata_),
+    ~0u,  // no _extensions_
+    ~0u,  // no _oneof_case_
+    ~0u,  // no _weak_field_map_
+    ~0u,  // no _inlined_string_donated_
+    ~0u,  // no _split_
+    ~0u,  // no sizeof(Split)
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh, _impl_.energyoff_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh, _impl_.energyidle_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh, _impl_.energyactive_),
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh, _impl_.energymaintenance_),
 };
 
 static const ::_pbi::MigrationSchema
     schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-        {0, -1, -1, sizeof(::modularEmulator::modules::proto::OPCUAIdentification)},
-        {10, 28, -1, sizeof(::modularEmulator::modules::proto::Module)},
-        {38, 57, -1, sizeof(::modularEmulator::modules::proto::ParameterSet)},
-        {67, -1, -1, sizeof(::modularEmulator::modules::proto::BasicLPBFMachineParams)},
-        {81, 91, -1, sizeof(::modularEmulator::modules::proto::ServiceInterface)},
-        {93, -1, -1, sizeof(::modularEmulator::modules::proto::BasicScannerParams)},
-        {115, -1, -1, sizeof(::modularEmulator::modules::proto::CommonSkyWritingParams)},
-        {126, -1, -1, sizeof(::modularEmulator::modules::proto::CoordinateTransformParams)},
-        {137, 154, -1, sizeof(::modularEmulator::modules::proto::NovantaScannerParams)},
-        {163, 178, -1, sizeof(::modularEmulator::modules::proto::ScanlabScannerParams)},
-        {185, -1, -1, sizeof(::modularEmulator::modules::proto::ScanField)},
-        {197, -1, -1, sizeof(::modularEmulator::modules::proto::LaserParams)},
-        {206, -1, -1, sizeof(::modularEmulator::modules::proto::StandardCoaterParams)},
-        {221, -1, -1, sizeof(::modularEmulator::modules::proto::BuildChamberParams)},
-        {235, -1, -1, sizeof(::modularEmulator::modules::proto::CuboidBuildVolumeParams)},
-        {249, -1, -1, sizeof(::modularEmulator::modules::proto::ZylinderBuildVolumeParams)},
-        {259, -1, -1, sizeof(::modularEmulator::modules::proto::PreheaterParams)},
-        {271, -1, -1, sizeof(::modularEmulator::modules::proto::TimePerStateInMS)},
-        {283, -1, -1, sizeof(::modularEmulator::modules::proto::EnergyUsePerStateInkWh)},
+        {0, -1, -1, sizeof(::ManufacturingScenarioRepository::OPCUAIdentification)},
+        {10, 28, -1, sizeof(::ManufacturingScenarioRepository::Module)},
+        {38, 57, -1, sizeof(::ManufacturingScenarioRepository::ParameterSet)},
+        {67, -1, -1, sizeof(::ManufacturingScenarioRepository::BasicLPBFMachineParams)},
+        {81, 91, -1, sizeof(::ManufacturingScenarioRepository::ServiceInterface)},
+        {93, -1, -1, sizeof(::ManufacturingScenarioRepository::BasicScannerParams)},
+        {115, -1, -1, sizeof(::ManufacturingScenarioRepository::CommonSkyWritingParams)},
+        {126, -1, -1, sizeof(::ManufacturingScenarioRepository::CoordinateTransformParams)},
+        {137, 154, -1, sizeof(::ManufacturingScenarioRepository::NovantaScannerParams)},
+        {163, 178, -1, sizeof(::ManufacturingScenarioRepository::ScanlabScannerParams)},
+        {185, -1, -1, sizeof(::ManufacturingScenarioRepository::ScanField)},
+        {197, -1, -1, sizeof(::ManufacturingScenarioRepository::LaserParams)},
+        {206, -1, -1, sizeof(::ManufacturingScenarioRepository::StandardCoaterParams)},
+        {221, -1, -1, sizeof(::ManufacturingScenarioRepository::BuildChamberParams)},
+        {235, -1, -1, sizeof(::ManufacturingScenarioRepository::CuboidBuildVolumeParams)},
+        {249, -1, -1, sizeof(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams)},
+        {259, -1, -1, sizeof(::ManufacturingScenarioRepository::PreheaterParams)},
+        {271, -1, -1, sizeof(::ManufacturingScenarioRepository::TimePerStateInMS)},
+        {283, -1, -1, sizeof(::ManufacturingScenarioRepository::EnergyUsePerStateInkWh)},
 };
 
 static const ::_pb::Message* const file_default_instances[] = {
-    &::modularEmulator::modules::proto::_OPCUAIdentification_default_instance_._instance,
-    &::modularEmulator::modules::proto::_Module_default_instance_._instance,
-    &::modularEmulator::modules::proto::_ParameterSet_default_instance_._instance,
-    &::modularEmulator::modules::proto::_BasicLPBFMachineParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_ServiceInterface_default_instance_._instance,
-    &::modularEmulator::modules::proto::_BasicScannerParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_CommonSkyWritingParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_CoordinateTransformParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_NovantaScannerParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_ScanlabScannerParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_ScanField_default_instance_._instance,
-    &::modularEmulator::modules::proto::_LaserParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_StandardCoaterParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_BuildChamberParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_CuboidBuildVolumeParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_ZylinderBuildVolumeParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_PreheaterParams_default_instance_._instance,
-    &::modularEmulator::modules::proto::_TimePerStateInMS_default_instance_._instance,
-    &::modularEmulator::modules::proto::_EnergyUsePerStateInkWh_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_OPCUAIdentification_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_Module_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_ParameterSet_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_BasicLPBFMachineParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_ServiceInterface_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_BasicScannerParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_CommonSkyWritingParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_CoordinateTransformParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_NovantaScannerParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_ScanlabScannerParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_ScanField_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_LaserParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_StandardCoaterParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_BuildChamberParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_CuboidBuildVolumeParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_ZylinderBuildVolumeParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_PreheaterParams_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_TimePerStateInMS_default_instance_._instance,
+    &::ManufacturingScenarioRepository::_EnergyUsePerStateInkWh_default_instance_._instance,
 };
 const char descriptor_table_protodef_ModuleDefinition_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-    "\n\026ModuleDefinition.proto\022\035modularEmulato"
-    "r.modules.proto\"3\n\023OPCUAIdentification\022\016"
-    "\n\006nodeId\030\001 \001(\r\022\014\n\004name\030\002 \001(\t\"\342\004\n\006Module\022"
-    ";\n\014childModules\030\001 \003(\0132%.modularEmulator."
-    "modules.proto.Module\022:\n\014currentState\030\002 \001"
-    "(\0162$.modularEmulator.modules.proto.state"
-    "\022I\n\020timePerStateInMS\030\003 \001(\0132/.modularEmul"
-    "ator.modules.proto.TimePerStateInMS\022U\n\026e"
-    "nergyUsePerStateInkWh\030\004 \001(\01325.modularEmu"
-    "lator.modules.proto.EnergyUsePerStateInk"
-    "Wh\022>\n\002id\030\005 \001(\01322.modularEmulator.modules"
-    ".proto.OPCUAIdentification\022\023\n\013descriptio"
-    "n\030\006 \001(\t\022\027\n\017investmentCosts\030\007 \001(\001\022C\n\023impl"
-    "ementedServices\030\010 \003(\0162&.modularEmulator."
-    "modules.proto.Service\022I\n\020consumedService"
-    "s\030\t \003(\0132/.modularEmulator.modules.proto."
-    "ServiceInterface\022\?\n\nparameters\030\n \001(\0132+.m"
-    "odularEmulator.modules.proto.ParameterSe"
-    "t\"\236\006\n\014ParameterSet\022>\n\002id\030\001 \001(\01322.modular"
-    "Emulator.modules.proto.OPCUAIdentificati"
-    "on\022M\n\016scanlabScanner\030\n \001(\01323.modularEmul"
-    "ator.modules.proto.ScanlabScannerParamsH"
-    "\000\022;\n\005laser\030\013 \001(\0132*.modularEmulator.modul"
-    "es.proto.LaserParamsH\000\022M\n\016standardCoater"
-    "\030\014 \001(\01323.modularEmulator.modules.proto.S"
-    "tandardCoaterParamsH\000\022I\n\014buildChamber\030\017 "
-    "\001(\01321.modularEmulator.modules.proto.Buil"
-    "dChamberParamsH\000\022S\n\021cuboidBuildVolume\030\020 "
-    "\001(\01326.modularEmulator.modules.proto.Cubo"
-    "idBuildVolumeParamsH\000\022W\n\023zylinderBuildVo"
-    "lume\030\021 \001(\01328.modularEmulator.modules.pro"
-    "to.ZylinderBuildVolumeParamsH\000\022C\n\tprehea"
-    "ter\030\023 \001(\0132..modularEmulator.modules.prot"
-    "o.PreheaterParamsH\000\022M\n\016novantaScanner\030\037 "
-    "\001(\01323.modularEmulator.modules.proto.Nova"
-    "ntaScannerParamsH\000\022Q\n\020basicLPBFMachine\030d"
-    " \001(\01325.modularEmulator.modules.proto.Bas"
-    "icLPBFMachineParamsH\000B\023\n\021TypeAndParamete"
-    "rs\"\351\001\n\026BasicLPBFMachineParams\022!\n\031numberO"
-    "fLaserScannerUnits\030\001 \001(\005\022<\n\nscanFields\030\024"
-    " \003(\0132(.modularEmulator.modules.proto.Sca"
+    "\n\026ModuleDefinition.proto\022\037ManufacturingS"
+    "cenarioRepository\"3\n\023OPCUAIdentification"
+    "\022\016\n\006nodeId\030\001 \001(\r\022\014\n\004name\030\002 \001(\t\"\362\004\n\006Modul"
+    "e\022=\n\014childModules\030\001 \003(\0132\'.ManufacturingS"
+    "cenarioRepository.Module\022<\n\014currentState"
+    "\030\002 \001(\0162&.ManufacturingScenarioRepository"
+    ".state\022K\n\020timePerStateInMS\030\003 \001(\01321.Manuf"
+    "acturingScenarioRepository.TimePerStateI"
+    "nMS\022W\n\026energyUsePerStateInkWh\030\004 \001(\01327.Ma"
+    "nufacturingScenarioRepository.EnergyUseP"
+    "erStateInkWh\022@\n\002id\030\005 \001(\01324.Manufacturing"
+    "ScenarioRepository.OPCUAIdentification\022\023"
+    "\n\013description\030\006 \001(\t\022\027\n\017investmentCosts\030\007"
+    " \001(\001\022E\n\023implementedServices\030\010 \003(\0162(.Manu"
+    "facturingScenarioRepository.Service\022K\n\020c"
+    "onsumedServices\030\t \003(\01321.ManufacturingSce"
+    "narioRepository.ServiceInterface\022A\n\npara"
+    "meters\030\n \001(\0132-.ManufacturingScenarioRepo"
+    "sitory.ParameterSet\"\262\006\n\014ParameterSet\022@\n\002"
+    "id\030\001 \001(\01324.ManufacturingScenarioReposito"
+    "ry.OPCUAIdentification\022O\n\016scanlabScanner"
+    "\030\n \001(\01325.ManufacturingScenarioRepository"
+    ".ScanlabScannerParamsH\000\022=\n\005laser\030\013 \001(\0132,"
+    ".ManufacturingScenarioRepository.LaserPa"
+    "ramsH\000\022O\n\016standardCoater\030\014 \001(\01325.Manufac"
+    "turingScenarioRepository.StandardCoaterP"
+    "aramsH\000\022K\n\014buildChamber\030\017 \001(\01323.Manufact"
+    "uringScenarioRepository.BuildChamberPara"
+    "msH\000\022U\n\021cuboidBuildVolume\030\020 \001(\01328.Manufa"
+    "cturingScenarioRepository.CuboidBuildVol"
+    "umeParamsH\000\022Y\n\023zylinderBuildVolume\030\021 \001(\013"
+    "2:.ManufacturingScenarioRepository.Zylin"
+    "derBuildVolumeParamsH\000\022E\n\tpreheater\030\023 \001("
+    "\01320.ManufacturingScenarioRepository.Preh"
+    "eaterParamsH\000\022O\n\016novantaScanner\030\037 \001(\01325."
+    "ManufacturingScenarioRepository.NovantaS"
+    "cannerParamsH\000\022S\n\020basicLPBFMachine\030d \001(\013"
+    "27.ManufacturingScenarioRepository.Basic"
+    "LPBFMachineParamsH\000B\023\n\021TypeAndParameters"
+    "\"\353\001\n\026BasicLPBFMachineParams\022!\n\031numberOfL"
+    "aserScannerUnits\030\001 \001(\005\022>\n\nscanFields\030\024 \003"
+    "(\0132*.ManufacturingScenarioRepository.Sca"
     "nField\022\030\n\020MinLayerHeightUM\030\n \001(\001\022\022\n\nMinZ"
     "DistMm\030\013 \001(\001\022\032\n\022MinimalHatchLength\030\014 \001(\001"
-    "\022$\n\034ForcedMinimumExposureTimeInS\030\r \001(\001\"\243"
-    "\001\n\020ServiceInterface\022\?\n\017consumedService\030\001"
-    " \001(\0162&.modularEmulator.modules.proto.Ser"
-    "vice\022N\n\022implementingModule\030\002 \001(\01322.modul"
-    "arEmulator.modules.proto.OPCUAIdentifica"
-    "tion\"\340\003\n\022BasicScannerParams\022\026\n\016jumpSpeed"
-    "InMmS\030\001 \001(\001\022\026\n\016markSpeedInMmS\030\002 \001(\001\022\033\n\023l"
-    "aserFocusShiftInMm\030\003 \001(\001\022 \n\030maxAccelerat"
-    "ionInMmPerSS\030\004 \001(\001\022\026\n\016staticDelayInS\030\005 \001"
-    "(\001\022\025\n\rjumpDelayInUs\030\006 \001(\001\022\025\n\rmarkDelayIn"
-    "Us\030\007 \001(\001\022\031\n\021laserOffDelayInUs\030\010 \001(\001\022\030\n\020l"
-    "aserOnDelayInUs\030\t \001(\001\022\030\n\020polygonDelayInU"
-    "s\030\n \001(\001\022\030\n\020VectorBlockDelay\030\013 \001(\001\022\030\n\020Par"
-    "amChangeDelay\030\014 \001(\001\022\033\n\023WarpJumpLengthLim"
-    "it\030\r \001(\001\022L\n\010jumpMode\030\016 \001(\0162:.modularEmul"
-    "ator.modules.proto.BasicScannerParams.Ju"
-    "mpMode\"\'\n\010JumpMode\022\n\n\006STATIC\020\000\022\017\n\013ACCELE"
-    "RATED\020\001\"b\n\026CommonSkyWritingParams\022\031\n\021NPr"
-    "evInTenUsTicks\030\001 \001(\001\022\031\n\021NPostInTenUsTick"
-    "s\030\002 \001(\001\022\022\n\nlimitAngle\030\003 \001(\001\"p\n\031Coordinat"
-    "eTransformParams\022\035\n\025DeleteZeroLengthJump"
-    "s\030\001 \001(\010\022\031\n\021MinimalJumpLength\030\002 \001(\001\022\031\n\021Mi"
-    "nimalMarkLength\030\003 \001(\001\"\247\005\n\024NovantaScanner"
-    "Params\022M\n\022basicScannerParams\030\001 \001(\01321.mod"
-    "ularEmulator.modules.proto.BasicScannerP"
-    "arams\022O\n\020skyWritingParams\030\002 \001(\01325.modula"
-    "rEmulator.modules.proto.CommonSkyWriting"
-    "Params\022V\n\024coordTransformParams\030\003 \001(\01328.m"
-    "odularEmulator.modules.proto.CoordinateT"
-    "ransformParams\022Z\n\016skyWritingMode\030\004 \001(\0162B"
-    ".modularEmulator.modules.proto.NovantaSc"
-    "annerParams.SkyWritingMode\022P\n\tdelayMode\030"
-    "\005 \001(\0162=.modularEmulator.modules.proto.No"
-    "vantaScannerParams.DelayMode\022\027\n\017radialEr"
-    "rorInUm\030\006 \001(\001\022\034\n\024SafetyFactorFlyByLow\030\007 "
-    "\001(\001\022\035\n\025SafetyFactorFlyByHigh\030\010 \001(\001\022$\n\034Sa"
-    "fetyFactorRadialErrorLimit\030\t \001(\001\"4\n\016SkyW"
-    "ritingMode\022\010\n\004NONE\020\000\022\t\n\005MODE3\020\001\022\r\n\tSCAN_"
-    "PACK\020\002\"7\n\tDelayMode\022\021\n\rMANUAL_DELAYS\020\000\022\027"
-    "\n\023VARIABLE_POLY_DELAY\020\001\"\341\006\n\024ScanlabScann"
-    "erParams\022M\n\022basicScannerParams\030\001 \001(\01321.m"
-    "odularEmulator.modules.proto.BasicScanne"
-    "rParams\022O\n\020skyWritingParams\030\002 \001(\01325.modu"
-    "larEmulator.modules.proto.CommonSkyWriti"
-    "ngParams\022V\n\024coordTransformParams\030\003 \001(\01328"
-    ".modularEmulator.modules.proto.Coordinat"
-    "eTransformParams\022Z\n\016skyWritingMode\030\004 \001(\016"
-    "2B.modularEmulator.modules.proto.Scanlab"
-    "ScannerParams.SkyWritingMode\022\023\n\013timeLagI"
-    "nUs\030\005 \001(\001\022p\n\031skyWritingParametringMode\030\006"
-    " \001(\0162M.modularEmulator.modules.proto.Sca"
-    "nlabScannerParams.SkyWritingParametringM"
-    "ode\022P\n\tdelayMode\030\007 \001(\0162=.modularEmulator"
-    ".modules.proto.ScanlabScannerParams.Dela"
-    "yMode\";\n\016SkyWritingMode\022\010\n\004NONE\020\000\022\t\n\005MOD"
-    "E1\020\001\022\t\n\005MODE2\020\002\022\t\n\005MODE3\020\003\"\205\001\n\031SkyWritin"
-    "gParametringMode\022\026\n\022MANUAL_NPREV_NPOST\020\000"
-    "\022*\n&AUTOMATIC_NPREV_NPOST_BASED_ON_TIMEL"
-    "AG\020\001\022$\n MINIMUM_NPREV_NPOST_ACCELERATION"
-    "\020\002\"W\n\tDelayMode\022\021\n\rMANUAL_DELAYS\020\000\022\027\n\023VA"
-    "RIABLE_POLY_DELAY\020\001\022\036\n\032MINIMUM_DELAY_ACC"
-    "ELERATION\020\002\"C\n\tScanField\022\014\n\004XMin\030\001 \001(\001\022\014"
-    "\n\004XMax\030\002 \001(\001\022\014\n\004YMin\030\003 \001(\001\022\014\n\004YMax\030\004 \001(\001"
-    "\"$\n\013LaserParams\022\025\n\rLaserPowerInW\030\002 \001(\001\"\341"
-    "\001\n\024StandardCoaterParams\022%\n\035coatingSpeedF"
-    "orwardInMmPerSec\030\001 \001(\001\022&\n\036coatingSpeedBa"
-    "ckwardInMmPerSec\030\002 \001(\001\022\024\n\014distanceInMm\030\003"
-    " \001(\001\022\031\n\021forwardDelayInSec\030\004 \001(\001\022\032\n\022backw"
-    "ardDelayInSec\030\005 \001(\001\022\024\n\014acceleration\030\006 \001("
-    "\001\022\027\n\017isBidirectional\030\007 \001(\010\"\333\001\n\022BuildCham"
-    "berParams\022\"\n\032platformLiftRateInMmPerSec\030"
-    "\001 \001(\001\022+\n#platformLiftAccelerationInMmPer"
-    "Sec2\030\005 \001(\001\022\034\n\024platformLiftDelayInS\030\006 \001(\001"
-    "\022\036\n\026inertAtmosphereTimeInS\030\002 \001(\001\022 \n\030rele"
-    "aseAtmosphereTimeInS\030\003 \001(\001\022\024\n\014maximumO2P"
-    "PM\030\004 \001(\001\"m\n\027CuboidBuildVolumeParams\022\014\n\004X"
-    "Min\030\001 \001(\001\022\014\n\004XMax\030\002 \001(\001\022\014\n\004YMin\030\003 \001(\001\022\014\n"
-    "\004YMax\030\004 \001(\001\022\014\n\004ZMin\030\005 \001(\001\022\014\n\004ZMax\030\006 \001(\001\""
-    "=\n\031ZylinderBuildVolumeParams\022\020\n\010diameter"
-    "\030\002 \001(\001\022\016\n\006height\030\003 \001(\001\"\215\001\n\017PreheaterPara"
-    "ms\022\035\n\025preheatingTemperature\030\002 \001(\001\022$\n\034max"
-    "imumPreheatingTemperature\030\003 \001(\001\022\034\n\024heati"
-    "ngRateInSecPerK\030\004 \001(\001\022\027\n\017roomTemperature"
-    "\030\005 \001(\001\"b\n\020TimePerStateInMS\022\017\n\007timeOff\030\001 "
-    "\001(\001\022\020\n\010timeIdle\030\002 \001(\001\022\022\n\ntimeActive\030\003 \001("
-    "\001\022\027\n\017timeMaintenance\030\004 \001(\001\"p\n\026EnergyUseP"
-    "erStateInkWh\022\021\n\tenergyOff\030\001 \001(\001\022\022\n\nenerg"
-    "yIdle\030\002 \001(\001\022\024\n\014energyActive\030\003 \001(\001\022\031\n\021ene"
-    "rgyMaintenance\030\004 \001(\001*\215\003\n\007Service\022\022\n\016LASE"
-    "RDEFLECTOR\020\000\022\017\n\013LASERSOURCE\020\001\022\n\n\006COATER\020"
-    "\002\022\024\n\020INERT_ATMOSPHERE\020\003\022\n\n\006LOADER\020\004\022\022\n\016P"
-    "OSTPROCESSING\020\005\022\031\n\025POWDER_BED_MONITORING"
-    "\020\006\022\017\n\013POWDER_FEED\020\007\022\024\n\020POWDER_RECYCLING\020"
-    "\010\022\021\n\rPOWDER_UNLOAD\020\t\022\r\n\tPREHEATER\020\n\022\027\n\023P"
-    "ULSED_LASER_SOURCE\020\013\022\023\n\017REMOVE_SUPPORTS\020"
-    "\014\022\033\n\027SUBSTRATE_PLATE_MILLING\020\r\022\025\n\021THERMA"
-    "L_TREATMENT\020\016\022\021\n\rPLATFORM_LIFT\020\017\022\030\n\024SCAN"
-    "FIELD_ALLOCATION\020\020\022\020\n\014FILTER_CLEAN\020\021\022\026\n\022"
-    "THERMAL_SIMULATION\020\022*7\n\005state\022\007\n\003OFF\020\000\022\010"
-    "\n\004IDLE\020\001\022\n\n\006ACTIVE\020\002\022\017\n\013MAINTENANCE\020\003b\006p"
-    "roto3"
+    "\022$\n\034ForcedMinimumExposureTimeInS\030\r \001(\001\"\247"
+    "\001\n\020ServiceInterface\022A\n\017consumedService\030\001"
+    " \001(\0162(.ManufacturingScenarioRepository.S"
+    "ervice\022P\n\022implementingModule\030\002 \001(\01324.Man"
+    "ufacturingScenarioRepository.OPCUAIdenti"
+    "fication\"\342\003\n\022BasicScannerParams\022\026\n\016jumpS"
+    "peedInMmS\030\001 \001(\001\022\026\n\016markSpeedInMmS\030\002 \001(\001\022"
+    "\033\n\023laserFocusShiftInMm\030\003 \001(\001\022 \n\030maxAccel"
+    "erationInMmPerSS\030\004 \001(\001\022\026\n\016staticDelayInS"
+    "\030\005 \001(\001\022\025\n\rjumpDelayInUs\030\006 \001(\001\022\025\n\rmarkDel"
+    "ayInUs\030\007 \001(\001\022\031\n\021laserOffDelayInUs\030\010 \001(\001\022"
+    "\030\n\020laserOnDelayInUs\030\t \001(\001\022\030\n\020polygonDela"
+    "yInUs\030\n \001(\001\022\030\n\020VectorBlockDelay\030\013 \001(\001\022\030\n"
+    "\020ParamChangeDelay\030\014 \001(\001\022\033\n\023WarpJumpLengt"
+    "hLimit\030\r \001(\001\022N\n\010jumpMode\030\016 \001(\0162<.Manufac"
+    "turingScenarioRepository.BasicScannerPar"
+    "ams.JumpMode\"\'\n\010JumpMode\022\n\n\006STATIC\020\000\022\017\n\013"
+    "ACCELERATED\020\001\"b\n\026CommonSkyWritingParams\022"
+    "\031\n\021NPrevInTenUsTicks\030\001 \001(\001\022\031\n\021NPostInTen"
+    "UsTicks\030\002 \001(\001\022\022\n\nlimitAngle\030\003 \001(\001\"p\n\031Coo"
+    "rdinateTransformParams\022\035\n\025DeleteZeroLeng"
+    "thJumps\030\001 \001(\010\022\031\n\021MinimalJumpLength\030\002 \001(\001"
+    "\022\031\n\021MinimalMarkLength\030\003 \001(\001\"\261\005\n\024NovantaS"
+    "cannerParams\022O\n\022basicScannerParams\030\001 \001(\013"
+    "23.ManufacturingScenarioRepository.Basic"
+    "ScannerParams\022Q\n\020skyWritingParams\030\002 \001(\0132"
+    "7.ManufacturingScenarioRepository.Common"
+    "SkyWritingParams\022X\n\024coordTransformParams"
+    "\030\003 \001(\0132:.ManufacturingScenarioRepository"
+    ".CoordinateTransformParams\022\\\n\016skyWriting"
+    "Mode\030\004 \001(\0162D.ManufacturingScenarioReposi"
+    "tory.NovantaScannerParams.SkyWritingMode"
+    "\022R\n\tdelayMode\030\005 \001(\0162\?.ManufacturingScena"
+    "rioRepository.NovantaScannerParams.Delay"
+    "Mode\022\027\n\017radialErrorInUm\030\006 \001(\001\022\034\n\024SafetyF"
+    "actorFlyByLow\030\007 \001(\001\022\035\n\025SafetyFactorFlyBy"
+    "High\030\010 \001(\001\022$\n\034SafetyFactorRadialErrorLim"
+    "it\030\t \001(\001\"4\n\016SkyWritingMode\022\010\n\004NONE\020\000\022\t\n\005"
+    "MODE3\020\001\022\r\n\tSCAN_PACK\020\002\"7\n\tDelayMode\022\021\n\rM"
+    "ANUAL_DELAYS\020\000\022\027\n\023VARIABLE_POLY_DELAY\020\001\""
+    "\355\006\n\024ScanlabScannerParams\022O\n\022basicScanner"
+    "Params\030\001 \001(\01323.ManufacturingScenarioRepo"
+    "sitory.BasicScannerParams\022Q\n\020skyWritingP"
+    "arams\030\002 \001(\01327.ManufacturingScenarioRepos"
+    "itory.CommonSkyWritingParams\022X\n\024coordTra"
+    "nsformParams\030\003 \001(\0132:.ManufacturingScenar"
+    "ioRepository.CoordinateTransformParams\022\\"
+    "\n\016skyWritingMode\030\004 \001(\0162D.ManufacturingSc"
+    "enarioRepository.ScanlabScannerParams.Sk"
+    "yWritingMode\022\023\n\013timeLagInUs\030\005 \001(\001\022r\n\031sky"
+    "WritingParametringMode\030\006 \001(\0162O.Manufactu"
+    "ringScenarioRepository.ScanlabScannerPar"
+    "ams.SkyWritingParametringMode\022R\n\tdelayMo"
+    "de\030\007 \001(\0162\?.ManufacturingScenarioReposito"
+    "ry.ScanlabScannerParams.DelayMode\";\n\016Sky"
+    "WritingMode\022\010\n\004NONE\020\000\022\t\n\005MODE1\020\001\022\t\n\005MODE"
+    "2\020\002\022\t\n\005MODE3\020\003\"\205\001\n\031SkyWritingParametring"
+    "Mode\022\026\n\022MANUAL_NPREV_NPOST\020\000\022*\n&AUTOMATI"
+    "C_NPREV_NPOST_BASED_ON_TIMELAG\020\001\022$\n MINI"
+    "MUM_NPREV_NPOST_ACCELERATION\020\002\"W\n\tDelayM"
+    "ode\022\021\n\rMANUAL_DELAYS\020\000\022\027\n\023VARIABLE_POLY_"
+    "DELAY\020\001\022\036\n\032MINIMUM_DELAY_ACCELERATION\020\002\""
+    "C\n\tScanField\022\014\n\004XMin\030\001 \001(\001\022\014\n\004XMax\030\002 \001(\001"
+    "\022\014\n\004YMin\030\003 \001(\001\022\014\n\004YMax\030\004 \001(\001\"$\n\013LaserPar"
+    "ams\022\025\n\rLaserPowerInW\030\002 \001(\001\"\341\001\n\024StandardC"
+    "oaterParams\022%\n\035coatingSpeedForwardInMmPe"
+    "rSec\030\001 \001(\001\022&\n\036coatingSpeedBackwardInMmPe"
+    "rSec\030\002 \001(\001\022\024\n\014distanceInMm\030\003 \001(\001\022\031\n\021forw"
+    "ardDelayInSec\030\004 \001(\001\022\032\n\022backwardDelayInSe"
+    "c\030\005 \001(\001\022\024\n\014acceleration\030\006 \001(\001\022\027\n\017isBidir"
+    "ectional\030\007 \001(\010\"\333\001\n\022BuildChamberParams\022\"\n"
+    "\032platformLiftRateInMmPerSec\030\001 \001(\001\022+\n#pla"
+    "tformLiftAccelerationInMmPerSec2\030\005 \001(\001\022\034"
+    "\n\024platformLiftDelayInS\030\006 \001(\001\022\036\n\026inertAtm"
+    "osphereTimeInS\030\002 \001(\001\022 \n\030releaseAtmospher"
+    "eTimeInS\030\003 \001(\001\022\024\n\014maximumO2PPM\030\004 \001(\001\"m\n\027"
+    "CuboidBuildVolumeParams\022\014\n\004XMin\030\001 \001(\001\022\014\n"
+    "\004XMax\030\002 \001(\001\022\014\n\004YMin\030\003 \001(\001\022\014\n\004YMax\030\004 \001(\001\022"
+    "\014\n\004ZMin\030\005 \001(\001\022\014\n\004ZMax\030\006 \001(\001\"=\n\031ZylinderB"
+    "uildVolumeParams\022\020\n\010diameter\030\002 \001(\001\022\016\n\006he"
+    "ight\030\003 \001(\001\"\215\001\n\017PreheaterParams\022\035\n\025prehea"
+    "tingTemperature\030\002 \001(\001\022$\n\034maximumPreheati"
+    "ngTemperature\030\003 \001(\001\022\034\n\024heatingRateInSecP"
+    "erK\030\004 \001(\001\022\027\n\017roomTemperature\030\005 \001(\001\"b\n\020Ti"
+    "mePerStateInMS\022\017\n\007timeOff\030\001 \001(\001\022\020\n\010timeI"
+    "dle\030\002 \001(\001\022\022\n\ntimeActive\030\003 \001(\001\022\027\n\017timeMai"
+    "ntenance\030\004 \001(\001\"p\n\026EnergyUsePerStateInkWh"
+    "\022\021\n\tenergyOff\030\001 \001(\001\022\022\n\nenergyIdle\030\002 \001(\001\022"
+    "\024\n\014energyActive\030\003 \001(\001\022\031\n\021energyMaintenan"
+    "ce\030\004 \001(\001*\215\003\n\007Service\022\022\n\016LASERDEFLECTOR\020\000"
+    "\022\017\n\013LASERSOURCE\020\001\022\n\n\006COATER\020\002\022\024\n\020INERT_A"
+    "TMOSPHERE\020\003\022\n\n\006LOADER\020\004\022\022\n\016POSTPROCESSIN"
+    "G\020\005\022\031\n\025POWDER_BED_MONITORING\020\006\022\017\n\013POWDER"
+    "_FEED\020\007\022\024\n\020POWDER_RECYCLING\020\010\022\021\n\rPOWDER_"
+    "UNLOAD\020\t\022\r\n\tPREHEATER\020\n\022\027\n\023PULSED_LASER_"
+    "SOURCE\020\013\022\023\n\017REMOVE_SUPPORTS\020\014\022\033\n\027SUBSTRA"
+    "TE_PLATE_MILLING\020\r\022\025\n\021THERMAL_TREATMENT\020"
+    "\016\022\021\n\rPLATFORM_LIFT\020\017\022\030\n\024SCANFIELD_ALLOCA"
+    "TION\020\020\022\020\n\014FILTER_CLEAN\020\021\022\026\n\022THERMAL_SIMU"
+    "LATION\020\022*7\n\005state\022\007\n\003OFF\020\000\022\010\n\004IDLE\020\001\022\n\n\006"
+    "ACTIVE\020\002\022\017\n\013MAINTENANCE\020\003b\006proto3"
 };
 static ::absl::once_flag descriptor_table_ModuleDefinition_2eproto_once;
 const ::_pbi::DescriptorTable descriptor_table_ModuleDefinition_2eproto = {
     false,
     false,
-    5725,
+    5793,
     descriptor_table_protodef_ModuleDefinition_2eproto,
     "ModuleDefinition.proto",
     &descriptor_table_ModuleDefinition_2eproto_once,
@@ -949,9 +946,7 @@ PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_ModuleDe
 // Force running AddDescriptors() at dynamic initialization time.
 PROTOBUF_ATTRIBUTE_INIT_PRIORITY2
 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_ModuleDefinition_2eproto(&descriptor_table_ModuleDefinition_2eproto);
-namespace modularEmulator {
-namespace modules {
-namespace proto {
+namespace ManufacturingScenarioRepository {
 const ::google::protobuf::EnumDescriptor* BasicScannerParams_JumpMode_descriptor() {
   ::google::protobuf::internal::AssignDescriptors(&descriptor_table_ModuleDefinition_2eproto);
   return file_level_enum_descriptors_ModuleDefinition_2eproto[0];
@@ -1160,7 +1155,7 @@ class OPCUAIdentification::_Internal {
 OPCUAIdentification::OPCUAIdentification(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.OPCUAIdentification)
 }
 OPCUAIdentification::OPCUAIdentification(const OPCUAIdentification& from) : ::google::protobuf::Message() {
   OPCUAIdentification* const _this = this;
@@ -1181,7 +1176,7 @@ OPCUAIdentification::OPCUAIdentification(const OPCUAIdentification& from) : ::go
   }
   _this->_impl_.nodeid_ = from._impl_.nodeid_;
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.OPCUAIdentification)
 }
 inline void OPCUAIdentification::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -1196,7 +1191,7 @@ inline void OPCUAIdentification::SharedCtor(::_pb::Arena* arena) {
   #endif  // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 OPCUAIdentification::~OPCUAIdentification() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.OPCUAIdentification)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -1209,7 +1204,7 @@ void OPCUAIdentification::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void OPCUAIdentification::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.OPCUAIdentification)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.OPCUAIdentification)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1227,7 +1222,7 @@ const char* OPCUAIdentification::_InternalParse(
 
 
 PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1
-const ::_pbi::TcParseTable<1, 2, 0, 62, 2> OPCUAIdentification::_table_ = {
+const ::_pbi::TcParseTable<1, 2, 0, 64, 2> OPCUAIdentification::_table_ = {
   {
     0,  // no _has_bits_
     0, // no _extensions_
@@ -1259,8 +1254,8 @@ const ::_pbi::TcParseTable<1, 2, 0, 62, 2> OPCUAIdentification::_table_ = {
   }},
   // no aux_entries
   {{
-    "\61\0\4\0\0\0\0\0"
-    "modularEmulator.modules.proto.OPCUAIdentification"
+    "\63\0\4\0\0\0\0\0"
+    "ManufacturingScenarioRepository.OPCUAIdentification"
     "name"
   }},
 };
@@ -1268,7 +1263,7 @@ const ::_pbi::TcParseTable<1, 2, 0, 62, 2> OPCUAIdentification::_table_ = {
 ::uint8_t* OPCUAIdentification::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.OPCUAIdentification)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -1283,7 +1278,7 @@ const ::_pbi::TcParseTable<1, 2, 0, 62, 2> OPCUAIdentification::_table_ = {
   if (!this->_internal_name().empty()) {
     const std::string& _s = this->_internal_name();
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-        _s.data(), static_cast<int>(_s.length()), ::google::protobuf::internal::WireFormatLite::SERIALIZE, "modularEmulator.modules.proto.OPCUAIdentification.name");
+        _s.data(), static_cast<int>(_s.length()), ::google::protobuf::internal::WireFormatLite::SERIALIZE, "ManufacturingScenarioRepository.OPCUAIdentification.name");
     target = stream->WriteStringMaybeAliased(2, _s, target);
   }
 
@@ -1292,12 +1287,12 @@ const ::_pbi::TcParseTable<1, 2, 0, 62, 2> OPCUAIdentification::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.OPCUAIdentification)
   return target;
 }
 
 ::size_t OPCUAIdentification::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.OPCUAIdentification)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.OPCUAIdentification)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -1329,7 +1324,7 @@ const ::google::protobuf::Message::ClassData*OPCUAIdentification::GetClassData()
 void OPCUAIdentification::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<OPCUAIdentification*>(&to_msg);
   auto& from = static_cast<const OPCUAIdentification&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.OPCUAIdentification)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.OPCUAIdentification)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -1344,7 +1339,7 @@ void OPCUAIdentification::MergeImpl(::google::protobuf::Message& to_msg, const :
 }
 
 void OPCUAIdentification::CopyFrom(const OPCUAIdentification& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.OPCUAIdentification)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.OPCUAIdentification)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1376,40 +1371,40 @@ class Module::_Internal {
   using HasBits = decltype(std::declval<Module>()._impl_._has_bits_);
   static constexpr ::int32_t kHasBitsOffset =
     8 * PROTOBUF_FIELD_OFFSET(Module, _impl_._has_bits_);
-  static const ::modularEmulator::modules::proto::TimePerStateInMS& timeperstateinms(const Module* msg);
+  static const ::ManufacturingScenarioRepository::TimePerStateInMS& timeperstateinms(const Module* msg);
   static void set_has_timeperstateinms(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
-  static const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& energyuseperstateinkwh(const Module* msg);
+  static const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& energyuseperstateinkwh(const Module* msg);
   static void set_has_energyuseperstateinkwh(HasBits* has_bits) {
     (*has_bits)[0] |= 2u;
   }
-  static const ::modularEmulator::modules::proto::OPCUAIdentification& id(const Module* msg);
+  static const ::ManufacturingScenarioRepository::OPCUAIdentification& id(const Module* msg);
   static void set_has_id(HasBits* has_bits) {
     (*has_bits)[0] |= 4u;
   }
-  static const ::modularEmulator::modules::proto::ParameterSet& parameters(const Module* msg);
+  static const ::ManufacturingScenarioRepository::ParameterSet& parameters(const Module* msg);
   static void set_has_parameters(HasBits* has_bits) {
     (*has_bits)[0] |= 8u;
   }
 };
 
-const ::modularEmulator::modules::proto::TimePerStateInMS& Module::_Internal::timeperstateinms(const Module* msg) {
+const ::ManufacturingScenarioRepository::TimePerStateInMS& Module::_Internal::timeperstateinms(const Module* msg) {
   return *msg->_impl_.timeperstateinms_;
 }
-const ::modularEmulator::modules::proto::EnergyUsePerStateInkWh& Module::_Internal::energyuseperstateinkwh(const Module* msg) {
+const ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh& Module::_Internal::energyuseperstateinkwh(const Module* msg) {
   return *msg->_impl_.energyuseperstateinkwh_;
 }
-const ::modularEmulator::modules::proto::OPCUAIdentification& Module::_Internal::id(const Module* msg) {
+const ::ManufacturingScenarioRepository::OPCUAIdentification& Module::_Internal::id(const Module* msg) {
   return *msg->_impl_.id_;
 }
-const ::modularEmulator::modules::proto::ParameterSet& Module::_Internal::parameters(const Module* msg) {
+const ::ManufacturingScenarioRepository::ParameterSet& Module::_Internal::parameters(const Module* msg) {
   return *msg->_impl_.parameters_;
 }
 Module::Module(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.Module)
 }
 Module::Module(const Module& from) : ::google::protobuf::Message() {
   Module* const _this = this;
@@ -1439,22 +1434,22 @@ Module::Module(const Module& from) : ::google::protobuf::Message() {
     _this->_impl_.description_.Set(from._internal_description(), _this->GetArenaForAllocation());
   }
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_impl_.timeperstateinms_ = new ::modularEmulator::modules::proto::TimePerStateInMS(*from._impl_.timeperstateinms_);
+    _this->_impl_.timeperstateinms_ = new ::ManufacturingScenarioRepository::TimePerStateInMS(*from._impl_.timeperstateinms_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000002u) != 0) {
-    _this->_impl_.energyuseperstateinkwh_ = new ::modularEmulator::modules::proto::EnergyUsePerStateInkWh(*from._impl_.energyuseperstateinkwh_);
+    _this->_impl_.energyuseperstateinkwh_ = new ::ManufacturingScenarioRepository::EnergyUsePerStateInkWh(*from._impl_.energyuseperstateinkwh_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000004u) != 0) {
-    _this->_impl_.id_ = new ::modularEmulator::modules::proto::OPCUAIdentification(*from._impl_.id_);
+    _this->_impl_.id_ = new ::ManufacturingScenarioRepository::OPCUAIdentification(*from._impl_.id_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000008u) != 0) {
-    _this->_impl_.parameters_ = new ::modularEmulator::modules::proto::ParameterSet(*from._impl_.parameters_);
+    _this->_impl_.parameters_ = new ::ManufacturingScenarioRepository::ParameterSet(*from._impl_.parameters_);
   }
   ::memcpy(&_impl_.investmentcosts_, &from._impl_.investmentcosts_,
     static_cast<::size_t>(reinterpret_cast<char*>(&_impl_.currentstate_) -
     reinterpret_cast<char*>(&_impl_.investmentcosts_)) + sizeof(_impl_.currentstate_));
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.Module)
 }
 inline void Module::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -1479,7 +1474,7 @@ inline void Module::SharedCtor(::_pb::Arena* arena) {
   #endif  // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 Module::~Module() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.Module)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -1499,7 +1494,7 @@ void Module::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void Module::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.Module)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.Module)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1542,7 +1537,7 @@ const char* Module::_InternalParse(
 
 
 PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1
-const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
+const ::_pbi::TcParseTable<4, 10, 6, 66, 2> Module::_table_ = {
   {
     PROTOBUF_FIELD_OFFSET(Module, _impl_._has_bits_),
     0, // no _extensions_
@@ -1557,19 +1552,19 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     ::_pbi::TcParser::GenericFallback,  // fallback
   }, {{
     {::_pbi::TcParser::MiniParse, {}},
-    // repeated .modularEmulator.modules.proto.Module childModules = 1;
+    // repeated .ManufacturingScenarioRepository.Module childModules = 1;
     {::_pbi::TcParser::FastMtR1,
      {10, 63, 0, PROTOBUF_FIELD_OFFSET(Module, _impl_.childmodules_)}},
-    // .modularEmulator.modules.proto.state currentState = 2;
+    // .ManufacturingScenarioRepository.state currentState = 2;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(Module, _impl_.currentstate_), 63>(),
      {16, 63, 0, PROTOBUF_FIELD_OFFSET(Module, _impl_.currentstate_)}},
-    // .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+    // .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
     {::_pbi::TcParser::FastMtS1,
      {26, 0, 1, PROTOBUF_FIELD_OFFSET(Module, _impl_.timeperstateinms_)}},
-    // .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+    // .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
     {::_pbi::TcParser::FastMtS1,
      {34, 1, 2, PROTOBUF_FIELD_OFFSET(Module, _impl_.energyuseperstateinkwh_)}},
-    // .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+    // .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
     {::_pbi::TcParser::FastMtS1,
      {42, 2, 3, PROTOBUF_FIELD_OFFSET(Module, _impl_.id_)}},
     // string description = 6;
@@ -1578,13 +1573,13 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     // double investmentCosts = 7;
     {::_pbi::TcParser::FastF64S1,
      {57, 63, 0, PROTOBUF_FIELD_OFFSET(Module, _impl_.investmentcosts_)}},
-    // repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+    // repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
     {::_pbi::TcParser::FastV32P1,
      {66, 63, 0, PROTOBUF_FIELD_OFFSET(Module, _impl_.implementedservices_)}},
-    // repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+    // repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
     {::_pbi::TcParser::FastMtR1,
      {74, 63, 4, PROTOBUF_FIELD_OFFSET(Module, _impl_.consumedservices_)}},
-    // .modularEmulator.modules.proto.ParameterSet parameters = 10;
+    // .ManufacturingScenarioRepository.ParameterSet parameters = 10;
     {::_pbi::TcParser::FastMtS1,
      {82, 3, 5, PROTOBUF_FIELD_OFFSET(Module, _impl_.parameters_)}},
     {::_pbi::TcParser::MiniParse, {}},
@@ -1595,19 +1590,19 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
   }}, {{
     65535, 65535
   }}, {{
-    // repeated .modularEmulator.modules.proto.Module childModules = 1;
+    // repeated .ManufacturingScenarioRepository.Module childModules = 1;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.childmodules_), -1, 0,
     (0 | ::_fl::kFcRepeated | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.state currentState = 2;
+    // .ManufacturingScenarioRepository.state currentState = 2;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.currentstate_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
-    // .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+    // .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.timeperstateinms_), _Internal::kHasBitsOffset + 0, 1,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+    // .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.energyuseperstateinkwh_), _Internal::kHasBitsOffset + 1, 2,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+    // .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.id_), _Internal::kHasBitsOffset + 2, 3,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
     // string description = 6;
@@ -1616,25 +1611,25 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     // double investmentCosts = 7;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.investmentcosts_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kDouble)},
-    // repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+    // repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.implementedservices_), -1, 0,
     (0 | ::_fl::kFcRepeated | ::_fl::kPackedOpenEnum)},
-    // repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+    // repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.consumedservices_), -1, 4,
     (0 | ::_fl::kFcRepeated | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.ParameterSet parameters = 10;
+    // .ManufacturingScenarioRepository.ParameterSet parameters = 10;
     {PROTOBUF_FIELD_OFFSET(Module, _impl_.parameters_), _Internal::kHasBitsOffset + 3, 5,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::Module>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::TimePerStateInMS>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::EnergyUsePerStateInkWh>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::OPCUAIdentification>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::ServiceInterface>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::ParameterSet>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::Module>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::TimePerStateInMS>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::EnergyUsePerStateInkWh>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::OPCUAIdentification>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ServiceInterface>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ParameterSet>()},
   }}, {{
-    "\44\0\0\0\0\0\13\0\0\0\0\0\0\0\0\0"
-    "modularEmulator.modules.proto.Module"
+    "\46\0\0\0\0\0\13\0\0\0\0\0\0\0\0\0"
+    "ManufacturingScenarioRepository.Module"
     "description"
   }},
 };
@@ -1642,11 +1637,11 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
 ::uint8_t* Module::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.Module)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
-  // repeated .modularEmulator.modules.proto.Module childModules = 1;
+  // repeated .ManufacturingScenarioRepository.Module childModules = 1;
   for (unsigned i = 0,
       n = static_cast<unsigned>(this->_internal_childmodules_size()); i < n; i++) {
     const auto& repfield = this->_internal_childmodules().Get(i);
@@ -1654,7 +1649,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
         InternalWriteMessage(1, repfield, repfield.GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.state currentState = 2;
+  // .ManufacturingScenarioRepository.state currentState = 2;
   if (this->_internal_currentstate() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -1662,21 +1657,21 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
   }
 
   cached_has_bits = _impl_._has_bits_[0];
-  // .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+  // .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
   if (cached_has_bits & 0x00000001u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(3, _Internal::timeperstateinms(this),
         _Internal::timeperstateinms(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+  // .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
   if (cached_has_bits & 0x00000002u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(4, _Internal::energyuseperstateinkwh(this),
         _Internal::energyuseperstateinkwh(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+  // .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
   if (cached_has_bits & 0x00000004u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(5, _Internal::id(this),
@@ -1687,7 +1682,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
   if (!this->_internal_description().empty()) {
     const std::string& _s = this->_internal_description();
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-        _s.data(), static_cast<int>(_s.length()), ::google::protobuf::internal::WireFormatLite::SERIALIZE, "modularEmulator.modules.proto.Module.description");
+        _s.data(), static_cast<int>(_s.length()), ::google::protobuf::internal::WireFormatLite::SERIALIZE, "ManufacturingScenarioRepository.Module.description");
     target = stream->WriteStringMaybeAliased(6, _s, target);
   }
 
@@ -1703,7 +1698,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
         7, this->_internal_investmentcosts(), target);
   }
 
-  // repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+  // repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
   {
     int byte_size = _impl_._implementedservices_cached_byte_size_.Get();
     if (byte_size > 0) {
@@ -1712,7 +1707,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     }
   }
 
-  // repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+  // repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
   for (unsigned i = 0,
       n = static_cast<unsigned>(this->_internal_consumedservices_size()); i < n; i++) {
     const auto& repfield = this->_internal_consumedservices().Get(i);
@@ -1720,7 +1715,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
         InternalWriteMessage(9, repfield, repfield.GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.ParameterSet parameters = 10;
+  // .ManufacturingScenarioRepository.ParameterSet parameters = 10;
   if (cached_has_bits & 0x00000008u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(10, _Internal::parameters(this),
@@ -1732,25 +1727,25 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.Module)
   return target;
 }
 
 ::size_t Module::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.Module)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.Module)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .modularEmulator.modules.proto.Module childModules = 1;
+  // repeated .ManufacturingScenarioRepository.Module childModules = 1;
   total_size += 1UL * this->_internal_childmodules_size();
   for (const auto& msg : this->_internal_childmodules()) {
     total_size +=
       ::google::protobuf::internal::WireFormatLite::MessageSize(msg);
   }
-  // repeated .modularEmulator.modules.proto.Service implementedServices = 8;
+  // repeated .ManufacturingScenarioRepository.Service implementedServices = 8;
   {
     std::size_t data_size = 0;
     auto count = static_cast<std::size_t>(this->_internal_implementedservices_size());
@@ -1767,7 +1762,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     }
     _impl_._implementedservices_cached_byte_size_.Set(::_pbi::ToCachedSize(data_size));
   }
-  // repeated .modularEmulator.modules.proto.ServiceInterface consumedServices = 9;
+  // repeated .ManufacturingScenarioRepository.ServiceInterface consumedServices = 9;
   total_size += 1UL * this->_internal_consumedservices_size();
   for (const auto& msg : this->_internal_consumedservices()) {
     total_size +=
@@ -1781,28 +1776,28 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
 
   cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x0000000fu) {
-    // .modularEmulator.modules.proto.TimePerStateInMS timePerStateInMS = 3;
+    // .ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS = 3;
     if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.timeperstateinms_);
     }
 
-    // .modularEmulator.modules.proto.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
+    // .ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh = 4;
     if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.energyuseperstateinkwh_);
     }
 
-    // .modularEmulator.modules.proto.OPCUAIdentification id = 5;
+    // .ManufacturingScenarioRepository.OPCUAIdentification id = 5;
     if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.id_);
     }
 
-    // .modularEmulator.modules.proto.ParameterSet parameters = 10;
+    // .ManufacturingScenarioRepository.ParameterSet parameters = 10;
     if (cached_has_bits & 0x00000008u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -1820,7 +1815,7 @@ const ::_pbi::TcParseTable<4, 10, 6, 64, 2> Module::_table_ = {
     total_size += 9;
   }
 
-  // .modularEmulator.modules.proto.state currentState = 2;
+  // .ManufacturingScenarioRepository.state currentState = 2;
   if (this->_internal_currentstate() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_currentstate());
@@ -1839,7 +1834,7 @@ const ::google::protobuf::Message::ClassData*Module::GetClassData() const { retu
 void Module::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<Module*>(&to_msg);
   auto& from = static_cast<const Module&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.Module)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.Module)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -1853,19 +1848,19 @@ void Module::MergeImpl(::google::protobuf::Message& to_msg, const ::google::prot
   cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x0000000fu) {
     if (cached_has_bits & 0x00000001u) {
-      _this->_internal_mutable_timeperstateinms()->::modularEmulator::modules::proto::TimePerStateInMS::MergeFrom(
+      _this->_internal_mutable_timeperstateinms()->::ManufacturingScenarioRepository::TimePerStateInMS::MergeFrom(
           from._internal_timeperstateinms());
     }
     if (cached_has_bits & 0x00000002u) {
-      _this->_internal_mutable_energyuseperstateinkwh()->::modularEmulator::modules::proto::EnergyUsePerStateInkWh::MergeFrom(
+      _this->_internal_mutable_energyuseperstateinkwh()->::ManufacturingScenarioRepository::EnergyUsePerStateInkWh::MergeFrom(
           from._internal_energyuseperstateinkwh());
     }
     if (cached_has_bits & 0x00000004u) {
-      _this->_internal_mutable_id()->::modularEmulator::modules::proto::OPCUAIdentification::MergeFrom(
+      _this->_internal_mutable_id()->::ManufacturingScenarioRepository::OPCUAIdentification::MergeFrom(
           from._internal_id());
     }
     if (cached_has_bits & 0x00000008u) {
-      _this->_internal_mutable_parameters()->::modularEmulator::modules::proto::ParameterSet::MergeFrom(
+      _this->_internal_mutable_parameters()->::ManufacturingScenarioRepository::ParameterSet::MergeFrom(
           from._internal_parameters());
     }
   }
@@ -1884,7 +1879,7 @@ void Module::MergeImpl(::google::protobuf::Message& to_msg, const ::google::prot
 }
 
 void Module::CopyFrom(const Module& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.Module)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.Module)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1926,53 +1921,53 @@ class ParameterSet::_Internal {
   static constexpr ::int32_t kHasBitsOffset =
     8 * PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_._has_bits_);
   static constexpr ::int32_t kOneofCaseOffset =
-    PROTOBUF_FIELD_OFFSET(::modularEmulator::modules::proto::ParameterSet, _impl_._oneof_case_);
-  static const ::modularEmulator::modules::proto::OPCUAIdentification& id(const ParameterSet* msg);
+    PROTOBUF_FIELD_OFFSET(::ManufacturingScenarioRepository::ParameterSet, _impl_._oneof_case_);
+  static const ::ManufacturingScenarioRepository::OPCUAIdentification& id(const ParameterSet* msg);
   static void set_has_id(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
-  static const ::modularEmulator::modules::proto::ScanlabScannerParams& scanlabscanner(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::LaserParams& laser(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::StandardCoaterParams& standardcoater(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::BuildChamberParams& buildchamber(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& cuboidbuildvolume(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& zylinderbuildvolume(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::PreheaterParams& preheater(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::NovantaScannerParams& novantascanner(const ParameterSet* msg);
-  static const ::modularEmulator::modules::proto::BasicLPBFMachineParams& basiclpbfmachine(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::ScanlabScannerParams& scanlabscanner(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::LaserParams& laser(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::StandardCoaterParams& standardcoater(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::BuildChamberParams& buildchamber(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& cuboidbuildvolume(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& zylinderbuildvolume(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::PreheaterParams& preheater(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::NovantaScannerParams& novantascanner(const ParameterSet* msg);
+  static const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& basiclpbfmachine(const ParameterSet* msg);
 };
 
-const ::modularEmulator::modules::proto::OPCUAIdentification& ParameterSet::_Internal::id(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::OPCUAIdentification& ParameterSet::_Internal::id(const ParameterSet* msg) {
   return *msg->_impl_.id_;
 }
-const ::modularEmulator::modules::proto::ScanlabScannerParams& ParameterSet::_Internal::scanlabscanner(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::ScanlabScannerParams& ParameterSet::_Internal::scanlabscanner(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.scanlabscanner_;
 }
-const ::modularEmulator::modules::proto::LaserParams& ParameterSet::_Internal::laser(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::LaserParams& ParameterSet::_Internal::laser(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.laser_;
 }
-const ::modularEmulator::modules::proto::StandardCoaterParams& ParameterSet::_Internal::standardcoater(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::StandardCoaterParams& ParameterSet::_Internal::standardcoater(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.standardcoater_;
 }
-const ::modularEmulator::modules::proto::BuildChamberParams& ParameterSet::_Internal::buildchamber(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::BuildChamberParams& ParameterSet::_Internal::buildchamber(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.buildchamber_;
 }
-const ::modularEmulator::modules::proto::CuboidBuildVolumeParams& ParameterSet::_Internal::cuboidbuildvolume(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::CuboidBuildVolumeParams& ParameterSet::_Internal::cuboidbuildvolume(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.cuboidbuildvolume_;
 }
-const ::modularEmulator::modules::proto::ZylinderBuildVolumeParams& ParameterSet::_Internal::zylinderbuildvolume(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::ZylinderBuildVolumeParams& ParameterSet::_Internal::zylinderbuildvolume(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.zylinderbuildvolume_;
 }
-const ::modularEmulator::modules::proto::PreheaterParams& ParameterSet::_Internal::preheater(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::PreheaterParams& ParameterSet::_Internal::preheater(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.preheater_;
 }
-const ::modularEmulator::modules::proto::NovantaScannerParams& ParameterSet::_Internal::novantascanner(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::NovantaScannerParams& ParameterSet::_Internal::novantascanner(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.novantascanner_;
 }
-const ::modularEmulator::modules::proto::BasicLPBFMachineParams& ParameterSet::_Internal::basiclpbfmachine(const ParameterSet* msg) {
+const ::ManufacturingScenarioRepository::BasicLPBFMachineParams& ParameterSet::_Internal::basiclpbfmachine(const ParameterSet* msg) {
   return *msg->_impl_.TypeAndParameters_.basiclpbfmachine_;
 }
-void ParameterSet::set_allocated_scanlabscanner(::modularEmulator::modules::proto::ScanlabScannerParams* scanlabscanner) {
+void ParameterSet::set_allocated_scanlabscanner(::ManufacturingScenarioRepository::ScanlabScannerParams* scanlabscanner) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (scanlabscanner) {
@@ -1985,9 +1980,9 @@ void ParameterSet::set_allocated_scanlabscanner(::modularEmulator::modules::prot
     set_has_scanlabscanner();
     _impl_.TypeAndParameters_.scanlabscanner_ = scanlabscanner;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.scanlabScanner)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.scanlabScanner)
 }
-void ParameterSet::set_allocated_laser(::modularEmulator::modules::proto::LaserParams* laser) {
+void ParameterSet::set_allocated_laser(::ManufacturingScenarioRepository::LaserParams* laser) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (laser) {
@@ -2000,9 +1995,9 @@ void ParameterSet::set_allocated_laser(::modularEmulator::modules::proto::LaserP
     set_has_laser();
     _impl_.TypeAndParameters_.laser_ = laser;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.laser)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.laser)
 }
-void ParameterSet::set_allocated_standardcoater(::modularEmulator::modules::proto::StandardCoaterParams* standardcoater) {
+void ParameterSet::set_allocated_standardcoater(::ManufacturingScenarioRepository::StandardCoaterParams* standardcoater) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (standardcoater) {
@@ -2015,9 +2010,9 @@ void ParameterSet::set_allocated_standardcoater(::modularEmulator::modules::prot
     set_has_standardcoater();
     _impl_.TypeAndParameters_.standardcoater_ = standardcoater;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.standardCoater)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.standardCoater)
 }
-void ParameterSet::set_allocated_buildchamber(::modularEmulator::modules::proto::BuildChamberParams* buildchamber) {
+void ParameterSet::set_allocated_buildchamber(::ManufacturingScenarioRepository::BuildChamberParams* buildchamber) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (buildchamber) {
@@ -2030,9 +2025,9 @@ void ParameterSet::set_allocated_buildchamber(::modularEmulator::modules::proto:
     set_has_buildchamber();
     _impl_.TypeAndParameters_.buildchamber_ = buildchamber;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.buildChamber)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.buildChamber)
 }
-void ParameterSet::set_allocated_cuboidbuildvolume(::modularEmulator::modules::proto::CuboidBuildVolumeParams* cuboidbuildvolume) {
+void ParameterSet::set_allocated_cuboidbuildvolume(::ManufacturingScenarioRepository::CuboidBuildVolumeParams* cuboidbuildvolume) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (cuboidbuildvolume) {
@@ -2045,9 +2040,9 @@ void ParameterSet::set_allocated_cuboidbuildvolume(::modularEmulator::modules::p
     set_has_cuboidbuildvolume();
     _impl_.TypeAndParameters_.cuboidbuildvolume_ = cuboidbuildvolume;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.cuboidBuildVolume)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.cuboidBuildVolume)
 }
-void ParameterSet::set_allocated_zylinderbuildvolume(::modularEmulator::modules::proto::ZylinderBuildVolumeParams* zylinderbuildvolume) {
+void ParameterSet::set_allocated_zylinderbuildvolume(::ManufacturingScenarioRepository::ZylinderBuildVolumeParams* zylinderbuildvolume) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (zylinderbuildvolume) {
@@ -2060,9 +2055,9 @@ void ParameterSet::set_allocated_zylinderbuildvolume(::modularEmulator::modules:
     set_has_zylinderbuildvolume();
     _impl_.TypeAndParameters_.zylinderbuildvolume_ = zylinderbuildvolume;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.zylinderBuildVolume)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.zylinderBuildVolume)
 }
-void ParameterSet::set_allocated_preheater(::modularEmulator::modules::proto::PreheaterParams* preheater) {
+void ParameterSet::set_allocated_preheater(::ManufacturingScenarioRepository::PreheaterParams* preheater) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (preheater) {
@@ -2075,9 +2070,9 @@ void ParameterSet::set_allocated_preheater(::modularEmulator::modules::proto::Pr
     set_has_preheater();
     _impl_.TypeAndParameters_.preheater_ = preheater;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.preheater)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.preheater)
 }
-void ParameterSet::set_allocated_novantascanner(::modularEmulator::modules::proto::NovantaScannerParams* novantascanner) {
+void ParameterSet::set_allocated_novantascanner(::ManufacturingScenarioRepository::NovantaScannerParams* novantascanner) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (novantascanner) {
@@ -2090,9 +2085,9 @@ void ParameterSet::set_allocated_novantascanner(::modularEmulator::modules::prot
     set_has_novantascanner();
     _impl_.TypeAndParameters_.novantascanner_ = novantascanner;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.novantaScanner)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.novantaScanner)
 }
-void ParameterSet::set_allocated_basiclpbfmachine(::modularEmulator::modules::proto::BasicLPBFMachineParams* basiclpbfmachine) {
+void ParameterSet::set_allocated_basiclpbfmachine(::ManufacturingScenarioRepository::BasicLPBFMachineParams* basiclpbfmachine) {
   ::google::protobuf::Arena* message_arena = GetArenaForAllocation();
   clear_TypeAndParameters();
   if (basiclpbfmachine) {
@@ -2105,12 +2100,12 @@ void ParameterSet::set_allocated_basiclpbfmachine(::modularEmulator::modules::pr
     set_has_basiclpbfmachine();
     _impl_.TypeAndParameters_.basiclpbfmachine_ = basiclpbfmachine;
   }
-  // @@protoc_insertion_point(field_set_allocated:modularEmulator.modules.proto.ParameterSet.basicLPBFMachine)
+  // @@protoc_insertion_point(field_set_allocated:ManufacturingScenarioRepository.ParameterSet.basicLPBFMachine)
 }
 ParameterSet::ParameterSet(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.ParameterSet)
 }
 ParameterSet::ParameterSet(const ParameterSet& from) : ::google::protobuf::Message() {
   ParameterSet* const _this = this;
@@ -2125,52 +2120,52 @@ ParameterSet::ParameterSet(const ParameterSet& from) : ::google::protobuf::Messa
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_impl_.id_ = new ::modularEmulator::modules::proto::OPCUAIdentification(*from._impl_.id_);
+    _this->_impl_.id_ = new ::ManufacturingScenarioRepository::OPCUAIdentification(*from._impl_.id_);
   }
   clear_has_TypeAndParameters();
   switch (from.TypeAndParameters_case()) {
     case kScanlabScanner: {
-      _this->_internal_mutable_scanlabscanner()->::modularEmulator::modules::proto::ScanlabScannerParams::MergeFrom(
+      _this->_internal_mutable_scanlabscanner()->::ManufacturingScenarioRepository::ScanlabScannerParams::MergeFrom(
           from._internal_scanlabscanner());
       break;
     }
     case kLaser: {
-      _this->_internal_mutable_laser()->::modularEmulator::modules::proto::LaserParams::MergeFrom(
+      _this->_internal_mutable_laser()->::ManufacturingScenarioRepository::LaserParams::MergeFrom(
           from._internal_laser());
       break;
     }
     case kStandardCoater: {
-      _this->_internal_mutable_standardcoater()->::modularEmulator::modules::proto::StandardCoaterParams::MergeFrom(
+      _this->_internal_mutable_standardcoater()->::ManufacturingScenarioRepository::StandardCoaterParams::MergeFrom(
           from._internal_standardcoater());
       break;
     }
     case kBuildChamber: {
-      _this->_internal_mutable_buildchamber()->::modularEmulator::modules::proto::BuildChamberParams::MergeFrom(
+      _this->_internal_mutable_buildchamber()->::ManufacturingScenarioRepository::BuildChamberParams::MergeFrom(
           from._internal_buildchamber());
       break;
     }
     case kCuboidBuildVolume: {
-      _this->_internal_mutable_cuboidbuildvolume()->::modularEmulator::modules::proto::CuboidBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_cuboidbuildvolume()->::ManufacturingScenarioRepository::CuboidBuildVolumeParams::MergeFrom(
           from._internal_cuboidbuildvolume());
       break;
     }
     case kZylinderBuildVolume: {
-      _this->_internal_mutable_zylinderbuildvolume()->::modularEmulator::modules::proto::ZylinderBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_zylinderbuildvolume()->::ManufacturingScenarioRepository::ZylinderBuildVolumeParams::MergeFrom(
           from._internal_zylinderbuildvolume());
       break;
     }
     case kPreheater: {
-      _this->_internal_mutable_preheater()->::modularEmulator::modules::proto::PreheaterParams::MergeFrom(
+      _this->_internal_mutable_preheater()->::ManufacturingScenarioRepository::PreheaterParams::MergeFrom(
           from._internal_preheater());
       break;
     }
     case kNovantaScanner: {
-      _this->_internal_mutable_novantascanner()->::modularEmulator::modules::proto::NovantaScannerParams::MergeFrom(
+      _this->_internal_mutable_novantascanner()->::ManufacturingScenarioRepository::NovantaScannerParams::MergeFrom(
           from._internal_novantascanner());
       break;
     }
     case kBasicLPBFMachine: {
-      _this->_internal_mutable_basiclpbfmachine()->::modularEmulator::modules::proto::BasicLPBFMachineParams::MergeFrom(
+      _this->_internal_mutable_basiclpbfmachine()->::ManufacturingScenarioRepository::BasicLPBFMachineParams::MergeFrom(
           from._internal_basiclpbfmachine());
       break;
     }
@@ -2179,7 +2174,7 @@ ParameterSet::ParameterSet(const ParameterSet& from) : ::google::protobuf::Messa
     }
   }
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ParameterSet)
 }
 inline void ParameterSet::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -2193,7 +2188,7 @@ inline void ParameterSet::SharedCtor(::_pb::Arena* arena) {
   clear_has_TypeAndParameters();
 }
 ParameterSet::~ParameterSet() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.ParameterSet)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -2209,7 +2204,7 @@ void ParameterSet::SetCachedSize(int size) const {
 }
 
 void ParameterSet::clear_TypeAndParameters() {
-// @@protoc_insertion_point(one_of_clear_start:modularEmulator.modules.proto.ParameterSet)
+// @@protoc_insertion_point(one_of_clear_start:ManufacturingScenarioRepository.ParameterSet)
   switch (TypeAndParameters_case()) {
     case kScanlabScanner: {
       if (GetArenaForAllocation() == nullptr) {
@@ -2274,7 +2269,7 @@ void ParameterSet::clear_TypeAndParameters() {
 
 
 PROTOBUF_NOINLINE void ParameterSet::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.ParameterSet)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.ParameterSet)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2311,7 +2306,7 @@ const ::_pbi::TcParseTable<0, 10, 10, 0, 7> ParameterSet::_table_ = {
     &_ParameterSet_default_instance_._instance,
     ::_pbi::TcParser::GenericFallback,  // fallback
   }, {{
-    // .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+    // .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
     {::_pbi::TcParser::FastMtS1,
      {10, 0, 0, PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.id_)}},
   }}, {{
@@ -2319,47 +2314,47 @@ const ::_pbi::TcParseTable<0, 10, 10, 0, 7> ParameterSet::_table_ = {
     65534, 9,
     65535, 65535
   }}, {{
-    // .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+    // .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.id_), _Internal::kHasBitsOffset + 0, 0,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.ScanlabScannerParams scanlabScanner = 10;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams scanlabScanner = 10;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.scanlabscanner_), _Internal::kOneofCaseOffset + 0, 1,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.LaserParams laser = 11;
+    // .ManufacturingScenarioRepository.LaserParams laser = 11;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.laser_), _Internal::kOneofCaseOffset + 0, 2,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.StandardCoaterParams standardCoater = 12;
+    // .ManufacturingScenarioRepository.StandardCoaterParams standardCoater = 12;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.standardcoater_), _Internal::kOneofCaseOffset + 0, 3,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.BuildChamberParams buildChamber = 15;
+    // .ManufacturingScenarioRepository.BuildChamberParams buildChamber = 15;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.buildchamber_), _Internal::kOneofCaseOffset + 0, 4,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CuboidBuildVolumeParams cuboidBuildVolume = 16;
+    // .ManufacturingScenarioRepository.CuboidBuildVolumeParams cuboidBuildVolume = 16;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.cuboidbuildvolume_), _Internal::kOneofCaseOffset + 0, 5,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
+    // .ManufacturingScenarioRepository.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.zylinderbuildvolume_), _Internal::kOneofCaseOffset + 0, 6,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.PreheaterParams preheater = 19;
+    // .ManufacturingScenarioRepository.PreheaterParams preheater = 19;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.preheater_), _Internal::kOneofCaseOffset + 0, 7,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.NovantaScannerParams novantaScanner = 31;
+    // .ManufacturingScenarioRepository.NovantaScannerParams novantaScanner = 31;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.novantascanner_), _Internal::kOneofCaseOffset + 0, 8,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.BasicLPBFMachineParams basicLPBFMachine = 100;
+    // .ManufacturingScenarioRepository.BasicLPBFMachineParams basicLPBFMachine = 100;
     {PROTOBUF_FIELD_OFFSET(ParameterSet, _impl_.TypeAndParameters_.basiclpbfmachine_), _Internal::kOneofCaseOffset + 0, 9,
     (0 | ::_fl::kFcOneof | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::OPCUAIdentification>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::ScanlabScannerParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::LaserParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::StandardCoaterParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::BuildChamberParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CuboidBuildVolumeParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::ZylinderBuildVolumeParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::PreheaterParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::NovantaScannerParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::BasicLPBFMachineParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::OPCUAIdentification>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ScanlabScannerParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::LaserParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::StandardCoaterParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::BuildChamberParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CuboidBuildVolumeParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ZylinderBuildVolumeParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::PreheaterParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::NovantaScannerParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::BasicLPBFMachineParams>()},
   }}, {{
   }},
 };
@@ -2367,12 +2362,12 @@ const ::_pbi::TcParseTable<0, 10, 10, 0, 7> ParameterSet::_table_ = {
 ::uint8_t* ParameterSet::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.ParameterSet)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
   cached_has_bits = _impl_._has_bits_[0];
-  // .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+  // .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
   if (cached_has_bits & 0x00000001u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(1, _Internal::id(this),
@@ -2442,19 +2437,19 @@ const ::_pbi::TcParseTable<0, 10, 10, 0, 7> ParameterSet::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.ParameterSet)
   return target;
 }
 
 ::size_t ParameterSet::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.ParameterSet)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.ParameterSet)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .modularEmulator.modules.proto.OPCUAIdentification id = 1;
+  // .ManufacturingScenarioRepository.OPCUAIdentification id = 1;
   cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000001u) {
     total_size += 1 +
@@ -2463,63 +2458,63 @@ const ::_pbi::TcParseTable<0, 10, 10, 0, 7> ParameterSet::_table_ = {
   }
 
   switch (TypeAndParameters_case()) {
-    // .modularEmulator.modules.proto.ScanlabScannerParams scanlabScanner = 10;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams scanlabScanner = 10;
     case kScanlabScanner: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.scanlabscanner_);
       break;
     }
-    // .modularEmulator.modules.proto.LaserParams laser = 11;
+    // .ManufacturingScenarioRepository.LaserParams laser = 11;
     case kLaser: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.laser_);
       break;
     }
-    // .modularEmulator.modules.proto.StandardCoaterParams standardCoater = 12;
+    // .ManufacturingScenarioRepository.StandardCoaterParams standardCoater = 12;
     case kStandardCoater: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.standardcoater_);
       break;
     }
-    // .modularEmulator.modules.proto.BuildChamberParams buildChamber = 15;
+    // .ManufacturingScenarioRepository.BuildChamberParams buildChamber = 15;
     case kBuildChamber: {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.buildchamber_);
       break;
     }
-    // .modularEmulator.modules.proto.CuboidBuildVolumeParams cuboidBuildVolume = 16;
+    // .ManufacturingScenarioRepository.CuboidBuildVolumeParams cuboidBuildVolume = 16;
     case kCuboidBuildVolume: {
       total_size += 2 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.cuboidbuildvolume_);
       break;
     }
-    // .modularEmulator.modules.proto.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
+    // .ManufacturingScenarioRepository.ZylinderBuildVolumeParams zylinderBuildVolume = 17;
     case kZylinderBuildVolume: {
       total_size += 2 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.zylinderbuildvolume_);
       break;
     }
-    // .modularEmulator.modules.proto.PreheaterParams preheater = 19;
+    // .ManufacturingScenarioRepository.PreheaterParams preheater = 19;
     case kPreheater: {
       total_size += 2 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.preheater_);
       break;
     }
-    // .modularEmulator.modules.proto.NovantaScannerParams novantaScanner = 31;
+    // .ManufacturingScenarioRepository.NovantaScannerParams novantaScanner = 31;
     case kNovantaScanner: {
       total_size += 2 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.TypeAndParameters_.novantascanner_);
       break;
     }
-    // .modularEmulator.modules.proto.BasicLPBFMachineParams basicLPBFMachine = 100;
+    // .ManufacturingScenarioRepository.BasicLPBFMachineParams basicLPBFMachine = 100;
     case kBasicLPBFMachine: {
       total_size += 2 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -2543,58 +2538,58 @@ const ::google::protobuf::Message::ClassData*ParameterSet::GetClassData() const 
 void ParameterSet::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<ParameterSet*>(&to_msg);
   auto& from = static_cast<const ParameterSet&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.ParameterSet)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.ParameterSet)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_internal_mutable_id()->::modularEmulator::modules::proto::OPCUAIdentification::MergeFrom(
+    _this->_internal_mutable_id()->::ManufacturingScenarioRepository::OPCUAIdentification::MergeFrom(
         from._internal_id());
   }
   switch (from.TypeAndParameters_case()) {
     case kScanlabScanner: {
-      _this->_internal_mutable_scanlabscanner()->::modularEmulator::modules::proto::ScanlabScannerParams::MergeFrom(
+      _this->_internal_mutable_scanlabscanner()->::ManufacturingScenarioRepository::ScanlabScannerParams::MergeFrom(
           from._internal_scanlabscanner());
       break;
     }
     case kLaser: {
-      _this->_internal_mutable_laser()->::modularEmulator::modules::proto::LaserParams::MergeFrom(
+      _this->_internal_mutable_laser()->::ManufacturingScenarioRepository::LaserParams::MergeFrom(
           from._internal_laser());
       break;
     }
     case kStandardCoater: {
-      _this->_internal_mutable_standardcoater()->::modularEmulator::modules::proto::StandardCoaterParams::MergeFrom(
+      _this->_internal_mutable_standardcoater()->::ManufacturingScenarioRepository::StandardCoaterParams::MergeFrom(
           from._internal_standardcoater());
       break;
     }
     case kBuildChamber: {
-      _this->_internal_mutable_buildchamber()->::modularEmulator::modules::proto::BuildChamberParams::MergeFrom(
+      _this->_internal_mutable_buildchamber()->::ManufacturingScenarioRepository::BuildChamberParams::MergeFrom(
           from._internal_buildchamber());
       break;
     }
     case kCuboidBuildVolume: {
-      _this->_internal_mutable_cuboidbuildvolume()->::modularEmulator::modules::proto::CuboidBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_cuboidbuildvolume()->::ManufacturingScenarioRepository::CuboidBuildVolumeParams::MergeFrom(
           from._internal_cuboidbuildvolume());
       break;
     }
     case kZylinderBuildVolume: {
-      _this->_internal_mutable_zylinderbuildvolume()->::modularEmulator::modules::proto::ZylinderBuildVolumeParams::MergeFrom(
+      _this->_internal_mutable_zylinderbuildvolume()->::ManufacturingScenarioRepository::ZylinderBuildVolumeParams::MergeFrom(
           from._internal_zylinderbuildvolume());
       break;
     }
     case kPreheater: {
-      _this->_internal_mutable_preheater()->::modularEmulator::modules::proto::PreheaterParams::MergeFrom(
+      _this->_internal_mutable_preheater()->::ManufacturingScenarioRepository::PreheaterParams::MergeFrom(
           from._internal_preheater());
       break;
     }
     case kNovantaScanner: {
-      _this->_internal_mutable_novantascanner()->::modularEmulator::modules::proto::NovantaScannerParams::MergeFrom(
+      _this->_internal_mutable_novantascanner()->::ManufacturingScenarioRepository::NovantaScannerParams::MergeFrom(
           from._internal_novantascanner());
       break;
     }
     case kBasicLPBFMachine: {
-      _this->_internal_mutable_basiclpbfmachine()->::modularEmulator::modules::proto::BasicLPBFMachineParams::MergeFrom(
+      _this->_internal_mutable_basiclpbfmachine()->::ManufacturingScenarioRepository::BasicLPBFMachineParams::MergeFrom(
           from._internal_basiclpbfmachine());
       break;
     }
@@ -2606,7 +2601,7 @@ void ParameterSet::MergeImpl(::google::protobuf::Message& to_msg, const ::google
 }
 
 void ParameterSet::CopyFrom(const ParameterSet& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.ParameterSet)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.ParameterSet)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2639,7 +2634,7 @@ class BasicLPBFMachineParams::_Internal {
 BasicLPBFMachineParams::BasicLPBFMachineParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.BasicLPBFMachineParams)
 }
 BasicLPBFMachineParams::BasicLPBFMachineParams(const BasicLPBFMachineParams& from) : ::google::protobuf::Message() {
   BasicLPBFMachineParams* const _this = this;
@@ -2659,7 +2654,7 @@ BasicLPBFMachineParams::BasicLPBFMachineParams(const BasicLPBFMachineParams& fro
     static_cast<::size_t>(reinterpret_cast<char*>(&_impl_.numberoflaserscannerunits_) -
     reinterpret_cast<char*>(&_impl_.minlayerheightum_)) + sizeof(_impl_.numberoflaserscannerunits_));
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.BasicLPBFMachineParams)
 }
 inline void BasicLPBFMachineParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -2674,7 +2669,7 @@ inline void BasicLPBFMachineParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 BasicLPBFMachineParams::~BasicLPBFMachineParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -2687,7 +2682,7 @@ void BasicLPBFMachineParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void BasicLPBFMachineParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.BasicLPBFMachineParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2757,11 +2752,11 @@ const ::_pbi::TcParseTable<3, 6, 1, 0, 2> BasicLPBFMachineParams::_table_ = {
     // double ForcedMinimumExposureTimeInS = 13;
     {PROTOBUF_FIELD_OFFSET(BasicLPBFMachineParams, _impl_.forcedminimumexposuretimeins_), 0, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kDouble)},
-    // repeated .modularEmulator.modules.proto.ScanField scanFields = 20;
+    // repeated .ManufacturingScenarioRepository.ScanField scanFields = 20;
     {PROTOBUF_FIELD_OFFSET(BasicLPBFMachineParams, _impl_.scanfields_), 0, 0,
     (0 | ::_fl::kFcRepeated | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::ScanField>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::ScanField>()},
   }}, {{
   }},
 };
@@ -2769,7 +2764,7 @@ const ::_pbi::TcParseTable<3, 6, 1, 0, 2> BasicLPBFMachineParams::_table_ = {
 ::uint8_t* BasicLPBFMachineParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -2828,7 +2823,7 @@ const ::_pbi::TcParseTable<3, 6, 1, 0, 2> BasicLPBFMachineParams::_table_ = {
         13, this->_internal_forcedminimumexposuretimeins(), target);
   }
 
-  // repeated .modularEmulator.modules.proto.ScanField scanFields = 20;
+  // repeated .ManufacturingScenarioRepository.ScanField scanFields = 20;
   for (unsigned i = 0,
       n = static_cast<unsigned>(this->_internal_scanfields_size()); i < n; i++) {
     const auto& repfield = this->_internal_scanfields().Get(i);
@@ -2841,19 +2836,19 @@ const ::_pbi::TcParseTable<3, 6, 1, 0, 2> BasicLPBFMachineParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   return target;
 }
 
 ::size_t BasicLPBFMachineParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.BasicLPBFMachineParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .modularEmulator.modules.proto.ScanField scanFields = 20;
+  // repeated .ManufacturingScenarioRepository.ScanField scanFields = 20;
   total_size += 2UL * this->_internal_scanfields_size();
   for (const auto& msg : this->_internal_scanfields()) {
     total_size +=
@@ -2918,7 +2913,7 @@ const ::google::protobuf::Message::ClassData*BasicLPBFMachineParams::GetClassDat
 void BasicLPBFMachineParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<BasicLPBFMachineParams*>(&to_msg);
   auto& from = static_cast<const BasicLPBFMachineParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.BasicLPBFMachineParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -2963,7 +2958,7 @@ void BasicLPBFMachineParams::MergeImpl(::google::protobuf::Message& to_msg, cons
 }
 
 void BasicLPBFMachineParams::CopyFrom(const BasicLPBFMachineParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.BasicLPBFMachineParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.BasicLPBFMachineParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2997,19 +2992,19 @@ class ServiceInterface::_Internal {
   using HasBits = decltype(std::declval<ServiceInterface>()._impl_._has_bits_);
   static constexpr ::int32_t kHasBitsOffset =
     8 * PROTOBUF_FIELD_OFFSET(ServiceInterface, _impl_._has_bits_);
-  static const ::modularEmulator::modules::proto::OPCUAIdentification& implementingmodule(const ServiceInterface* msg);
+  static const ::ManufacturingScenarioRepository::OPCUAIdentification& implementingmodule(const ServiceInterface* msg);
   static void set_has_implementingmodule(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
 };
 
-const ::modularEmulator::modules::proto::OPCUAIdentification& ServiceInterface::_Internal::implementingmodule(const ServiceInterface* msg) {
+const ::ManufacturingScenarioRepository::OPCUAIdentification& ServiceInterface::_Internal::implementingmodule(const ServiceInterface* msg) {
   return *msg->_impl_.implementingmodule_;
 }
 ServiceInterface::ServiceInterface(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.ServiceInterface)
 }
 ServiceInterface::ServiceInterface(const ServiceInterface& from) : ::google::protobuf::Message() {
   ServiceInterface* const _this = this;
@@ -3023,11 +3018,11 @@ ServiceInterface::ServiceInterface(const ServiceInterface& from) : ::google::pro
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_impl_.implementingmodule_ = new ::modularEmulator::modules::proto::OPCUAIdentification(*from._impl_.implementingmodule_);
+    _this->_impl_.implementingmodule_ = new ::ManufacturingScenarioRepository::OPCUAIdentification(*from._impl_.implementingmodule_);
   }
   _this->_impl_.consumedservice_ = from._impl_.consumedservice_;
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ServiceInterface)
 }
 inline void ServiceInterface::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -3039,7 +3034,7 @@ inline void ServiceInterface::SharedCtor(::_pb::Arena* arena) {
   };
 }
 ServiceInterface::~ServiceInterface() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.ServiceInterface)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -3052,7 +3047,7 @@ void ServiceInterface::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void ServiceInterface::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.ServiceInterface)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.ServiceInterface)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3089,23 +3084,23 @@ const ::_pbi::TcParseTable<1, 2, 1, 0, 2> ServiceInterface::_table_ = {
     &_ServiceInterface_default_instance_._instance,
     ::_pbi::TcParser::GenericFallback,  // fallback
   }, {{
-    // .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+    // .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
     {::_pbi::TcParser::FastMtS1,
      {18, 0, 0, PROTOBUF_FIELD_OFFSET(ServiceInterface, _impl_.implementingmodule_)}},
-    // .modularEmulator.modules.proto.Service consumedService = 1;
+    // .ManufacturingScenarioRepository.Service consumedService = 1;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(ServiceInterface, _impl_.consumedservice_), 63>(),
      {8, 63, 0, PROTOBUF_FIELD_OFFSET(ServiceInterface, _impl_.consumedservice_)}},
   }}, {{
     65535, 65535
   }}, {{
-    // .modularEmulator.modules.proto.Service consumedService = 1;
+    // .ManufacturingScenarioRepository.Service consumedService = 1;
     {PROTOBUF_FIELD_OFFSET(ServiceInterface, _impl_.consumedservice_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
-    // .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+    // .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
     {PROTOBUF_FIELD_OFFSET(ServiceInterface, _impl_.implementingmodule_), _Internal::kHasBitsOffset + 0, 0,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::OPCUAIdentification>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::OPCUAIdentification>()},
   }}, {{
   }},
 };
@@ -3113,11 +3108,11 @@ const ::_pbi::TcParseTable<1, 2, 1, 0, 2> ServiceInterface::_table_ = {
 ::uint8_t* ServiceInterface::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.ServiceInterface)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
-  // .modularEmulator.modules.proto.Service consumedService = 1;
+  // .ManufacturingScenarioRepository.Service consumedService = 1;
   if (this->_internal_consumedservice() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -3125,7 +3120,7 @@ const ::_pbi::TcParseTable<1, 2, 1, 0, 2> ServiceInterface::_table_ = {
   }
 
   cached_has_bits = _impl_._has_bits_[0];
-  // .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+  // .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
   if (cached_has_bits & 0x00000001u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(2, _Internal::implementingmodule(this),
@@ -3137,19 +3132,19 @@ const ::_pbi::TcParseTable<1, 2, 1, 0, 2> ServiceInterface::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.ServiceInterface)
   return target;
 }
 
 ::size_t ServiceInterface::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.ServiceInterface)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.ServiceInterface)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .modularEmulator.modules.proto.OPCUAIdentification implementingModule = 2;
+  // .ManufacturingScenarioRepository.OPCUAIdentification implementingModule = 2;
   cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000001u) {
     total_size += 1 +
@@ -3157,7 +3152,7 @@ const ::_pbi::TcParseTable<1, 2, 1, 0, 2> ServiceInterface::_table_ = {
         *_impl_.implementingmodule_);
   }
 
-  // .modularEmulator.modules.proto.Service consumedService = 1;
+  // .ManufacturingScenarioRepository.Service consumedService = 1;
   if (this->_internal_consumedservice() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_consumedservice());
@@ -3176,13 +3171,13 @@ const ::google::protobuf::Message::ClassData*ServiceInterface::GetClassData() co
 void ServiceInterface::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<ServiceInterface*>(&to_msg);
   auto& from = static_cast<const ServiceInterface&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.ServiceInterface)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.ServiceInterface)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_internal_mutable_implementingmodule()->::modularEmulator::modules::proto::OPCUAIdentification::MergeFrom(
+    _this->_internal_mutable_implementingmodule()->::ManufacturingScenarioRepository::OPCUAIdentification::MergeFrom(
         from._internal_implementingmodule());
   }
   if (from._internal_consumedservice() != 0) {
@@ -3192,7 +3187,7 @@ void ServiceInterface::MergeImpl(::google::protobuf::Message& to_msg, const ::go
 }
 
 void ServiceInterface::CopyFrom(const ServiceInterface& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.ServiceInterface)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.ServiceInterface)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3228,13 +3223,13 @@ class BasicScannerParams::_Internal {
 BasicScannerParams::BasicScannerParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.BasicScannerParams)
 }
 BasicScannerParams::BasicScannerParams(const BasicScannerParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.BasicScannerParams)
 }
 inline void BasicScannerParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -3257,7 +3252,7 @@ inline void BasicScannerParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 BasicScannerParams::~BasicScannerParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.BasicScannerParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -3269,7 +3264,7 @@ void BasicScannerParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void BasicScannerParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.BasicScannerParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.BasicScannerParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3342,7 +3337,7 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
     // double WarpJumpLengthLimit = 13;
     {::_pbi::TcParser::FastF64S1,
      {105, 63, 0, PROTOBUF_FIELD_OFFSET(BasicScannerParams, _impl_.warpjumplengthlimit_)}},
-    // .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+    // .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(BasicScannerParams, _impl_.jumpmode_), 63>(),
      {112, 63, 0, PROTOBUF_FIELD_OFFSET(BasicScannerParams, _impl_.jumpmode_)}},
     {::_pbi::TcParser::MiniParse, {}},
@@ -3388,7 +3383,7 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
     // double WarpJumpLengthLimit = 13;
     {PROTOBUF_FIELD_OFFSET(BasicScannerParams, _impl_.warpjumplengthlimit_), 0, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kDouble)},
-    // .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+    // .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
     {PROTOBUF_FIELD_OFFSET(BasicScannerParams, _impl_.jumpmode_), 0, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
   }},
@@ -3400,7 +3395,7 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
 ::uint8_t* BasicScannerParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.BasicScannerParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -3560,7 +3555,7 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
         13, this->_internal_warpjumplengthlimit(), target);
   }
 
-  // .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+  // .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
   if (this->_internal_jumpmode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -3572,12 +3567,12 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.BasicScannerParams)
   return target;
 }
 
 ::size_t BasicScannerParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.BasicScannerParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.BasicScannerParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -3714,7 +3709,7 @@ const ::_pbi::TcParseTable<4, 14, 0, 0, 2> BasicScannerParams::_table_ = {
     total_size += 9;
   }
 
-  // .modularEmulator.modules.proto.BasicScannerParams.JumpMode jumpMode = 14;
+  // .ManufacturingScenarioRepository.BasicScannerParams.JumpMode jumpMode = 14;
   if (this->_internal_jumpmode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_jumpmode());
@@ -3733,7 +3728,7 @@ const ::google::protobuf::Message::ClassData*BasicScannerParams::GetClassData() 
 void BasicScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<BasicScannerParams*>(&to_msg);
   auto& from = static_cast<const BasicScannerParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.BasicScannerParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.BasicScannerParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -3849,7 +3844,7 @@ void BasicScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const ::
 }
 
 void BasicScannerParams::CopyFrom(const BasicScannerParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.BasicScannerParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.BasicScannerParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3884,13 +3879,13 @@ class CommonSkyWritingParams::_Internal {
 CommonSkyWritingParams::CommonSkyWritingParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.CommonSkyWritingParams)
 }
 CommonSkyWritingParams::CommonSkyWritingParams(const CommonSkyWritingParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.CommonSkyWritingParams)
 }
 inline void CommonSkyWritingParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -3902,7 +3897,7 @@ inline void CommonSkyWritingParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 CommonSkyWritingParams::~CommonSkyWritingParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.CommonSkyWritingParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -3914,7 +3909,7 @@ void CommonSkyWritingParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void CommonSkyWritingParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.CommonSkyWritingParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.CommonSkyWritingParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3978,7 +3973,7 @@ const ::_pbi::TcParseTable<2, 3, 0, 0, 2> CommonSkyWritingParams::_table_ = {
 ::uint8_t* CommonSkyWritingParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.CommonSkyWritingParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -4023,12 +4018,12 @@ const ::_pbi::TcParseTable<2, 3, 0, 0, 2> CommonSkyWritingParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.CommonSkyWritingParams)
   return target;
 }
 
 ::size_t CommonSkyWritingParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.CommonSkyWritingParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.CommonSkyWritingParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -4078,7 +4073,7 @@ const ::google::protobuf::Message::ClassData*CommonSkyWritingParams::GetClassDat
 void CommonSkyWritingParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<CommonSkyWritingParams*>(&to_msg);
   auto& from = static_cast<const CommonSkyWritingParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.CommonSkyWritingParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.CommonSkyWritingParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -4111,7 +4106,7 @@ void CommonSkyWritingParams::MergeImpl(::google::protobuf::Message& to_msg, cons
 }
 
 void CommonSkyWritingParams::CopyFrom(const CommonSkyWritingParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.CommonSkyWritingParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.CommonSkyWritingParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4146,13 +4141,13 @@ class CoordinateTransformParams::_Internal {
 CoordinateTransformParams::CoordinateTransformParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.CoordinateTransformParams)
 }
 CoordinateTransformParams::CoordinateTransformParams(const CoordinateTransformParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.CoordinateTransformParams)
 }
 inline void CoordinateTransformParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -4164,7 +4159,7 @@ inline void CoordinateTransformParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 CoordinateTransformParams::~CoordinateTransformParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.CoordinateTransformParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -4176,7 +4171,7 @@ void CoordinateTransformParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void CoordinateTransformParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.CoordinateTransformParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.CoordinateTransformParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4240,7 +4235,7 @@ const ::_pbi::TcParseTable<2, 3, 0, 0, 2> CoordinateTransformParams::_table_ = {
 ::uint8_t* CoordinateTransformParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.CoordinateTransformParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -4280,12 +4275,12 @@ const ::_pbi::TcParseTable<2, 3, 0, 0, 2> CoordinateTransformParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.CoordinateTransformParams)
   return target;
 }
 
 ::size_t CoordinateTransformParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.CoordinateTransformParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.CoordinateTransformParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -4330,7 +4325,7 @@ const ::google::protobuf::Message::ClassData*CoordinateTransformParams::GetClass
 void CoordinateTransformParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<CoordinateTransformParams*>(&to_msg);
   auto& from = static_cast<const CoordinateTransformParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.CoordinateTransformParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.CoordinateTransformParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -4358,7 +4353,7 @@ void CoordinateTransformParams::MergeImpl(::google::protobuf::Message& to_msg, c
 }
 
 void CoordinateTransformParams::CopyFrom(const CoordinateTransformParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.CoordinateTransformParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.CoordinateTransformParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4391,33 +4386,33 @@ class NovantaScannerParams::_Internal {
   using HasBits = decltype(std::declval<NovantaScannerParams>()._impl_._has_bits_);
   static constexpr ::int32_t kHasBitsOffset =
     8 * PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_._has_bits_);
-  static const ::modularEmulator::modules::proto::BasicScannerParams& basicscannerparams(const NovantaScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::BasicScannerParams& basicscannerparams(const NovantaScannerParams* msg);
   static void set_has_basicscannerparams(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
-  static const ::modularEmulator::modules::proto::CommonSkyWritingParams& skywritingparams(const NovantaScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::CommonSkyWritingParams& skywritingparams(const NovantaScannerParams* msg);
   static void set_has_skywritingparams(HasBits* has_bits) {
     (*has_bits)[0] |= 2u;
   }
-  static const ::modularEmulator::modules::proto::CoordinateTransformParams& coordtransformparams(const NovantaScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::CoordinateTransformParams& coordtransformparams(const NovantaScannerParams* msg);
   static void set_has_coordtransformparams(HasBits* has_bits) {
     (*has_bits)[0] |= 4u;
   }
 };
 
-const ::modularEmulator::modules::proto::BasicScannerParams& NovantaScannerParams::_Internal::basicscannerparams(const NovantaScannerParams* msg) {
+const ::ManufacturingScenarioRepository::BasicScannerParams& NovantaScannerParams::_Internal::basicscannerparams(const NovantaScannerParams* msg) {
   return *msg->_impl_.basicscannerparams_;
 }
-const ::modularEmulator::modules::proto::CommonSkyWritingParams& NovantaScannerParams::_Internal::skywritingparams(const NovantaScannerParams* msg) {
+const ::ManufacturingScenarioRepository::CommonSkyWritingParams& NovantaScannerParams::_Internal::skywritingparams(const NovantaScannerParams* msg) {
   return *msg->_impl_.skywritingparams_;
 }
-const ::modularEmulator::modules::proto::CoordinateTransformParams& NovantaScannerParams::_Internal::coordtransformparams(const NovantaScannerParams* msg) {
+const ::ManufacturingScenarioRepository::CoordinateTransformParams& NovantaScannerParams::_Internal::coordtransformparams(const NovantaScannerParams* msg) {
   return *msg->_impl_.coordtransformparams_;
 }
 NovantaScannerParams::NovantaScannerParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.NovantaScannerParams)
 }
 NovantaScannerParams::NovantaScannerParams(const NovantaScannerParams& from) : ::google::protobuf::Message() {
   NovantaScannerParams* const _this = this;
@@ -4438,19 +4433,19 @@ NovantaScannerParams::NovantaScannerParams(const NovantaScannerParams& from) : :
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_impl_.basicscannerparams_ = new ::modularEmulator::modules::proto::BasicScannerParams(*from._impl_.basicscannerparams_);
+    _this->_impl_.basicscannerparams_ = new ::ManufacturingScenarioRepository::BasicScannerParams(*from._impl_.basicscannerparams_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000002u) != 0) {
-    _this->_impl_.skywritingparams_ = new ::modularEmulator::modules::proto::CommonSkyWritingParams(*from._impl_.skywritingparams_);
+    _this->_impl_.skywritingparams_ = new ::ManufacturingScenarioRepository::CommonSkyWritingParams(*from._impl_.skywritingparams_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000004u) != 0) {
-    _this->_impl_.coordtransformparams_ = new ::modularEmulator::modules::proto::CoordinateTransformParams(*from._impl_.coordtransformparams_);
+    _this->_impl_.coordtransformparams_ = new ::ManufacturingScenarioRepository::CoordinateTransformParams(*from._impl_.coordtransformparams_);
   }
   ::memcpy(&_impl_.skywritingmode_, &from._impl_.skywritingmode_,
     static_cast<::size_t>(reinterpret_cast<char*>(&_impl_.safetyfactorradialerrorlimit_) -
     reinterpret_cast<char*>(&_impl_.skywritingmode_)) + sizeof(_impl_.safetyfactorradialerrorlimit_));
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.NovantaScannerParams)
 }
 inline void NovantaScannerParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -4469,7 +4464,7 @@ inline void NovantaScannerParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 NovantaScannerParams::~NovantaScannerParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.NovantaScannerParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -4484,7 +4479,7 @@ void NovantaScannerParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void NovantaScannerParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.NovantaScannerParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.NovantaScannerParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4534,19 +4529,19 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
     ::_pbi::TcParser::GenericFallback,  // fallback
   }, {{
     {::_pbi::TcParser::MiniParse, {}},
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     {::_pbi::TcParser::FastMtS1,
      {10, 0, 0, PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.basicscannerparams_)}},
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     {::_pbi::TcParser::FastMtS1,
      {18, 1, 1, PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.skywritingparams_)}},
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     {::_pbi::TcParser::FastMtS1,
      {26, 2, 2, PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.coordtransformparams_)}},
-    // .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+    // .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(NovantaScannerParams, _impl_.skywritingmode_), 63>(),
      {32, 63, 0, PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.skywritingmode_)}},
-    // .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+    // .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(NovantaScannerParams, _impl_.delaymode_), 63>(),
      {40, 63, 0, PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.delaymode_)}},
     // double radialErrorInUm = 6;
@@ -4570,19 +4565,19 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
   }}, {{
     65535, 65535
   }}, {{
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.basicscannerparams_), _Internal::kHasBitsOffset + 0, 0,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.skywritingparams_), _Internal::kHasBitsOffset + 1, 1,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.coordtransformparams_), _Internal::kHasBitsOffset + 2, 2,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+    // .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.skywritingmode_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
-    // .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+    // .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.delaymode_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
     // double radialErrorInUm = 6;
@@ -4598,9 +4593,9 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
     {PROTOBUF_FIELD_OFFSET(NovantaScannerParams, _impl_.safetyfactorradialerrorlimit_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kDouble)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::BasicScannerParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CommonSkyWritingParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CoordinateTransformParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::BasicScannerParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CommonSkyWritingParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CoordinateTransformParams>()},
   }}, {{
   }},
 };
@@ -4608,40 +4603,40 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
 ::uint8_t* NovantaScannerParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.NovantaScannerParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
   cached_has_bits = _impl_._has_bits_[0];
-  // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+  // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
   if (cached_has_bits & 0x00000001u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(1, _Internal::basicscannerparams(this),
         _Internal::basicscannerparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+  // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
   if (cached_has_bits & 0x00000002u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(2, _Internal::skywritingparams(this),
         _Internal::skywritingparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+  // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
   if (cached_has_bits & 0x00000004u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(3, _Internal::coordtransformparams(this),
         _Internal::coordtransformparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
   if (this->_internal_skywritingmode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
         4, this->_internal_skywritingmode(), target);
   }
 
-  // .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
   if (this->_internal_delaymode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -4701,12 +4696,12 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.NovantaScannerParams)
   return target;
 }
 
 ::size_t NovantaScannerParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.NovantaScannerParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.NovantaScannerParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -4715,21 +4710,21 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
 
   cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.basicscannerparams_);
     }
 
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.skywritingparams_);
     }
 
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -4737,13 +4732,13 @@ const ::_pbi::TcParseTable<4, 9, 3, 0, 2> NovantaScannerParams::_table_ = {
     }
 
   }
-  // .modularEmulator.modules.proto.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.SkyWritingMode skyWritingMode = 4;
   if (this->_internal_skywritingmode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_skywritingmode());
   }
 
-  // .modularEmulator.modules.proto.NovantaScannerParams.DelayMode delayMode = 5;
+  // .ManufacturingScenarioRepository.NovantaScannerParams.DelayMode delayMode = 5;
   if (this->_internal_delaymode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_delaymode());
@@ -4802,7 +4797,7 @@ const ::google::protobuf::Message::ClassData*NovantaScannerParams::GetClassData(
 void NovantaScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<NovantaScannerParams*>(&to_msg);
   auto& from = static_cast<const NovantaScannerParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.NovantaScannerParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.NovantaScannerParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -4810,15 +4805,15 @@ void NovantaScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const 
   cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      _this->_internal_mutable_basicscannerparams()->::modularEmulator::modules::proto::BasicScannerParams::MergeFrom(
+      _this->_internal_mutable_basicscannerparams()->::ManufacturingScenarioRepository::BasicScannerParams::MergeFrom(
           from._internal_basicscannerparams());
     }
     if (cached_has_bits & 0x00000002u) {
-      _this->_internal_mutable_skywritingparams()->::modularEmulator::modules::proto::CommonSkyWritingParams::MergeFrom(
+      _this->_internal_mutable_skywritingparams()->::ManufacturingScenarioRepository::CommonSkyWritingParams::MergeFrom(
           from._internal_skywritingparams());
     }
     if (cached_has_bits & 0x00000004u) {
-      _this->_internal_mutable_coordtransformparams()->::modularEmulator::modules::proto::CoordinateTransformParams::MergeFrom(
+      _this->_internal_mutable_coordtransformparams()->::ManufacturingScenarioRepository::CoordinateTransformParams::MergeFrom(
           from._internal_coordtransformparams());
     }
   }
@@ -4864,7 +4859,7 @@ void NovantaScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const 
 }
 
 void NovantaScannerParams::CopyFrom(const NovantaScannerParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.NovantaScannerParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.NovantaScannerParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4898,33 +4893,33 @@ class ScanlabScannerParams::_Internal {
   using HasBits = decltype(std::declval<ScanlabScannerParams>()._impl_._has_bits_);
   static constexpr ::int32_t kHasBitsOffset =
     8 * PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_._has_bits_);
-  static const ::modularEmulator::modules::proto::BasicScannerParams& basicscannerparams(const ScanlabScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::BasicScannerParams& basicscannerparams(const ScanlabScannerParams* msg);
   static void set_has_basicscannerparams(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
-  static const ::modularEmulator::modules::proto::CommonSkyWritingParams& skywritingparams(const ScanlabScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::CommonSkyWritingParams& skywritingparams(const ScanlabScannerParams* msg);
   static void set_has_skywritingparams(HasBits* has_bits) {
     (*has_bits)[0] |= 2u;
   }
-  static const ::modularEmulator::modules::proto::CoordinateTransformParams& coordtransformparams(const ScanlabScannerParams* msg);
+  static const ::ManufacturingScenarioRepository::CoordinateTransformParams& coordtransformparams(const ScanlabScannerParams* msg);
   static void set_has_coordtransformparams(HasBits* has_bits) {
     (*has_bits)[0] |= 4u;
   }
 };
 
-const ::modularEmulator::modules::proto::BasicScannerParams& ScanlabScannerParams::_Internal::basicscannerparams(const ScanlabScannerParams* msg) {
+const ::ManufacturingScenarioRepository::BasicScannerParams& ScanlabScannerParams::_Internal::basicscannerparams(const ScanlabScannerParams* msg) {
   return *msg->_impl_.basicscannerparams_;
 }
-const ::modularEmulator::modules::proto::CommonSkyWritingParams& ScanlabScannerParams::_Internal::skywritingparams(const ScanlabScannerParams* msg) {
+const ::ManufacturingScenarioRepository::CommonSkyWritingParams& ScanlabScannerParams::_Internal::skywritingparams(const ScanlabScannerParams* msg) {
   return *msg->_impl_.skywritingparams_;
 }
-const ::modularEmulator::modules::proto::CoordinateTransformParams& ScanlabScannerParams::_Internal::coordtransformparams(const ScanlabScannerParams* msg) {
+const ::ManufacturingScenarioRepository::CoordinateTransformParams& ScanlabScannerParams::_Internal::coordtransformparams(const ScanlabScannerParams* msg) {
   return *msg->_impl_.coordtransformparams_;
 }
 ScanlabScannerParams::ScanlabScannerParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.ScanlabScannerParams)
 }
 ScanlabScannerParams::ScanlabScannerParams(const ScanlabScannerParams& from) : ::google::protobuf::Message() {
   ScanlabScannerParams* const _this = this;
@@ -4943,19 +4938,19 @@ ScanlabScannerParams::ScanlabScannerParams(const ScanlabScannerParams& from) : :
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
   if ((from._impl_._has_bits_[0] & 0x00000001u) != 0) {
-    _this->_impl_.basicscannerparams_ = new ::modularEmulator::modules::proto::BasicScannerParams(*from._impl_.basicscannerparams_);
+    _this->_impl_.basicscannerparams_ = new ::ManufacturingScenarioRepository::BasicScannerParams(*from._impl_.basicscannerparams_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000002u) != 0) {
-    _this->_impl_.skywritingparams_ = new ::modularEmulator::modules::proto::CommonSkyWritingParams(*from._impl_.skywritingparams_);
+    _this->_impl_.skywritingparams_ = new ::ManufacturingScenarioRepository::CommonSkyWritingParams(*from._impl_.skywritingparams_);
   }
   if ((from._impl_._has_bits_[0] & 0x00000004u) != 0) {
-    _this->_impl_.coordtransformparams_ = new ::modularEmulator::modules::proto::CoordinateTransformParams(*from._impl_.coordtransformparams_);
+    _this->_impl_.coordtransformparams_ = new ::ManufacturingScenarioRepository::CoordinateTransformParams(*from._impl_.coordtransformparams_);
   }
   ::memcpy(&_impl_.timelaginus_, &from._impl_.timelaginus_,
     static_cast<::size_t>(reinterpret_cast<char*>(&_impl_.delaymode_) -
     reinterpret_cast<char*>(&_impl_.timelaginus_)) + sizeof(_impl_.delaymode_));
 
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ScanlabScannerParams)
 }
 inline void ScanlabScannerParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -4972,7 +4967,7 @@ inline void ScanlabScannerParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 ScanlabScannerParams::~ScanlabScannerParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.ScanlabScannerParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -4987,7 +4982,7 @@ void ScanlabScannerParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void ScanlabScannerParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.ScanlabScannerParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.ScanlabScannerParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5037,55 +5032,55 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
     ::_pbi::TcParser::GenericFallback,  // fallback
   }, {{
     {::_pbi::TcParser::MiniParse, {}},
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     {::_pbi::TcParser::FastMtS1,
      {10, 0, 0, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.basicscannerparams_)}},
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     {::_pbi::TcParser::FastMtS1,
      {18, 1, 1, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingparams_)}},
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     {::_pbi::TcParser::FastMtS1,
      {26, 2, 2, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.coordtransformparams_)}},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(ScanlabScannerParams, _impl_.skywritingmode_), 63>(),
      {32, 63, 0, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingmode_)}},
     // double timeLagInUs = 5;
     {::_pbi::TcParser::FastF64S1,
      {41, 63, 0, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.timelaginus_)}},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(ScanlabScannerParams, _impl_.skywritingparametringmode_), 63>(),
      {48, 63, 0, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingparametringmode_)}},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
     {::_pbi::TcParser::SingularVarintNoZag1<::uint32_t, offsetof(ScanlabScannerParams, _impl_.delaymode_), 63>(),
      {56, 63, 0, PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.delaymode_)}},
   }}, {{
     65535, 65535
   }}, {{
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.basicscannerparams_), _Internal::kHasBitsOffset + 0, 0,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingparams_), _Internal::kHasBitsOffset + 1, 1,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.coordtransformparams_), _Internal::kHasBitsOffset + 2, 2,
     (0 | ::_fl::kFcOptional | ::_fl::kMessage | ::_fl::kTvTable)},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingmode_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
     // double timeLagInUs = 5;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.timelaginus_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kDouble)},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.skywritingparametringmode_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
-    // .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+    // .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
     {PROTOBUF_FIELD_OFFSET(ScanlabScannerParams, _impl_.delaymode_), -1, 0,
     (0 | ::_fl::kFcSingular | ::_fl::kOpenEnum)},
   }}, {{
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::BasicScannerParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CommonSkyWritingParams>()},
-    {::_pbi::TcParser::GetTable<::modularEmulator::modules::proto::CoordinateTransformParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::BasicScannerParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CommonSkyWritingParams>()},
+    {::_pbi::TcParser::GetTable<::ManufacturingScenarioRepository::CoordinateTransformParams>()},
   }}, {{
   }},
 };
@@ -5093,33 +5088,33 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
 ::uint8_t* ScanlabScannerParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.ScanlabScannerParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
   cached_has_bits = _impl_._has_bits_[0];
-  // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+  // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
   if (cached_has_bits & 0x00000001u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(1, _Internal::basicscannerparams(this),
         _Internal::basicscannerparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+  // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
   if (cached_has_bits & 0x00000002u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(2, _Internal::skywritingparams(this),
         _Internal::skywritingparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+  // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
   if (cached_has_bits & 0x00000004u) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessage(3, _Internal::coordtransformparams(this),
         _Internal::coordtransformparams(this).GetCachedSize(), target, stream);
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
   if (this->_internal_skywritingmode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -5138,14 +5133,14 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
         5, this->_internal_timelaginus(), target);
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
   if (this->_internal_skywritingparametringmode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
         6, this->_internal_skywritingparametringmode(), target);
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
   if (this->_internal_delaymode() != 0) {
     target = stream->EnsureSpace(target);
     target = ::_pbi::WireFormatLite::WriteEnumToArray(
@@ -5157,12 +5152,12 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.ScanlabScannerParams)
   return target;
 }
 
 ::size_t ScanlabScannerParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.ScanlabScannerParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.ScanlabScannerParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -5171,21 +5166,21 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
 
   cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
-    // .modularEmulator.modules.proto.BasicScannerParams basicScannerParams = 1;
+    // .ManufacturingScenarioRepository.BasicScannerParams basicScannerParams = 1;
     if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.basicscannerparams_);
     }
 
-    // .modularEmulator.modules.proto.CommonSkyWritingParams skyWritingParams = 2;
+    // .ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams = 2;
     if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
           *_impl_.skywritingparams_);
     }
 
-    // .modularEmulator.modules.proto.CoordinateTransformParams coordTransformParams = 3;
+    // .ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams = 3;
     if (cached_has_bits & 0x00000004u) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSize(
@@ -5203,19 +5198,19 @@ const ::_pbi::TcParseTable<3, 7, 3, 0, 2> ScanlabScannerParams::_table_ = {
     total_size += 9;
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingMode skyWritingMode = 4;
   if (this->_internal_skywritingmode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_skywritingmode());
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.SkyWritingParametringMode skyWritingParametringMode = 6;
   if (this->_internal_skywritingparametringmode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_skywritingparametringmode());
   }
 
-  // .modularEmulator.modules.proto.ScanlabScannerParams.DelayMode delayMode = 7;
+  // .ManufacturingScenarioRepository.ScanlabScannerParams.DelayMode delayMode = 7;
   if (this->_internal_delaymode() != 0) {
     total_size += 1 +
                   ::_pbi::WireFormatLite::EnumSize(this->_internal_delaymode());
@@ -5234,7 +5229,7 @@ const ::google::protobuf::Message::ClassData*ScanlabScannerParams::GetClassData(
 void ScanlabScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<ScanlabScannerParams*>(&to_msg);
   auto& from = static_cast<const ScanlabScannerParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.ScanlabScannerParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.ScanlabScannerParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -5242,15 +5237,15 @@ void ScanlabScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const 
   cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      _this->_internal_mutable_basicscannerparams()->::modularEmulator::modules::proto::BasicScannerParams::MergeFrom(
+      _this->_internal_mutable_basicscannerparams()->::ManufacturingScenarioRepository::BasicScannerParams::MergeFrom(
           from._internal_basicscannerparams());
     }
     if (cached_has_bits & 0x00000002u) {
-      _this->_internal_mutable_skywritingparams()->::modularEmulator::modules::proto::CommonSkyWritingParams::MergeFrom(
+      _this->_internal_mutable_skywritingparams()->::ManufacturingScenarioRepository::CommonSkyWritingParams::MergeFrom(
           from._internal_skywritingparams());
     }
     if (cached_has_bits & 0x00000004u) {
-      _this->_internal_mutable_coordtransformparams()->::modularEmulator::modules::proto::CoordinateTransformParams::MergeFrom(
+      _this->_internal_mutable_coordtransformparams()->::ManufacturingScenarioRepository::CoordinateTransformParams::MergeFrom(
           from._internal_coordtransformparams());
     }
   }
@@ -5275,7 +5270,7 @@ void ScanlabScannerParams::MergeImpl(::google::protobuf::Message& to_msg, const 
 }
 
 void ScanlabScannerParams::CopyFrom(const ScanlabScannerParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.ScanlabScannerParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.ScanlabScannerParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5311,13 +5306,13 @@ class ScanField::_Internal {
 ScanField::ScanField(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.ScanField)
 }
 ScanField::ScanField(const ScanField& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ScanField)
 }
 inline void ScanField::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -5330,7 +5325,7 @@ inline void ScanField::SharedCtor(::_pb::Arena* arena) {
   };
 }
 ScanField::~ScanField() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.ScanField)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -5342,7 +5337,7 @@ void ScanField::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void ScanField::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.ScanField)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.ScanField)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5411,7 +5406,7 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> ScanField::_table_ = {
 ::uint8_t* ScanField::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.ScanField)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -5468,12 +5463,12 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> ScanField::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.ScanField)
   return target;
 }
 
 ::size_t ScanField::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.ScanField)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.ScanField)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -5533,7 +5528,7 @@ const ::google::protobuf::Message::ClassData*ScanField::GetClassData() const { r
 void ScanField::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<ScanField*>(&to_msg);
   auto& from = static_cast<const ScanField&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.ScanField)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.ScanField)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -5574,7 +5569,7 @@ void ScanField::MergeImpl(::google::protobuf::Message& to_msg, const ::google::p
 }
 
 void ScanField::CopyFrom(const ScanField& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.ScanField)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.ScanField)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5609,13 +5604,13 @@ class LaserParams::_Internal {
 LaserParams::LaserParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.LaserParams)
 }
 LaserParams::LaserParams(const LaserParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.LaserParams)
 }
 inline void LaserParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -5625,7 +5620,7 @@ inline void LaserParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 LaserParams::~LaserParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.LaserParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -5637,7 +5632,7 @@ void LaserParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void LaserParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.LaserParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.LaserParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5686,7 +5681,7 @@ const ::_pbi::TcParseTable<0, 1, 0, 0, 2> LaserParams::_table_ = {
 ::uint8_t* LaserParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.LaserParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -5707,12 +5702,12 @@ const ::_pbi::TcParseTable<0, 1, 0, 0, 2> LaserParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.LaserParams)
   return target;
 }
 
 ::size_t LaserParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.LaserParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.LaserParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -5742,7 +5737,7 @@ const ::google::protobuf::Message::ClassData*LaserParams::GetClassData() const {
 void LaserParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<LaserParams*>(&to_msg);
   auto& from = static_cast<const LaserParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.LaserParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.LaserParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -5759,7 +5754,7 @@ void LaserParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google:
 }
 
 void LaserParams::CopyFrom(const LaserParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.LaserParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.LaserParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5789,13 +5784,13 @@ class StandardCoaterParams::_Internal {
 StandardCoaterParams::StandardCoaterParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.StandardCoaterParams)
 }
 StandardCoaterParams::StandardCoaterParams(const StandardCoaterParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.StandardCoaterParams)
 }
 inline void StandardCoaterParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -5811,7 +5806,7 @@ inline void StandardCoaterParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 StandardCoaterParams::~StandardCoaterParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.StandardCoaterParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -5823,7 +5818,7 @@ void StandardCoaterParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void StandardCoaterParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.StandardCoaterParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.StandardCoaterParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5911,7 +5906,7 @@ const ::_pbi::TcParseTable<3, 7, 0, 0, 2> StandardCoaterParams::_table_ = {
 ::uint8_t* StandardCoaterParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.StandardCoaterParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -5999,12 +5994,12 @@ const ::_pbi::TcParseTable<3, 7, 0, 0, 2> StandardCoaterParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.StandardCoaterParams)
   return target;
 }
 
 ::size_t StandardCoaterParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.StandardCoaterParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.StandardCoaterParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -6089,7 +6084,7 @@ const ::google::protobuf::Message::ClassData*StandardCoaterParams::GetClassData(
 void StandardCoaterParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<StandardCoaterParams*>(&to_msg);
   auto& from = static_cast<const StandardCoaterParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.StandardCoaterParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.StandardCoaterParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -6149,7 +6144,7 @@ void StandardCoaterParams::MergeImpl(::google::protobuf::Message& to_msg, const 
 }
 
 void StandardCoaterParams::CopyFrom(const StandardCoaterParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.StandardCoaterParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.StandardCoaterParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -6184,13 +6179,13 @@ class BuildChamberParams::_Internal {
 BuildChamberParams::BuildChamberParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.BuildChamberParams)
 }
 BuildChamberParams::BuildChamberParams(const BuildChamberParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.BuildChamberParams)
 }
 inline void BuildChamberParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -6205,7 +6200,7 @@ inline void BuildChamberParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 BuildChamberParams::~BuildChamberParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.BuildChamberParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -6217,7 +6212,7 @@ void BuildChamberParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void BuildChamberParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.BuildChamberParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.BuildChamberParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -6300,7 +6295,7 @@ const ::_pbi::TcParseTable<3, 6, 0, 0, 2> BuildChamberParams::_table_ = {
 ::uint8_t* BuildChamberParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.BuildChamberParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -6381,12 +6376,12 @@ const ::_pbi::TcParseTable<3, 6, 0, 0, 2> BuildChamberParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.BuildChamberParams)
   return target;
 }
 
 ::size_t BuildChamberParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.BuildChamberParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.BuildChamberParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -6466,7 +6461,7 @@ const ::google::protobuf::Message::ClassData*BuildChamberParams::GetClassData() 
 void BuildChamberParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<BuildChamberParams*>(&to_msg);
   auto& from = static_cast<const BuildChamberParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.BuildChamberParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.BuildChamberParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -6523,7 +6518,7 @@ void BuildChamberParams::MergeImpl(::google::protobuf::Message& to_msg, const ::
 }
 
 void BuildChamberParams::CopyFrom(const BuildChamberParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.BuildChamberParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.BuildChamberParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -6558,13 +6553,13 @@ class CuboidBuildVolumeParams::_Internal {
 CuboidBuildVolumeParams::CuboidBuildVolumeParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
 }
 CuboidBuildVolumeParams::CuboidBuildVolumeParams(const CuboidBuildVolumeParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
 }
 inline void CuboidBuildVolumeParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -6579,7 +6574,7 @@ inline void CuboidBuildVolumeParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 CuboidBuildVolumeParams::~CuboidBuildVolumeParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -6591,7 +6586,7 @@ void CuboidBuildVolumeParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void CuboidBuildVolumeParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -6674,7 +6669,7 @@ const ::_pbi::TcParseTable<3, 6, 0, 0, 2> CuboidBuildVolumeParams::_table_ = {
 ::uint8_t* CuboidBuildVolumeParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -6755,12 +6750,12 @@ const ::_pbi::TcParseTable<3, 6, 0, 0, 2> CuboidBuildVolumeParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   return target;
 }
 
 ::size_t CuboidBuildVolumeParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -6840,7 +6835,7 @@ const ::google::protobuf::Message::ClassData*CuboidBuildVolumeParams::GetClassDa
 void CuboidBuildVolumeParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<CuboidBuildVolumeParams*>(&to_msg);
   auto& from = static_cast<const CuboidBuildVolumeParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -6897,7 +6892,7 @@ void CuboidBuildVolumeParams::MergeImpl(::google::protobuf::Message& to_msg, con
 }
 
 void CuboidBuildVolumeParams::CopyFrom(const CuboidBuildVolumeParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.CuboidBuildVolumeParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.CuboidBuildVolumeParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -6932,13 +6927,13 @@ class ZylinderBuildVolumeParams::_Internal {
 ZylinderBuildVolumeParams::ZylinderBuildVolumeParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
 }
 ZylinderBuildVolumeParams::ZylinderBuildVolumeParams(const ZylinderBuildVolumeParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
 }
 inline void ZylinderBuildVolumeParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -6949,7 +6944,7 @@ inline void ZylinderBuildVolumeParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 ZylinderBuildVolumeParams::~ZylinderBuildVolumeParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -6961,7 +6956,7 @@ void ZylinderBuildVolumeParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void ZylinderBuildVolumeParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7018,7 +7013,7 @@ const ::_pbi::TcParseTable<1, 2, 0, 0, 2> ZylinderBuildVolumeParams::_table_ = {
 ::uint8_t* ZylinderBuildVolumeParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -7051,12 +7046,12 @@ const ::_pbi::TcParseTable<1, 2, 0, 0, 2> ZylinderBuildVolumeParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   return target;
 }
 
 ::size_t ZylinderBuildVolumeParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -7096,7 +7091,7 @@ const ::google::protobuf::Message::ClassData*ZylinderBuildVolumeParams::GetClass
 void ZylinderBuildVolumeParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<ZylinderBuildVolumeParams*>(&to_msg);
   auto& from = static_cast<const ZylinderBuildVolumeParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -7121,7 +7116,7 @@ void ZylinderBuildVolumeParams::MergeImpl(::google::protobuf::Message& to_msg, c
 }
 
 void ZylinderBuildVolumeParams::CopyFrom(const ZylinderBuildVolumeParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.ZylinderBuildVolumeParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.ZylinderBuildVolumeParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7156,13 +7151,13 @@ class PreheaterParams::_Internal {
 PreheaterParams::PreheaterParams(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.PreheaterParams)
 }
 PreheaterParams::PreheaterParams(const PreheaterParams& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.PreheaterParams)
 }
 inline void PreheaterParams::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -7175,7 +7170,7 @@ inline void PreheaterParams::SharedCtor(::_pb::Arena* arena) {
   };
 }
 PreheaterParams::~PreheaterParams() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.PreheaterParams)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -7187,7 +7182,7 @@ void PreheaterParams::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void PreheaterParams::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.PreheaterParams)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.PreheaterParams)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7256,7 +7251,7 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> PreheaterParams::_table_ = {
 ::uint8_t* PreheaterParams::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.PreheaterParams)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -7313,12 +7308,12 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> PreheaterParams::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.PreheaterParams)
   return target;
 }
 
 ::size_t PreheaterParams::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.PreheaterParams)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.PreheaterParams)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -7378,7 +7373,7 @@ const ::google::protobuf::Message::ClassData*PreheaterParams::GetClassData() con
 void PreheaterParams::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<PreheaterParams*>(&to_msg);
   auto& from = static_cast<const PreheaterParams&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.PreheaterParams)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.PreheaterParams)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -7419,7 +7414,7 @@ void PreheaterParams::MergeImpl(::google::protobuf::Message& to_msg, const ::goo
 }
 
 void PreheaterParams::CopyFrom(const PreheaterParams& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.PreheaterParams)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.PreheaterParams)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7454,13 +7449,13 @@ class TimePerStateInMS::_Internal {
 TimePerStateInMS::TimePerStateInMS(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.TimePerStateInMS)
 }
 TimePerStateInMS::TimePerStateInMS(const TimePerStateInMS& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.TimePerStateInMS)
 }
 inline void TimePerStateInMS::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -7473,7 +7468,7 @@ inline void TimePerStateInMS::SharedCtor(::_pb::Arena* arena) {
   };
 }
 TimePerStateInMS::~TimePerStateInMS() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.TimePerStateInMS)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -7485,7 +7480,7 @@ void TimePerStateInMS::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void TimePerStateInMS::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.TimePerStateInMS)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.TimePerStateInMS)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7554,7 +7549,7 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> TimePerStateInMS::_table_ = {
 ::uint8_t* TimePerStateInMS::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.TimePerStateInMS)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -7611,12 +7606,12 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> TimePerStateInMS::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.TimePerStateInMS)
   return target;
 }
 
 ::size_t TimePerStateInMS::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.TimePerStateInMS)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.TimePerStateInMS)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -7676,7 +7671,7 @@ const ::google::protobuf::Message::ClassData*TimePerStateInMS::GetClassData() co
 void TimePerStateInMS::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<TimePerStateInMS*>(&to_msg);
   auto& from = static_cast<const TimePerStateInMS&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.TimePerStateInMS)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.TimePerStateInMS)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -7717,7 +7712,7 @@ void TimePerStateInMS::MergeImpl(::google::protobuf::Message& to_msg, const ::go
 }
 
 void TimePerStateInMS::CopyFrom(const TimePerStateInMS& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.TimePerStateInMS)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.TimePerStateInMS)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7752,13 +7747,13 @@ class EnergyUsePerStateInkWh::_Internal {
 EnergyUsePerStateInkWh::EnergyUsePerStateInkWh(::google::protobuf::Arena* arena)
     : ::google::protobuf::Message(arena) {
   SharedCtor(arena);
-  // @@protoc_insertion_point(arena_constructor:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(arena_constructor:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
 }
 EnergyUsePerStateInkWh::EnergyUsePerStateInkWh(const EnergyUsePerStateInkWh& from)
     : ::google::protobuf::Message(), _impl_(from._impl_) {
   _internal_metadata_.MergeFrom<::google::protobuf::UnknownFieldSet>(
       from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(copy_constructor:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
 }
 inline void EnergyUsePerStateInkWh::SharedCtor(::_pb::Arena* arena) {
   (void)arena;
@@ -7771,7 +7766,7 @@ inline void EnergyUsePerStateInkWh::SharedCtor(::_pb::Arena* arena) {
   };
 }
 EnergyUsePerStateInkWh::~EnergyUsePerStateInkWh() {
-  // @@protoc_insertion_point(destructor:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(destructor:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   _internal_metadata_.Delete<::google::protobuf::UnknownFieldSet>();
   SharedDtor();
 }
@@ -7783,7 +7778,7 @@ void EnergyUsePerStateInkWh::SetCachedSize(int size) const {
 }
 
 PROTOBUF_NOINLINE void EnergyUsePerStateInkWh::Clear() {
-// @@protoc_insertion_point(message_clear_start:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+// @@protoc_insertion_point(message_clear_start:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   ::uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7852,7 +7847,7 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> EnergyUsePerStateInkWh::_table_ = {
 ::uint8_t* EnergyUsePerStateInkWh::_InternalSerialize(
     ::uint8_t* target,
     ::google::protobuf::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(serialize_to_array_start:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   ::uint32_t cached_has_bits = 0;
   (void)cached_has_bits;
 
@@ -7909,12 +7904,12 @@ const ::_pbi::TcParseTable<2, 4, 0, 0, 2> EnergyUsePerStateInkWh::_table_ = {
         ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
             _internal_metadata_.unknown_fields<::google::protobuf::UnknownFieldSet>(::google::protobuf::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(serialize_to_array_end:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   return target;
 }
 
 ::size_t EnergyUsePerStateInkWh::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+// @@protoc_insertion_point(message_byte_size_start:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   ::size_t total_size = 0;
 
   ::uint32_t cached_has_bits = 0;
@@ -7974,7 +7969,7 @@ const ::google::protobuf::Message::ClassData*EnergyUsePerStateInkWh::GetClassDat
 void EnergyUsePerStateInkWh::MergeImpl(::google::protobuf::Message& to_msg, const ::google::protobuf::Message& from_msg) {
   auto* const _this = static_cast<EnergyUsePerStateInkWh*>(&to_msg);
   auto& from = static_cast<const EnergyUsePerStateInkWh&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+  // @@protoc_insertion_point(class_specific_merge_from_start:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   ABSL_DCHECK_NE(&from, _this);
   ::uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -8015,7 +8010,7 @@ void EnergyUsePerStateInkWh::MergeImpl(::google::protobuf::Message& to_msg, cons
 }
 
 void EnergyUsePerStateInkWh::CopyFrom(const EnergyUsePerStateInkWh& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:modularEmulator.modules.proto.EnergyUsePerStateInkWh)
+// @@protoc_insertion_point(class_specific_copy_from_start:ManufacturingScenarioRepository.EnergyUsePerStateInkWh)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -8042,9 +8037,7 @@ void EnergyUsePerStateInkWh::InternalSwap(EnergyUsePerStateInkWh* other) {
       file_level_metadata_ModuleDefinition_2eproto[18]);
 }
 // @@protoc_insertion_point(namespace_scope)
-}  // namespace proto
-}  // namespace modules
-}  // namespace modularEmulator
+}  // namespace ManufacturingScenarioRepository
 namespace google {
 namespace protobuf {
 }  // namespace protobuf

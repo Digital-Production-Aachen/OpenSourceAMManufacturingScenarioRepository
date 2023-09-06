@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace ModularEmulator.Modules.Proto {
+namespace ManufacturingScenarioRepository {
 
   /// <summary>Holder for reflection information generated from ModuleDefinition.proto</summary>
   public static partial class ModuleDefinitionReflection {
@@ -24,156 +24,157 @@ namespace ModularEmulator.Modules.Proto {
     static ModuleDefinitionReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChZNb2R1bGVEZWZpbml0aW9uLnByb3RvEh1tb2R1bGFyRW11bGF0b3IubW9k",
-            "dWxlcy5wcm90byIzChNPUENVQUlkZW50aWZpY2F0aW9uEg4KBm5vZGVJZBgB",
-            "IAEoDRIMCgRuYW1lGAIgASgJIuIECgZNb2R1bGUSOwoMY2hpbGRNb2R1bGVz",
-            "GAEgAygLMiUubW9kdWxhckVtdWxhdG9yLm1vZHVsZXMucHJvdG8uTW9kdWxl",
-            "EjoKDGN1cnJlbnRTdGF0ZRgCIAEoDjIkLm1vZHVsYXJFbXVsYXRvci5tb2R1",
-            "bGVzLnByb3RvLnN0YXRlEkkKEHRpbWVQZXJTdGF0ZUluTVMYAyABKAsyLy5t",
-            "b2R1bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5UaW1lUGVyU3RhdGVJbk1T",
-            "ElUKFmVuZXJneVVzZVBlclN0YXRlSW5rV2gYBCABKAsyNS5tb2R1bGFyRW11",
-            "bGF0b3IubW9kdWxlcy5wcm90by5FbmVyZ3lVc2VQZXJTdGF0ZUlua1doEj4K",
-            "AmlkGAUgASgLMjIubW9kdWxhckVtdWxhdG9yLm1vZHVsZXMucHJvdG8uT1BD",
-            "VUFJZGVudGlmaWNhdGlvbhITCgtkZXNjcmlwdGlvbhgGIAEoCRIXCg9pbnZl",
-            "c3RtZW50Q29zdHMYByABKAESQwoTaW1wbGVtZW50ZWRTZXJ2aWNlcxgIIAMo",
-            "DjImLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLlNlcnZpY2USSQoQ",
-            "Y29uc3VtZWRTZXJ2aWNlcxgJIAMoCzIvLm1vZHVsYXJFbXVsYXRvci5tb2R1",
-            "bGVzLnByb3RvLlNlcnZpY2VJbnRlcmZhY2USPwoKcGFyYW1ldGVycxgKIAEo",
-            "CzIrLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLlBhcmFtZXRlclNl",
-            "dCKeBgoMUGFyYW1ldGVyU2V0Ej4KAmlkGAEgASgLMjIubW9kdWxhckVtdWxh",
-            "dG9yLm1vZHVsZXMucHJvdG8uT1BDVUFJZGVudGlmaWNhdGlvbhJNCg5zY2Fu",
-            "bGFiU2Nhbm5lchgKIAEoCzIzLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnBy",
-            "b3RvLlNjYW5sYWJTY2FubmVyUGFyYW1zSAASOwoFbGFzZXIYCyABKAsyKi5t",
-            "b2R1bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5MYXNlclBhcmFtc0gAEk0K",
-            "DnN0YW5kYXJkQ29hdGVyGAwgASgLMjMubW9kdWxhckVtdWxhdG9yLm1vZHVs",
-            "ZXMucHJvdG8uU3RhbmRhcmRDb2F0ZXJQYXJhbXNIABJJCgxidWlsZENoYW1i",
-            "ZXIYDyABKAsyMS5tb2R1bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5CdWls",
-            "ZENoYW1iZXJQYXJhbXNIABJTChFjdWJvaWRCdWlsZFZvbHVtZRgQIAEoCzI2",
-            "Lm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLkN1Ym9pZEJ1aWxkVm9s",
-            "dW1lUGFyYW1zSAASVwoTenlsaW5kZXJCdWlsZFZvbHVtZRgRIAEoCzI4Lm1v",
-            "ZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLlp5bGluZGVyQnVpbGRWb2x1",
-            "bWVQYXJhbXNIABJDCglwcmVoZWF0ZXIYEyABKAsyLi5tb2R1bGFyRW11bGF0",
-            "b3IubW9kdWxlcy5wcm90by5QcmVoZWF0ZXJQYXJhbXNIABJNCg5ub3ZhbnRh",
-            "U2Nhbm5lchgfIAEoCzIzLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3Rv",
-            "Lk5vdmFudGFTY2FubmVyUGFyYW1zSAASUQoQYmFzaWNMUEJGTWFjaGluZRhk",
-            "IAEoCzI1Lm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLkJhc2ljTFBC",
-            "Rk1hY2hpbmVQYXJhbXNIAEITChFUeXBlQW5kUGFyYW1ldGVycyLpAQoWQmFz",
-            "aWNMUEJGTWFjaGluZVBhcmFtcxIhChludW1iZXJPZkxhc2VyU2Nhbm5lclVu",
-            "aXRzGAEgASgFEjwKCnNjYW5GaWVsZHMYFCADKAsyKC5tb2R1bGFyRW11bGF0",
-            "b3IubW9kdWxlcy5wcm90by5TY2FuRmllbGQSGAoQTWluTGF5ZXJIZWlnaHRV",
-            "TRgKIAEoARISCgpNaW5aRGlzdE1tGAsgASgBEhoKEk1pbmltYWxIYXRjaExl",
-            "bmd0aBgMIAEoARIkChxGb3JjZWRNaW5pbXVtRXhwb3N1cmVUaW1lSW5TGA0g",
-            "ASgBIqMBChBTZXJ2aWNlSW50ZXJmYWNlEj8KD2NvbnN1bWVkU2VydmljZRgB",
-            "IAEoDjImLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLlNlcnZpY2US",
-            "TgoSaW1wbGVtZW50aW5nTW9kdWxlGAIgASgLMjIubW9kdWxhckVtdWxhdG9y",
-            "Lm1vZHVsZXMucHJvdG8uT1BDVUFJZGVudGlmaWNhdGlvbiLgAwoSQmFzaWNT",
-            "Y2FubmVyUGFyYW1zEhYKDmp1bXBTcGVlZEluTW1TGAEgASgBEhYKDm1hcmtT",
-            "cGVlZEluTW1TGAIgASgBEhsKE2xhc2VyRm9jdXNTaGlmdEluTW0YAyABKAES",
-            "IAoYbWF4QWNjZWxlcmF0aW9uSW5NbVBlclNTGAQgASgBEhYKDnN0YXRpY0Rl",
-            "bGF5SW5TGAUgASgBEhUKDWp1bXBEZWxheUluVXMYBiABKAESFQoNbWFya0Rl",
-            "bGF5SW5VcxgHIAEoARIZChFsYXNlck9mZkRlbGF5SW5VcxgIIAEoARIYChBs",
-            "YXNlck9uRGVsYXlJblVzGAkgASgBEhgKEHBvbHlnb25EZWxheUluVXMYCiAB",
-            "KAESGAoQVmVjdG9yQmxvY2tEZWxheRgLIAEoARIYChBQYXJhbUNoYW5nZURl",
-            "bGF5GAwgASgBEhsKE1dhcnBKdW1wTGVuZ3RoTGltaXQYDSABKAESTAoIanVt",
-            "cE1vZGUYDiABKA4yOi5tb2R1bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5C",
-            "YXNpY1NjYW5uZXJQYXJhbXMuSnVtcE1vZGUiJwoISnVtcE1vZGUSCgoGU1RB",
-            "VElDEAASDwoLQUNDRUxFUkFURUQQASJiChZDb21tb25Ta3lXcml0aW5nUGFy",
-            "YW1zEhkKEU5QcmV2SW5UZW5Vc1RpY2tzGAEgASgBEhkKEU5Qb3N0SW5UZW5V",
-            "c1RpY2tzGAIgASgBEhIKCmxpbWl0QW5nbGUYAyABKAEicAoZQ29vcmRpbmF0",
-            "ZVRyYW5zZm9ybVBhcmFtcxIdChVEZWxldGVaZXJvTGVuZ3RoSnVtcHMYASAB",
-            "KAgSGQoRTWluaW1hbEp1bXBMZW5ndGgYAiABKAESGQoRTWluaW1hbE1hcmtM",
-            "ZW5ndGgYAyABKAEipwUKFE5vdmFudGFTY2FubmVyUGFyYW1zEk0KEmJhc2lj",
-            "U2Nhbm5lclBhcmFtcxgBIAEoCzIxLm1vZHVsYXJFbXVsYXRvci5tb2R1bGVz",
-            "LnByb3RvLkJhc2ljU2Nhbm5lclBhcmFtcxJPChBza3lXcml0aW5nUGFyYW1z",
-            "GAIgASgLMjUubW9kdWxhckVtdWxhdG9yLm1vZHVsZXMucHJvdG8uQ29tbW9u",
-            "U2t5V3JpdGluZ1BhcmFtcxJWChRjb29yZFRyYW5zZm9ybVBhcmFtcxgDIAEo",
-            "CzI4Lm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3RvLkNvb3JkaW5hdGVU",
-            "cmFuc2Zvcm1QYXJhbXMSWgoOc2t5V3JpdGluZ01vZGUYBCABKA4yQi5tb2R1",
-            "bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5Ob3ZhbnRhU2Nhbm5lclBhcmFt",
-            "cy5Ta3lXcml0aW5nTW9kZRJQCglkZWxheU1vZGUYBSABKA4yPS5tb2R1bGFy",
-            "RW11bGF0b3IubW9kdWxlcy5wcm90by5Ob3ZhbnRhU2Nhbm5lclBhcmFtcy5E",
-            "ZWxheU1vZGUSFwoPcmFkaWFsRXJyb3JJblVtGAYgASgBEhwKFFNhZmV0eUZh",
-            "Y3RvckZseUJ5TG93GAcgASgBEh0KFVNhZmV0eUZhY3RvckZseUJ5SGlnaBgI",
-            "IAEoARIkChxTYWZldHlGYWN0b3JSYWRpYWxFcnJvckxpbWl0GAkgASgBIjQK",
-            "DlNreVdyaXRpbmdNb2RlEggKBE5PTkUQABIJCgVNT0RFMxABEg0KCVNDQU5f",
-            "UEFDSxACIjcKCURlbGF5TW9kZRIRCg1NQU5VQUxfREVMQVlTEAASFwoTVkFS",
-            "SUFCTEVfUE9MWV9ERUxBWRABIuEGChRTY2FubGFiU2Nhbm5lclBhcmFtcxJN",
-            "ChJiYXNpY1NjYW5uZXJQYXJhbXMYASABKAsyMS5tb2R1bGFyRW11bGF0b3Iu",
-            "bW9kdWxlcy5wcm90by5CYXNpY1NjYW5uZXJQYXJhbXMSTwoQc2t5V3JpdGlu",
-            "Z1BhcmFtcxgCIAEoCzI1Lm1vZHVsYXJFbXVsYXRvci5tb2R1bGVzLnByb3Rv",
-            "LkNvbW1vblNreVdyaXRpbmdQYXJhbXMSVgoUY29vcmRUcmFuc2Zvcm1QYXJh",
-            "bXMYAyABKAsyOC5tb2R1bGFyRW11bGF0b3IubW9kdWxlcy5wcm90by5Db29y",
-            "ZGluYXRlVHJhbnNmb3JtUGFyYW1zEloKDnNreVdyaXRpbmdNb2RlGAQgASgO",
-            "MkIubW9kdWxhckVtdWxhdG9yLm1vZHVsZXMucHJvdG8uU2NhbmxhYlNjYW5u",
-            "ZXJQYXJhbXMuU2t5V3JpdGluZ01vZGUSEwoLdGltZUxhZ0luVXMYBSABKAES",
-            "cAoZc2t5V3JpdGluZ1BhcmFtZXRyaW5nTW9kZRgGIAEoDjJNLm1vZHVsYXJF",
-            "bXVsYXRvci5tb2R1bGVzLnByb3RvLlNjYW5sYWJTY2FubmVyUGFyYW1zLlNr",
-            "eVdyaXRpbmdQYXJhbWV0cmluZ01vZGUSUAoJZGVsYXlNb2RlGAcgASgOMj0u",
-            "bW9kdWxhckVtdWxhdG9yLm1vZHVsZXMucHJvdG8uU2NhbmxhYlNjYW5uZXJQ",
-            "YXJhbXMuRGVsYXlNb2RlIjsKDlNreVdyaXRpbmdNb2RlEggKBE5PTkUQABIJ",
-            "CgVNT0RFMRABEgkKBU1PREUyEAISCQoFTU9ERTMQAyKFAQoZU2t5V3JpdGlu",
-            "Z1BhcmFtZXRyaW5nTW9kZRIWChJNQU5VQUxfTlBSRVZfTlBPU1QQABIqCiZB",
-            "VVRPTUFUSUNfTlBSRVZfTlBPU1RfQkFTRURfT05fVElNRUxBRxABEiQKIE1J",
-            "TklNVU1fTlBSRVZfTlBPU1RfQUNDRUxFUkFUSU9OEAIiVwoJRGVsYXlNb2Rl",
-            "EhEKDU1BTlVBTF9ERUxBWVMQABIXChNWQVJJQUJMRV9QT0xZX0RFTEFZEAES",
-            "HgoaTUlOSU1VTV9ERUxBWV9BQ0NFTEVSQVRJT04QAiJDCglTY2FuRmllbGQS",
-            "DAoEWE1pbhgBIAEoARIMCgRYTWF4GAIgASgBEgwKBFlNaW4YAyABKAESDAoE",
-            "WU1heBgEIAEoASIkCgtMYXNlclBhcmFtcxIVCg1MYXNlclBvd2VySW5XGAIg",
-            "ASgBIuEBChRTdGFuZGFyZENvYXRlclBhcmFtcxIlCh1jb2F0aW5nU3BlZWRG",
-            "b3J3YXJkSW5NbVBlclNlYxgBIAEoARImCh5jb2F0aW5nU3BlZWRCYWNrd2Fy",
-            "ZEluTW1QZXJTZWMYAiABKAESFAoMZGlzdGFuY2VJbk1tGAMgASgBEhkKEWZv",
-            "cndhcmREZWxheUluU2VjGAQgASgBEhoKEmJhY2t3YXJkRGVsYXlJblNlYxgF",
-            "IAEoARIUCgxhY2NlbGVyYXRpb24YBiABKAESFwoPaXNCaWRpcmVjdGlvbmFs",
-            "GAcgASgIItsBChJCdWlsZENoYW1iZXJQYXJhbXMSIgoacGxhdGZvcm1MaWZ0",
-            "UmF0ZUluTW1QZXJTZWMYASABKAESKwojcGxhdGZvcm1MaWZ0QWNjZWxlcmF0",
-            "aW9uSW5NbVBlclNlYzIYBSABKAESHAoUcGxhdGZvcm1MaWZ0RGVsYXlJblMY",
-            "BiABKAESHgoWaW5lcnRBdG1vc3BoZXJlVGltZUluUxgCIAEoARIgChhyZWxl",
-            "YXNlQXRtb3NwaGVyZVRpbWVJblMYAyABKAESFAoMbWF4aW11bU8yUFBNGAQg",
-            "ASgBIm0KF0N1Ym9pZEJ1aWxkVm9sdW1lUGFyYW1zEgwKBFhNaW4YASABKAES",
-            "DAoEWE1heBgCIAEoARIMCgRZTWluGAMgASgBEgwKBFlNYXgYBCABKAESDAoE",
-            "Wk1pbhgFIAEoARIMCgRaTWF4GAYgASgBIj0KGVp5bGluZGVyQnVpbGRWb2x1",
-            "bWVQYXJhbXMSEAoIZGlhbWV0ZXIYAiABKAESDgoGaGVpZ2h0GAMgASgBIo0B",
-            "Cg9QcmVoZWF0ZXJQYXJhbXMSHQoVcHJlaGVhdGluZ1RlbXBlcmF0dXJlGAIg",
-            "ASgBEiQKHG1heGltdW1QcmVoZWF0aW5nVGVtcGVyYXR1cmUYAyABKAESHAoU",
-            "aGVhdGluZ1JhdGVJblNlY1BlcksYBCABKAESFwoPcm9vbVRlbXBlcmF0dXJl",
-            "GAUgASgBImIKEFRpbWVQZXJTdGF0ZUluTVMSDwoHdGltZU9mZhgBIAEoARIQ",
-            "Cgh0aW1lSWRsZRgCIAEoARISCgp0aW1lQWN0aXZlGAMgASgBEhcKD3RpbWVN",
-            "YWludGVuYW5jZRgEIAEoASJwChZFbmVyZ3lVc2VQZXJTdGF0ZUlua1doEhEK",
-            "CWVuZXJneU9mZhgBIAEoARISCgplbmVyZ3lJZGxlGAIgASgBEhQKDGVuZXJn",
-            "eUFjdGl2ZRgDIAEoARIZChFlbmVyZ3lNYWludGVuYW5jZRgEIAEoASqNAwoH",
-            "U2VydmljZRISCg5MQVNFUkRFRkxFQ1RPUhAAEg8KC0xBU0VSU09VUkNFEAES",
-            "CgoGQ09BVEVSEAISFAoQSU5FUlRfQVRNT1NQSEVSRRADEgoKBkxPQURFUhAE",
-            "EhIKDlBPU1RQUk9DRVNTSU5HEAUSGQoVUE9XREVSX0JFRF9NT05JVE9SSU5H",
-            "EAYSDwoLUE9XREVSX0ZFRUQQBxIUChBQT1dERVJfUkVDWUNMSU5HEAgSEQoN",
-            "UE9XREVSX1VOTE9BRBAJEg0KCVBSRUhFQVRFUhAKEhcKE1BVTFNFRF9MQVNF",
-            "Ul9TT1VSQ0UQCxITCg9SRU1PVkVfU1VQUE9SVFMQDBIbChdTVUJTVFJBVEVf",
-            "UExBVEVfTUlMTElORxANEhUKEVRIRVJNQUxfVFJFQVRNRU5UEA4SEQoNUExB",
-            "VEZPUk1fTElGVBAPEhgKFFNDQU5GSUVMRF9BTExPQ0FUSU9OEBASEAoMRklM",
-            "VEVSX0NMRUFOEBESFgoSVEhFUk1BTF9TSU1VTEFUSU9OEBIqNwoFc3RhdGUS",
-            "BwoDT0ZGEAASCAoESURMRRABEgoKBkFDVElWRRACEg8KC01BSU5URU5BTkNF",
-            "EANiBnByb3RvMw=="));
+            "ChZNb2R1bGVEZWZpbml0aW9uLnByb3RvEh9NYW51ZmFjdHVyaW5nU2NlbmFy",
+            "aW9SZXBvc2l0b3J5IjMKE09QQ1VBSWRlbnRpZmljYXRpb24SDgoGbm9kZUlk",
+            "GAEgASgNEgwKBG5hbWUYAiABKAki8gQKBk1vZHVsZRI9CgxjaGlsZE1vZHVs",
+            "ZXMYASADKAsyJy5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5Lk1v",
+            "ZHVsZRI8CgxjdXJyZW50U3RhdGUYAiABKA4yJi5NYW51ZmFjdHVyaW5nU2Nl",
+            "bmFyaW9SZXBvc2l0b3J5LnN0YXRlEksKEHRpbWVQZXJTdGF0ZUluTVMYAyAB",
+            "KAsyMS5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5LlRpbWVQZXJT",
+            "dGF0ZUluTVMSVwoWZW5lcmd5VXNlUGVyU3RhdGVJbmtXaBgEIAEoCzI3Lk1h",
+            "bnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuRW5lcmd5VXNlUGVyU3Rh",
+            "dGVJbmtXaBJACgJpZBgFIAEoCzI0Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1Jl",
+            "cG9zaXRvcnkuT1BDVUFJZGVudGlmaWNhdGlvbhITCgtkZXNjcmlwdGlvbhgG",
+            "IAEoCRIXCg9pbnZlc3RtZW50Q29zdHMYByABKAESRQoTaW1wbGVtZW50ZWRT",
+            "ZXJ2aWNlcxgIIAMoDjIoLk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRv",
+            "cnkuU2VydmljZRJLChBjb25zdW1lZFNlcnZpY2VzGAkgAygLMjEuTWFudWZh",
+            "Y3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5TZXJ2aWNlSW50ZXJmYWNlEkEK",
+            "CnBhcmFtZXRlcnMYCiABKAsyLS5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBv",
+            "c2l0b3J5LlBhcmFtZXRlclNldCKyBgoMUGFyYW1ldGVyU2V0EkAKAmlkGAEg",
+            "ASgLMjQuTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5PUENVQUlk",
+            "ZW50aWZpY2F0aW9uEk8KDnNjYW5sYWJTY2FubmVyGAogASgLMjUuTWFudWZh",
+            "Y3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5TY2FubGFiU2Nhbm5lclBhcmFt",
+            "c0gAEj0KBWxhc2VyGAsgASgLMiwuTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVw",
+            "b3NpdG9yeS5MYXNlclBhcmFtc0gAEk8KDnN0YW5kYXJkQ29hdGVyGAwgASgL",
+            "MjUuTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5TdGFuZGFyZENv",
+            "YXRlclBhcmFtc0gAEksKDGJ1aWxkQ2hhbWJlchgPIAEoCzIzLk1hbnVmYWN0",
+            "dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuQnVpbGRDaGFtYmVyUGFyYW1zSAAS",
+            "VQoRY3Vib2lkQnVpbGRWb2x1bWUYECABKAsyOC5NYW51ZmFjdHVyaW5nU2Nl",
+            "bmFyaW9SZXBvc2l0b3J5LkN1Ym9pZEJ1aWxkVm9sdW1lUGFyYW1zSAASWQoT",
+            "enlsaW5kZXJCdWlsZFZvbHVtZRgRIAEoCzI6Lk1hbnVmYWN0dXJpbmdTY2Vu",
+            "YXJpb1JlcG9zaXRvcnkuWnlsaW5kZXJCdWlsZFZvbHVtZVBhcmFtc0gAEkUK",
+            "CXByZWhlYXRlchgTIAEoCzIwLk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9z",
+            "aXRvcnkuUHJlaGVhdGVyUGFyYW1zSAASTwoObm92YW50YVNjYW5uZXIYHyAB",
+            "KAsyNS5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5Lk5vdmFudGFT",
+            "Y2FubmVyUGFyYW1zSAASUwoQYmFzaWNMUEJGTWFjaGluZRhkIAEoCzI3Lk1h",
+            "bnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuQmFzaWNMUEJGTWFjaGlu",
+            "ZVBhcmFtc0gAQhMKEVR5cGVBbmRQYXJhbWV0ZXJzIusBChZCYXNpY0xQQkZN",
+            "YWNoaW5lUGFyYW1zEiEKGW51bWJlck9mTGFzZXJTY2FubmVyVW5pdHMYASAB",
+            "KAUSPgoKc2NhbkZpZWxkcxgUIAMoCzIqLk1hbnVmYWN0dXJpbmdTY2VuYXJp",
+            "b1JlcG9zaXRvcnkuU2NhbkZpZWxkEhgKEE1pbkxheWVySGVpZ2h0VU0YCiAB",
+            "KAESEgoKTWluWkRpc3RNbRgLIAEoARIaChJNaW5pbWFsSGF0Y2hMZW5ndGgY",
+            "DCABKAESJAocRm9yY2VkTWluaW11bUV4cG9zdXJlVGltZUluUxgNIAEoASKn",
+            "AQoQU2VydmljZUludGVyZmFjZRJBCg9jb25zdW1lZFNlcnZpY2UYASABKA4y",
+            "KC5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5LlNlcnZpY2USUAoS",
+            "aW1wbGVtZW50aW5nTW9kdWxlGAIgASgLMjQuTWFudWZhY3R1cmluZ1NjZW5h",
+            "cmlvUmVwb3NpdG9yeS5PUENVQUlkZW50aWZpY2F0aW9uIuIDChJCYXNpY1Nj",
+            "YW5uZXJQYXJhbXMSFgoOanVtcFNwZWVkSW5NbVMYASABKAESFgoObWFya1Nw",
+            "ZWVkSW5NbVMYAiABKAESGwoTbGFzZXJGb2N1c1NoaWZ0SW5NbRgDIAEoARIg",
+            "ChhtYXhBY2NlbGVyYXRpb25Jbk1tUGVyU1MYBCABKAESFgoOc3RhdGljRGVs",
+            "YXlJblMYBSABKAESFQoNanVtcERlbGF5SW5VcxgGIAEoARIVCg1tYXJrRGVs",
+            "YXlJblVzGAcgASgBEhkKEWxhc2VyT2ZmRGVsYXlJblVzGAggASgBEhgKEGxh",
+            "c2VyT25EZWxheUluVXMYCSABKAESGAoQcG9seWdvbkRlbGF5SW5VcxgKIAEo",
+            "ARIYChBWZWN0b3JCbG9ja0RlbGF5GAsgASgBEhgKEFBhcmFtQ2hhbmdlRGVs",
+            "YXkYDCABKAESGwoTV2FycEp1bXBMZW5ndGhMaW1pdBgNIAEoARJOCghqdW1w",
+            "TW9kZRgOIAEoDjI8Lk1hbnVmYWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnku",
+            "QmFzaWNTY2FubmVyUGFyYW1zLkp1bXBNb2RlIicKCEp1bXBNb2RlEgoKBlNU",
+            "QVRJQxAAEg8KC0FDQ0VMRVJBVEVEEAEiYgoWQ29tbW9uU2t5V3JpdGluZ1Bh",
+            "cmFtcxIZChFOUHJldkluVGVuVXNUaWNrcxgBIAEoARIZChFOUG9zdEluVGVu",
+            "VXNUaWNrcxgCIAEoARISCgpsaW1pdEFuZ2xlGAMgASgBInAKGUNvb3JkaW5h",
+            "dGVUcmFuc2Zvcm1QYXJhbXMSHQoVRGVsZXRlWmVyb0xlbmd0aEp1bXBzGAEg",
+            "ASgIEhkKEU1pbmltYWxKdW1wTGVuZ3RoGAIgASgBEhkKEU1pbmltYWxNYXJr",
+            "TGVuZ3RoGAMgASgBIrEFChROb3ZhbnRhU2Nhbm5lclBhcmFtcxJPChJiYXNp",
+            "Y1NjYW5uZXJQYXJhbXMYASABKAsyMy5NYW51ZmFjdHVyaW5nU2NlbmFyaW9S",
+            "ZXBvc2l0b3J5LkJhc2ljU2Nhbm5lclBhcmFtcxJRChBza3lXcml0aW5nUGFy",
+            "YW1zGAIgASgLMjcuTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5D",
+            "b21tb25Ta3lXcml0aW5nUGFyYW1zElgKFGNvb3JkVHJhbnNmb3JtUGFyYW1z",
+            "GAMgASgLMjouTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5Db29y",
+            "ZGluYXRlVHJhbnNmb3JtUGFyYW1zElwKDnNreVdyaXRpbmdNb2RlGAQgASgO",
+            "MkQuTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVwb3NpdG9yeS5Ob3ZhbnRhU2Nh",
+            "bm5lclBhcmFtcy5Ta3lXcml0aW5nTW9kZRJSCglkZWxheU1vZGUYBSABKA4y",
+            "Py5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5Lk5vdmFudGFTY2Fu",
+            "bmVyUGFyYW1zLkRlbGF5TW9kZRIXCg9yYWRpYWxFcnJvckluVW0YBiABKAES",
+            "HAoUU2FmZXR5RmFjdG9yRmx5QnlMb3cYByABKAESHQoVU2FmZXR5RmFjdG9y",
+            "Rmx5QnlIaWdoGAggASgBEiQKHFNhZmV0eUZhY3RvclJhZGlhbEVycm9yTGlt",
+            "aXQYCSABKAEiNAoOU2t5V3JpdGluZ01vZGUSCAoETk9ORRAAEgkKBU1PREUz",
+            "EAESDQoJU0NBTl9QQUNLEAIiNwoJRGVsYXlNb2RlEhEKDU1BTlVBTF9ERUxB",
+            "WVMQABIXChNWQVJJQUJMRV9QT0xZX0RFTEFZEAEi7QYKFFNjYW5sYWJTY2Fu",
+            "bmVyUGFyYW1zEk8KEmJhc2ljU2Nhbm5lclBhcmFtcxgBIAEoCzIzLk1hbnVm",
+            "YWN0dXJpbmdTY2VuYXJpb1JlcG9zaXRvcnkuQmFzaWNTY2FubmVyUGFyYW1z",
+            "ElEKEHNreVdyaXRpbmdQYXJhbXMYAiABKAsyNy5NYW51ZmFjdHVyaW5nU2Nl",
+            "bmFyaW9SZXBvc2l0b3J5LkNvbW1vblNreVdyaXRpbmdQYXJhbXMSWAoUY29v",
+            "cmRUcmFuc2Zvcm1QYXJhbXMYAyABKAsyOi5NYW51ZmFjdHVyaW5nU2NlbmFy",
+            "aW9SZXBvc2l0b3J5LkNvb3JkaW5hdGVUcmFuc2Zvcm1QYXJhbXMSXAoOc2t5",
+            "V3JpdGluZ01vZGUYBCABKA4yRC5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBv",
+            "c2l0b3J5LlNjYW5sYWJTY2FubmVyUGFyYW1zLlNreVdyaXRpbmdNb2RlEhMK",
+            "C3RpbWVMYWdJblVzGAUgASgBEnIKGXNreVdyaXRpbmdQYXJhbWV0cmluZ01v",
+            "ZGUYBiABKA4yTy5NYW51ZmFjdHVyaW5nU2NlbmFyaW9SZXBvc2l0b3J5LlNj",
+            "YW5sYWJTY2FubmVyUGFyYW1zLlNreVdyaXRpbmdQYXJhbWV0cmluZ01vZGUS",
+            "UgoJZGVsYXlNb2RlGAcgASgOMj8uTWFudWZhY3R1cmluZ1NjZW5hcmlvUmVw",
+            "b3NpdG9yeS5TY2FubGFiU2Nhbm5lclBhcmFtcy5EZWxheU1vZGUiOwoOU2t5",
+            "V3JpdGluZ01vZGUSCAoETk9ORRAAEgkKBU1PREUxEAESCQoFTU9ERTIQAhIJ",
+            "CgVNT0RFMxADIoUBChlTa3lXcml0aW5nUGFyYW1ldHJpbmdNb2RlEhYKEk1B",
+            "TlVBTF9OUFJFVl9OUE9TVBAAEioKJkFVVE9NQVRJQ19OUFJFVl9OUE9TVF9C",
+            "QVNFRF9PTl9USU1FTEFHEAESJAogTUlOSU1VTV9OUFJFVl9OUE9TVF9BQ0NF",
+            "TEVSQVRJT04QAiJXCglEZWxheU1vZGUSEQoNTUFOVUFMX0RFTEFZUxAAEhcK",
+            "E1ZBUklBQkxFX1BPTFlfREVMQVkQARIeChpNSU5JTVVNX0RFTEFZX0FDQ0VM",
+            "RVJBVElPThACIkMKCVNjYW5GaWVsZBIMCgRYTWluGAEgASgBEgwKBFhNYXgY",
+            "AiABKAESDAoEWU1pbhgDIAEoARIMCgRZTWF4GAQgASgBIiQKC0xhc2VyUGFy",
+            "YW1zEhUKDUxhc2VyUG93ZXJJblcYAiABKAEi4QEKFFN0YW5kYXJkQ29hdGVy",
+            "UGFyYW1zEiUKHWNvYXRpbmdTcGVlZEZvcndhcmRJbk1tUGVyU2VjGAEgASgB",
+            "EiYKHmNvYXRpbmdTcGVlZEJhY2t3YXJkSW5NbVBlclNlYxgCIAEoARIUCgxk",
+            "aXN0YW5jZUluTW0YAyABKAESGQoRZm9yd2FyZERlbGF5SW5TZWMYBCABKAES",
+            "GgoSYmFja3dhcmREZWxheUluU2VjGAUgASgBEhQKDGFjY2VsZXJhdGlvbhgG",
+            "IAEoARIXCg9pc0JpZGlyZWN0aW9uYWwYByABKAgi2wEKEkJ1aWxkQ2hhbWJl",
+            "clBhcmFtcxIiChpwbGF0Zm9ybUxpZnRSYXRlSW5NbVBlclNlYxgBIAEoARIr",
+            "CiNwbGF0Zm9ybUxpZnRBY2NlbGVyYXRpb25Jbk1tUGVyU2VjMhgFIAEoARIc",
+            "ChRwbGF0Zm9ybUxpZnREZWxheUluUxgGIAEoARIeChZpbmVydEF0bW9zcGhl",
+            "cmVUaW1lSW5TGAIgASgBEiAKGHJlbGVhc2VBdG1vc3BoZXJlVGltZUluUxgD",
+            "IAEoARIUCgxtYXhpbXVtTzJQUE0YBCABKAEibQoXQ3Vib2lkQnVpbGRWb2x1",
+            "bWVQYXJhbXMSDAoEWE1pbhgBIAEoARIMCgRYTWF4GAIgASgBEgwKBFlNaW4Y",
+            "AyABKAESDAoEWU1heBgEIAEoARIMCgRaTWluGAUgASgBEgwKBFpNYXgYBiAB",
+            "KAEiPQoZWnlsaW5kZXJCdWlsZFZvbHVtZVBhcmFtcxIQCghkaWFtZXRlchgC",
+            "IAEoARIOCgZoZWlnaHQYAyABKAEijQEKD1ByZWhlYXRlclBhcmFtcxIdChVw",
+            "cmVoZWF0aW5nVGVtcGVyYXR1cmUYAiABKAESJAocbWF4aW11bVByZWhlYXRp",
+            "bmdUZW1wZXJhdHVyZRgDIAEoARIcChRoZWF0aW5nUmF0ZUluU2VjUGVySxgE",
+            "IAEoARIXCg9yb29tVGVtcGVyYXR1cmUYBSABKAEiYgoQVGltZVBlclN0YXRl",
+            "SW5NUxIPCgd0aW1lT2ZmGAEgASgBEhAKCHRpbWVJZGxlGAIgASgBEhIKCnRp",
+            "bWVBY3RpdmUYAyABKAESFwoPdGltZU1haW50ZW5hbmNlGAQgASgBInAKFkVu",
+            "ZXJneVVzZVBlclN0YXRlSW5rV2gSEQoJZW5lcmd5T2ZmGAEgASgBEhIKCmVu",
+            "ZXJneUlkbGUYAiABKAESFAoMZW5lcmd5QWN0aXZlGAMgASgBEhkKEWVuZXJn",
+            "eU1haW50ZW5hbmNlGAQgASgBKo0DCgdTZXJ2aWNlEhIKDkxBU0VSREVGTEVD",
+            "VE9SEAASDwoLTEFTRVJTT1VSQ0UQARIKCgZDT0FURVIQAhIUChBJTkVSVF9B",
+            "VE1PU1BIRVJFEAMSCgoGTE9BREVSEAQSEgoOUE9TVFBST0NFU1NJTkcQBRIZ",
+            "ChVQT1dERVJfQkVEX01PTklUT1JJTkcQBhIPCgtQT1dERVJfRkVFRBAHEhQK",
+            "EFBPV0RFUl9SRUNZQ0xJTkcQCBIRCg1QT1dERVJfVU5MT0FEEAkSDQoJUFJF",
+            "SEVBVEVSEAoSFwoTUFVMU0VEX0xBU0VSX1NPVVJDRRALEhMKD1JFTU9WRV9T",
+            "VVBQT1JUUxAMEhsKF1NVQlNUUkFURV9QTEFURV9NSUxMSU5HEA0SFQoRVEhF",
+            "Uk1BTF9UUkVBVE1FTlQQDhIRCg1QTEFURk9STV9MSUZUEA8SGAoUU0NBTkZJ",
+            "RUxEX0FMTE9DQVRJT04QEBIQCgxGSUxURVJfQ0xFQU4QERIWChJUSEVSTUFM",
+            "X1NJTVVMQVRJT04QEio3CgVzdGF0ZRIHCgNPRkYQABIICgRJRExFEAESCgoG",
+            "QUNUSVZFEAISDwoLTUFJTlRFTkFOQ0UQA2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::ModularEmulator.Modules.Proto.Service), typeof(global::ModularEmulator.Modules.Proto.state), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.OPCUAIdentification), global::ModularEmulator.Modules.Proto.OPCUAIdentification.Parser, new[]{ "NodeId", "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.Module), global::ModularEmulator.Modules.Proto.Module.Parser, new[]{ "ChildModules", "CurrentState", "TimePerStateInMS", "EnergyUsePerStateInkWh", "Id", "Description", "InvestmentCosts", "ImplementedServices", "ConsumedServices", "Parameters" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.ParameterSet), global::ModularEmulator.Modules.Proto.ParameterSet.Parser, new[]{ "Id", "ScanlabScanner", "Laser", "StandardCoater", "BuildChamber", "CuboidBuildVolume", "ZylinderBuildVolume", "Preheater", "NovantaScanner", "BasicLPBFMachine" }, new[]{ "TypeAndParameters" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams), global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams.Parser, new[]{ "NumberOfLaserScannerUnits", "ScanFields", "MinLayerHeightUM", "MinZDistMm", "MinimalHatchLength", "ForcedMinimumExposureTimeInS" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.ServiceInterface), global::ModularEmulator.Modules.Proto.ServiceInterface.Parser, new[]{ "ConsumedService", "ImplementingModule" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.BasicScannerParams), global::ModularEmulator.Modules.Proto.BasicScannerParams.Parser, new[]{ "JumpSpeedInMmS", "MarkSpeedInMmS", "LaserFocusShiftInMm", "MaxAccelerationInMmPerSS", "StaticDelayInS", "JumpDelayInUs", "MarkDelayInUs", "LaserOffDelayInUs", "LaserOnDelayInUs", "PolygonDelayInUs", "VectorBlockDelay", "ParamChangeDelay", "WarpJumpLengthLimit", "JumpMode" }, null, new[]{ typeof(global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.CommonSkyWritingParams), global::ModularEmulator.Modules.Proto.CommonSkyWritingParams.Parser, new[]{ "NPrevInTenUsTicks", "NPostInTenUsTicks", "LimitAngle" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.CoordinateTransformParams), global::ModularEmulator.Modules.Proto.CoordinateTransformParams.Parser, new[]{ "DeleteZeroLengthJumps", "MinimalJumpLength", "MinimalMarkLength" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.NovantaScannerParams), global::ModularEmulator.Modules.Proto.NovantaScannerParams.Parser, new[]{ "BasicScannerParams", "SkyWritingParams", "CoordTransformParams", "SkyWritingMode", "DelayMode", "RadialErrorInUm", "SafetyFactorFlyByLow", "SafetyFactorFlyByHigh", "SafetyFactorRadialErrorLimit" }, null, new[]{ typeof(global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode), typeof(global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.ScanlabScannerParams), global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Parser, new[]{ "BasicScannerParams", "SkyWritingParams", "CoordTransformParams", "SkyWritingMode", "TimeLagInUs", "SkyWritingParametringMode", "DelayMode" }, null, new[]{ typeof(global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode), typeof(global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode), typeof(global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.ScanField), global::ModularEmulator.Modules.Proto.ScanField.Parser, new[]{ "XMin", "XMax", "YMin", "YMax" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.LaserParams), global::ModularEmulator.Modules.Proto.LaserParams.Parser, new[]{ "LaserPowerInW" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.StandardCoaterParams), global::ModularEmulator.Modules.Proto.StandardCoaterParams.Parser, new[]{ "CoatingSpeedForwardInMmPerSec", "CoatingSpeedBackwardInMmPerSec", "DistanceInMm", "ForwardDelayInSec", "BackwardDelayInSec", "Acceleration", "IsBidirectional" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.BuildChamberParams), global::ModularEmulator.Modules.Proto.BuildChamberParams.Parser, new[]{ "PlatformLiftRateInMmPerSec", "PlatformLiftAccelerationInMmPerSec2", "PlatformLiftDelayInS", "InertAtmosphereTimeInS", "ReleaseAtmosphereTimeInS", "MaximumO2PPM" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams), global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams.Parser, new[]{ "XMin", "XMax", "YMin", "YMax", "ZMin", "ZMax" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams), global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams.Parser, new[]{ "Diameter", "Height" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.PreheaterParams), global::ModularEmulator.Modules.Proto.PreheaterParams.Parser, new[]{ "PreheatingTemperature", "MaximumPreheatingTemperature", "HeatingRateInSecPerK", "RoomTemperature" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.TimePerStateInMS), global::ModularEmulator.Modules.Proto.TimePerStateInMS.Parser, new[]{ "TimeOff", "TimeIdle", "TimeActive", "TimeMaintenance" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh), global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh.Parser, new[]{ "EnergyOff", "EnergyIdle", "EnergyActive", "EnergyMaintenance" }, null, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::ManufacturingScenarioRepository.Service), typeof(global::ManufacturingScenarioRepository.state), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.OPCUAIdentification), global::ManufacturingScenarioRepository.OPCUAIdentification.Parser, new[]{ "NodeId", "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.Module), global::ManufacturingScenarioRepository.Module.Parser, new[]{ "ChildModules", "CurrentState", "TimePerStateInMS", "EnergyUsePerStateInkWh", "Id", "Description", "InvestmentCosts", "ImplementedServices", "ConsumedServices", "Parameters" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ParameterSet), global::ManufacturingScenarioRepository.ParameterSet.Parser, new[]{ "Id", "ScanlabScanner", "Laser", "StandardCoater", "BuildChamber", "CuboidBuildVolume", "ZylinderBuildVolume", "Preheater", "NovantaScanner", "BasicLPBFMachine" }, new[]{ "TypeAndParameters" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.BasicLPBFMachineParams), global::ManufacturingScenarioRepository.BasicLPBFMachineParams.Parser, new[]{ "NumberOfLaserScannerUnits", "ScanFields", "MinLayerHeightUM", "MinZDistMm", "MinimalHatchLength", "ForcedMinimumExposureTimeInS" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ServiceInterface), global::ManufacturingScenarioRepository.ServiceInterface.Parser, new[]{ "ConsumedService", "ImplementingModule" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.BasicScannerParams), global::ManufacturingScenarioRepository.BasicScannerParams.Parser, new[]{ "JumpSpeedInMmS", "MarkSpeedInMmS", "LaserFocusShiftInMm", "MaxAccelerationInMmPerSS", "StaticDelayInS", "JumpDelayInUs", "MarkDelayInUs", "LaserOffDelayInUs", "LaserOnDelayInUs", "PolygonDelayInUs", "VectorBlockDelay", "ParamChangeDelay", "WarpJumpLengthLimit", "JumpMode" }, null, new[]{ typeof(global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.CommonSkyWritingParams), global::ManufacturingScenarioRepository.CommonSkyWritingParams.Parser, new[]{ "NPrevInTenUsTicks", "NPostInTenUsTicks", "LimitAngle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.CoordinateTransformParams), global::ManufacturingScenarioRepository.CoordinateTransformParams.Parser, new[]{ "DeleteZeroLengthJumps", "MinimalJumpLength", "MinimalMarkLength" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.NovantaScannerParams), global::ManufacturingScenarioRepository.NovantaScannerParams.Parser, new[]{ "BasicScannerParams", "SkyWritingParams", "CoordTransformParams", "SkyWritingMode", "DelayMode", "RadialErrorInUm", "SafetyFactorFlyByLow", "SafetyFactorFlyByHigh", "SafetyFactorRadialErrorLimit" }, null, new[]{ typeof(global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode), typeof(global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ScanlabScannerParams), global::ManufacturingScenarioRepository.ScanlabScannerParams.Parser, new[]{ "BasicScannerParams", "SkyWritingParams", "CoordTransformParams", "SkyWritingMode", "TimeLagInUs", "SkyWritingParametringMode", "DelayMode" }, null, new[]{ typeof(global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode), typeof(global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode), typeof(global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ScanField), global::ManufacturingScenarioRepository.ScanField.Parser, new[]{ "XMin", "XMax", "YMin", "YMax" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.LaserParams), global::ManufacturingScenarioRepository.LaserParams.Parser, new[]{ "LaserPowerInW" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.StandardCoaterParams), global::ManufacturingScenarioRepository.StandardCoaterParams.Parser, new[]{ "CoatingSpeedForwardInMmPerSec", "CoatingSpeedBackwardInMmPerSec", "DistanceInMm", "ForwardDelayInSec", "BackwardDelayInSec", "Acceleration", "IsBidirectional" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.BuildChamberParams), global::ManufacturingScenarioRepository.BuildChamberParams.Parser, new[]{ "PlatformLiftRateInMmPerSec", "PlatformLiftAccelerationInMmPerSec2", "PlatformLiftDelayInS", "InertAtmosphereTimeInS", "ReleaseAtmosphereTimeInS", "MaximumO2PPM" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.CuboidBuildVolumeParams), global::ManufacturingScenarioRepository.CuboidBuildVolumeParams.Parser, new[]{ "XMin", "XMax", "YMin", "YMax", "ZMin", "ZMax" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams), global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams.Parser, new[]{ "Diameter", "Height" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.PreheaterParams), global::ManufacturingScenarioRepository.PreheaterParams.Parser, new[]{ "PreheatingTemperature", "MaximumPreheatingTemperature", "HeatingRateInSecPerK", "RoomTemperature" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.TimePerStateInMS), global::ManufacturingScenarioRepository.TimePerStateInMS.Parser, new[]{ "TimeOff", "TimeIdle", "TimeActive", "TimeMaintenance" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh), global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh.Parser, new[]{ "EnergyOff", "EnergyIdle", "EnergyActive", "EnergyMaintenance" }, null, null, null, null)
           }));
     }
     #endregion
@@ -229,7 +230,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -458,7 +459,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[1]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -499,21 +500,21 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "childModules" field.</summary>
     public const int ChildModulesFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::ModularEmulator.Modules.Proto.Module> _repeated_childModules_codec
-        = pb::FieldCodec.ForMessage(10, global::ModularEmulator.Modules.Proto.Module.Parser);
-    private readonly pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Module> childModules_ = new pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Module>();
+    private static readonly pb::FieldCodec<global::ManufacturingScenarioRepository.Module> _repeated_childModules_codec
+        = pb::FieldCodec.ForMessage(10, global::ManufacturingScenarioRepository.Module.Parser);
+    private readonly pbc::RepeatedField<global::ManufacturingScenarioRepository.Module> childModules_ = new pbc::RepeatedField<global::ManufacturingScenarioRepository.Module>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Module> ChildModules {
+    public pbc::RepeatedField<global::ManufacturingScenarioRepository.Module> ChildModules {
       get { return childModules_; }
     }
 
     /// <summary>Field number for the "currentState" field.</summary>
     public const int CurrentStateFieldNumber = 2;
-    private global::ModularEmulator.Modules.Proto.state currentState_ = global::ModularEmulator.Modules.Proto.state.Off;
+    private global::ManufacturingScenarioRepository.state currentState_ = global::ManufacturingScenarioRepository.state.Off;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.state CurrentState {
+    public global::ManufacturingScenarioRepository.state CurrentState {
       get { return currentState_; }
       set {
         currentState_ = value;
@@ -522,10 +523,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "timePerStateInMS" field.</summary>
     public const int TimePerStateInMSFieldNumber = 3;
-    private global::ModularEmulator.Modules.Proto.TimePerStateInMS timePerStateInMS_;
+    private global::ManufacturingScenarioRepository.TimePerStateInMS timePerStateInMS_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.TimePerStateInMS TimePerStateInMS {
+    public global::ManufacturingScenarioRepository.TimePerStateInMS TimePerStateInMS {
       get { return timePerStateInMS_; }
       set {
         timePerStateInMS_ = value;
@@ -534,10 +535,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "energyUsePerStateInkWh" field.</summary>
     public const int EnergyUsePerStateInkWhFieldNumber = 4;
-    private global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh energyUsePerStateInkWh_;
+    private global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh energyUsePerStateInkWh_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh EnergyUsePerStateInkWh {
+    public global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh EnergyUsePerStateInkWh {
       get { return energyUsePerStateInkWh_; }
       set {
         energyUsePerStateInkWh_ = value;
@@ -546,10 +547,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 5;
-    private global::ModularEmulator.Modules.Proto.OPCUAIdentification id_;
+    private global::ManufacturingScenarioRepository.OPCUAIdentification id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.OPCUAIdentification Id {
+    public global::ManufacturingScenarioRepository.OPCUAIdentification Id {
       get { return id_; }
       set {
         id_ = value;
@@ -582,32 +583,32 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "implementedServices" field.</summary>
     public const int ImplementedServicesFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::ModularEmulator.Modules.Proto.Service> _repeated_implementedServices_codec
-        = pb::FieldCodec.ForEnum(66, x => (int) x, x => (global::ModularEmulator.Modules.Proto.Service) x);
-    private readonly pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Service> implementedServices_ = new pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Service>();
+    private static readonly pb::FieldCodec<global::ManufacturingScenarioRepository.Service> _repeated_implementedServices_codec
+        = pb::FieldCodec.ForEnum(66, x => (int) x, x => (global::ManufacturingScenarioRepository.Service) x);
+    private readonly pbc::RepeatedField<global::ManufacturingScenarioRepository.Service> implementedServices_ = new pbc::RepeatedField<global::ManufacturingScenarioRepository.Service>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::ModularEmulator.Modules.Proto.Service> ImplementedServices {
+    public pbc::RepeatedField<global::ManufacturingScenarioRepository.Service> ImplementedServices {
       get { return implementedServices_; }
     }
 
     /// <summary>Field number for the "consumedServices" field.</summary>
     public const int ConsumedServicesFieldNumber = 9;
-    private static readonly pb::FieldCodec<global::ModularEmulator.Modules.Proto.ServiceInterface> _repeated_consumedServices_codec
-        = pb::FieldCodec.ForMessage(74, global::ModularEmulator.Modules.Proto.ServiceInterface.Parser);
-    private readonly pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ServiceInterface> consumedServices_ = new pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ServiceInterface>();
+    private static readonly pb::FieldCodec<global::ManufacturingScenarioRepository.ServiceInterface> _repeated_consumedServices_codec
+        = pb::FieldCodec.ForMessage(74, global::ManufacturingScenarioRepository.ServiceInterface.Parser);
+    private readonly pbc::RepeatedField<global::ManufacturingScenarioRepository.ServiceInterface> consumedServices_ = new pbc::RepeatedField<global::ManufacturingScenarioRepository.ServiceInterface>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ServiceInterface> ConsumedServices {
+    public pbc::RepeatedField<global::ManufacturingScenarioRepository.ServiceInterface> ConsumedServices {
       get { return consumedServices_; }
     }
 
     /// <summary>Field number for the "parameters" field.</summary>
     public const int ParametersFieldNumber = 10;
-    private global::ModularEmulator.Modules.Proto.ParameterSet parameters_;
+    private global::ManufacturingScenarioRepository.ParameterSet parameters_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ParameterSet Parameters {
+    public global::ManufacturingScenarioRepository.ParameterSet Parameters {
       get { return parameters_; }
       set {
         parameters_ = value;
@@ -647,7 +648,7 @@ namespace ModularEmulator.Modules.Proto {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= childModules_.GetHashCode();
-      if (CurrentState != global::ModularEmulator.Modules.Proto.state.Off) hash ^= CurrentState.GetHashCode();
+      if (CurrentState != global::ManufacturingScenarioRepository.state.Off) hash ^= CurrentState.GetHashCode();
       if (timePerStateInMS_ != null) hash ^= TimePerStateInMS.GetHashCode();
       if (energyUsePerStateInkWh_ != null) hash ^= EnergyUsePerStateInkWh.GetHashCode();
       if (id_ != null) hash ^= Id.GetHashCode();
@@ -675,7 +676,7 @@ namespace ModularEmulator.Modules.Proto {
       output.WriteRawMessage(this);
     #else
       childModules_.WriteTo(output, _repeated_childModules_codec);
-      if (CurrentState != global::ModularEmulator.Modules.Proto.state.Off) {
+      if (CurrentState != global::ManufacturingScenarioRepository.state.Off) {
         output.WriteRawTag(16);
         output.WriteEnum((int) CurrentState);
       }
@@ -716,7 +717,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       childModules_.WriteTo(ref output, _repeated_childModules_codec);
-      if (CurrentState != global::ModularEmulator.Modules.Proto.state.Off) {
+      if (CurrentState != global::ManufacturingScenarioRepository.state.Off) {
         output.WriteRawTag(16);
         output.WriteEnum((int) CurrentState);
       }
@@ -757,7 +758,7 @@ namespace ModularEmulator.Modules.Proto {
     public int CalculateSize() {
       int size = 0;
       size += childModules_.CalculateSize(_repeated_childModules_codec);
-      if (CurrentState != global::ModularEmulator.Modules.Proto.state.Off) {
+      if (CurrentState != global::ManufacturingScenarioRepository.state.Off) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) CurrentState);
       }
       if (timePerStateInMS_ != null) {
@@ -793,24 +794,24 @@ namespace ModularEmulator.Modules.Proto {
         return;
       }
       childModules_.Add(other.childModules_);
-      if (other.CurrentState != global::ModularEmulator.Modules.Proto.state.Off) {
+      if (other.CurrentState != global::ManufacturingScenarioRepository.state.Off) {
         CurrentState = other.CurrentState;
       }
       if (other.timePerStateInMS_ != null) {
         if (timePerStateInMS_ == null) {
-          TimePerStateInMS = new global::ModularEmulator.Modules.Proto.TimePerStateInMS();
+          TimePerStateInMS = new global::ManufacturingScenarioRepository.TimePerStateInMS();
         }
         TimePerStateInMS.MergeFrom(other.TimePerStateInMS);
       }
       if (other.energyUsePerStateInkWh_ != null) {
         if (energyUsePerStateInkWh_ == null) {
-          EnergyUsePerStateInkWh = new global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh();
+          EnergyUsePerStateInkWh = new global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh();
         }
         EnergyUsePerStateInkWh.MergeFrom(other.EnergyUsePerStateInkWh);
       }
       if (other.id_ != null) {
         if (id_ == null) {
-          Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+          Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
         }
         Id.MergeFrom(other.Id);
       }
@@ -824,7 +825,7 @@ namespace ModularEmulator.Modules.Proto {
       consumedServices_.Add(other.consumedServices_);
       if (other.parameters_ != null) {
         if (parameters_ == null) {
-          Parameters = new global::ModularEmulator.Modules.Proto.ParameterSet();
+          Parameters = new global::ManufacturingScenarioRepository.ParameterSet();
         }
         Parameters.MergeFrom(other.Parameters);
       }
@@ -848,26 +849,26 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 16: {
-            CurrentState = (global::ModularEmulator.Modules.Proto.state) input.ReadEnum();
+            CurrentState = (global::ManufacturingScenarioRepository.state) input.ReadEnum();
             break;
           }
           case 26: {
             if (timePerStateInMS_ == null) {
-              TimePerStateInMS = new global::ModularEmulator.Modules.Proto.TimePerStateInMS();
+              TimePerStateInMS = new global::ManufacturingScenarioRepository.TimePerStateInMS();
             }
             input.ReadMessage(TimePerStateInMS);
             break;
           }
           case 34: {
             if (energyUsePerStateInkWh_ == null) {
-              EnergyUsePerStateInkWh = new global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh();
+              EnergyUsePerStateInkWh = new global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh();
             }
             input.ReadMessage(EnergyUsePerStateInkWh);
             break;
           }
           case 42: {
             if (id_ == null) {
-              Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(Id);
             break;
@@ -891,7 +892,7 @@ namespace ModularEmulator.Modules.Proto {
           }
           case 82: {
             if (parameters_ == null) {
-              Parameters = new global::ModularEmulator.Modules.Proto.ParameterSet();
+              Parameters = new global::ManufacturingScenarioRepository.ParameterSet();
             }
             input.ReadMessage(Parameters);
             break;
@@ -916,26 +917,26 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 16: {
-            CurrentState = (global::ModularEmulator.Modules.Proto.state) input.ReadEnum();
+            CurrentState = (global::ManufacturingScenarioRepository.state) input.ReadEnum();
             break;
           }
           case 26: {
             if (timePerStateInMS_ == null) {
-              TimePerStateInMS = new global::ModularEmulator.Modules.Proto.TimePerStateInMS();
+              TimePerStateInMS = new global::ManufacturingScenarioRepository.TimePerStateInMS();
             }
             input.ReadMessage(TimePerStateInMS);
             break;
           }
           case 34: {
             if (energyUsePerStateInkWh_ == null) {
-              EnergyUsePerStateInkWh = new global::ModularEmulator.Modules.Proto.EnergyUsePerStateInkWh();
+              EnergyUsePerStateInkWh = new global::ManufacturingScenarioRepository.EnergyUsePerStateInkWh();
             }
             input.ReadMessage(EnergyUsePerStateInkWh);
             break;
           }
           case 42: {
             if (id_ == null) {
-              Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(Id);
             break;
@@ -959,7 +960,7 @@ namespace ModularEmulator.Modules.Proto {
           }
           case 82: {
             if (parameters_ == null) {
-              Parameters = new global::ModularEmulator.Modules.Proto.ParameterSet();
+              Parameters = new global::ManufacturingScenarioRepository.ParameterSet();
             }
             input.ReadMessage(Parameters);
             break;
@@ -988,7 +989,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[2]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1050,10 +1051,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
-    private global::ModularEmulator.Modules.Proto.OPCUAIdentification id_;
+    private global::ManufacturingScenarioRepository.OPCUAIdentification id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.OPCUAIdentification Id {
+    public global::ManufacturingScenarioRepository.OPCUAIdentification Id {
       get { return id_; }
       set {
         id_ = value;
@@ -1064,8 +1065,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int ScanlabScannerFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ScanlabScannerParams ScanlabScanner {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.ScanlabScanner ? (global::ModularEmulator.Modules.Proto.ScanlabScannerParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.ScanlabScannerParams ScanlabScanner {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.ScanlabScanner ? (global::ManufacturingScenarioRepository.ScanlabScannerParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.ScanlabScanner;
@@ -1076,8 +1077,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int LaserFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.LaserParams Laser {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.Laser ? (global::ModularEmulator.Modules.Proto.LaserParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.LaserParams Laser {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.Laser ? (global::ManufacturingScenarioRepository.LaserParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.Laser;
@@ -1088,8 +1089,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int StandardCoaterFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.StandardCoaterParams StandardCoater {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.StandardCoater ? (global::ModularEmulator.Modules.Proto.StandardCoaterParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.StandardCoaterParams StandardCoater {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.StandardCoater ? (global::ManufacturingScenarioRepository.StandardCoaterParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.StandardCoater;
@@ -1100,8 +1101,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int BuildChamberFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.BuildChamberParams BuildChamber {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.BuildChamber ? (global::ModularEmulator.Modules.Proto.BuildChamberParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.BuildChamberParams BuildChamber {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.BuildChamber ? (global::ManufacturingScenarioRepository.BuildChamberParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.BuildChamber;
@@ -1112,8 +1113,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int CuboidBuildVolumeFieldNumber = 16;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams CuboidBuildVolume {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.CuboidBuildVolume ? (global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.CuboidBuildVolumeParams CuboidBuildVolume {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.CuboidBuildVolume ? (global::ManufacturingScenarioRepository.CuboidBuildVolumeParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.CuboidBuildVolume;
@@ -1124,8 +1125,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int ZylinderBuildVolumeFieldNumber = 17;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams ZylinderBuildVolume {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.ZylinderBuildVolume ? (global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams ZylinderBuildVolume {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.ZylinderBuildVolume ? (global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.ZylinderBuildVolume;
@@ -1136,8 +1137,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int PreheaterFieldNumber = 19;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.PreheaterParams Preheater {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.Preheater ? (global::ModularEmulator.Modules.Proto.PreheaterParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.PreheaterParams Preheater {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.Preheater ? (global::ManufacturingScenarioRepository.PreheaterParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.Preheater;
@@ -1148,8 +1149,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int NovantaScannerFieldNumber = 31;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.NovantaScannerParams NovantaScanner {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.NovantaScanner ? (global::ModularEmulator.Modules.Proto.NovantaScannerParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.NovantaScannerParams NovantaScanner {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.NovantaScanner ? (global::ManufacturingScenarioRepository.NovantaScannerParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.NovantaScanner;
@@ -1160,8 +1161,8 @@ namespace ModularEmulator.Modules.Proto {
     public const int BasicLPBFMachineFieldNumber = 100;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams BasicLPBFMachine {
-      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.BasicLPBFMachine ? (global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams) typeAndParameters_ : null; }
+    public global::ManufacturingScenarioRepository.BasicLPBFMachineParams BasicLPBFMachine {
+      get { return typeAndParametersCase_ == TypeAndParametersOneofCase.BasicLPBFMachine ? (global::ManufacturingScenarioRepository.BasicLPBFMachineParams) typeAndParameters_ : null; }
       set {
         typeAndParameters_ = value;
         typeAndParametersCase_ = value == null ? TypeAndParametersOneofCase.None : TypeAndParametersOneofCase.BasicLPBFMachine;
@@ -1402,62 +1403,62 @@ namespace ModularEmulator.Modules.Proto {
       }
       if (other.id_ != null) {
         if (id_ == null) {
-          Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+          Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
         }
         Id.MergeFrom(other.Id);
       }
       switch (other.TypeAndParametersCase) {
         case TypeAndParametersOneofCase.ScanlabScanner:
           if (ScanlabScanner == null) {
-            ScanlabScanner = new global::ModularEmulator.Modules.Proto.ScanlabScannerParams();
+            ScanlabScanner = new global::ManufacturingScenarioRepository.ScanlabScannerParams();
           }
           ScanlabScanner.MergeFrom(other.ScanlabScanner);
           break;
         case TypeAndParametersOneofCase.Laser:
           if (Laser == null) {
-            Laser = new global::ModularEmulator.Modules.Proto.LaserParams();
+            Laser = new global::ManufacturingScenarioRepository.LaserParams();
           }
           Laser.MergeFrom(other.Laser);
           break;
         case TypeAndParametersOneofCase.StandardCoater:
           if (StandardCoater == null) {
-            StandardCoater = new global::ModularEmulator.Modules.Proto.StandardCoaterParams();
+            StandardCoater = new global::ManufacturingScenarioRepository.StandardCoaterParams();
           }
           StandardCoater.MergeFrom(other.StandardCoater);
           break;
         case TypeAndParametersOneofCase.BuildChamber:
           if (BuildChamber == null) {
-            BuildChamber = new global::ModularEmulator.Modules.Proto.BuildChamberParams();
+            BuildChamber = new global::ManufacturingScenarioRepository.BuildChamberParams();
           }
           BuildChamber.MergeFrom(other.BuildChamber);
           break;
         case TypeAndParametersOneofCase.CuboidBuildVolume:
           if (CuboidBuildVolume == null) {
-            CuboidBuildVolume = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            CuboidBuildVolume = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
           }
           CuboidBuildVolume.MergeFrom(other.CuboidBuildVolume);
           break;
         case TypeAndParametersOneofCase.ZylinderBuildVolume:
           if (ZylinderBuildVolume == null) {
-            ZylinderBuildVolume = new global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams();
+            ZylinderBuildVolume = new global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams();
           }
           ZylinderBuildVolume.MergeFrom(other.ZylinderBuildVolume);
           break;
         case TypeAndParametersOneofCase.Preheater:
           if (Preheater == null) {
-            Preheater = new global::ModularEmulator.Modules.Proto.PreheaterParams();
+            Preheater = new global::ManufacturingScenarioRepository.PreheaterParams();
           }
           Preheater.MergeFrom(other.Preheater);
           break;
         case TypeAndParametersOneofCase.NovantaScanner:
           if (NovantaScanner == null) {
-            NovantaScanner = new global::ModularEmulator.Modules.Proto.NovantaScannerParams();
+            NovantaScanner = new global::ManufacturingScenarioRepository.NovantaScannerParams();
           }
           NovantaScanner.MergeFrom(other.NovantaScanner);
           break;
         case TypeAndParametersOneofCase.BasicLPBFMachine:
           if (BasicLPBFMachine == null) {
-            BasicLPBFMachine = new global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams();
+            BasicLPBFMachine = new global::ManufacturingScenarioRepository.BasicLPBFMachineParams();
           }
           BasicLPBFMachine.MergeFrom(other.BasicLPBFMachine);
           break;
@@ -1480,13 +1481,13 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (id_ == null) {
-              Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(Id);
             break;
           }
           case 82: {
-            global::ModularEmulator.Modules.Proto.ScanlabScannerParams subBuilder = new global::ModularEmulator.Modules.Proto.ScanlabScannerParams();
+            global::ManufacturingScenarioRepository.ScanlabScannerParams subBuilder = new global::ManufacturingScenarioRepository.ScanlabScannerParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.ScanlabScanner) {
               subBuilder.MergeFrom(ScanlabScanner);
             }
@@ -1495,7 +1496,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 90: {
-            global::ModularEmulator.Modules.Proto.LaserParams subBuilder = new global::ModularEmulator.Modules.Proto.LaserParams();
+            global::ManufacturingScenarioRepository.LaserParams subBuilder = new global::ManufacturingScenarioRepository.LaserParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.Laser) {
               subBuilder.MergeFrom(Laser);
             }
@@ -1504,7 +1505,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 98: {
-            global::ModularEmulator.Modules.Proto.StandardCoaterParams subBuilder = new global::ModularEmulator.Modules.Proto.StandardCoaterParams();
+            global::ManufacturingScenarioRepository.StandardCoaterParams subBuilder = new global::ManufacturingScenarioRepository.StandardCoaterParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.StandardCoater) {
               subBuilder.MergeFrom(StandardCoater);
             }
@@ -1513,7 +1514,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 122: {
-            global::ModularEmulator.Modules.Proto.BuildChamberParams subBuilder = new global::ModularEmulator.Modules.Proto.BuildChamberParams();
+            global::ManufacturingScenarioRepository.BuildChamberParams subBuilder = new global::ManufacturingScenarioRepository.BuildChamberParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.BuildChamber) {
               subBuilder.MergeFrom(BuildChamber);
             }
@@ -1522,7 +1523,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 130: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.CuboidBuildVolume) {
               subBuilder.MergeFrom(CuboidBuildVolume);
             }
@@ -1531,7 +1532,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 138: {
-            global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams();
+            global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.ZylinderBuildVolume) {
               subBuilder.MergeFrom(ZylinderBuildVolume);
             }
@@ -1540,7 +1541,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 154: {
-            global::ModularEmulator.Modules.Proto.PreheaterParams subBuilder = new global::ModularEmulator.Modules.Proto.PreheaterParams();
+            global::ManufacturingScenarioRepository.PreheaterParams subBuilder = new global::ManufacturingScenarioRepository.PreheaterParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.Preheater) {
               subBuilder.MergeFrom(Preheater);
             }
@@ -1549,7 +1550,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 250: {
-            global::ModularEmulator.Modules.Proto.NovantaScannerParams subBuilder = new global::ModularEmulator.Modules.Proto.NovantaScannerParams();
+            global::ManufacturingScenarioRepository.NovantaScannerParams subBuilder = new global::ManufacturingScenarioRepository.NovantaScannerParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.NovantaScanner) {
               subBuilder.MergeFrom(NovantaScanner);
             }
@@ -1558,7 +1559,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 802: {
-            global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams subBuilder = new global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams();
+            global::ManufacturingScenarioRepository.BasicLPBFMachineParams subBuilder = new global::ManufacturingScenarioRepository.BasicLPBFMachineParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.BasicLPBFMachine) {
               subBuilder.MergeFrom(BasicLPBFMachine);
             }
@@ -1583,13 +1584,13 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (id_ == null) {
-              Id = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              Id = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(Id);
             break;
           }
           case 82: {
-            global::ModularEmulator.Modules.Proto.ScanlabScannerParams subBuilder = new global::ModularEmulator.Modules.Proto.ScanlabScannerParams();
+            global::ManufacturingScenarioRepository.ScanlabScannerParams subBuilder = new global::ManufacturingScenarioRepository.ScanlabScannerParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.ScanlabScanner) {
               subBuilder.MergeFrom(ScanlabScanner);
             }
@@ -1598,7 +1599,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 90: {
-            global::ModularEmulator.Modules.Proto.LaserParams subBuilder = new global::ModularEmulator.Modules.Proto.LaserParams();
+            global::ManufacturingScenarioRepository.LaserParams subBuilder = new global::ManufacturingScenarioRepository.LaserParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.Laser) {
               subBuilder.MergeFrom(Laser);
             }
@@ -1607,7 +1608,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 98: {
-            global::ModularEmulator.Modules.Proto.StandardCoaterParams subBuilder = new global::ModularEmulator.Modules.Proto.StandardCoaterParams();
+            global::ManufacturingScenarioRepository.StandardCoaterParams subBuilder = new global::ManufacturingScenarioRepository.StandardCoaterParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.StandardCoater) {
               subBuilder.MergeFrom(StandardCoater);
             }
@@ -1616,7 +1617,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 122: {
-            global::ModularEmulator.Modules.Proto.BuildChamberParams subBuilder = new global::ModularEmulator.Modules.Proto.BuildChamberParams();
+            global::ManufacturingScenarioRepository.BuildChamberParams subBuilder = new global::ManufacturingScenarioRepository.BuildChamberParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.BuildChamber) {
               subBuilder.MergeFrom(BuildChamber);
             }
@@ -1625,7 +1626,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 130: {
-            global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.CuboidBuildVolumeParams();
+            global::ManufacturingScenarioRepository.CuboidBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.CuboidBuildVolumeParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.CuboidBuildVolume) {
               subBuilder.MergeFrom(CuboidBuildVolume);
             }
@@ -1634,7 +1635,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 138: {
-            global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams subBuilder = new global::ModularEmulator.Modules.Proto.ZylinderBuildVolumeParams();
+            global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams subBuilder = new global::ManufacturingScenarioRepository.ZylinderBuildVolumeParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.ZylinderBuildVolume) {
               subBuilder.MergeFrom(ZylinderBuildVolume);
             }
@@ -1643,7 +1644,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 154: {
-            global::ModularEmulator.Modules.Proto.PreheaterParams subBuilder = new global::ModularEmulator.Modules.Proto.PreheaterParams();
+            global::ManufacturingScenarioRepository.PreheaterParams subBuilder = new global::ManufacturingScenarioRepository.PreheaterParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.Preheater) {
               subBuilder.MergeFrom(Preheater);
             }
@@ -1652,7 +1653,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 250: {
-            global::ModularEmulator.Modules.Proto.NovantaScannerParams subBuilder = new global::ModularEmulator.Modules.Proto.NovantaScannerParams();
+            global::ManufacturingScenarioRepository.NovantaScannerParams subBuilder = new global::ManufacturingScenarioRepository.NovantaScannerParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.NovantaScanner) {
               subBuilder.MergeFrom(NovantaScanner);
             }
@@ -1661,7 +1662,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 802: {
-            global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams subBuilder = new global::ModularEmulator.Modules.Proto.BasicLPBFMachineParams();
+            global::ManufacturingScenarioRepository.BasicLPBFMachineParams subBuilder = new global::ManufacturingScenarioRepository.BasicLPBFMachineParams();
             if (typeAndParametersCase_ == TypeAndParametersOneofCase.BasicLPBFMachine) {
               subBuilder.MergeFrom(BasicLPBFMachine);
             }
@@ -1690,7 +1691,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[3]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1739,12 +1740,12 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "scanFields" field.</summary>
     public const int ScanFieldsFieldNumber = 20;
-    private static readonly pb::FieldCodec<global::ModularEmulator.Modules.Proto.ScanField> _repeated_scanFields_codec
-        = pb::FieldCodec.ForMessage(162, global::ModularEmulator.Modules.Proto.ScanField.Parser);
-    private readonly pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ScanField> scanFields_ = new pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ScanField>();
+    private static readonly pb::FieldCodec<global::ManufacturingScenarioRepository.ScanField> _repeated_scanFields_codec
+        = pb::FieldCodec.ForMessage(162, global::ManufacturingScenarioRepository.ScanField.Parser);
+    private readonly pbc::RepeatedField<global::ManufacturingScenarioRepository.ScanField> scanFields_ = new pbc::RepeatedField<global::ManufacturingScenarioRepository.ScanField>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::ModularEmulator.Modules.Proto.ScanField> ScanFields {
+    public pbc::RepeatedField<global::ManufacturingScenarioRepository.ScanField> ScanFields {
       get { return scanFields_; }
     }
 
@@ -2056,7 +2057,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[4]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2089,10 +2090,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "consumedService" field.</summary>
     public const int ConsumedServiceFieldNumber = 1;
-    private global::ModularEmulator.Modules.Proto.Service consumedService_ = global::ModularEmulator.Modules.Proto.Service.Laserdeflector;
+    private global::ManufacturingScenarioRepository.Service consumedService_ = global::ManufacturingScenarioRepository.Service.Laserdeflector;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.Service ConsumedService {
+    public global::ManufacturingScenarioRepository.Service ConsumedService {
       get { return consumedService_; }
       set {
         consumedService_ = value;
@@ -2101,10 +2102,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "implementingModule" field.</summary>
     public const int ImplementingModuleFieldNumber = 2;
-    private global::ModularEmulator.Modules.Proto.OPCUAIdentification implementingModule_;
+    private global::ManufacturingScenarioRepository.OPCUAIdentification implementingModule_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.OPCUAIdentification ImplementingModule {
+    public global::ManufacturingScenarioRepository.OPCUAIdentification ImplementingModule {
       get { return implementingModule_; }
       set {
         implementingModule_ = value;
@@ -2135,7 +2136,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (ConsumedService != global::ModularEmulator.Modules.Proto.Service.Laserdeflector) hash ^= ConsumedService.GetHashCode();
+      if (ConsumedService != global::ManufacturingScenarioRepository.Service.Laserdeflector) hash ^= ConsumedService.GetHashCode();
       if (implementingModule_ != null) hash ^= ImplementingModule.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2155,7 +2156,7 @@ namespace ModularEmulator.Modules.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ConsumedService != global::ModularEmulator.Modules.Proto.Service.Laserdeflector) {
+      if (ConsumedService != global::ManufacturingScenarioRepository.Service.Laserdeflector) {
         output.WriteRawTag(8);
         output.WriteEnum((int) ConsumedService);
       }
@@ -2173,7 +2174,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ConsumedService != global::ModularEmulator.Modules.Proto.Service.Laserdeflector) {
+      if (ConsumedService != global::ManufacturingScenarioRepository.Service.Laserdeflector) {
         output.WriteRawTag(8);
         output.WriteEnum((int) ConsumedService);
       }
@@ -2191,7 +2192,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (ConsumedService != global::ModularEmulator.Modules.Proto.Service.Laserdeflector) {
+      if (ConsumedService != global::ManufacturingScenarioRepository.Service.Laserdeflector) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ConsumedService);
       }
       if (implementingModule_ != null) {
@@ -2209,12 +2210,12 @@ namespace ModularEmulator.Modules.Proto {
       if (other == null) {
         return;
       }
-      if (other.ConsumedService != global::ModularEmulator.Modules.Proto.Service.Laserdeflector) {
+      if (other.ConsumedService != global::ManufacturingScenarioRepository.Service.Laserdeflector) {
         ConsumedService = other.ConsumedService;
       }
       if (other.implementingModule_ != null) {
         if (implementingModule_ == null) {
-          ImplementingModule = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+          ImplementingModule = new global::ManufacturingScenarioRepository.OPCUAIdentification();
         }
         ImplementingModule.MergeFrom(other.ImplementingModule);
       }
@@ -2234,12 +2235,12 @@ namespace ModularEmulator.Modules.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            ConsumedService = (global::ModularEmulator.Modules.Proto.Service) input.ReadEnum();
+            ConsumedService = (global::ManufacturingScenarioRepository.Service) input.ReadEnum();
             break;
           }
           case 18: {
             if (implementingModule_ == null) {
-              ImplementingModule = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              ImplementingModule = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(ImplementingModule);
             break;
@@ -2260,12 +2261,12 @@ namespace ModularEmulator.Modules.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            ConsumedService = (global::ModularEmulator.Modules.Proto.Service) input.ReadEnum();
+            ConsumedService = (global::ManufacturingScenarioRepository.Service) input.ReadEnum();
             break;
           }
           case 18: {
             if (implementingModule_ == null) {
-              ImplementingModule = new global::ModularEmulator.Modules.Proto.OPCUAIdentification();
+              ImplementingModule = new global::ManufacturingScenarioRepository.OPCUAIdentification();
             }
             input.ReadMessage(ImplementingModule);
             break;
@@ -2291,7 +2292,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[5]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2531,10 +2532,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "jumpMode" field.</summary>
     public const int JumpModeFieldNumber = 14;
-    private global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode jumpMode_ = global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static;
+    private global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode jumpMode_ = global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode JumpMode {
+    public global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode JumpMode {
       get { return jumpMode_; }
       set {
         jumpMode_ = value;
@@ -2590,7 +2591,7 @@ namespace ModularEmulator.Modules.Proto {
       if (VectorBlockDelay != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(VectorBlockDelay);
       if (ParamChangeDelay != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(ParamChangeDelay);
       if (WarpJumpLengthLimit != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(WarpJumpLengthLimit);
-      if (JumpMode != global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static) hash ^= JumpMode.GetHashCode();
+      if (JumpMode != global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static) hash ^= JumpMode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2661,7 +2662,7 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(105);
         output.WriteDouble(WarpJumpLengthLimit);
       }
-      if (JumpMode != global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static) {
+      if (JumpMode != global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static) {
         output.WriteRawTag(112);
         output.WriteEnum((int) JumpMode);
       }
@@ -2727,7 +2728,7 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(105);
         output.WriteDouble(WarpJumpLengthLimit);
       }
-      if (JumpMode != global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static) {
+      if (JumpMode != global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static) {
         output.WriteRawTag(112);
         output.WriteEnum((int) JumpMode);
       }
@@ -2780,7 +2781,7 @@ namespace ModularEmulator.Modules.Proto {
       if (WarpJumpLengthLimit != 0D) {
         size += 1 + 8;
       }
-      if (JumpMode != global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static) {
+      if (JumpMode != global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) JumpMode);
       }
       if (_unknownFields != null) {
@@ -2834,7 +2835,7 @@ namespace ModularEmulator.Modules.Proto {
       if (other.WarpJumpLengthLimit != 0D) {
         WarpJumpLengthLimit = other.WarpJumpLengthLimit;
       }
-      if (other.JumpMode != global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode.Static) {
+      if (other.JumpMode != global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode.Static) {
         JumpMode = other.JumpMode;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2905,7 +2906,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 112: {
-            JumpMode = (global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode) input.ReadEnum();
+            JumpMode = (global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode) input.ReadEnum();
             break;
           }
         }
@@ -2976,7 +2977,7 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 112: {
-            JumpMode = (global::ModularEmulator.Modules.Proto.BasicScannerParams.Types.JumpMode) input.ReadEnum();
+            JumpMode = (global::ManufacturingScenarioRepository.BasicScannerParams.Types.JumpMode) input.ReadEnum();
             break;
           }
         }
@@ -3019,7 +3020,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[6]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3282,7 +3283,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[7]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3556,7 +3557,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[8]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3596,10 +3597,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "basicScannerParams" field.</summary>
     public const int BasicScannerParamsFieldNumber = 1;
-    private global::ModularEmulator.Modules.Proto.BasicScannerParams basicScannerParams_;
+    private global::ManufacturingScenarioRepository.BasicScannerParams basicScannerParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.BasicScannerParams BasicScannerParams {
+    public global::ManufacturingScenarioRepository.BasicScannerParams BasicScannerParams {
       get { return basicScannerParams_; }
       set {
         basicScannerParams_ = value;
@@ -3608,10 +3609,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "skyWritingParams" field.</summary>
     public const int SkyWritingParamsFieldNumber = 2;
-    private global::ModularEmulator.Modules.Proto.CommonSkyWritingParams skyWritingParams_;
+    private global::ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CommonSkyWritingParams SkyWritingParams {
+    public global::ManufacturingScenarioRepository.CommonSkyWritingParams SkyWritingParams {
       get { return skyWritingParams_; }
       set {
         skyWritingParams_ = value;
@@ -3620,10 +3621,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "coordTransformParams" field.</summary>
     public const int CoordTransformParamsFieldNumber = 3;
-    private global::ModularEmulator.Modules.Proto.CoordinateTransformParams coordTransformParams_;
+    private global::ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CoordinateTransformParams CoordTransformParams {
+    public global::ManufacturingScenarioRepository.CoordinateTransformParams CoordTransformParams {
       get { return coordTransformParams_; }
       set {
         coordTransformParams_ = value;
@@ -3632,10 +3633,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "skyWritingMode" field.</summary>
     public const int SkyWritingModeFieldNumber = 4;
-    private global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode skyWritingMode_ = global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None;
+    private global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode skyWritingMode_ = global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode SkyWritingMode {
+    public global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode SkyWritingMode {
       get { return skyWritingMode_; }
       set {
         skyWritingMode_ = value;
@@ -3644,10 +3645,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "delayMode" field.</summary>
     public const int DelayModeFieldNumber = 5;
-    private global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode delayMode_ = global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays;
+    private global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode delayMode_ = global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode DelayMode {
+    public global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode DelayMode {
       get { return delayMode_; }
       set {
         delayMode_ = value;
@@ -3736,8 +3737,8 @@ namespace ModularEmulator.Modules.Proto {
       if (basicScannerParams_ != null) hash ^= BasicScannerParams.GetHashCode();
       if (skyWritingParams_ != null) hash ^= SkyWritingParams.GetHashCode();
       if (coordTransformParams_ != null) hash ^= CoordTransformParams.GetHashCode();
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None) hash ^= SkyWritingMode.GetHashCode();
-      if (DelayMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays) hash ^= DelayMode.GetHashCode();
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None) hash ^= SkyWritingMode.GetHashCode();
+      if (DelayMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays) hash ^= DelayMode.GetHashCode();
       if (RadialErrorInUm != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(RadialErrorInUm);
       if (SafetyFactorFlyByLow != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(SafetyFactorFlyByLow);
       if (SafetyFactorFlyByHigh != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(SafetyFactorFlyByHigh);
@@ -3772,11 +3773,11 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None) {
         output.WriteRawTag(32);
         output.WriteEnum((int) SkyWritingMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays) {
         output.WriteRawTag(40);
         output.WriteEnum((int) DelayMode);
       }
@@ -3818,11 +3819,11 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None) {
         output.WriteRawTag(32);
         output.WriteEnum((int) SkyWritingMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays) {
         output.WriteRawTag(40);
         output.WriteEnum((int) DelayMode);
       }
@@ -3861,10 +3862,10 @@ namespace ModularEmulator.Modules.Proto {
       if (coordTransformParams_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SkyWritingMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DelayMode);
       }
       if (RadialErrorInUm != 0D) {
@@ -3893,26 +3894,26 @@ namespace ModularEmulator.Modules.Proto {
       }
       if (other.basicScannerParams_ != null) {
         if (basicScannerParams_ == null) {
-          BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+          BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
         }
         BasicScannerParams.MergeFrom(other.BasicScannerParams);
       }
       if (other.skyWritingParams_ != null) {
         if (skyWritingParams_ == null) {
-          SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+          SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
         }
         SkyWritingParams.MergeFrom(other.SkyWritingParams);
       }
       if (other.coordTransformParams_ != null) {
         if (coordTransformParams_ == null) {
-          CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+          CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
         }
         CoordTransformParams.MergeFrom(other.CoordTransformParams);
       }
-      if (other.SkyWritingMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode.None) {
+      if (other.SkyWritingMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode.None) {
         SkyWritingMode = other.SkyWritingMode;
       }
-      if (other.DelayMode != global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode.ManualDelays) {
+      if (other.DelayMode != global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode.ManualDelays) {
         DelayMode = other.DelayMode;
       }
       if (other.RadialErrorInUm != 0D) {
@@ -3944,31 +3945,31 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (basicScannerParams_ == null) {
-              BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+              BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
             }
             input.ReadMessage(BasicScannerParams);
             break;
           }
           case 18: {
             if (skyWritingParams_ == null) {
-              SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+              SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
             }
             input.ReadMessage(SkyWritingParams);
             break;
           }
           case 26: {
             if (coordTransformParams_ == null) {
-              CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+              CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
             }
             input.ReadMessage(CoordTransformParams);
             break;
           }
           case 32: {
-            SkyWritingMode = (global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode) input.ReadEnum();
+            SkyWritingMode = (global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode) input.ReadEnum();
             break;
           }
           case 40: {
-            DelayMode = (global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode) input.ReadEnum();
+            DelayMode = (global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode) input.ReadEnum();
             break;
           }
           case 49: {
@@ -4004,31 +4005,31 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (basicScannerParams_ == null) {
-              BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+              BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
             }
             input.ReadMessage(BasicScannerParams);
             break;
           }
           case 18: {
             if (skyWritingParams_ == null) {
-              SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+              SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
             }
             input.ReadMessage(SkyWritingParams);
             break;
           }
           case 26: {
             if (coordTransformParams_ == null) {
-              CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+              CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
             }
             input.ReadMessage(CoordTransformParams);
             break;
           }
           case 32: {
-            SkyWritingMode = (global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.SkyWritingMode) input.ReadEnum();
+            SkyWritingMode = (global::ManufacturingScenarioRepository.NovantaScannerParams.Types.SkyWritingMode) input.ReadEnum();
             break;
           }
           case 40: {
-            DelayMode = (global::ModularEmulator.Modules.Proto.NovantaScannerParams.Types.DelayMode) input.ReadEnum();
+            DelayMode = (global::ManufacturingScenarioRepository.NovantaScannerParams.Types.DelayMode) input.ReadEnum();
             break;
           }
           case 49: {
@@ -4093,7 +4094,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[9]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4131,10 +4132,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "basicScannerParams" field.</summary>
     public const int BasicScannerParamsFieldNumber = 1;
-    private global::ModularEmulator.Modules.Proto.BasicScannerParams basicScannerParams_;
+    private global::ManufacturingScenarioRepository.BasicScannerParams basicScannerParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.BasicScannerParams BasicScannerParams {
+    public global::ManufacturingScenarioRepository.BasicScannerParams BasicScannerParams {
       get { return basicScannerParams_; }
       set {
         basicScannerParams_ = value;
@@ -4143,10 +4144,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "skyWritingParams" field.</summary>
     public const int SkyWritingParamsFieldNumber = 2;
-    private global::ModularEmulator.Modules.Proto.CommonSkyWritingParams skyWritingParams_;
+    private global::ManufacturingScenarioRepository.CommonSkyWritingParams skyWritingParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CommonSkyWritingParams SkyWritingParams {
+    public global::ManufacturingScenarioRepository.CommonSkyWritingParams SkyWritingParams {
       get { return skyWritingParams_; }
       set {
         skyWritingParams_ = value;
@@ -4155,10 +4156,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "coordTransformParams" field.</summary>
     public const int CoordTransformParamsFieldNumber = 3;
-    private global::ModularEmulator.Modules.Proto.CoordinateTransformParams coordTransformParams_;
+    private global::ManufacturingScenarioRepository.CoordinateTransformParams coordTransformParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.CoordinateTransformParams CoordTransformParams {
+    public global::ManufacturingScenarioRepository.CoordinateTransformParams CoordTransformParams {
       get { return coordTransformParams_; }
       set {
         coordTransformParams_ = value;
@@ -4167,10 +4168,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "skyWritingMode" field.</summary>
     public const int SkyWritingModeFieldNumber = 4;
-    private global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode skyWritingMode_ = global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None;
+    private global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode skyWritingMode_ = global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode SkyWritingMode {
+    public global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode SkyWritingMode {
       get { return skyWritingMode_; }
       set {
         skyWritingMode_ = value;
@@ -4191,10 +4192,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "skyWritingParametringMode" field.</summary>
     public const int SkyWritingParametringModeFieldNumber = 6;
-    private global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode skyWritingParametringMode_ = global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost;
+    private global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode skyWritingParametringMode_ = global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode SkyWritingParametringMode {
+    public global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode SkyWritingParametringMode {
       get { return skyWritingParametringMode_; }
       set {
         skyWritingParametringMode_ = value;
@@ -4203,10 +4204,10 @@ namespace ModularEmulator.Modules.Proto {
 
     /// <summary>Field number for the "delayMode" field.</summary>
     public const int DelayModeFieldNumber = 7;
-    private global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode delayMode_ = global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays;
+    private global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode delayMode_ = global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode DelayMode {
+    public global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode DelayMode {
       get { return delayMode_; }
       set {
         delayMode_ = value;
@@ -4245,10 +4246,10 @@ namespace ModularEmulator.Modules.Proto {
       if (basicScannerParams_ != null) hash ^= BasicScannerParams.GetHashCode();
       if (skyWritingParams_ != null) hash ^= SkyWritingParams.GetHashCode();
       if (coordTransformParams_ != null) hash ^= CoordTransformParams.GetHashCode();
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None) hash ^= SkyWritingMode.GetHashCode();
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None) hash ^= SkyWritingMode.GetHashCode();
       if (TimeLagInUs != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(TimeLagInUs);
-      if (SkyWritingParametringMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) hash ^= SkyWritingParametringMode.GetHashCode();
-      if (DelayMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays) hash ^= DelayMode.GetHashCode();
+      if (SkyWritingParametringMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) hash ^= SkyWritingParametringMode.GetHashCode();
+      if (DelayMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays) hash ^= DelayMode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4279,7 +4280,7 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None) {
         output.WriteRawTag(32);
         output.WriteEnum((int) SkyWritingMode);
       }
@@ -4287,11 +4288,11 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(41);
         output.WriteDouble(TimeLagInUs);
       }
-      if (SkyWritingParametringMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
+      if (SkyWritingParametringMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
         output.WriteRawTag(48);
         output.WriteEnum((int) SkyWritingParametringMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
         output.WriteRawTag(56);
         output.WriteEnum((int) DelayMode);
       }
@@ -4317,7 +4318,7 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None) {
         output.WriteRawTag(32);
         output.WriteEnum((int) SkyWritingMode);
       }
@@ -4325,11 +4326,11 @@ namespace ModularEmulator.Modules.Proto {
         output.WriteRawTag(41);
         output.WriteDouble(TimeLagInUs);
       }
-      if (SkyWritingParametringMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
+      if (SkyWritingParametringMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
         output.WriteRawTag(48);
         output.WriteEnum((int) SkyWritingParametringMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
         output.WriteRawTag(56);
         output.WriteEnum((int) DelayMode);
       }
@@ -4352,16 +4353,16 @@ namespace ModularEmulator.Modules.Proto {
       if (coordTransformParams_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CoordTransformParams);
       }
-      if (SkyWritingMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None) {
+      if (SkyWritingMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SkyWritingMode);
       }
       if (TimeLagInUs != 0D) {
         size += 1 + 8;
       }
-      if (SkyWritingParametringMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
+      if (SkyWritingParametringMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SkyWritingParametringMode);
       }
-      if (DelayMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
+      if (DelayMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DelayMode);
       }
       if (_unknownFields != null) {
@@ -4378,32 +4379,32 @@ namespace ModularEmulator.Modules.Proto {
       }
       if (other.basicScannerParams_ != null) {
         if (basicScannerParams_ == null) {
-          BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+          BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
         }
         BasicScannerParams.MergeFrom(other.BasicScannerParams);
       }
       if (other.skyWritingParams_ != null) {
         if (skyWritingParams_ == null) {
-          SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+          SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
         }
         SkyWritingParams.MergeFrom(other.SkyWritingParams);
       }
       if (other.coordTransformParams_ != null) {
         if (coordTransformParams_ == null) {
-          CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+          CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
         }
         CoordTransformParams.MergeFrom(other.CoordTransformParams);
       }
-      if (other.SkyWritingMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode.None) {
+      if (other.SkyWritingMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode.None) {
         SkyWritingMode = other.SkyWritingMode;
       }
       if (other.TimeLagInUs != 0D) {
         TimeLagInUs = other.TimeLagInUs;
       }
-      if (other.SkyWritingParametringMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
+      if (other.SkyWritingParametringMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode.ManualNprevNpost) {
         SkyWritingParametringMode = other.SkyWritingParametringMode;
       }
-      if (other.DelayMode != global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
+      if (other.DelayMode != global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode.ManualDelays) {
         DelayMode = other.DelayMode;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -4423,27 +4424,27 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (basicScannerParams_ == null) {
-              BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+              BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
             }
             input.ReadMessage(BasicScannerParams);
             break;
           }
           case 18: {
             if (skyWritingParams_ == null) {
-              SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+              SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
             }
             input.ReadMessage(SkyWritingParams);
             break;
           }
           case 26: {
             if (coordTransformParams_ == null) {
-              CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+              CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
             }
             input.ReadMessage(CoordTransformParams);
             break;
           }
           case 32: {
-            SkyWritingMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode) input.ReadEnum();
+            SkyWritingMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode) input.ReadEnum();
             break;
           }
           case 41: {
@@ -4451,11 +4452,11 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 48: {
-            SkyWritingParametringMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode) input.ReadEnum();
+            SkyWritingParametringMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode) input.ReadEnum();
             break;
           }
           case 56: {
-            DelayMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode) input.ReadEnum();
+            DelayMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode) input.ReadEnum();
             break;
           }
         }
@@ -4475,27 +4476,27 @@ namespace ModularEmulator.Modules.Proto {
             break;
           case 10: {
             if (basicScannerParams_ == null) {
-              BasicScannerParams = new global::ModularEmulator.Modules.Proto.BasicScannerParams();
+              BasicScannerParams = new global::ManufacturingScenarioRepository.BasicScannerParams();
             }
             input.ReadMessage(BasicScannerParams);
             break;
           }
           case 18: {
             if (skyWritingParams_ == null) {
-              SkyWritingParams = new global::ModularEmulator.Modules.Proto.CommonSkyWritingParams();
+              SkyWritingParams = new global::ManufacturingScenarioRepository.CommonSkyWritingParams();
             }
             input.ReadMessage(SkyWritingParams);
             break;
           }
           case 26: {
             if (coordTransformParams_ == null) {
-              CoordTransformParams = new global::ModularEmulator.Modules.Proto.CoordinateTransformParams();
+              CoordTransformParams = new global::ManufacturingScenarioRepository.CoordinateTransformParams();
             }
             input.ReadMessage(CoordTransformParams);
             break;
           }
           case 32: {
-            SkyWritingMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingMode) input.ReadEnum();
+            SkyWritingMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingMode) input.ReadEnum();
             break;
           }
           case 41: {
@@ -4503,11 +4504,11 @@ namespace ModularEmulator.Modules.Proto {
             break;
           }
           case 48: {
-            SkyWritingParametringMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.SkyWritingParametringMode) input.ReadEnum();
+            SkyWritingParametringMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.SkyWritingParametringMode) input.ReadEnum();
             break;
           }
           case 56: {
-            DelayMode = (global::ModularEmulator.Modules.Proto.ScanlabScannerParams.Types.DelayMode) input.ReadEnum();
+            DelayMode = (global::ManufacturingScenarioRepository.ScanlabScannerParams.Types.DelayMode) input.ReadEnum();
             break;
           }
         }
@@ -4575,7 +4576,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[10]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4887,7 +4888,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[11]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5076,7 +5077,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[12]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5487,7 +5488,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[13]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5861,7 +5862,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[14]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6253,7 +6254,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[15]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6479,7 +6480,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[16]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6779,7 +6780,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[17]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7079,7 +7080,7 @@ namespace ModularEmulator.Modules.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ModularEmulator.Modules.Proto.ModuleDefinitionReflection.Descriptor.MessageTypes[18]; }
+      get { return global::ManufacturingScenarioRepository.ModuleDefinitionReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
