@@ -4,12 +4,13 @@ import "ModuleDefinition.proto";
 package ManufacturingScenarioRepository;
 
 message ManufacturingScenarioDataSet {
+    //name of the data set
     string name = 1;
     repeated ManufacturingScenario scenarios = 2;
-	
-	//---fallback models used for all scenarios that do not define these objects individually---
-	
-	//global fallback movement constrains
+    
+    //---fallback models used for all scenarios that do not define these objects individually---
+    
+    //global fallback movement constrains
     MovementConstrains constrains = 3;
     //global fallback build processor strategy
     open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
@@ -18,62 +19,68 @@ message ManufacturingScenarioDataSet {
 }
 
 message ManufacturingScenario {
+    //human readable name of this scenario
     string name = 1;
-    MovementConstrains constrains = 2;
-    //build processor strategy used to create part configuration
-    open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 3;
-	oneof machine_model {
-        //machine model used to generate the results
-        modularEmulator.modules.proto.Module specific_machine_model = 4;
-	    //cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
-        modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 5;
-	}
-    //the software and version this result was created with
-    string software_version = 6;
+    
+    //all part manufacturing orders that must be fulfilled to complete the scenario
+    repeated PartManufacturingOrder partManufacturingOrders = 2;
+    
+    //optinal movement constrains the geometries are subject to
+    MovementConstrains constrains = 3;
+    
+    //optional build processor strategy used to create the sliced part configuration (for manufacturing time prediction)
+    open_vector_format.BuildProcessorStrategy generating_build_processor_strategy = 4;
+    
+    //optioanl machine model that generated the results
+    oneof machine_model {
+        //machine model used to generate the time prediction
+        modularEmulator.modules.proto.Module specific_machine_model = 5;
+        //cuboid buil volume to use in conjungtion with the data set fallback machine model or without a machine time calculation model
+        modularEmulator.modules.proto.CuboidBuildVolumeParams override_cuboid_build_volume = 6;
+    }
 }
 
 message MovementConstrains {
     //the required minimum distance between nested geometries surfaces
     double minimum_distance_in_mm = 1;
-	//the minimum distance between nested parts and the container walls [mm]
+    //the minimum distance between nested parts and the container walls [mm]
     //if not specified or smaller than minimum_distance_in_mm, minimum_distance_in_mm will be used instead
     double distance_to_container_in_mm = 2;
-	//number of full circle rotation steps allowed
-	//the step size used is defined as 360°/allowed_full_circle_rotation_steps_z
+    //number of full circle rotation steps allowed
+    //the step size used is defined as 360°/allowed_full_circle_rotation_steps_z
     int32 allowed_full_circle_rotation_steps_z = 3;
-	//upper limit of the allowed z rotation interval [degrees]
+    //upper limit of the allowed z rotation interval [degrees]
     double max_rot_z_angle_deg = 4;
-	//lower limit of the allowed z rotation interval [degrees]
+    //lower limit of the allowed z rotation interval [degrees]
     double min_rot_z_angle_deg = 5;
 }
 
 message PartManufacturingOrder {
     //id of this pmo, will be tracked in solutions
     string pmo_id = 1;
-	//id of the part to load externally
-	//parts and part configurations/orientations/supports loading is managed separatly
+    //id of the part to load externally
+    //parts and part configurations/orientations/supports loading is managed separatly
     string part_id = 2;
-	//checksum for validation if the correct part has been loaded
-	int32 part_num_triangles = 3;
-	//the quantity of identical part instances needed to fulfill this PMO
-	int32 quantity_to_manufacture = 4;
-	//time span in seconds from start of the scenario until this parts of the PMO are due for delivery
-	int64 due_time_in_seconds = 5;
-	//time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
-	//represents the 
-	int64 order_creation_time_delay_in_seconds = 6;
-	//matrial of the parts
-	//for most AM processes different materials require parts to be allocated into different build jobs
-	string material = 7;
-	
-	ManufacturingPriority priorities = 8;
-	
-	//specifies relative priorities of the three dimensions
-	//price, due date tardiness and quality
-	//to weight the optimization goals according to production requirements
-	message ManufacturingPriority {
+    //checksum for validation if the correct part has been loaded
+    int32 part_num_triangles = 3;
+    //the quantity of identical part instances needed to fulfill this PMO
+    int32 quantity_to_manufacture = 4;
+    //time span in seconds from start of the scenario until this parts of the PMO are due for delivery
+    int64 due_time_in_seconds = 5;
+    //time span in seconds from start of the scenario when this PMO is created (added to the scenario/dynamic optimization)
+    int64 order_creation_time_delay_in_seconds = 6;
+    //matrial of the parts
+    //for most AM processes different materials require parts to be allocated into different build jobs
+    string material = 7;
+    //optional priorities that define the relative optimization target weightings
+    ManufacturingPriority priorities = 8;
+    
+    //specifies relative priorities of the three dimensions
+    //price, due date tardiness and quality
+    //to weight the optimization goals according to production requirements
+    message ManufacturingPriority {
         double price_priority = 1;
         double due_date_priority = 2;
-	    double quality_priority = 3;
+        double quality_priority = 3;
     }
 }
