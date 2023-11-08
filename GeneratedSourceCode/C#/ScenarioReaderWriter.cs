@@ -18,6 +18,7 @@ public static class ScenarioReaderWriter
 
     public static void WriteAsBinaryProto(ManufacturingScenarioDataSet dataSet, string targetFile)
     {
+        Directory.CreateDirectory(Directory.GetParent(targetFile).FullName);
         using (var outStream = File.OpenWrite(targetFile))
         {
             dataSet.WriteDelimitedTo(outStream);
