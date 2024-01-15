@@ -19,10 +19,8 @@ public static class ScenarioReaderWriter
     public static void WriteAsBinaryProto(ManufacturingScenarioDataSet dataSet, string targetFile)
     {
         Directory.CreateDirectory(Directory.GetParent(targetFile).FullName);
-        using (var outStream = File.OpenWrite(targetFile))
-        {
-            dataSet.WriteDelimitedTo(outStream);
-        }
+        using var outStream = File.OpenWrite(targetFile);
+        dataSet.WriteTo(outStream);
     }
 
     public static void WriteAsJSON(ManufacturingScenarioDataSet dataSet, string targetFile)
@@ -33,10 +31,8 @@ public static class ScenarioReaderWriter
     public static ManufacturingScenarioDataSet ReadFromBinaryProto(string targetFile)
     {
         var dataSet = new ManufacturingScenarioDataSet();
-        using (var outStream = File.OpenRead(targetFile))
-        {
-            dataSet.MergeDelimitedFrom(outStream);
-        }
+        using var outStream = File.OpenRead(targetFile);
+        dataSet.MergeFrom(outStream);
         return dataSet;
     }
 }
