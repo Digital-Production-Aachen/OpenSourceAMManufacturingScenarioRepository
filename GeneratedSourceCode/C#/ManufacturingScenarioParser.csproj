@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.25.3" />
+    <PackageReference Include="Google.Protobuf" Version="3.26.1" />
     <PackageReference Include="OpenVectorFormat.OVFDefinition" Version="1.6.0-alpha" />
   </ItemGroup>
 
