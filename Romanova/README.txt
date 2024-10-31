@@ -1,0 +1,2 @@
+Example 5 by Romanova, STLs are the convex hulls of the vertex coordinates given in the paper.
+Romanova, T.; Bennell, J.; Stoyan, Y.; Pankratov, A. (2018): Packing of concave polyhedra with continuous rotations using nonlinear optimisation. In: European Journal of Operational Research 268 (1), S. 37–53. DOI: 10.1016/j.ejor.2018.01.025.
