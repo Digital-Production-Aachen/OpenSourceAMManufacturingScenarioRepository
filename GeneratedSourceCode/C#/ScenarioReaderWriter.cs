@@ -6,12 +6,12 @@ public static class ScenarioReaderWriter
 
     public static void WriteDataSet(ManufacturingScenarioDataSet dataSet, string scenarioBaseFolder)
     {
-        var name = dataSet.Name;
-        if(String.IsNullOrEmpty(name))
+        var dataSetName = dataSet.Name;
+        if(String.IsNullOrEmpty(dataSetName))
             throw new ArgumentNullException("name");
-        var dataSetFolder = Path.Combine(scenarioBaseFolder, name);
-        var binaryTarget = Path.Combine(dataSetFolder, name + ".scenario");
-        var jsonTarget = Path.Combine(dataSetFolder, name + ".json");
+        var dataSetFolder = Path.Combine(scenarioBaseFolder, dataSetName);
+        var binaryTarget = Path.Combine(dataSetFolder, dataSetName + ".scenario");
+        var jsonTarget = Path.Combine(dataSetFolder, dataSetName + ".json");
         WriteAsBinaryProto(dataSet, binaryTarget);
         WriteAsJSON(dataSet, jsonTarget);
     }
